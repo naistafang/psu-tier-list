@@ -219,12 +219,14 @@ th.c-price { text-align: right; }
 .c-price .small { display: block; line-height: 1.3; }
 .brand { font-weight: 600; }
 .star {
-  font: inherit; font-size: 17px; line-height: 1; padding: 0 2px; margin-right: 4px; vertical-align: -1px;
-  background: none; border: 0; cursor: pointer; color: var(--muted); opacity: 0.45;
+  display: inline-grid; place-items: center; width: 24px; height: 24px; padding: 0; margin: -2px 4px 0 -4px;
+  vertical-align: middle; background: none; border: 0; border-radius: 50%; cursor: pointer; color: var(--muted);
 }
-.star:hover, .star[aria-pressed="true"] { opacity: 1; }
+.star svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linejoin: round; }
+/* Not a favorite: grey outline; hover tints the outline. Favorite: filled orange. */
 .star:hover { color: var(--star); }
 .star[aria-pressed="true"] { color: var(--star); }
+.star[aria-pressed="true"] svg { fill: currentColor; }
 .trend { font-size: 12px; font-weight: 600; margin-right: 4px; }
 .trend.down { color: var(--down); }
 .trend.up { color: var(--up); }

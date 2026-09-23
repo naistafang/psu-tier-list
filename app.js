@@ -16,6 +16,9 @@ const STORES = [
   ["PCPartPicker", q => `https://ca.pcpartpicker.com/search/?q=${q}`],
 ];
 
+// Drawn as an icon rather than the "★" character, which some systems render as a colour emoji.
+const STAR_ICON = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.8 5.8 6.4.8-4.7 4.4 1.2 6.3L12 17l-5.7 3.1 1.2-6.3-4.7-4.4 6.4-.8z"/></svg>`;
+
 const $ = sel => document.querySelector(sel);
 const money = new Intl.NumberFormat("en-CA", { style: "currency", currency: "CAD" });
 
@@ -335,7 +338,7 @@ function render() {
     tr.setAttribute("aria-expanded", String(open.has(p.key)));
     tr.innerHTML = `
       <td class="c-tier"><span class="tier tier-${tierGroup(p.grade)}" title="${p.limited ? "Limited confidence rating" : ""}">${esc(p.tier)}</span></td>
-      <td class="c-name"><button class="star" type="button" data-key="${esc(p.key)}" aria-pressed="${favorites.has(p.key)}" aria-label="${favorites.has(p.key) ? "Remove from" : "Add to"} favorites" title="Favorite">★</button><span class="brand">${esc(p.brand)}</span> <span class="series">${esc(p.display.join(" · ") || "—")}</span>${p.showOdm ? ` <span class="muted small">(made by ${esc(p.odm)})</span>` : ""}</td>
+      <td class="c-name"><button class="star" type="button" data-key="${esc(p.key)}" aria-pressed="${favorites.has(p.key)}" aria-label="${favorites.has(p.key) ? "Remove from" : "Add to"} favorites" title="Favorite">${STAR_ICON}</button><span class="brand">${esc(p.brand)}</span> <span class="series">${esc(p.display.join(" · ") || "—")}</span>${p.showOdm ? ` <span class="muted small">(made by ${esc(p.odm)})</span>` : ""}</td>
       <td class="c-watts" data-label="Wattage"><b>${p.wattage ? `${p.wattage}W` : "—"}</b>${p.estimated ? `<span class="est" title="Inferred from the range ${esc(p.watts)} on the tier list">?</span>` : ""}</td>
       <td class="c-year" data-label="Year">${p.year ?? "—"}</td>
       <td class="c-spec" data-label="Size">${esc(p.size || "—")}</td>
