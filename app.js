@@ -26,7 +26,6 @@ let STORE_INFO = {};
 let view = [];
 let shown = PAGE;
 const open = new Set();
-const state = { tiers: new Set() };
 
 init();
 
@@ -59,6 +58,10 @@ async function init() {
       };
     });
   });
+  for (const p of DATA) {
+    p.display = displaySeries(p);
+    p.name = [p.brand, ...p.display].join(" ");
+  }
   // Double-sourced units (same model, different factory) get their OEM shown to tell them apart.
   const seen = new Map();
   for (const p of DATA) seen.set(`${p.name}@${p.wattage}`, (seen.get(`${p.name}@${p.wattage}`) || 0) + 1);
@@ -76,21 +79,7 @@ async function init() {
 }
 
 function buildControls() {
-  const tiers = $("#tiers");
-  for (const t of TIERS) {
-    const b = document.createElement("button");
-    b.type = "button";
-    b.className = `chip tier-${tierGroup(t)}`;
-    b.textContent = t;
-    b.dataset.tier = t;
-    b.setAttribute("aria-pressed", "false");
-    b.addEventListener("click", () => {
-      state.tiers.has(t) ? state.tiers.delete(t) : state.tiers.add(t);
-      update();
-    });
-    tiers.append(b);
-  }
-  $("#tiers-clear").addEventListener("click", () => { state.tiers.clear(); update(); });
+  for (const t of TIERS) $("#tier").add(new Option(t === TIERS.at(-1) ? t : `${t} or better`, t));
 
   const names = Object.values(STORE_INFO).map(s => s.name);
   if (names.length) $("#store-names").textContent = names.length > 1 ? `${names.slice(0, -1).join(", ")} and ${names.at(-1)}` : names[0];
@@ -110,7 +99,7 @@ function buildControls() {
 
   let timer;
   $("#q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(update, 120); });
-  for (const id of ["sort", "watts", "size", "eff", "modular", "atx", "year", "priced", "confident", "nomarket"]) {
+  for (const id of ["sort", "tier", "watts", "size", "eff", "modular", "atx", "year", "priced", "confident", "nomarket"]) {
     $("#" + id).addEventListener("change", update);
   }
   for (const b of document.querySelectorAll("th button[data-sort]")) {
@@ -121,7 +110,6 @@ function buildControls() {
     });
   }
   $("#reset").addEventListener("click", () => {
-    state.tiers.clear();
     for (const el of document.querySelectorAll(".controls select, .controls input")) {
       if (el.type === "checkbox") el.checked = !!el.closest("#stores"); else el.value = el.tagName === "SELECT" ? el.options[0].value : "";
     }
@@ -147,6 +135,7 @@ function filters() {
   return {
     q: $("#q").value.trim().toLowerCase(),
     sort: $("#sort").value,
+    tier: $("#tier").value,
     watts: +$("#watts").value || 0,
     size: $("#size").value,
     eff: $("#eff").value,
@@ -179,7 +168,7 @@ function update(writeUrl = true) {
   const terms = f.q.split(/\s+/).filter(Boolean);
   view = [];
   for (const p of DATA) {
-    if (state.tiers.size && !state.tiers.has(p.grade)) continue;
+    if (f.tier && !(p.rank <= TIERS.indexOf(f.tier))) continue;
     if (f.confident && p.limited) continue;
     if (f.watts && !(p.wattage >= f.watts)) continue;
     if (f.size && p.size !== f.size) continue;
@@ -208,9 +197,6 @@ function update(writeUrl = true) {
   };
   view.sort(sorters[f.sort] || sorters.tier);
 
-  for (const b of document.querySelectorAll("#tiers .chip")) {
-    b.setAttribute("aria-pressed", String(state.tiers.has(b.dataset.tier)));
-  }
   for (const th of document.querySelectorAll("th button[data-sort]")) {
     const s = th.dataset.sort;
     th.classList.toggle("active", f.sort === s || (s === "price-asc" && f.sort === "price-desc"));
@@ -225,6 +211,31 @@ function compact(s) {
 }
 
 const HIGH_WATTAGES = [1000, 1200, 1300, 1500, 1600];
+
+// The sheet writes a model family with a hyphen where the wattage goes ("RM-x" = RM750x, RM850x...).
+// Brands place the wattage differently; this is the usual style for each.
+const MODEL_FORMAT = {
+  "ASRock": (a, w, b) => `${a}-${w}${b}`,                // CL-750B
+  "Chieftec/Chieftronic": (a, w, b) => `${a}-${w}${b}`,  // GDP-650C
+  "SilverStone": (a, w, b) => `${a}${w}-${b}`,           // SX700-LPT
+  "Thermalright": (a, w, b) => `${a}-${b}${w}`,          // TR-TG850
+};
+// Hyphenated words that are not wattage placeholders.
+const NOT_A_MODEL = new Set(["non-modular", "semi-modular", "fully-modular", "a-series", "v-series", "sfx-l",
+  "dc-dc", "i-arena", "ii-a", "gd-ii"]);
+
+// "RM-x" at 850W -> "RM850x"; anything else is returned unchanged.
+function modelWord(p, word, w) {
+  const m = word.match(/^([A-Za-z]{1,4})-([A-Za-z]{1,4})$/);
+  if (!m || !w || p.brand === "Thermaltake" || NOT_A_MODEL.has(word.toLowerCase())) return null;
+  return (MODEL_FORMAT[p.brand] || ((a, w, b) => `${a}${w}${b}`))(m[1], w, m[2]);
+}
+
+// Series parts with the wattage written into the model name where the sheet uses a placeholder.
+function displaySeries(p) {
+  return p.series.map(part => part.replace(/(?<![A-Za-z-])[A-Za-z]{1,4}-[A-Za-z]{1,4}(?![A-Za-z-])/g,
+    word => modelWord(p, word, p.wattage) || word));
+}
 
 // Wattages for one sheet row. Listed ones ("650/750W") are exact. For a range ("550-850W") the
 // sheet doesn't say which models exist, so we take the ends, the usual 100W steps up to 850W,
@@ -248,8 +259,8 @@ function modelNames(p, w) {
   const names = [];
   const words = p.series.join(" ").replace(/[()"]/g, " ").split(/\s+/);
   for (const word of words) {
-    const m = word.match(/^([a-z]+)-([a-z]+)$/i);
-    if (m) names.push(m[1] + w + m[2]);
+    const model = modelWord(p, word, w);
+    if (model) names.push(model, word.replace("-", "") + w);
     else if (/^[a-z]{1,4}$/i.test(word)) names.push(word + w);
   }
   return names;
@@ -271,7 +282,7 @@ function render() {
     tr.setAttribute("aria-expanded", String(open.has(p.key)));
     tr.innerHTML = `
       <td class="c-tier"><span class="tier tier-${tierGroup(p.grade)}" title="${p.limited ? "Limited confidence rating" : ""}">${esc(p.tier)}</span></td>
-      <td class="c-name"><span class="brand">${esc(p.brand)}</span> <span class="series">${esc(p.series.join(" · ") || "—")}</span>${p.showOdm ? ` <span class="muted small">(made by ${esc(p.odm)})</span>` : ""}</td>
+      <td class="c-name"><span class="brand">${esc(p.brand)}</span> <span class="series">${esc(p.display.join(" · ") || "—")}</span>${p.showOdm ? ` <span class="muted small">(made by ${esc(p.odm)})</span>` : ""}</td>
       <td class="c-watts" data-label="Wattage"><b>${p.wattage ? `${p.wattage}W` : "—"}</b>${p.estimated ? `<span class="est" title="Inferred from the range ${esc(p.watts)} on the tier list">?</span>` : ""}</td>
       <td class="c-year" data-label="Year">${p.year ?? "—"}</td>
       <td class="c-spec" data-label="Size">${esc(p.size || "—")}</td>
@@ -349,8 +360,8 @@ function detailRow(p, f) {
 // A store-friendly search string: first brand alias plus the series without annotations.
 function searchName(p) {
   const brand = p.brand.split(/[/(]/)[0].trim();
-  const series = p.series[0] ? p.series[0].replace(/\(.*?\)|".*?"/g, "").trim() : "";
-  const sub = (p.series[1] || "").replace(/\(.*?\)|".*?"|\b(19|20)\d\d\b/g, "").trim();
+  const series = p.display[0] ? p.display[0].replace(/\(.*?\)|".*?"/g, "").trim() : "";
+  const sub = (p.display[1] || "").replace(/\(.*?\)|".*?"|\b(19|20)\d\d\b/g, "").trim();
   return [brand, series, sub.length <= 12 ? sub : "", p.wattage ? `${p.wattage}W` : "power supply"].filter(Boolean).join(" ");
 }
 
@@ -372,8 +383,7 @@ function fmtDate(iso) {
 function writeHash(f) {
   const h = new URLSearchParams();
   if (f.q) h.set("q", f.q);
-  if (state.tiers.size) h.set("tier", [...state.tiers].join(","));
-  for (const k of ["sort", "watts", "size", "eff", "modular", "atx", "year"]) {
+  for (const k of ["sort", "tier", "watts", "size", "eff", "modular", "atx", "year"]) {
     if (f[k] && !(k === "sort" && f[k] === "tier")) h.set(k, f[k]);
   }
   for (const k of ["priced", "confident", "nomarket"]) if (f[k]) h.set(k, "1");
@@ -386,8 +396,7 @@ function writeHash(f) {
 function readHash() {
   const h = new URLSearchParams(location.hash.slice(1));
   $("#q").value = h.get("q") || "";
-  state.tiers = new Set((h.get("tier") || "").split(",").filter(t => TIERS.includes(t)));
-  for (const k of ["sort", "watts", "size", "eff", "modular", "atx", "year"]) {
+  for (const k of ["sort", "tier", "watts", "size", "eff", "modular", "atx", "year"]) {
     const el = $("#" + k);
     const v = h.get(k) || el.options[0].value;
     if ([...el.options].some(o => o.value === v)) el.value = v;

@@ -684,8 +684,6 @@ Best Buy: Perko Compact Medium Duty Battery Selector Switch with Key Lock - 8512
 Best Buy: Philips Respironics Dreamstation MDS-080AAS12 AC Power Supply Adapter - 12V 6.67A 80W
 Best Buy: Power Bar Middle Atlantic PD-915R-PL 9 Out 15A w/Pilot
 Best Buy: Power Supply 66 Watt AC V2 for C890 and C1100 series
-Best Buy: Power Supply Tester
-Best Buy: Power Supply Tester PC Computer LCD 20/24 Pin 4 PSU ATX BTX ITX SATA HDD Digital
 Best Buy: Pwr+ UL Listed NEMA 5-15P to IEC320C5 Long 6 Ft (1.8 meter) 3 Prong AC Laptop Power Cord Cable for Dell IBM Hp Compaq Asus Son
 Best Buy: Pwr+ UL Listed NEMA 5-15P to IEC320C5 Long 6 Ft (1.8 meter) 3 Prong AC Laptop Power Cord Cable for For Dell Inspiron Latitude
 Best Buy: Pyramid Compact Bench Power Supply 50A Variable Linear AC to DC Converter with Adjustable Voltage, Amp Gauge, Volt Meter & USB Port (PSV500)
@@ -809,7 +807,6 @@ Best Buy: XPG Core Reactor II Modular PSU: ATX3.0-80 Plus Gold - ATX - Fully Mod
 Best Buy: Xtreme Cables XCP2-1001-BLK 90 watt Universal Laptop Power Adapter with USB Black
 Best Buy: axGear 45W Power Adapter for MagSafe 2 II Macbook Air A1435 A1465 A1436 A1466
 Best Buy: axGear AC DC Power Adapter 5V 2A 4.0 x 1.7 Power Supply Adapter Charger
-Best Buy: axGear Power Supply Tester PC Computer LCD 20/24 Pin 4 PSU ATX BTX ITX SATA HDD Digital
 Best Buy: axGear USB Type C Power Adapter 5V 3A Power Supply Adapter Charger USB C
 Best Buy: be quiet! Power Zone 1200W Power Supply, 80 Plus® Platinum and Cybenetics Platinum, semi-Passive Zero-RPM Cooling, Pure Wings 3 140mm Fan, 90° Angled 12V-2x6 Connector, PCIe 5.1/AT
 Best Buy: eMachines EL1200 EL1210 EL1300 EL1300G 220W Power Supply
@@ -883,3 +880,10 @@ Canada Computers: be quiet! BP006US Platinum ATX Power Supply, Black
 Canada Computers: be quiet! BP007US Platinum ATX Power Supply, Black
 Canada Computers: be quiet! BP008US Platinum ATX Power Supply, Black
 Canada Computers: be quiet! Pure Power 12 M Gold ATX Power Supply, Black
+Vuugo: ASUS Pro WS 2200W Platinum Workstation Fully Modular Power Supply - 80 PLUS Platinum Certified - ATX 3.1 - Dual-Ball Fan Bearings - 4x PCIe 5.1 12V-2x6 Connectors - 4x PCIe 6+2-pin Connectors (ASUS-PRO-WS-2200P)
+Vuugo: COUGAR GX-S550 550W Compact Power Supply - 80PLUS Gold Certified - ATX12V - 2x 6+2-Pin PCI-E Connectors - DC to DC Technology (31GS055.0004P)
+Vuugo: Cooler Master MWE Gold 850 V3 ATX 3.1 Full Modular Power Supply - 80 PLUS Gold Certified -  ATX 12V Ver. 3.1 -  Active PFC - 120mm HDB Fan - Zero-RPM Mode - 1x 12V-2X6 Cable - 4x PCI-E 6+2-pin Connectors (MPX-8503-AFAG-2BUV)
+Vuugo: Cooler Master V Platinum 1600 V2 ATX 3.1 1600W Full Modular Power Supply - 80 PLUS Platinum Certified - 135mm zero-RPM Fan - Dual PCIe 5.1 90° 12V-2x6 Cables - 5x PCIe 6+2-Pin Connectors (MPZ-G002-AFAP-BUS)
+Vuugo: InWin IP-S Series AU 265W Flex ATX Power Supply - 80 PLUS Bronze Certified - Single +12V Output - 40mm Cooling Fan -  Smart Thermal Control - 1x 24-Pin Main Power - 1x 8 to 4 Pin Power - 2x SATA - 1x Slim SATA (IP-S265AU7-2.CJ712)
+Vuugo: InWin IP-S Series FF 300W TFX Power Supply - TFX 12V V2.5 - Multiple +12V Output - 80mm Cooling Fan - 1x 4-Pin FDD - 1x Peripheral - 3x SATA (IP-S300FF1-0 H)
+Vuugo: Thermaltake Toughpower 1500W Gold Semi-Modular Power Supply - 80 PLUS GOLD Certified - ATX12V V2.3 / EPS12V - 135mm Ultra Quiet Fan - Flat Modular Cables - Dual +12V Rail - 10x PCI-E 6+2-Pin Connectors (PS-TPD-1500MPCGUS-1)

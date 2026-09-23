@@ -105,28 +105,6 @@ select {
   min-width: 0;
 }
 
-.tier-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-.chips { display: flex; gap: 6px; flex-wrap: wrap; }
-.chip {
-  font: inherit;
-  font-weight: 600;
-  font-size: 13px;
-  min-width: 38px;
-  padding: 5px 9px;
-  border-radius: 999px;
-  cursor: pointer;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--muted);
-}
-.chip:hover { border-color: currentColor; }
-.chip[aria-pressed="true"] { border-color: transparent; }
-.chip.tier-a[aria-pressed="true"] { background: var(--tier-a-bg); color: var(--tier-a); }
-.chip.tier-b[aria-pressed="true"] { background: var(--tier-b-bg); color: var(--tier-b); }
-.chip.tier-c[aria-pressed="true"] { background: var(--tier-c-bg); color: var(--tier-c); }
-.chip.tier-d[aria-pressed="true"] { background: var(--tier-d-bg); color: var(--tier-d); }
-.chip.tier-f[aria-pressed="true"] { background: var(--tier-f-bg); color: var(--tier-f); }
-
 .filter-row {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));

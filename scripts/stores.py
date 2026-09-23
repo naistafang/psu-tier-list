@@ -82,8 +82,37 @@ def canada_computers():
         time.sleep(1.5)
 
 
+def vuugo():
+    """Vuugo. Parses the power supply category pages (32 products per page); out-of-stock items are skipped."""
+    listings, page = [], 1
+    card_re = re.compile(
+        r'<h3 class="product-name">\s*<a href="([^"]+)" title="([^"]*)".*?'
+        r'<ins class="new-price">([^<]*)</ins>(.*?)product-availability">\s*<div class="([^"]+)"', re.S)
+    while True:
+        text = get(f"https://www.vuugo.com/category/power-supplies-560/?page={page}")
+        for url, name, price, between, stock in card_re.findall(text):
+            if stock != "in-stock":
+                continue
+            regular = re.search(r'<del class="old-price">([^<]*)</del>', between)
+            listings.append({
+                "sku": url.strip("/").split("/")[-1],
+                "name": html.unescape(name).strip(),
+                "price": money(price),
+                "regular": money(regular.group(1)) if regular else None,
+                "url": "https://www.vuugo.com" + url,
+                "seller": "Vuugo",
+                "marketplace": False,
+            })
+        print(f"  Vuugo page {page}: {len(listings)} in-stock listings", file=sys.stderr)
+        if f'href="?page={page + 1}"' not in text or page >= 40:
+            return listings
+        page += 1
+        time.sleep(1.5)
+
+
 # key -> (display name, fetch function, minimum listings for a fetch to count as successful)
 STORES = {
     "bestbuy": ("Best Buy", best_buy, 100),
     "canadacomputers": ("Canada Computers", canada_computers, 50),
+    "vuugo": ("Vuugo", vuugo, 30),
 }
