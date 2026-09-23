@@ -6,7 +6,7 @@ A searchable, filterable view of the [community PSU tier list spreadsheet](https
 - Filter by tier, wattage, form factor, 80 Plus rating, modularity, ATX version, year and store
 - Sort by tier, price, price per watt, wattage, brand or year
 - Click a row for full specs, notes, prices from every store, price history, and search links for other Canadian stores
-- Star PSUs to keep a shortlist (saved in your browser)
+- Star PSUs to mark them as favorites (saved in your browser)
 - Filters are saved in the URL, so any view can be bookmarked or shared; click the title to reset everything
 - Keyboard: `/` jumps to search, Esc clears it
 - Light and dark themes (follows your device until you pick one)

@@ -25,7 +25,7 @@ let PRICES = {};
 let STORE_INFO = {};
 let HISTORY = {};
 let historySince = null;
-const shortlist = new Set(loadShortlist());
+const favorites = new Set(loadFavorites());
 let view = [];
 let shown = PAGE;
 const open = new Set();
@@ -216,7 +216,7 @@ function update(writeUrl = true) {
   for (const p of DATA) {
     if (f.tier && !(p.rank <= TIERS.indexOf(f.tier))) continue;
     if (f.confident && p.limited) continue;
-    if (f.starred && !shortlist.has(p.key)) continue;
+    if (f.starred && !favorites.has(p.key)) continue;
     if (f.watts && !(p.wattage >= f.watts)) continue;
     if (f.size && p.size !== f.size) continue;
     if (f.eff && !(EFF_RANK[p.eff] >= EFF_RANK[f.eff])) continue;
@@ -249,7 +249,7 @@ function update(writeUrl = true) {
     th.classList.toggle("active", f.sort === s || (s === "price-asc" && f.sort === "price-desc"));
   }
   $("#q-clear").hidden = !f.q;
-  $("#star-count").textContent = shortlist.size;
+  $("#star-count").textContent = favorites.size;
   const active = ["tier", "watts", "size", "eff", "modular", "atx", "year"].filter(k => f[k]).length
     + ["priced", "confident", "nomarket", "starred"].filter(k => f[k]).length
     + Object.keys(STORE_INFO).filter(k => !f.stores.has(k)).length;
@@ -335,7 +335,7 @@ function render() {
     tr.setAttribute("aria-expanded", String(open.has(p.key)));
     tr.innerHTML = `
       <td class="c-tier"><span class="tier tier-${tierGroup(p.grade)}" title="${p.limited ? "Limited confidence rating" : ""}">${esc(p.tier)}</span></td>
-      <td class="c-name"><button class="star" type="button" data-key="${esc(p.key)}" aria-pressed="${shortlist.has(p.key)}" aria-label="${shortlist.has(p.key) ? "Remove from" : "Add to"} shortlist" title="Shortlist">★</button><span class="brand">${esc(p.brand)}</span> <span class="series">${esc(p.display.join(" · ") || "—")}</span>${p.showOdm ? ` <span class="muted small">(made by ${esc(p.odm)})</span>` : ""}</td>
+      <td class="c-name"><button class="star" type="button" data-key="${esc(p.key)}" aria-pressed="${favorites.has(p.key)}" aria-label="${favorites.has(p.key) ? "Remove from" : "Add to"} favorites" title="Favorite">★</button><span class="brand">${esc(p.brand)}</span> <span class="series">${esc(p.display.join(" · ") || "—")}</span>${p.showOdm ? ` <span class="muted small">(made by ${esc(p.odm)})</span>` : ""}</td>
       <td class="c-watts" data-label="Wattage"><b>${p.wattage ? `${p.wattage}W` : "—"}</b>${p.estimated ? `<span class="est" title="Inferred from the range ${esc(p.watts)} on the tier list">?</span>` : ""}</td>
       <td class="c-year" data-label="Year">${p.year ?? "—"}</td>
       <td class="c-spec" data-label="Size">${esc(p.size || "—")}</td>
@@ -493,16 +493,21 @@ function sparkline(pts) {
     aria-label="Lowest price went from ${money.format(priced[0])} to ${money.format(priced.at(-1))}"><path d="${path}"/></svg>`;
 }
 
-// ---- Shortlist (kept in this browser only) ---------------------------------
+// ---- Favorites (kept in this browser only) ---------------------------------
 
-function loadShortlist() {
-  try { return JSON.parse(localStorage.getItem("shortlist") || "[]"); } catch { return []; }
+// Also reads "shortlist", the key used before the rename, so earlier stars aren't lost.
+function loadFavorites() {
+  try {
+    return JSON.parse(localStorage.getItem("favorites") || localStorage.getItem("shortlist") || "[]");
+  } catch {
+    return [];
+  }
 }
 
 function toggleStar(key) {
-  shortlist.has(key) ? shortlist.delete(key) : shortlist.add(key);
-  try { localStorage.setItem("shortlist", JSON.stringify([...shortlist])); } catch { /* private mode: keep it for this visit */ }
-  if ($("#starred").checked) update(); else { render(); $("#star-count").textContent = shortlist.size; }
+  favorites.has(key) ? favorites.delete(key) : favorites.add(key);
+  try { localStorage.setItem("favorites", JSON.stringify([...favorites])); } catch { /* private mode: keep it for this visit */ }
+  if ($("#starred").checked) update(); else { render(); $("#star-count").textContent = favorites.size; }
 }
 
 // ---- Theme ------------------------------------------------------------------
