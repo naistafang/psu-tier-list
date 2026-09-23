@@ -1,6 +1,6 @@
 # PSU Tier List
 
-A searchable, filterable view of the [community PSU tier list spreadsheet](https://docs.google.com/spreadsheets/d/1akCHL7Vhzk_EhrpIGkz8zTEvYfLDcaSpZRB6Xt6JWkc/edit?gid=931697732), with Canadian prices.
+A searchable, filterable view of the [SPL's PSU tier list spreadsheet](https://docs.google.com/spreadsheets/d/1akCHL7Vhzk_EhrpIGkz8zTEvYfLDcaSpZRB6Xt6JWkc/edit?gid=931697732), with Canadian prices.
 
 - Search by brand, series, model number (`RM850x`, `GX-750`), OEM, platform or notes
 - Filter by tier, wattage, form factor, 80 Plus rating, modularity, ATX version, year and store
