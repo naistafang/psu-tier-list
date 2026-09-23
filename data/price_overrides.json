@@ -1,0 +1,5 @@
+{
+  "_help": "Fix bad price matches by hand. Keys are \"<store>:<store product id>\" (stores: bestbuy, canadacomputers). The product id is the number in the product URL. 'sku' maps a listing to a tier list row id from data/psus.json (with optional 'watts'); 'ignore' lists listings that should never be matched.",
+  "sku": {},
+  "ignore": []
+}

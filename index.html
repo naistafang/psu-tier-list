@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PSU Tier List</title>
+  <meta name="description" content="Searchable, filterable PSU tier list with Canadian prices.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23166534'/%3E%3Cpath d='M18 4 8 18h7l-2 10 11-15h-7z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>PSU Tier List</h1>
+      <p class="lede">
+        Search and filter every power supply on the
+        <a id="source-link" href="https://docs.google.com/spreadsheets/d/1akCHL7Vhzk_EhrpIGkz8zTEvYfLDcaSpZRB6Xt6JWkc/edit" target="_blank" rel="noopener">community PSU tier list</a>,
+        with current Canadian prices.
+      </p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="controls" aria-label="Search and filters">
+      <div class="search-row">
+        <label class="search">
+          <span class="visually-hidden">Search</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+          <input id="q" type="search" placeholder="Search brand, series, platform, OEM or notes, e.g. “RM850x”, “Focus GX”, “CWT”" autocomplete="off">
+        </label>
+        <label class="sort">
+          <span>Sort</span>
+          <select id="sort">
+            <option value="tier">Best tier first</option>
+            <option value="price-asc">Price: low to high</option>
+            <option value="price-desc">Price: high to low</option>
+            <option value="ppw">Price per watt</option>
+            <option value="watts">Wattage: low to high</option>
+            <option value="brand">Brand A–Z</option>
+            <option value="year">Newest first</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="tier-row">
+        <span class="label">Tier</span>
+        <div id="tiers" class="chips" role="group" aria-label="Tiers"></div>
+        <button id="tiers-clear" class="link-btn" type="button">All tiers</button>
+      </div>
+
+      <div class="filter-row">
+        <label><span>Wattage (at least)</span>
+          <select id="watts">
+            <option value="">Any</option>
+            <option>450</option><option>550</option><option>650</option><option>750</option>
+            <option>850</option><option>1000</option><option>1200</option><option>1500</option>
+          </select>
+        </label>
+        <label><span>Form factor</span>
+          <select id="size"><option value="">Any</option></select>
+        </label>
+        <label><span>80 Plus (at least)</span>
+          <select id="eff">
+            <option value="">Any</option>
+            <option value="T">Titanium</option>
+            <option value="P">Platinum</option>
+            <option value="G">Gold</option>
+            <option value="S">Silver</option>
+            <option value="B">Bronze</option>
+            <option value="W">White</option>
+          </select>
+        </label>
+        <label><span>Modular</span>
+          <select id="modular">
+            <option value="">Any</option><option>Full</option><option>Semi</option><option value="No">Non-modular</option>
+          </select>
+        </label>
+        <label><span>ATX version</span>
+          <select id="atx"><option value="">Any</option><option>ATX 3.x</option><option>ATX 2.x</option></select>
+        </label>
+        <label><span>Released since</span>
+          <select id="year"><option value="">Any year</option></select>
+        </label>
+      </div>
+
+      <div class="toggle-row">
+        <label class="check"><input id="priced" type="checkbox"> Only show PSUs with a price</label>
+        <label class="check"><input id="confident" type="checkbox"> Hide limited-confidence ratings (<b>*</b>)</label>
+        <label class="check"><input id="nomarket" type="checkbox"> Hide third-party marketplace sellers</label>
+        <button id="reset" class="link-btn" type="button">Reset all</button>
+      </div>
+
+      <div class="store-row">
+        <span class="label">Stores</span>
+        <div id="stores" class="store-list"></div>
+      </div>
+    </section>
+
+    <div class="status">
+      <p id="count" aria-live="polite"></p>
+      <p id="updated" class="muted"></p>
+    </div>
+
+    <div class="table-wrap">
+      <table id="table">
+        <thead>
+          <tr>
+            <th class="c-tier"><button data-sort="tier">Tier</button></th>
+            <th class="c-name"><button data-sort="brand">PSU</button></th>
+            <th class="c-watts"><button data-sort="watts">Wattage</button></th>
+            <th class="c-year"><button data-sort="year">Year</button></th>
+            <th class="c-spec">Size</th>
+            <th class="c-spec">80+</th>
+            <th class="c-spec">Modular</th>
+            <th class="c-spec">ATX</th>
+            <th class="c-price"><button data-sort="price-asc">Price (CAD)</button></th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <p id="empty" class="empty" hidden>No PSUs match these filters.</p>
+    <button id="more" class="more" type="button" hidden>Show more</button>
+
+    <section class="about">
+      <h2>About this data</h2>
+      <p>
+        Tiers, specs and notes come straight from the
+        <a class="source-link" href="#" target="_blank" rel="noopener">PSU tier list spreadsheet</a> and are refreshed daily.
+        Read the spreadsheet's own notes for what each tier means. Ratings marked <b>*</b> are
+        <em>limited confidence</em>: the maintainers had too little information to rate the unit reliably,
+        and they don't recommend these units until more is known.
+      </p>
+      <p>
+        Prices come from the public listings of Canadian stores (currently <span id="store-names">Best Buy and Canada Computers</span>)
+        and are refreshed daily. Listings are matched to the tier list by name, so a match can occasionally be the wrong revision of a PSU.
+        Always check that the listing's model matches before you buy. Each PSU also links to searches at other Canadian stores.
+      </p>
+      <dl class="legend">
+        <div><dt>80+</dt><dd>T Titanium · P Platinum · G Gold · S Silver · B Bronze · W White · N none</dd></div>
+        <div><dt>Topology</dt><dd>LLC resonant · DF double forward · ACRF active clamp reset forward</dd></div>
+        <div><dt>Rectification</dt><dd>SR synchronous · PR passive</dd></div>
+        <div><dt>Regulation</dt><dd>DC-DC independent rails · GR group regulated</dd></div>
+      </dl>
+    </section>
+  </main>
+
+  <template id="detail-tpl">
+    <tr class="detail">
+      <td colspan="9">
+        <div class="detail-grid">
+          <dl class="specs"></dl>
+          <div class="notes"></div>
+          <div class="offers"></div>
+          <div class="stores"></div>
+        </div>
+      </td>
+    </tr>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
