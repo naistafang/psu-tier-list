@@ -4,9 +4,12 @@ A searchable, filterable view of the [community PSU tier list spreadsheet](https
 
 - Search by brand, series, model number (`RM850x`, `GX-750`), OEM, platform or notes
 - Filter by tier, wattage, form factor, 80 Plus rating, modularity, ATX version, year and store
-- Sort by tier, price, price per watt, brand or year
-- Click a row for full specs, notes, prices from every store, and search links for other Canadian stores
-- Filters are saved in the URL, so any view can be bookmarked or shared
+- Sort by tier, price, price per watt, wattage, brand or year
+- Click a row for full specs, notes, prices from every store, price history, and search links for other Canadian stores
+- Star PSUs to keep a shortlist (saved in your browser)
+- Filters are saved in the URL, so any view can be bookmarked or shared; click the title to reset everything
+- Keyboard: `/` jumps to search, Esc clears it
+- Light and dark themes (follows your device until you pick one)
 
 It's a static site (plain HTML/CSS/JS, no build step), so it runs on GitHub Pages.
 
@@ -17,9 +20,11 @@ A GitHub Action (`.github/workflows/update-data.yml`) runs daily and commits fre
 | Script | Writes | Source |
 |---|---|---|
 | `scripts/update_sheet.py` | `data/psus.json` | The Google Sheet's public CSV export |
-| `scripts/update_prices.py` | `data/prices.json` | Every store in `scripts/stores.py` |
+| `scripts/update_prices.py` | `data/prices.json`, `data/history.json` | Every store in `scripts/stores.py` |
 
-Current price sources are **Best Buy Canada** and **Canada Computers**. Neither has an official API, so the scripts read their public product listings. If a store's site changes and its fetch fails, that store's previous prices are kept.
+Current price sources are **Best Buy Canada**, **Canada Computers** and **Vuugo** (in-stock items only). None of them has an official API, so the scripts read their public product listings. If a store's site changes and its fetch fails, that store's previous prices are kept.
+
+`data/history.json` records each model's lowest price across all stores, adding a point only when that price changes, so it grows slowly. The site uses it for the ▲/▼ markers and the price chart.
 
 Listings are matched to tier list rows by brand, series name and wattage. The matching is approximate: several PSU generations often share a name, and the matcher assumes the newest one. Listings it couldn't match go to `data/unmatched_listings.txt`. To fix a wrong match, add it to `data/price_overrides.json`.
 

@@ -11,7 +11,7 @@ what's being sold. data/price_overrides.json lets you fix bad matches by hand.
 
 If a store can't be reached, its prices from the previous run are kept.
 
-Output: data/prices.json
+Output: data/prices.json, plus data/history.json (see update_history)
   { "updated": ..., "stores": {key: {name, updated, count}},
     "prices": { "<psu id>": [ {store, watts, price, regular, name, url, seller, marketplace}, ... ] } }
 """
@@ -263,7 +263,36 @@ def main():
         "prices": prices,
     }, ensure_ascii=False, separators=(",", ":")))
     (DATA / "unmatched_listings.txt").write_text("\n".join(sorted(unmatched)) + "\n")
+    update_history(prices, now[:10])
     print(f"{sum(map(len, prices.values()))} offers across {len(prices)} tier list rows")
+
+
+def update_history(prices, today):
+    """Append today's lowest price per model to data/history.json.
+
+    Each model ("<psu id>@<watts>") keeps a list of [date, price] points, but a point is
+    only added when the price changes, so the file grows slowly. null means no store
+    listed it. Running twice on the same day overwrites that day's point.
+    """
+    path = DATA / "history.json"
+    history = json.loads(path.read_text()) if path.exists() else {"since": today, "prices": {}}
+    lows = {}
+    for pid, offers in prices.items():
+        for o in offers:
+            key = f"{pid}@{o['watts']}"
+            lows[key] = min(lows.get(key, o["price"]), o["price"])
+
+    for key in set(history["prices"]) | set(lows):
+        points = history["prices"].setdefault(key, [])
+        if points and points[-1][0] == today:
+            points.pop()
+        price = lows.get(key)
+        if not points or points[-1][1] != price:
+            points.append([today, price])
+        if points == [[today, None]]:
+            del history["prices"][key]
+
+    path.write_text(json.dumps(history, separators=(",", ":"), sort_keys=True))
 
 
 if __name__ == "__main__":

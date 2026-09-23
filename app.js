@@ -23,6 +23,9 @@ let DATA = [];
 let TIERS = [];
 let PRICES = {};
 let STORE_INFO = {};
+let HISTORY = {};
+let historySince = null;
+const shortlist = new Set(loadShortlist());
 let view = [];
 let shown = PAGE;
 const open = new Set();
@@ -30,10 +33,13 @@ const open = new Set();
 init();
 
 async function init() {
-  const [psus, prices] = await Promise.all([
+  const [psus, prices, history] = await Promise.all([
     fetch("data/psus.json").then(r => r.json()),
     fetch("data/prices.json").then(r => (r.ok ? r.json() : null)).catch(() => null),
+    fetch("data/history.json").then(r => (r.ok ? r.json() : null)).catch(() => null),
   ]);
+  HISTORY = history?.prices || {};
+  historySince = history?.since || null;
   TIERS = psus.tiers;
   PRICES = prices?.prices || {};
   STORE_INFO = prices?.stores || {};
@@ -79,7 +85,30 @@ async function init() {
 }
 
 function buildControls() {
-  for (const t of TIERS) $("#tier").add(new Option(t === TIERS.at(-1) ? t : `${t} or better`, t));
+  for (const t of TIERS) $("#tier").add(new Option(t, t));
+
+  $("#theme").addEventListener("click", toggleTheme);
+  syncThemeButton();
+
+  // Search: "/" jumps to the box, Esc clears it, the × button clears it too.
+  document.addEventListener("keydown", e => {
+    if (e.key === "/" && !e.target.closest("input, select, textarea") && !e.ctrlKey && !e.metaKey && !e.altKey) {
+      e.preventDefault();
+      $("#q").focus();
+      $("#q").select();
+    }
+  });
+  $("#q").addEventListener("keydown", e => {
+    if (e.key !== "Escape") return;
+    e.preventDefault();
+    if ($("#q").value) { $("#q").value = ""; update(); } else $("#q").blur();
+  });
+  $("#q-clear").addEventListener("click", () => { $("#q").value = ""; update(); $("#q").focus(); });
+
+  $("#filters-toggle").addEventListener("click", () => {
+    const open = $("#more-filters").classList.toggle("open");
+    $("#filters-toggle").setAttribute("aria-expanded", String(open));
+  });
 
   const names = Object.values(STORE_INFO).map(s => s.name);
   if (names.length) $("#store-names").textContent = names.length > 1 ? `${names.slice(0, -1).join(", ")} and ${names.at(-1)}` : names[0];
@@ -99,7 +128,7 @@ function buildControls() {
 
   let timer;
   $("#q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(update, 120); });
-  for (const id of ["sort", "tier", "watts", "size", "eff", "modular", "atx", "year", "priced", "confident", "nomarket"]) {
+  for (const id of ["sort", "tier", "watts", "size", "eff", "modular", "atx", "year", "priced", "confident", "nomarket", "starred"]) {
     $("#" + id).addEventListener("change", update);
   }
   for (const b of document.querySelectorAll("th button[data-sort]")) {
@@ -109,26 +138,42 @@ function buildControls() {
       update();
     });
   }
-  $("#reset").addEventListener("click", () => {
-    for (const el of document.querySelectorAll(".controls select, .controls input")) {
-      if (el.type === "checkbox") el.checked = !!el.closest("#stores"); else el.value = el.tagName === "SELECT" ? el.options[0].value : "";
-    }
-    update();
+  $("#reset").addEventListener("click", resetAll);
+  $("#home").addEventListener("click", e => {
+    // Plain left click resets in place; ctrl/cmd/shift/middle click still opens the link normally.
+    if (e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+    e.preventDefault();
+    resetAll();
+    window.scrollTo({ top: 0 });
   });
   $("#more").addEventListener("click", () => { shown += PAGE; render(); });
   $("#rows").addEventListener("click", e => {
+    const star = e.target.closest("button.star");
+    if (star) {
+      toggleStar(star.dataset.key);
+      return;
+    }
     const tr = e.target.closest("tr.psu");
     if (!tr || e.target.closest("a")) return;
     open.has(tr.dataset.id) ? open.delete(tr.dataset.id) : open.add(tr.dataset.id);
     render();
   });
   $("#rows").addEventListener("keydown", e => {
-    if ((e.key === "Enter" || e.key === " ") && e.target.matches("tr.psu")) {
+    if ((e.key === "Enter" || e.key === " ") && e.target.matches("tr.psu") && !e.target.closest("button")) {
       e.preventDefault();
       e.target.click();
     }
   });
   window.addEventListener("hashchange", () => { readHash(); update(false); });
+}
+
+// Search, filters, sort and store choices back to their defaults, and every row collapsed.
+function resetAll() {
+  for (const el of document.querySelectorAll(".controls select, .controls input")) {
+    if (el.type === "checkbox") el.checked = !!el.closest("#stores"); else el.value = el.tagName === "SELECT" ? el.options[0].value : "";
+  }
+  open.clear();
+  update();
 }
 
 function filters() {
@@ -145,6 +190,7 @@ function filters() {
     priced: $("#priced").checked,
     confident: $("#confident").checked,
     nomarket: $("#nomarket").checked,
+    starred: $("#starred").checked,
     stores: new Set([...document.querySelectorAll("#stores input:checked")].map(i => i.value)),
   };
 }
@@ -170,6 +216,7 @@ function update(writeUrl = true) {
   for (const p of DATA) {
     if (f.tier && !(p.rank <= TIERS.indexOf(f.tier))) continue;
     if (f.confident && p.limited) continue;
+    if (f.starred && !shortlist.has(p.key)) continue;
     if (f.watts && !(p.wattage >= f.watts)) continue;
     if (f.size && p.size !== f.size) continue;
     if (f.eff && !(EFF_RANK[p.eff] >= EFF_RANK[f.eff])) continue;
@@ -201,6 +248,12 @@ function update(writeUrl = true) {
     const s = th.dataset.sort;
     th.classList.toggle("active", f.sort === s || (s === "price-asc" && f.sort === "price-desc"));
   }
+  $("#q-clear").hidden = !f.q;
+  $("#star-count").textContent = shortlist.size;
+  const active = ["tier", "watts", "size", "eff", "modular", "atx", "year"].filter(k => f[k]).length
+    + ["priced", "confident", "nomarket", "starred"].filter(k => f[k]).length
+    + Object.keys(STORE_INFO).filter(k => !f.stores.has(k)).length;
+  $("#filters-toggle").textContent = active ? `Filters (${active})` : "Filters";
   if (writeUrl) writeHash(f);
   shown = PAGE;
   render();
@@ -282,7 +335,7 @@ function render() {
     tr.setAttribute("aria-expanded", String(open.has(p.key)));
     tr.innerHTML = `
       <td class="c-tier"><span class="tier tier-${tierGroup(p.grade)}" title="${p.limited ? "Limited confidence rating" : ""}">${esc(p.tier)}</span></td>
-      <td class="c-name"><span class="brand">${esc(p.brand)}</span> <span class="series">${esc(p.display.join(" · ") || "—")}</span>${p.showOdm ? ` <span class="muted small">(made by ${esc(p.odm)})</span>` : ""}</td>
+      <td class="c-name"><button class="star" type="button" data-key="${esc(p.key)}" aria-pressed="${shortlist.has(p.key)}" aria-label="${shortlist.has(p.key) ? "Remove from" : "Add to"} shortlist" title="Shortlist">★</button><span class="brand">${esc(p.brand)}</span> <span class="series">${esc(p.display.join(" · ") || "—")}</span>${p.showOdm ? ` <span class="muted small">(made by ${esc(p.odm)})</span>` : ""}</td>
       <td class="c-watts" data-label="Wattage"><b>${p.wattage ? `${p.wattage}W` : "—"}</b>${p.estimated ? `<span class="est" title="Inferred from the range ${esc(p.watts)} on the tier list">?</span>` : ""}</td>
       <td class="c-year" data-label="Year">${p.year ?? "—"}</td>
       <td class="c-spec" data-label="Size">${esc(p.size || "—")}</td>
@@ -306,7 +359,7 @@ function priceCell(p, offer, f) {
   if (!offer) return `<span class="muted">—</span>`;
   const stores = new Set(p.offers.filter(o => offerAllowed(o, f)).map(o => o.store)).size;
   const more = stores > 1 ? ` · ${stores} stores` : "";
-  return `<span class="price">${money.format(offer.price)}</span><span class="muted small">${esc(storeName(offer.store))}${more}</span>`;
+  return `<span class="price">${trendBadge(p)}${money.format(offer.price)}</span><span class="muted small">${esc(storeName(offer.store))}${more}</span>`;
 }
 
 function storeName(key) {
@@ -351,6 +404,8 @@ function detailRow(p, f) {
         <p class="muted small">Matched by name. Check that the listing's model is the same revision before you buy.</p>`
     : `<h3>Prices</h3><p class="muted">No matching listing found at the selected stores.</p>`;
 
+  tr.querySelector(".history").innerHTML = historyHtml(p);
+
   const q = encodeURIComponent(searchName(p));
   tr.querySelector(".stores").innerHTML =
     `<h3>Search other stores</h3><p>${STORES.map(([n, u]) => `<a href="${u(q)}" target="_blank" rel="noopener">${n}</a>`).join("")}</p>`;
@@ -376,7 +431,98 @@ function esc(s) {
 
 function fmtDate(iso) {
   if (!iso) return "";
-  return new Date(iso).toLocaleDateString("en-CA", { year: "numeric", month: "short", day: "numeric" });
+  // A bare "2026-09-23" is a calendar date: read it as local midnight, not UTC, or it shows a day early.
+  const day = /^(\d{4})-(\d\d)-(\d\d)$/.exec(iso);
+  const date = day ? new Date(+day[1], day[2] - 1, +day[3]) : new Date(iso);
+  return date.toLocaleDateString("en-CA", { year: "numeric", month: "short", day: "numeric" });
+}
+
+// ---- Price history -------------------------------------------------------
+// history.json keeps, per model, a [date, lowest price] point each time the lowest price
+// across all stores changed (null = no store listed it).
+
+function priceChange(p) {
+  const pts = (HISTORY[p.key] || []).filter(([, price]) => price != null);
+  if (pts.length < 2) return null;
+  const [date, now] = pts.at(-1);
+  const before = pts.at(-2)[1];
+  return { diff: now - before, date };
+}
+
+function trendBadge(p) {
+  const c = priceChange(p);
+  if (!c || Math.abs(c.diff) < 0.5) return "";
+  const down = c.diff < 0;
+  return `<span class="trend ${down ? "down" : "up"}" title="Lowest price ${down ? "dropped" : "rose"} ${money.format(Math.abs(c.diff))} on ${fmtDate(c.date)}">${down ? "▼" : "▲"}</span>`;
+}
+
+function historyHtml(p) {
+  const pts = HISTORY[p.key] || [];
+  const priced = pts.filter(([, price]) => price != null);
+  if (!priced.length) return "";
+  const low = priced.reduce((a, b) => (b[1] < a[1] ? b : a));
+  const c = priceChange(p);
+  const change = c && Math.abs(c.diff) >= 0.5
+    ? ` Last change: <span class="trend ${c.diff < 0 ? "down" : "up"}">${c.diff < 0 ? "▼" : "▲"} ${money.format(Math.abs(c.diff))}</span> on ${fmtDate(c.date)}.`
+    : "";
+  return `<h3>Price history</h3>${sparkline(pts)}
+    <p>Lowest seen: <b>${money.format(low[1])}</b> on ${fmtDate(low[0])}.${change}</p>
+    <p class="muted small">Lowest price across all stores, tracked daily since ${fmtDate(historySince)}.</p>`;
+}
+
+// A step line of the lowest price from the first point until today; gaps where no store listed it.
+function sparkline(pts) {
+  const day = d => Date.parse(d) / 864e5;
+  const priced = pts.filter(([, price]) => price != null).map(([, price]) => price);
+  if (priced.length < 2) return "";
+  const start = day(pts[0][0]);
+  const end = Math.max(Date.now() / 864e5, day(pts.at(-1)[0]) + 1);
+  const lo = Math.min(...priced), hi = Math.max(...priced);
+  const W = 360, H = 60, pad = 4;
+  const x = d => (pad + ((d - start) / (end - start)) * (W - 2 * pad)).toFixed(1);
+  const y = v => (hi === lo ? H / 2 : pad + (1 - (v - lo) / (hi - lo)) * (H - 2 * pad)).toFixed(1);
+
+  let path = "";
+  pts.forEach(([date, price], i) => {
+    if (price == null) return;
+    const until = i + 1 < pts.length ? day(pts[i + 1][0]) : end;
+    const joined = i > 0 && pts[i - 1][1] != null;
+    path += `${joined ? `V${y(price)}` : `M${x(day(date))} ${y(price)}`}H${x(until)}`;
+  });
+  return `<svg class="spark" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img"
+    aria-label="Lowest price went from ${money.format(priced[0])} to ${money.format(priced.at(-1))}"><path d="${path}"/></svg>`;
+}
+
+// ---- Shortlist (kept in this browser only) ---------------------------------
+
+function loadShortlist() {
+  try { return JSON.parse(localStorage.getItem("shortlist") || "[]"); } catch { return []; }
+}
+
+function toggleStar(key) {
+  shortlist.has(key) ? shortlist.delete(key) : shortlist.add(key);
+  try { localStorage.setItem("shortlist", JSON.stringify([...shortlist])); } catch { /* private mode: keep it for this visit */ }
+  if ($("#starred").checked) update(); else { render(); $("#star-count").textContent = shortlist.size; }
+}
+
+// ---- Theme ------------------------------------------------------------------
+
+function currentTheme() {
+  return document.documentElement.dataset.theme
+    || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+}
+
+function toggleTheme() {
+  const next = currentTheme() === "dark" ? "light" : "dark";
+  document.documentElement.dataset.theme = next;
+  try { localStorage.setItem("theme", next); } catch { /* not saved; still switches for this visit */ }
+  syncThemeButton();
+}
+
+function syncThemeButton() {
+  const label = `Switch to ${currentTheme() === "dark" ? "light" : "dark"} theme`;
+  $("#theme").setAttribute("aria-label", label);
+  $("#theme").title = label;
 }
 
 // Filters live in the URL hash, so a filtered view can be bookmarked or shared.
@@ -386,7 +532,7 @@ function writeHash(f) {
   for (const k of ["sort", "tier", "watts", "size", "eff", "modular", "atx", "year"]) {
     if (f[k] && !(k === "sort" && f[k] === "tier")) h.set(k, f[k]);
   }
-  for (const k of ["priced", "confident", "nomarket"]) if (f[k]) h.set(k, "1");
+  for (const k of ["priced", "confident", "nomarket", "starred"]) if (f[k]) h.set(k, "1");
   const off = Object.keys(STORE_INFO).filter(k => !f.stores.has(k));
   if (off.length) h.set("nostore", off.join(","));
   const s = h.toString();
@@ -401,7 +547,7 @@ function readHash() {
     const v = h.get(k) || el.options[0].value;
     if ([...el.options].some(o => o.value === v)) el.value = v;
   }
-  for (const k of ["priced", "confident", "nomarket"]) $("#" + k).checked = h.get(k) === "1";
+  for (const k of ["priced", "confident", "nomarket", "starred"]) $("#" + k).checked = h.get(k) === "1";
   const off = new Set((h.get("nostore") || "").split(","));
   for (const el of document.querySelectorAll("#stores input")) el.checked = !off.has(el.value);
 }
