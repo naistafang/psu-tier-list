@@ -17,6 +17,13 @@
   --up: #b91c1c;
   --down: #15803d;
   --star: #d97706;
+  /* 80 Plus badges, in the colour of each metal */
+  --eff-t: #f8fafc; --eff-t-bg: #334155;
+  --eff-p: #1e3a8a; --eff-p-bg: #dbeafe;
+  --eff-g: #713f12; --eff-g-bg: #fde047;
+  --eff-s: #3f3f46; --eff-s-bg: #e4e4e7;
+  --eff-b: #6b2f12; --eff-b-bg: #f3cfae;
+  --eff-w: #44403c; --eff-w-bg: #ffffff;
   color-scheme: light;
 }
 
@@ -37,6 +44,12 @@
   --tier-f: #fca5a5; --tier-f-bg: #7f1d1d;
   --up: #fca5a5;
   --down: #86efac;
+  --eff-t: #0f172a; --eff-t-bg: #cbd5e1;
+  --eff-p: #bfdbfe; --eff-p-bg: #1e3a8a;
+  --eff-g: #1c1917; --eff-g-bg: #facc15;
+  --eff-s: #e4e4e7; --eff-s-bg: #3f3f46;
+  --eff-b: #f6c08f; --eff-b-bg: #5a2a10;
+  --eff-w: #f5f5f4; --eff-w-bg: #1b1b1a;
   color-scheme: dark;
 }
 
@@ -44,6 +57,12 @@
   :root:not([data-theme="light"]) {
     --up: #fca5a5;
     --down: #86efac;
+    --eff-t: #0f172a; --eff-t-bg: #cbd5e1;
+    --eff-p: #bfdbfe; --eff-p-bg: #1e3a8a;
+    --eff-g: #1c1917; --eff-g-bg: #facc15;
+    --eff-s: #e4e4e7; --eff-s-bg: #3f3f46;
+    --eff-b: #f6c08f; --eff-b-bg: #5a2a10;
+    --eff-w: #f5f5f4; --eff-w-bg: #1b1b1a;
     --bg: #121211;
     --surface: #1b1b1a;
     --surface-2: #242422;
@@ -249,7 +268,22 @@ th.c-price { text-align: right; }
 .tier-d.tier { background: var(--tier-d-bg); color: var(--tier-d); }
 .tier-f.tier { background: var(--tier-f-bg); color: var(--tier-f); }
 
-.eff { font-weight: 600; }
+/* 80 Plus rating as a small badge; the letter stays, colour is a second cue */
+.eff {
+  display: inline-block; min-width: 22px; padding: 1px 5px; border-radius: 5px;
+  text-align: center; font-size: 13px; font-weight: 700; line-height: 1.4;
+  color: var(--fg, var(--muted)); background: var(--bg-c, transparent);
+  box-shadow: inset 0 0 0 1px var(--ring, transparent);
+}
+.eff-T { --fg: var(--eff-t); --bg-c: var(--eff-t-bg); }
+.eff-P { --fg: var(--eff-p); --bg-c: var(--eff-p-bg); }
+.eff-G { --fg: var(--eff-g); --bg-c: var(--eff-g-bg); }
+.eff-S { --fg: var(--eff-s); --bg-c: var(--eff-s-bg); }
+.eff-B { --fg: var(--eff-b); --bg-c: var(--eff-b-bg); }
+.eff-W { --fg: var(--eff-w); --bg-c: var(--eff-w-bg); --ring: var(--border); }
+.eff-N { --ring: var(--border); font-weight: 600; }
+.eff.m-only { display: none; margin-left: 6px; }
+.legend .eff { margin-right: 3px; }
 .est {
   display: inline-block; margin-left: 4px; width: 15px; height: 15px; line-height: 15px;
   border-radius: 50%; text-align: center; font-size: 11px; font-weight: 700;
@@ -292,6 +326,7 @@ tr.detail > td { background: var(--surface-2); padding: 4px 14px 18px; }
 
 /* Phones: each row becomes a card */
 @media (max-width: 760px) {
+  .eff.m-only { display: inline-block; font-size: 12px; }
   .filters-toggle {
     display: block; font: inherit; font-size: 14px; font-weight: 600; cursor: pointer;
     padding: 7px 12px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface-2); color: var(--text);

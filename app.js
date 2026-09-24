@@ -341,10 +341,10 @@ function render() {
     tr.innerHTML = `
       <td class="c-tier"><span class="tier tier-${tierGroup(p.grade)}" title="${p.limited ? "Limited confidence rating" : ""}">${esc(p.tier)}</span></td>
       <td class="c-name"><button class="star" type="button" data-key="${esc(p.key)}" aria-pressed="${favorites.has(p.key)}" aria-label="${favorites.has(p.key) ? "Remove from" : "Add to"} favorites" title="Favorite">${STAR_ICON}</button><span class="brand">${esc(p.brand)}</span> <span class="series">${esc(p.display.join(" · ") || "—")}</span>${p.showOdm ? ` <span class="muted small">(made by ${esc(p.odm)})</span>` : ""}</td>
-      <td class="c-watts" data-label="Wattage"><b>${p.wattage ? `${p.wattage}W` : "—"}</b>${p.estimated ? `<span class="est" title="Inferred from the range ${esc(p.watts)} on the tier list">?</span>` : ""}</td>
+      <td class="c-watts" data-label="Wattage"><b>${p.wattage ? `${p.wattage}W` : "—"}</b>${p.estimated ? `<span class="est" title="Inferred from the range ${esc(p.watts)} on the tier list">?</span>` : ""}${effBadge(p, "m-only")}</td>
       <td class="c-year" data-label="Year">${p.year ?? "—"}</td>
       <td class="c-spec" data-label="Size">${esc(p.size || "—")}</td>
-      <td class="c-spec" data-label="80+"><span class="eff eff-${esc(p.eff)}" title="${EFF_NAME[p.eff] || ""}">${esc(p.eff || "—")}</span></td>
+      <td class="c-spec" data-label="80+">${effBadge(p)}</td>
       <td class="c-spec" data-label="Modular">${esc(MOD_NAME[p.modular] || p.modular || "—")}</td>
       <td class="c-spec" data-label="ATX">${esc(p.atx.replace("ATX ", "") || "—")}</td>
       <td class="c-price" data-label="Price">${priceCell(p, offer, f)}</td>`;
@@ -358,6 +358,14 @@ function render() {
   $("#empty").hidden = n > 0;
   $("#more").hidden = shown >= n;
   $("#more").textContent = `Show more (${(n - shown).toLocaleString()} left)`;
+}
+
+// 80 Plus letter as a coloured badge. The phone layout hides the 80+ column,
+// so a second copy ("m-only") sits next to the wattage there.
+function effBadge(p, extra = "") {
+  if (!p.eff) return extra ? "" : "—";
+  const name = p.eff === "N" ? "No 80 Plus rating" : EFF_NAME[p.eff] ? `80 Plus ${EFF_NAME[p.eff]}` : p.eff;
+  return `<span class="eff eff-${esc(p.eff)} ${extra}" title="${esc(name)}">${esc(p.eff)}</span>`;
 }
 
 function priceCell(p, offer, f) {
