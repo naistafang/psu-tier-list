@@ -1,4 +1,7 @@
+Best Buy: 1 PC PSU ATX 24-Pin Female to Dual PCI-E 6-Pin Male Power Adapter
 Best Buy: 1-PACK RGB Gaming Headset Stand, With Sound Reactive Music Sync Ambient Light, App & Remote Control, LED Desk Atmosphere Lamp for PC, TV & Party
+Best Buy: 10 Dual 4-Pin Molex to 8-Pin PCI Adapter Cables
+Best Buy: 12VHPWR 12+4 16P 600W Male to Female 180 Degree Adapter Silver
 Best Buy: 19V 3.42A 65W AC adapter charger for Asus U50 U52F U53F U56E
 Best Buy: 19V 3.42A 65W AC adapter charger for Asus U80 U81A U82U
 Best Buy: 19V 90W Ac Dc Adapter for 18 19 20 21 32 HP Pavilion 20 23 OMEN Gaming All-in-One Desktop Computer PC Monitor Elitebook 8460p 8470P 8440P 8760p 8460w 8770w 2760p 2170p Power Supply
@@ -6,11 +9,17 @@ Best Buy: 1x 6 Pin to 2x Molex 4pin PCI-E Video Card Power Adapter
 Best Buy: 2 Pack European Travel Plug Adapter, VYLEE International Travel Adapter with 2 Outlets 4 USB Ports(2 USB C), 6 in 1 Type C Travel Essentials Charger for US to Most of Europe EU Ita
 Best Buy: 2 Pack Smart Plug WiFi Plugs Work with Alexa & Google Assistant, Smart Outlet with Timer & Group Controller
 Best Buy: 20/24 Pin ATX Power Adapter Board Pd2.0/Pd3.0 Power Module Adapter Adjustable Voltage with Red Digital Display
+Best Buy: 24-Pin to 14-Pin ATX PSU Braided Power Adapter Cable for Q77 B75 A75 Q75 Motherboard
+Best Buy: 24-Pin to 6-Pin Replacement Power Adapter Cable for Dell 3650 3040 7040 Motherboard
 Best Buy: 3 Pin Fan to Power Supply Adapter Cable
 Best Buy: 3-in-1 Wireless Charging Power Bank for Apple Watch, Portable Magnetic Charger with Built-in Cable for iPhone & Accessories
 Best Buy: 310W Power Supply for iMac 27" (2009-2011) - Apple Delta ADP-310AF B - Model 661-5468 614-0446
+Best Buy: 4 ATX CPU 8-Pin Female to Dual 8(4+4)-Pin Male Splitters, EPS 12 V
+Best Buy: 4 × 8-Pin PCI-E to 16-Pin Graphics Card Power Cable for RTX4090 GPU
 Best Buy: 4-Port DC Power Adaptor 12V / 5A cUL Listed
+Best Buy: 5X Laptop Gpu Cooling Fan for Msi Ge62 Ge72 Gl62 Gl72 Pe60 Pe70 Series Paad06015Sl
 Best Buy: 6-Outlet Surge Protector with 3 ft. Power Cord
+Best Buy: 600W PCIe 5.0 12VHPWR PSU Cable for Corsair Type 5 Modular, Dual 8-Pin PCIe to 12+4Pin Modular Cable for RTX4090 GPU
 Best Buy: 65W AC adapter charger cord for Acer Aspire 4240 4315 5100-4575
 Best Buy: 65W AC adapter charger cord for Acer Aspire 4310G 4830T 9300-3555
 Best Buy: 65W AC adapter charger cord for Acer Aspire 4720G 5102 5253-BZ656
@@ -19,6 +28,7 @@ Best Buy: 65W AC adapter charger cord for Acer Aspire R7-572 R7-572G R7-371T-74U
 Best Buy: 65W LAPTOP POWER ADAPTER
 Best Buy: 6OUTLET POWER STRIP RIGHT ANGLE
 Best Buy: 6ft Heavy Duty Pwr Ext Cord
+Best Buy: 8-Pin to 8-Pin PCIe VGA Power Cable for Supernova 650 750 850
 Best Buy: 800W FS 48VDC HT PLUG LH POWER
 Best Buy: 850W GQ Power Supply
 Best Buy: 8Pin PCI Express Male To Dual LP4 4Pin Molex IDE Power Cable Adapter
@@ -52,7 +62,10 @@ Best Buy: APC by Schneider Electric Smart-UPS SRT 1500VA 120V
 Best Buy: ARGB Graphics Card GPU Support Addressable Aluminum GPU Video Card Sag Bracket Adjustable Height
 Best Buy: ASUS AP-750G 750W 80+ Gold Power Supply
 Best Buy: ASUS Tuff-Gaming 850-Watt ATX 3.0 Gold Power Supply - Black
+Best Buy: ATX 12x 6Pin Power Supply Breakout Board Adapter with LED Flash Light for Dell Brand PSU and BTC Mining
+Best Buy: ATX 17 X 6Pin Power Supply Breakout Board Adapter Converter 12V
 Best Buy: ATX 24Pin Power Supply Breakout Board Power Module Adapter
+Best Buy: ATX PSU Power Supply Cable 24P to 6P for ProDesk 600 G1 600G1
 Best Buy: ATX Power Supply Breakout Board and Case Kit
 Best Buy: ATX Power Supply Breakout Board with 4 Pin and 6 Pin Power Connector Power Supply Breakout Board Adapter 800W
 Best Buy: Acer 220W Power Supply for Veriton Models B430, B630, X2640, and More - PS-3221-9AB
@@ -122,6 +135,7 @@ Best Buy: Belkin Components Strip X 12inch Cord 6-outlet Power
 Best Buy: Benfei 2 Pack 6-Pin PCIe to 8-Pin PCIe Adapter Power Cable - 4 Inches
 Best Buy: Blue Sea 2002 PowerPost High Amperage Cable Connector 5/16 Stud
 Best Buy: Blue Sea 2019 PowerBar Common BusBar - Dual 3/8 x 16 - 2019
+Best Buy: Blue Sea 2300 150 Ampere Common BusBar 10 x #8-32 Screw Terminal with Cover
 Best Buy: Blue Sea 2510 Terminal Block 30 Ampere 10 Circuit
 Best Buy: Blue Sea 2719 Maxibus Cover f/2127 & 2128
 Best Buy: Blue Sea 2722 DualBus Plus 1/4'' Stud 5 x 10 - 32 Screw Terminal
@@ -133,7 +147,6 @@ Best Buy: Blue Sea 4155 WeatherDeck Toggle Switch
 Best Buy: Blue Sea 4215 Square Format Label Set - 30
 Best Buy: Blue Sea 4216 WeatherDeck Water Resistant Panel Labels - 60
 Best Buy: Blue Sea 4304 WeatherDeck Water Resistant Fuse Panel - 4 Position - Gray
-Best Buy: Blue Sea 4376 WeatherDeck Water Resistant Circuit Breaker Panel - 6 Position - Gray
 Best Buy: Blue Sea 5030 ST Blade Fuse Block w/out Cover - 6 Circuit w/ Negative Bus
 Best Buy: Blue Sea 7039 187 - Series Thermal Circuit Breaker - 50Amp
 Best Buy: Blue Sea 7047 187 - Series Thermal Circuit Breaker - 135Amp
@@ -471,7 +484,6 @@ Best Buy: JR Products 13335 Black SPDT Mini On/Off/On Switch
 Best Buy: JR Products 13445 Black DPDT Mini Mom-On/Off/Mom-On Switch
 Best Buy: Juniper 1600W Power Supply (JPSU-1600-C-AC-AFO)
 Best Buy: Juniper 550W Power Supply (JPSU-550-C-AC-AFO)
-Best Buy: Juniper Proprietary Power Supply (JPSU-150-AC-AFO)
 Best Buy: LENOVO 200-240Vac 260W POWER SUPPLY 00PC765
 Best Buy: LENOVO REDUNDANT POWER SUPPLY 0A89426
 Best Buy: LENOVO THINKSERVER HOT SWAP REDUNDANT POWER SUPPLY - 0A89427
@@ -508,6 +520,7 @@ Best Buy: Lian-Li Cable PW8-1W 8-pin(6+2) SILICONE/TPE Addressable RGB VGA power
 Best Buy: Liebert GXT5 36V External Battery Cabinet
 Best Buy: Liebert GXT5 72V UPS Replacemet Battery
 Best Buy: Liteon PS522106 220W Computer Power Supply for Acer eMachines and Gateway Systems
+Best Buy: M.2(M-Key NVMe 2260) to MINI SAS SFF-8087 Plug and Play Server High Speed Cable 1m
 Best Buy: MAG A1000GL PCIE5 WHITE, USA, 1000W, Fully-Modular, 80 Plus Gold, Standard ++ noise rating power supply, 10-year warranty
 Best Buy: MEDICAL GRADE BDL W/-PWR UNIT / REM / BATT
 Best Buy: MSI GF65 Thin 9sexr-229fr Gaming Laptop DC Power Jack Charging Port Replacement
@@ -515,6 +528,8 @@ Best Buy: MSI GT72 DC Jack Port Replacement for Models 6QD, 6QE, 6QF, and More
 Best Buy: MSI Katana GF66 11UE/GF66 11UG DC Power Jack Cable - K1G-3004100-H39 Replacement
 Best Buy: MikroTik Open Frame PSU PW48V-12V85W
 Best Buy: MoKo Case Fit MacBook Pro 13 2016-2020 M1 Chip Released A2289/A2251/A1989/A1706/A1708, Hard Shell Case Slim PC Protective Co
+Best Buy: Module Power Supply PCIE 8PIN to DC Cable DC5525 Elbow Power Supply Cable Only for Module Power Supply
+Best Buy: Module Power Supply PCIE 8PIN to DC Cable DC5525 Elbow Power Supply Cable for for Module Power Supply
 Best Buy: NETWORK INTERFACE CARD
 Best Buy: NEW APC AP7821 PDU Metered Power Distribution Unit 1U 16A 208/230V 8 outlets. 1 Year Warranty
 Best Buy: NEW Cisco PWR-2821-51-AC-IP POE inline power supply for 2821
@@ -691,6 +706,7 @@ Best Buy: ORSAIR RM1000e Fully Modular Low-Noise ATX Power Supply - ATX 3.0 & PC
 Best Buy: OmniSmart LCD 120V 50/60Hz 1500VA 810W Line-Interactive UPS, Tower, LCD display, USB port, Energy Star V2.0
 Best Buy: Orion 785D Silent Power Supply W/Silent 120mm Fan
 Best Buy: PCIE5.0 Graphics Card Power Supply Adapter Board,1 Pack ATX3.0 12VHPWR 600W 12+4 16P Male to 16P Female UP Angled 180 Degree GPU Power Connector(Black)
+Best Buy: PCIe 6-Pin Male 3-Way Power Cable for Focus -Series M12II PRIME GX TX KM3
 Best Buy: PS-SPD-0500NPCWUS-W
 Best Buy: PS1100W (230V/115V)PLATINUM HS PSU
 Best Buy: Panasonic Battery for CF-20 Mk1
@@ -703,7 +719,6 @@ Best Buy: Pwr+ UL Listed NEMA 5-15P to IEC320C5 Long 6 Ft (1.8 meter) 3 Prong AC
 Best Buy: Pyramid Compact Bench Power Supply 50A Variable Linear AC to DC Converter with Adjustable Voltage, Amp Gauge, Volt Meter & USB Port (PSV500)
 Best Buy: QNAP 300W power supply unit single Delta TS-1273U-RP (PWR-PSU-300W-DT01)
 Best Buy: RACK PDU METERED 208/230V 16A
-Best Buy: RPLMNT BATT CART 130
 Best Buy: Rack PDU 2G Switched ZeroU
 Best Buy: Reliable 155W Power Supply for Dell OPTIPLEX AIO Desktops - Models 3240, 3440, 5250, 5260, 7440
 Best Buy: Reliable 235W Power Supply for Dell OptiPlex 760, 960, 980 SFF - Model D235ES-00
@@ -802,6 +817,7 @@ Best Buy: Tripp Lite Piggyback Power Cord, 13A, 16AWG
 Best Buy: Tripp Lite Protect It! STRIKER 7-Outlet Surge Suppressor
 Best Buy: Tripp Lite SRCOOLNET2LX Remote Power Management Adapter SRCOOLNET2LX
 Best Buy: Tripp Lite Single-Phase ATS/Metered PDU 1U Rack-Mount Power Supply (PDUMH20HVAT)
+Best Buy: Tripp Lite Single-Phase Metered 240V Power Supply (PDUMV30HV)
 Best Buy: Tripp Lite SmartPro 2200VA Tower UPS
 Best Buy: Tripp Lite U428-06N-F USB Data Transfer Cable
 Best Buy: Tripp Lite UPS Replacement Battery Cartridge for select UPS Brands with (1) 12V Battery
@@ -816,6 +832,7 @@ Best Buy: VERTIV Liebert PSA5-1500MT120 10-Outlet Tower UPS (1500VA / 900W)
 Best Buy: VERTIV VP52101 Geist RPDU 6A 20A 120V/208V/230V Power Distribution Unit
 Best Buy: Vertiv Liebert Hot-Swap Internal 9 Ah, 288V Lead-Acid Battery for Liebert GXT4-8000RT208 and GXT4-10000RT208 UPS systems
 Best Buy: Waber-by-Tripp Lite 4-Outlet Industrial Power Strip, 6-ft. Cord, Locking Switch
+Best Buy: Weighted Coiled Keyboard Cable Organizer Rod and Winder, Pink
 Best Buy: Wilson DC/DC 6 volt Power Supply - for amps (801105,801106,801201,801213,801306,804005,804006)
 Best Buy: Xtreme Cables XCP2-1001-BLK 90 watt Universal Laptop Power Adapter with USB Black
 Best Buy: axGear 45W Power Adapter for MagSafe 2 II Macbook Air A1435 A1465 A1436 A1466
