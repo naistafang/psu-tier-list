@@ -35,11 +35,17 @@ const open = new Set();
 
 init();
 
+// The data files change daily. "no-cache" makes the browser check for a newer copy each visit
+// (a quick "not modified" reply when nothing changed) instead of reusing it for 10 minutes.
+function fetchData(url) {
+  return fetch(url, { cache: "no-cache" });
+}
+
 async function init() {
   const [psus, prices, history] = await Promise.all([
-    fetch("data/psus.json").then(r => r.json()),
-    fetch("data/prices.json").then(r => (r.ok ? r.json() : null)).catch(() => null),
-    fetch("data/history.json").then(r => (r.ok ? r.json() : null)).catch(() => null),
+    fetchData("data/psus.json").then(r => r.json()),
+    fetchData("data/prices.json").then(r => (r.ok ? r.json() : null)).catch(() => null),
+    fetchData("data/history.json").then(r => (r.ok ? r.json() : null)).catch(() => null),
   ]);
   HISTORY = history?.prices || {};
   historySince = history?.since || null;
@@ -247,7 +253,9 @@ function update(writeUrl = true) {
     brand: (a, b) => byName(a, b) || byTier(a, b),
     year: (a, b) => (b.p.year || 0) - (a.p.year || 0) || byTier(a, b),
   };
-  view.sort(sorters[f.sort] || sorters.tier);
+  // Whatever the sort, PSUs you can buy (a price at the selected stores) come first.
+  const chosen = sorters[f.sort] || sorters.tier;
+  view.sort((a, b) => !a.offer - !b.offer || chosen(a, b));
 
   for (const th of document.querySelectorAll("th button[data-sort]")) {
     const s = th.dataset.sort;

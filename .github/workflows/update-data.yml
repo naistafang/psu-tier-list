@@ -30,11 +30,15 @@ jobs:
         id: prices
         continue-on-error: true
         run: python scripts/update_prices.py
+      # Catches styles.css/app.js edits made on the GitHub website, which skip the local stamping step.
+      - name: Update file version tags
+        continue-on-error: true
+        run: python scripts/stamp_versions.py
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/
+          git add data/ index.html
           git diff --cached --quiet || git commit -m "Update tier list and prices"
           git push
       - name: Report failed downloads

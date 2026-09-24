@@ -32,6 +32,10 @@ Listings are matched to tier list rows by brand, series name and wattage. The ma
 
 Write a function in `scripts/stores.py` that returns the store's PSU listings as `{sku, name, price, regular, url, seller, marketplace}`, then add it to `STORES`. The site picks up new stores automatically.
 
+## Editing the site
+
+After changing `styles.css` or `app.js`, run `python3 scripts/stamp_versions.py` before committing. It puts a fingerprint of each file into its link in `index.html` (`app.js?v=1a2b3c4d`), so browsers load the new version right away instead of a copy saved up to 10 minutes earlier. The daily Action also runs it, to catch edits made on the GitHub website.
+
 ## Run locally
 
 ```sh
