@@ -226,7 +226,9 @@ function update(writeUrl = true) {
     if (f.modular && p.modular !== f.modular) continue;
     if (f.atx && p.atx !== f.atx) continue;
     if (f.year && !(p.year >= f.year)) continue;
-    if (terms.length && !terms.every(t => p.haystack.includes(t) || p.compact.includes(compact(t)))) continue;
+    // The compact form ("rm850x" vs "RM-x 850W") only helps for terms with letters or digits;
+    // a term of only symbols ("★") would compact to "" and match everything.
+    if (terms.length && !terms.every(t => p.haystack.includes(t) || (compact(t) && p.compact.includes(compact(t))))) continue;
     const offer = bestOffer(p, f);
     if (f.priced && !offer) continue;
     view.push({ p, offer });

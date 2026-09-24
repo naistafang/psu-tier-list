@@ -16,14 +16,18 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+      # Each download is independent: if one fails, the other still runs and its
+      # results are still committed. The job is marked failed at the end so it's noticed.
       - name: Download tier list
+        id: sheet
+        continue-on-error: true
         run: python scripts/update_sheet.py
-      - name: Download Best Buy Canada prices
-        # A price failure shouldn't block the tier list update; the old prices stay in place.
+      - name: Download store prices
+        id: prices
         continue-on-error: true
         run: python scripts/update_prices.py
       - name: Commit changes
@@ -33,3 +37,10 @@ jobs:
           git add data/
           git diff --cached --quiet || git commit -m "Update tier list and prices"
           git push
+      - name: Report failed downloads
+        if: steps.sheet.outcome == 'failure' || steps.prices.outcome == 'failure'
+        run: |
+          echo "Tier list download: ${{ steps.sheet.outcome }}"
+          echo "Price download: ${{ steps.prices.outcome }}"
+          echo "See the step logs above for the cause."
+          exit 1

@@ -11,13 +11,19 @@ import io
 import json
 import re
 import sys
+import time
+import urllib.error
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
 SHEET_ID = "1akCHL7Vhzk_EhrpIGkz8zTEvYfLDcaSpZRB6Xt6JWkc"
 GID = "931697732"
-CSV_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&gid={GID}"
+# Two ways to get the same CSV; the second is tried if the first fails.
+CSV_URLS = [
+    f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&gid={GID}",
+    f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={GID}",
+]
 OUT = Path(__file__).resolve().parent.parent / "data" / "psus.json"
 
 # Column positions in the sheet.
@@ -50,15 +56,30 @@ def slug(s):
 
 
 def fetch_rows():
-    req = urllib.request.Request(CSV_URL, headers={"User-Agent": "Mozilla/5.0"})
-    text = urllib.request.urlopen(req, timeout=60).read().decode("utf-8")
-    return list(csv.reader(io.StringIO(text)))
+    """Download the sheet as CSV rows, trying each URL up to 3 times.
+    On failure, prints what Google actually sent back so the Action log shows the cause."""
+    problems = []
+    for url in CSV_URLS:
+        for attempt in range(1, 4):
+            try:
+                req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+                text = urllib.request.urlopen(req, timeout=60).read().decode("utf-8", "replace")
+                rows = list(csv.reader(io.StringIO(text)))
+                if len(rows) >= 100 and len(rows[0]) >= 18:
+                    return rows
+                problems.append(f"{url} (try {attempt}): got {len(rows)} rows, "
+                                f"{len(rows[0]) if rows else 0} columns; starts with {text[:300]!r}")
+            except urllib.error.HTTPError as e:
+                body = e.read()[:300].decode("utf-8", "replace")
+                problems.append(f"{url} (try {attempt}): HTTP {e.code}; starts with {body!r}")
+            except Exception as e:
+                problems.append(f"{url} (try {attempt}): {e!r}")
+            time.sleep(5 * attempt)
+    sys.exit("Could not download the tier list:\n  " + "\n  ".join(problems))
 
 
 def main():
     rows = fetch_rows()
-    if len(rows) < 100 or len(rows[0]) < 18:
-        sys.exit(f"Unexpected sheet shape: {len(rows)} rows, {len(rows[0]) if rows else 0} columns")
 
     psus, seen_ids = [], {}
     brand = s1 = s2 = s3 = watts = ""
