@@ -1,5 +1,34 @@
 {
-  "_help": "Fix bad price matches by hand. Keys are \"<store>:<store product id>\" (stores: bestbuy, canadacomputers). The product id is the number in the product URL. 'sku' maps a listing to a tier list row id from data/psus.json (with optional 'watts'); 'ignore' lists listings that should never be matched.",
-  "sku": {},
+  "_help": "Fix bad price matches by hand. Keys are \"<store>:<product id>\" with store one of bestbuy, canadacomputers, vuugo, shoprbc. The product id is the number at the end of the product URL (for Vuugo, the last part of the URL). 'sku' maps a listing to a tier list row id from data/psus.json, with optional 'watts'; 'ignore' lists listings that should never be matched.",
+  "sku": {
+    "bestbuy:20009182": {
+      "id": "asrock-steel-legend-gold-sl-g-650-1000w",
+      "watts": 850
+    },
+    "bestbuy:20009168": {
+      "id": "asrock-steel-legend-gold-sl-g-650-1000w",
+      "watts": 1000
+    },
+    "vuugo:asrock-steel-legend-sl-850gw": {
+      "id": "asrock-steel-legend-gold-sl-g-650-1000w",
+      "watts": 850
+    },
+    "vuugo:asrock-steel-legend-sl-1000gw": {
+      "id": "asrock-steel-legend-gold-sl-g-650-1000w",
+      "watts": 1000
+    },
+    "shoprbc:59950605": {
+      "id": "asrock-steel-legend-gold-sl-g-650-1000w",
+      "watts": 850
+    },
+    "shoprbc:59950604": {
+      "id": "asrock-steel-legend-gold-sl-g-650-1000w",
+      "watts": 1000
+    },
+    "shoprbc:60035795": {
+      "id": "asrock-steel-legend-gold-sl-g-1200w",
+      "watts": 1200
+    }
+  },
   "ignore": []
 }

@@ -40,12 +40,14 @@ OPTIONAL_WORDS = {
 STOP_WORDS = {"series", "power", "supply", "psu", "the", "and", "with", "of", "-", "+"}
 
 # Store listings that use a different brand spelling than the tier list.
-EXTRA_BRAND_ALIASES = {"ASUS": {"rog", "tuf"}, "Lian Li": {"lian-li"}, "Antec/Atom": {"antec"}}
+EXTRA_BRAND_ALIASES = {"ASUS": {"rog", "tuf"}, "Lian Li": {"lian-li"}, "Antec/Atom": {"antec"}, "ADATA XPG": {"xpg"}}
 
 def norm(s):
     s = s.lower().replace("™", "").replace("®", "")
     s = re.sub(r"pcie\s+(\d)", r"pcie\1", s)
     s = re.sub(r"atx(\d)", r"atx \1", s)
+    # "Pure Power 13M" -> "13 m", but not volts ("12V") or parts of codes ("12V-2x6").
+    s = re.sub(r"(?<![\w.\-])(\d{1,2})([a-uxyz])(?![\w.\-])", r"\1 \2", s)
     return re.sub(r"[^a-z0-9.+\-]+", " ", s).strip()
 
 
@@ -104,6 +106,9 @@ def score(matcher, n):
             hit = [m for w, m in hits if m]
             # A model code with the wattage inside it (RM850x, PN750M, GX-750) is strong evidence.
             strong = sum(1 for m in hit if re.search(r"\d{3}", m.group(0)))
+            # A hyphenated code like SL-G or PG-G, found with its wattage (SL-850G), names one
+            # series on its own; stores often leave out the series name ("ASRock SL-850G").
+            code = any("-" in w and m and re.search(r"\d{3}", m.group(0)) for w, m in hits)
             cand = {
                 "points": 3 * len(hit) + 3 * strong,
                 "miss": len(hits) - len(hit),
@@ -111,23 +116,33 @@ def score(matcher, n):
                 "bonus": sum(1 for w, r, opt in alt if opt and r.search(n)),
                 "found": len(hit),
                 "strong": strong,
+                "code": code,
             }
             if best is None or (cand["points"] - 2 * cand["miss"], cand["chars"]) > (best["points"] - 2 * best["miss"], best["chars"]):
                 best = cand
         levels.append(best)
     if not any(l["found"] for l in levels):
         return None
-    # Missing a word of the main series name ("Core" in Core GX) costs more than missing a sub-series word.
-    total = sum(l["points"] - (5 if i == 0 else 2) * l["miss"] for i, l in enumerate(levels))
-    if total < 1:
-        return None
+    # Missing a word of the main series name ("Core" in Core GX) costs more than missing a
+    # sub-series word, unless a series-specific model code already pins the listing down.
+    top_cost = 0 if any(l["code"] for l in levels[1:]) else 5
+    total = sum(l["points"] - (top_cost if i == 0 else 2) * l["miss"] for i, l in enumerate(levels))
     # "Leadex VIII" or "Pure Power 13" must not match a row that lacks that generation.
+    # A version like "Focus V4" is softer: a row without it loses 3 points, which drops rows
+    # that only just fit (old Focus rows) but keeps strong fits (Core GX for "Core V2 GX-850").
+    version_mismatch = False
     for alt in matcher["levels"][0]:
         for w, r, opt in alt:
             for m in r.finditer(n):
                 nxt = n[m.end():].split(maxsplit=1)
                 if nxt and nxt[0] != "80" and GENERATION_RE.fullmatch(nxt[0]) and nxt[0] not in matcher["words"]:
-                    return None
+                    if not VERSION_RE.fullmatch(nxt[0]):
+                        return None
+                    version_mismatch = True
+    if version_mismatch:
+        total -= 3
+    if total < 1:
+        return None
     return (total, sum(l["chars"] for l in levels), sum(l["bonus"] for l in levels), matcher["psu"]["year"] or 0)
 
 
@@ -137,7 +152,8 @@ def strongest(regex, n):
     return next((m for m in matches if re.search(r"\d{3}", m.group(0))), matches[0] if matches else None)
 
 
-GENERATION_RE = re.compile(r"ii|iii|iv|vi|vii|viii|ix|xi|xii|\d{1,2}")
+GENERATION_RE = re.compile(r"ii|iii|iv|vi|vii|viii|ix|xi|xii|\d{1,2}|v\d{1,2}")  # VIII, 13, V4
+VERSION_RE = re.compile(r"v\d{1,2}")
 
 
 def listing_watts(name):

@@ -50,7 +50,6 @@ Best Buy: APC by Schneider Electric Replacement Battery Cartridge #163 APCRBC163
 Best Buy: APC by Schneider Electric Smart-UPS 750VA LCD 120V with SmartConnect
 Best Buy: APC by Schneider Electric Smart-UPS SRT 1500VA 120V
 Best Buy: ARGB Graphics Card GPU Support Addressable Aluminum GPU Video Card Sag Bracket Adjustable Height
-Best Buy: ASRock SL-1000GW 1000W 80 PLUS GOLD & Cybenetics PLATINUM Full Modular Power Supply, ATX3.1 & PCIe5.1 Ready with Dual Color 12V-2x6 Cable, 10 Years Warranty, White Edition
 Best Buy: ASUS AP-750G 750W 80+ Gold Power Supply
 Best Buy: ASUS Tuff-Gaming 850-Watt ATX 3.0 Gold Power Supply - Black
 Best Buy: ATX 24Pin Power Supply Breakout Board Power Module Adapter
@@ -818,7 +817,6 @@ Best Buy: VERTIV VP52101 Geist RPDU 6A 20A 120V/208V/230V Power Distribution Uni
 Best Buy: Vertiv Liebert Hot-Swap Internal 9 Ah, 288V Lead-Acid Battery for Liebert GXT4-8000RT208 and GXT4-10000RT208 UPS systems
 Best Buy: Waber-by-Tripp Lite 4-Outlet Industrial Power Strip, 6-ft. Cord, Locking Switch
 Best Buy: Wilson DC/DC 6 volt Power Supply - for amps (801105,801106,801201,801213,801306,804005,804006)
-Best Buy: XPG Core Reactor II Modular PSU: ATX3.0-80 Plus Gold - ATX - Fully Modular Power Supply - 650 Watt
 Best Buy: Xtreme Cables XCP2-1001-BLK 90 watt Universal Laptop Power Adapter with USB Black
 Best Buy: axGear 45W Power Adapter for MagSafe 2 II Macbook Air A1435 A1465 A1436 A1466
 Best Buy: axGear AC DC Power Adapter 5V 2A 4.0 x 1.7 Power Supply Adapter Charger
@@ -845,6 +843,9 @@ Canada Computers: CORSAIR CP-9020276 Power Supply, white
 Canada Computers: CORSAIR Power Supply, -
 Canada Computers: Coolmax I-400 400W ATX Power Supply
 Canada Computers: DeepCool Bronze ATX Power Supply, Black
+Canada Computers: DeepCool PK-D V2 650W Gold ATX Power Supply, Black
+Canada Computers: DeepCool PK-D V2 750W Gold ATX Power Supply, Black
+Canada Computers: DeepCool PK-D V2 850W Gold ATX Power Supply, Black
 Canada Computers: FSP 1000W Platinum ATX Power Supply, Black
 Canada Computers: FSP HA2-550 Bronze ATX Power Supply, Black
 Canada Computers: FSP HA2-650 Bronze ATX Power Supply, Black
@@ -852,8 +853,6 @@ Canada Computers: FSP HA2-750 Bronze ATX Power Supply, Black
 Canada Computers: FSP PS FSP2000-52AGPBI CANNON PRO 2000W 2000W 80+ Gold
 Canada Computers: FSP VITA 80 PLUS Gold Certified ATX Power Supply, Black
 Canada Computers: FSP500-50FDB 500W FLEX ATX 80 + GOLD
-Canada Computers: GIGABYTE GP-AE1000PM PG5 - PCIe5.1 Ready - ATX3.1 - 1000W 80 PLUS Pla
-Canada Computers: GIGABYTE GP-AE850PM PG5 - PCIe5.1 Ready - ATX3.1 - 850W 80 PLUS Plati
 Canada Computers: GIGABYTE GP-P650G 650W Gold ATX Power Supply, Black
 Canada Computers: LIAN LI T-Shape design 1000W ATX V3.1 80+ platinum Full Modular, Whit
 Canada Computers: LIAN LI T-Shape design 1300W ATX V3.1 80+ Platinum Full Modular, Blac
@@ -900,3 +899,49 @@ Vuugo: Cooler Master V Platinum 1600 V2 ATX 3.1 1600W Full Modular Power Supply 
 Vuugo: InWin IP-S Series AU 265W Flex ATX Power Supply - 80 PLUS Bronze Certified - Single +12V Output - 40mm Cooling Fan -  Smart Thermal Control - 1x 24-Pin Main Power - 1x 8 to 4 Pin Power - 2x SATA - 1x Slim SATA (IP-S265AU7-2.CJ712)
 Vuugo: InWin IP-S Series FF 300W TFX Power Supply - TFX 12V V2.5 - Multiple +12V Output - 80mm Cooling Fan - 1x 4-Pin FDD - 1x Peripheral - 3x SATA (IP-S300FF1-0 H)
 Vuugo: Thermaltake Toughpower 1500W Gold Semi-Modular Power Supply - 80 PLUS GOLD Certified - ATX12V V2.3 / EPS12V - 135mm Ultra Quiet Fan - Flat Modular Cables - Dual +12V Rail - 10x PCI-E 6+2-Pin Connectors (PS-TPD-1500MPCGUS-1)
+shopRBC: Antec NeoECO 1000 Watt 80+ Gold Power Supply
+shopRBC: Asus PSU-480W 480W AC / DC DIN Rail Mount Power Suppy
+shopRBC: Asus Pro WS 2200 Watt Platinum Power Supply
+shopRBC: Asus ROG Thor 3000 Titanium III Edition 20 3000 Watt Power Supply
+shopRBC: Chenbro SS-600ES2 600 Watt ATX12V (v2.2) 8cm 80 Plus Bronze PSU
+shopRBC: Fractal Design FD-P-IA3G-100 Ion 3 Gold 1000 Watt 80+ Gold Fully Modular ATX Power Supply
+shopRBC: Fractal Design FD-P-IA3G-101 Ion3 Gold 1000 Watt 80+ Gold Fully Modular ATX Power Supply White
+shopRBC: Fractal Design FD-P-IA3G-750 Ion 3 Gold 750 Watt 80+ Gold Fully Modular ATX Power Supply
+shopRBC: Fractal Design FD-P-IA3G-850 Ion 3 Gold 850 Watt 80+ Gold Fully Modular ATX Power Supply
+shopRBC: Gigabyte 2200 Watt 80+ Platinum Redundant Power Supply
+shopRBC: Gigabyte 25EP0-210000-D0S 1000 Watt 80+ Platinum Power Supply
+shopRBC: Gigabyte 25EP0-22000Q-G1S 2000 Watt 80+ Titanium Server Power Supply
+shopRBC: Gigabyte 25EP0-230009-L0S 3000 Watt AC 8PT REV.X3 Power Supply
+shopRBC: Gigabyte P650G 650 Watt Gold Power Supply
+shopRBC: Gigabyte PG5 650 Watt 80+ Gold Power Supply
+shopRBC: HP 1700 Watt Workstation Power Supply
+shopRBC: In-Win 300 Watt TFX Power Supply For BL Series
+shopRBC: Lian Li G9P 1000 Watt 80 Plus Gold Full Modular Power Supply Black
+shopRBC: Lian Li G9P 1000 Watt 80 Plus Gold Full Modular Power Supply White
+shopRBC: Lian Li G9P 1000 Watt 80 Plus Platinum Full Modular Power Supply Black
+shopRBC: Lian Li G9P 1000 Watt 80 Plus Platinum Full Modular Power Supply White
+shopRBC: Lian Li G9P 1200 Watt 80 Plus Platinum Full Modular Power Supply Black
+shopRBC: Lian Li G9P 1200 Watt 80 Plus Platinum Full Modular Power Supply White
+shopRBC: Lian Li G9P 1350 Watt 80 Plus Platinum Full Modular Power Supply Black
+shopRBC: Lian Li G9P 1350 Watt 80 Plus Platinum Full Modular Power Supply White
+shopRBC: Lian Li G9P 850 Watt 80 Plus Gold Full Modular Power Supply Black
+shopRBC: SeaSonic SS-400ET Bronze 400 Watt ATX12V V2.2/EPS12V 2.91 SLI Ready CrossFire Ready 80 PLUS BRONZE Certified Active PFC Power Supply
+shopRBC: SeaSonic SS-500L1U-WH 1U L1U 500 Watt EPS1U 80+ Fully-Modular Power Supply
+shopRBC: SeaSonic SS-650RS 650 Watt ATX 12V 80+ Gold Non-Modular PSU Bulk Pack
+shopRBC: SeaSonic SSP-1000RS 1000W ATX12V v2.3 80 PLUS GOLD Certified Non-Modular Power Supply
+shopRBC: SeaSonic SSP-250SUB-WH Flex SUB 250 Watt 80+ Bronze Fully-Modular Flex ATX Power Supply
+shopRBC: SeaSonic SSP-300SFB 300 Watt 80 PLUS Bronze SFX 12 V v.2.31 Power Supply w/ Active PFC F3
+shopRBC: SeaSonic SSP-300SUB-WH Flex SUB 300 Watt 80+ Bronze Fully-Modular Flex ATX Power Supply
+shopRBC: SeaSonic SSP-300SUG-WH Flex SUG 300 Watt 80+GD APFC ATX Power Supply
+shopRBC: SeaSonic SSP-350ST2 ET2 350 Watt 80+ Bronze ATX Power Supply
+shopRBC: SeaSonic SSP-400ET2 ET2 400 Watt 80+ Bronze ATX Power Supply
+shopRBC: SeaSonic SSP-500JS JS 500 Watt 80+ Gold ATX Power Supply
+shopRBC: SeaSonic SSP-550SFG 550W 80+ Platinum SFX Fully-Modular ATX Power Supply
+shopRBC: SeaSonic SSP-551FCP5 Flex 550 Watt 80+ Platinum ATX Power Supply
+shopRBC: SeaSonic SSP-600ET2 600 Watt Atx12v (v2.2) 12cm 80 Plus Bronze PSU
+shopRBC: SeaSonic SSP-651FCP5 Flex 650 Watt 80+ Platinum ATX Power Supply
+shopRBC: SeaSonic SSP-750RS 750 Watt ATX12V v2.3 80 PLUS GOLD Certified Non-Modular PSU
+shopRBC: SeaSonic SSP-850RS 850 Watt ATX12V v2.3 80 PLUS GOLD Certified Non-Modular Power Supply
+shopRBC: SeaSonic SUG Flex 300 Watt ATX 80 PLUS Gold Certified Power Supply
+shopRBC: Thermaltake Toughpower 1500 Watt Gold
+shopRBC: be quiet! BN513 Pure Power 1200 Watt 80+ Gold Modular ATX Power Supply Black

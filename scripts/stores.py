@@ -110,9 +110,35 @@ def vuugo():
         time.sleep(1.5)
 
 
+def shoprbc():
+    """shopRBC. Parses the power supply category pages (30 products per page)."""
+    listings, page = [], 1
+    row_re = re.compile(
+        r'product_details\.php\?pid=(\d+)"[^>]*>([^<]+)</a>.*?'
+        r'nowrap="nowrap" style="text-align: right;">\s*(?:<[^>]+>\s*)*\$([\d,]+\.\d\d)', re.S)
+    while True:
+        text = get(f"https://www.shoprbc.com/ca/shop/categoryProducts.php?category=179&rx=&page={page}")
+        for pid, name, price in row_re.findall(text):
+            listings.append({
+                "sku": pid,
+                "name": html.unescape(re.sub(r"\s+", " ", name)).strip(),
+                "price": money(price),
+                "regular": None,
+                "url": f"https://www.shoprbc.com/ca/shop/product_details.php?pid={pid}",
+                "seller": "shopRBC",
+                "marketplace": False,
+            })
+        print(f"  shopRBC page {page}: {len(listings)} listings", file=sys.stderr)
+        if f"page={page + 1}" not in text or page >= 40:
+            return listings
+        page += 1
+        time.sleep(1.5)
+
+
 # key -> (display name, fetch function, minimum listings for a fetch to count as successful)
 STORES = {
     "bestbuy": ("Best Buy", best_buy, 100),
     "canadacomputers": ("Canada Computers", canada_computers, 50),
     "vuugo": ("Vuugo", vuugo, 30),
+    "shoprbc": ("shopRBC", shoprbc, 50),
 }

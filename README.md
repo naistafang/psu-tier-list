@@ -22,7 +22,7 @@ A GitHub Action (`.github/workflows/update-data.yml`) runs daily and commits fre
 | `scripts/update_sheet.py` | `data/psus.json` | The Google Sheet's public CSV export |
 | `scripts/update_prices.py` | `data/prices.json`, `data/history.json` | Every store in `scripts/stores.py` |
 
-Current price sources are **Best Buy Canada**, **Canada Computers** and **Vuugo** (in-stock items only). None of them has an official API, so the scripts read their public product listings. If a store's site changes and its fetch fails, that store's previous prices are kept.
+Current price sources are **Best Buy Canada**, **Canada Computers**, **Vuugo** (in-stock items only) and **shopRBC**. None of them has an official API, so the scripts read their public product listings. If a store's site changes and its fetch fails, that store's previous prices are kept.
 
 `data/history.json` records each model's lowest price across all stores, adding a point only when that price changes, so it grows slowly. The site uses it for the ▲/▼ markers and the price chart.
 
