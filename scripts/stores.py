@@ -12,6 +12,10 @@ import time
 import urllib.parse
 import urllib.request
 
+# Seconds to wait between page requests to the same store. Vuugo's robots.txt asks for at
+# least 2; the same gap is used everywhere to keep the daily run light on every store.
+PAGE_DELAY = 2.5
+
 BROWSER_UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 
 
@@ -51,7 +55,7 @@ def best_buy():
         if page >= (data.get("totalPages") or 1) or page >= 50:
             return listings
         page += 1
-        time.sleep(1.5)
+        time.sleep(PAGE_DELAY)
 
 
 def canada_computers():
@@ -79,7 +83,7 @@ def canada_computers():
         if 'rel="next"' not in text or page >= 20:
             return listings
         page += 1
-        time.sleep(1.5)
+        time.sleep(PAGE_DELAY)
 
 
 def vuugo():
@@ -107,7 +111,7 @@ def vuugo():
         if f'href="?page={page + 1}"' not in text or page >= 40:
             return listings
         page += 1
-        time.sleep(1.5)
+        time.sleep(PAGE_DELAY)
 
 
 def shoprbc():
@@ -132,7 +136,7 @@ def shoprbc():
         if f"page={page + 1}" not in text or page >= 40:
             return listings
         page += 1
-        time.sleep(1.5)
+        time.sleep(PAGE_DELAY)
 
 
 # key -> (display name, fetch function, minimum listings for a fetch to count as successful)
