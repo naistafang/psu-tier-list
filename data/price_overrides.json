@@ -28,6 +28,26 @@
     "shoprbc:60035795": {
       "id": "asrock-steel-legend-gold-sl-g-1200w",
       "watts": 1200
+    },
+    "bestbuy:10499099": {
+      "id": "corsair-rm-x-2015-black-1000w",
+      "watts": 1000
+    },
+    "bestbuy:12293028": {
+      "id": "corsair-rm-x-2015-black-1000w",
+      "watts": 1000
+    },
+    "bestbuy:19508202": {
+      "id": "corsair-rm-x-2021-550-850w",
+      "watts": 750
+    },
+    "bestbuy:15143172": {
+      "id": "corsair-rm-x-2018-v2-black-550-850w",
+      "watts": 850
+    },
+    "bestbuy:19359476": {
+      "id": "corsair-rm-x-shift-2023-750-1200w",
+      "watts": 850
     }
   },
   "ignore": []

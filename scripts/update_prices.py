@@ -26,7 +26,7 @@ from stores import STORES
 DATA = Path(__file__).resolve().parent.parent / "data"
 
 # Listings to ignore entirely.
-SKIP_RE = re.compile(r"refurb|open box|open-box|used|pre-owned|renewed|\bcable\b.*\bkit\b|sleeved cable|extension|tester", re.I)
+SKIP_RE = re.compile(r"refurb|open box|open-box|used|pre-owned|renewed|\bcable\b.*\bkit\b|\bcables? for\b|sleeved cable|extension|tester", re.I)
 
 # Words in a series name that describe a revision rather than name a product.
 # A listing doesn't have to contain them, but gets a small bonus if it does.
