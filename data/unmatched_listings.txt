@@ -97,11 +97,13 @@ Best Buy: Aruba Proprietary Power Supply (JL087AABA)
 Best Buy: Aruba X372 54VDC 1600W 110-240VAC Power Supply JL670A#ABA
 Best Buy: Asus 65W Universal Mini Multi-tip Adapter (4/4.5/5.5 PHI) 90XB013N-MPW000
 Best Buy: Asus ROG DC Power Jack for GL752 Series - Brand New Replacement Part
+Best Buy: Athena Computer Power AP-P4ATX60FE EPS/ATX-12V with Dual Fan 600W
 Best Buy: Axiom AC Adapter
 Best Buy: BELKIN 6 OUTLET POWER STRIP F9D160-12
 Best Buy: BELKIN 6-OUTLET POWER STRIP WITH 5-FOOT RIGHT-ANGLED POWER PLUG, F9P609-05R-DP
 Best Buy: BELKIN 6OUTLET POWER STRIP 3FT CORD 3FT CORD PLASTIC DISP F9P609-03-DP
 Best Buy: BLACK BOX DKM OPTIONAL POWER 4-SLOT CHASSIS (ACXMODH4-PS)
+Best Buy: BLUE SEA 1015 12V DC PLUG AND DASH SOCKET PN 1010 AND 1011
 Best Buy: BLUE SEA 8033 LED AMBER 11-64IN 12VDC
 Best Buy: BLUE SEA 8371 PANEL WATERPROOF CB 12VDC 8 POS
 Best Buy: BLUE SEA SYSTEM 2716 Cover for Busbar 2302 - 130 Amperes
@@ -129,15 +131,18 @@ Best Buy: Blue Sea 4215 Square Format Label Set - 30
 Best Buy: Blue Sea 4216 WeatherDeck Water Resistant Panel Labels - 60
 Best Buy: Blue Sea 4304 WeatherDeck Water Resistant Fuse Panel - 4 Position - Gray
 Best Buy: Blue Sea 5030 ST Blade Fuse Block w/out Cover - 6 Circuit w/ Negative Bus
+Best Buy: Blue Sea 7035 187 - Series Thermal Circuit Breaker - 25Amp
 Best Buy: Blue Sea 7039 187 - Series Thermal Circuit Breaker - 50Amp
 Best Buy: Blue Sea 7047 187 - Series Thermal Circuit Breaker - 135Amp
 Best Buy: Blue Sea 7050 3A Push Button Thermal
+Best Buy: Blue Sea 7135 187 - Series Thermal Circuit Breaker - 25A
 Best Buy: Blue Sea 7141 187 - Series Thermal Circuit Breaker - 70Amp
 Best Buy: Blue Sea 7198 Hi - Amp Circuit Breaker Trim Bezel
 Best Buy: Blue Sea 7200 AC / DC Single Pole Magnetic World Circuit Breaker - 5 Amp
 Best Buy: Blue Sea 7206 AC / DC Single Pole Magnetic World Circuit Breaker - 10 Amp
 Best Buy: Blue Sea 7208 AC / DC Single Pole Magnetic World Circuit Breaker - 15 Amp
 Best Buy: Blue Sea 7216 AC / DC Single Pole Magnetic World Circuit Breaker - 25 Amp
+Best Buy: Blue Sea 7220 AC / DC Single Pole Magnetic World Circuit Breaker - 30 Amp
 Best Buy: Blue Sea 7221 AC / DC Single Pole Magnetic World Circuit Breaker - 30 Amp
 Best Buy: Blue Sea 7237 A-Series Double Pole Toggle - 30A - Black
 Best Buy: Blue Sea 7241 A-Series Double Pole Toggle - 50A - Black
@@ -174,8 +179,8 @@ Best Buy: Cisco 1100W AC Power Supply
 Best Buy: Cisco 1100W Power Supply (PWRC11100WACP)
 Best Buy: Cisco 400W Power Supply (FPR3K-PWR-AC-400)
 Best Buy: Cisco 650W Power Supply (PWR-CC1-650WDC)
-Best Buy: Cisco 715W DC Power Supply
 Best Buy: Cisco 750W AC Power Supply
+Best Buy: Cisco Nexus 1100W AC Power Supply
 Best Buy: Cisco Power Module (PWR-C6-1KWAC=)
 Best Buy: Cisco Power Module (PWR-IE170W-PC-AC=)
 Best Buy: Cisco Power Module - 110 V Ac, 220 V Ac
@@ -197,13 +202,11 @@ Best Buy: Corsair RM RPS0120 Power Supply
 Best Buy: Cougar GX-S550 Compact Power Supply - 80 PLUS Gold
 Best Buy: Cougar POLAR X2 1050 - PSU
 Best Buy: CyberPower Battery Kit
-Best Buy: CyberPower M1100XL Medical UPS Systems - 1100VA/880W, 120 VAC, NEMA 5-15P-HG, Mini-Tower, 6 Outlets, LCD, PowerPanel
 Best Buy: CyberPower OL1500RTXL2UN 1.5KVA Online UPS 2U sine wave LCD 100-125V RMCARD205 RT 3YR WTY
 Best Buy: CyberPower PFC Sine Wave OR1500PFCLCD mini-tower 1500VA 1050W
 Best Buy: CyberPower Professional P3WU 3-Outlet Surge Suppressor/Protector
 Best Buy: CyberPower Smart App Online BP36V60ART2U 1000 and 1500VA UPS External Battery Module
 Best Buy: Cyberpower Systems 1050W Non-Modular Power Supply - (PR1500LCDN)
-Best Buy: Cyberpower Systems 2700W Non-Modular Power Supply - (OL3000RTXL2U)
 Best Buy: Cyberpower Systems Non-Modular Power Supply - (BP72V60ART2U)
 Best Buy: D-Link DPS-700 DPS-700 Redundant Power Supply (DPS-700)
 Best Buy: DELL OPTIPLEX GX270 DIMENSION 3000 250W POWER SUPPLY - Reliable Performance for Your PC Needs
@@ -268,6 +271,7 @@ Best Buy: Dell XPS 375W Power Supply Unit for 400, 410, 420, Precision 9100, 915
 Best Buy: Dell XPS 8900 8910 8920 8300 R5 460W Power Supply GJXN1 - Reliable Performance for Your PC
 Best Buy: Dell XPS 8950 460W Switching Power Supply T63HC - Reliable Power Solution for Your PC
 Best Buy: Delta Electronics 250W Switching Power Supply DPS-250AB-81 A - Reliable Power for Servers and Computers
+Best Buy: Digi AC Power Supply - 5VDC
 Best Buy: Dymo AC Adapter
 Best Buy: EVGA SuperNOVA 850 G5 Power Supply
 Best Buy: Eaton 1000VA UPS Battery Backup - (9PX1000RT)
@@ -324,7 +328,6 @@ Best Buy: Genuine Lenovo 240W Power Supply for ThinkCentre Models A55, M57E, M70
 Best Buy: Genuine Lenovo Ideapad 320 Laptop Battery - 30Wh Replacement for 320-15IAP, 320-17AST, 320-17ABR, 320-17IKB
 Best Buy: Genuine Lenovo ThinkCentre 280W Power Supply for M73, M78, M82, M92, M92p, M93, M93p Models
 Best Buy: Genuine OEM Original Lenovo 100-15IBY YOGA 510-14 310-14 710-13 Flex 4 65W Power Supply
-Best Buy: Globaltone 03546 Shell Injection Molded for Raspberry Pi 2 Pi 3 Model B/B+ Transparent
 Best Buy: HP 180W Computer Power Supply - Compatible with L70042 Models
 Best Buy: HP 180W Computer Power Supply - Model L08261-004 for Select HP Systems
 Best Buy: HP 180W Internal Power Supply for Reliable Performance - Model PCK017 L70042-004
@@ -703,7 +706,6 @@ Best Buy: SCHNEIDER ELECTRIC RACK PDU BASIC 1U 16A 208V (12) C13 (AP9566)
 Best Buy: SCHNEIDER ELECTRIC SMART-UPS SRT 1500VA 120V APC (SRT1500XLA)
 Best Buy: SD Power Strip With Dual USB 6 Outlets 2ft
 Best Buy: SERG 720J 15K CEW 6OUT 6 CORD 360
-Best Buy: SMART UPS SRT 2200VA RM 120V
 Best Buy: SMART-UPS SRT 2200VA 120V TOWER
 Best Buy: SOUNDSTATION2 2.5MM Cell Phone Cable Cell Phone Compatible with 2W
 Best Buy: STARTECH ADD THREE EXTRA SATA POWER OUTLETS TO YOUR POWER SUPPLY SATA POWER SPLITTER CABLE SERIAL ATA POWER SPLITTER SAT
@@ -767,6 +769,7 @@ Best Buy: Thermaltake SP-600AH2NKW Smart SP-600AH2NKW ATX12V & EPS12V Power Supp
 Best Buy: Thermaltake SP-700AH2NKW Smart SP-700AH2NKW ATX12V & EPS12V Power Supply (PSSPD0700NPCWUSW)
 Best Buy: Thermaltake Smart SP-600AH2NKW ATX12V & EPS12V Power Supply
 Best Buy: Thermaltake ToughPower 1500W ATX 100-240V APFC 80+Gold Black (PS-TPD-1500MPCGUS-1)
+Best Buy: Tripp Lite 1440VA UPS Eco Green Battery Back Up AVR 120V USB Energy Star
 Best Buy: Tripp Lite 1U Rack-Mount 120V Power Supply (RS1215-20)
 Best Buy: Tripp Lite 3ft Computer Power Cord Cable 5-15P to C13 Heavy Duty 15A 14AWG 3'
 Best Buy: Tripp Lite 600W Line Conditioner w/ AVR / Surge Protection 120V 5A 60Hz 6 Outlet Power Conditioner
@@ -811,13 +814,23 @@ Best Buy: iFi SilentPower DC Offset Blocker IEC Connector Power Supply Filter
 Best Buy: iFi iPower Low Noise DC Power Supply 12V
 Canada Computers: ASROCK EMT750EWT Power Supply, - Black
 Canada Computers: ASUS 1000W Platinum Full Modular ATX Power Supply
+Canada Computers: ASUS 1200W Platinum Full Modular ATX Power Supply, - Black
 Canada Computers: AZZA 650W Bronze ATX Power Supply, White
 Canada Computers: COOLER MASTER 1600W Platinum ATX Power Supply, Black
 Canada Computers: COOLER MASTER 850W Gold ATX Power Supply, Black
 Canada Computers: CORSAIR 850W Gold ATX Power Supply, White
+Canada Computers: CORSAIR CP-9020253-WW Gold ATX Power Supply, Black
+Canada Computers: CORSAIR CP-9020254-WW Gold ATX Power Supply, Black
+Canada Computers: CORSAIR CP-9020264-NA Gold ATX Power Supply, Black
+Canada Computers: CORSAIR CP-9020274 Gold ATX Power Supply, white
 Canada Computers: CORSAIR CP-9020275 Gold ATX Power Supply, white
 Canada Computers: CORSAIR CP-9020276 Power Supply, white
 Canada Computers: CORSAIR Power Supply, -
+Canada Computers: CORSAIR RM1000e PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable
+Canada Computers: CORSAIR RM1000e PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable
+Canada Computers: CORSAIR RM1000e White PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable - White
+Canada Computers: CORSAIR RM850e PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable
+Canada Computers: CORSAIR RM850e White PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable - White
 Canada Computers: Coolmax I-400 400W ATX Power Supply
 Canada Computers: DeepCool Bronze ATX Power Supply, Black
 Canada Computers: DeepCool PK-D V2 650W Gold ATX Power Supply, Black
@@ -827,6 +840,7 @@ Canada Computers: FSP 1000W Platinum ATX Power Supply, Black
 Canada Computers: FSP HA2-550 Bronze ATX Power Supply, Black
 Canada Computers: FSP HA2-650 Bronze ATX Power Supply, Black
 Canada Computers: FSP HA2-750 Bronze ATX Power Supply, Black
+Canada Computers: FSP HG2-1000 Gold ATX Power Supply, Black
 Canada Computers: FSP PS FSP2000-52AGPBI CANNON PRO 2000W 2000W 80+ Gold
 Canada Computers: FSP VITA 80 PLUS Gold Certified ATX Power Supply, Black
 Canada Computers: FSP500-50FDB 500W FLEX ATX 80 + GOLD
@@ -848,6 +862,7 @@ Canada Computers: SUPERFLOWER 1000W Platinum ATX Power Supply, Black
 Canada Computers: SUPERFLOWER 1700W Titanium ATX Power Supply, Black
 Canada Computers: SUPERFLOWER 850W Gold ATX Power Supply, Black
 Canada Computers: SUPERFLOWER 850W Platinum ATX Power Supply, Black
+Canada Computers: SUPERFLOWER Platinum Full Modular ATX Power Supply, - Black
 Canada Computers: SUPERFLOWER Titanium ATX Power Supply, Black
 Canada Computers: SilverStone 1000W Platinum SFX Power Supply, Black
 Canada Computers: SilverStone 1650W Platinum ATX (PS2) Power Supply, Black
@@ -862,6 +877,7 @@ Canada Computers: Super Flower Leadex VIII SP 850W Power Supply, ATX 3.1 Compati
 Canada Computers: THERMALTAKE Gold Full Modular ATX Power Supply, -
 Canada Computers: THERMALTAKE Gold Full Modular ATX Power Supply, -
 Canada Computers: THERMALTAKE TTP-1050AH2FKG Power Supply, - Black
+Canada Computers: THERMALTAKE TTP-1200AH2FKG Power Supply, - Black
 Canada Computers: THERMALTAKE TTP-750AH2FKG Power Supply, - Black
 Canada Computers: THERMALTAKE Toguhpower SFX Gen 5 ATX 3.0 80+ Gold 1000W Power Supply
 Canada Computers: THERMALTAKE Toguhpower SFX Gen 5 ATX 3.0 80+ Gold 850W Power Supply
