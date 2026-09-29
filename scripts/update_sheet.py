@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download the PSU tier list spreadsheet and write data/psus.json.
+"""Download SPL's tier list spreadsheet and write data/psus.json.
 
 The sheet uses an outline layout: brand and series cells are left blank
 when they repeat the row above, and the series name is split across three
