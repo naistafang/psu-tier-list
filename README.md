@@ -22,7 +22,7 @@ A GitHub Action (`.github/workflows/update-data.yml`) runs daily and commits fre
 | `scripts/update_sheet.py` | `data/psus.json` | The Google Sheet's public CSV export |
 | `scripts/update_prices.py` | `data/prices.json`, `data/history.json` | Every store in `scripts/stores.py` |
 
-Current price sources are **Best Buy Canada**, **Canada Computers**, **Vuugo** (in-stock items only) and **shopRBC**. None of them has an official API, so the scripts read their public product listings. If a store's site changes and its fetch fails, that store's previous prices are kept.
+Current price sources are **Best Buy Canada**, **Canada Computers**, **Vuugo** and **shopRBC**. Only in-stock items are listed: backorders and sold-out items are skipped, and at Canada Computers an item available for in-store pickup counts as in stock. None of them has an official API, so the scripts read their public product listings. If a store's site changes and its fetch fails, that store's previous prices are kept.
 
 `data/history.json` records each model's lowest price across all stores, adding a point only when that price changes, so it grows slowly. The site uses it for the ▲/▼ markers and the price chart.
 
@@ -30,7 +30,7 @@ Listings are matched to tier list rows by brand, series name and wattage. The ma
 
 ### Adding a store
 
-Write a function in `scripts/stores.py` that returns the store's PSU listings as `{sku, name, price, regular, url, seller, marketplace}`, then add it to `STORES`. The site picks up new stores automatically.
+Write a function in `scripts/stores.py` that returns the store's in-stock PSU listings as `{sku, name, price, regular, url, seller, marketplace}`, then add it to `STORES`. The site picks up new stores automatically.
 
 ## Editing the site
 

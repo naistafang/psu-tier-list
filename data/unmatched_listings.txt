@@ -38,8 +38,8 @@ Best Buy: APC BY SCHNEIDER ELECTRIC RM PDU BASIC 1U 208V 16A-12 C13 RCPTLS AP956
 Best Buy: APC Metered Rack AP8881 42-Outlets 11kW PDU
 Best Buy: APC Power Cord Kit (6 Each) Locking 1.2m C19 to C20 (AP8714S)
 Best Buy: APC Power Cord Kit (6 Each) Locking C13 to C14 1.8m (AP8706S-NA)
-Best Buy: APC Power Cord Kit (6 ea), Locking, C13 to C14, 1.2m, North America
 Best Buy: APC Service/Support - 1 Year Extended Warranty - Service
+Best Buy: APC Service/Support - 3 Year Extended Warranty - Service
 Best Buy: APC Smart-UPS 1000VA LCD 120V with SmartConnect
 Best Buy: APC Smart-UPS C 1000VA LCD 120V with SmartConnect
 Best Buy: APC Standard Power Cord
@@ -48,7 +48,6 @@ Best Buy: APC by Schneider Electric Replacement Battery Cartridge #163 APCRBC163
 Best Buy: APC by Schneider Electric Smart-UPS 750VA LCD 120V with SmartConnect
 Best Buy: APC by Schneider Electric Smart-UPS SRT 1500VA 120V
 Best Buy: ASUS AP-750G 750W 80+ Gold Power Supply
-Best Buy: ASUS Tuff-Gaming 850-Watt ATX 3.0 Gold Power Supply - Black
 Best Buy: Acer 220W Power Supply for Veriton Models B430, B630, X2640, and More - PS-3221-9AB
 Best Buy: Acer 65W LCD Monitor AC Adapter Charger for G236HL, G246HL, G276HL Models - Brand New
 Best Buy: Acer Aspire 300W Power Supply Unit FSP300-10TAA for TC-875, TC-895, XC-875, and XC-895 Models
@@ -130,7 +129,6 @@ Best Buy: Blue Sea 4155 WeatherDeck Toggle Switch
 Best Buy: Blue Sea 4215 Square Format Label Set - 30
 Best Buy: Blue Sea 4216 WeatherDeck Water Resistant Panel Labels - 60
 Best Buy: Blue Sea 4304 WeatherDeck Water Resistant Fuse Panel - 4 Position - Gray
-Best Buy: Blue Sea 4376 WeatherDeck Water Resistant Circuit Breaker Panel - 6 Position - Gray
 Best Buy: Blue Sea 5030 ST Blade Fuse Block w/out Cover - 6 Circuit w/ Negative Bus
 Best Buy: Blue Sea 7035 187 - Series Thermal Circuit Breaker - 25Amp
 Best Buy: Blue Sea 7039 187 - Series Thermal Circuit Breaker - 50Amp
@@ -159,7 +157,6 @@ Best Buy: Blue Sea 8230 Water Resistant Contura Switch - Gray
 Best Buy: Blue Sea 8278 Contura Switch Mounting Panel Plug
 Best Buy: Blue Sea 8289 Water Resistant Contura Switch - Black
 Best Buy: Blue Sea 9228 Analog Meter Shunt 50A/50mV
-Best Buy: Blue Sea System 1002 CableClam 0.825
 Best Buy: Blue Sea System 4005 Standard Cable Caps - Red/Black
 Best Buy: Buffalo Americas Plug-in Modular Power Supply - (OP-PU-10R2UWR)
 Best Buy: Buffalo Replacement Power Supply (OP-PU-10R2UWR)
@@ -181,7 +178,6 @@ Best Buy: Cisco 1100W AC Power Supply
 Best Buy: Cisco 1100W Power Supply (PWRC11100WACP)
 Best Buy: Cisco 400W Power Supply (FPR3K-PWR-AC-400)
 Best Buy: Cisco 650W Power Supply (PWR-CC1-650WDC)
-Best Buy: Cisco 750W AC Power Supply
 Best Buy: Cisco Nexus 1100W AC Power Supply
 Best Buy: Cisco Power Module (PWR-C6-1KWAC=)
 Best Buy: Cisco Power Module (PWR-IE170W-PC-AC=)
@@ -214,7 +210,6 @@ Best Buy: D-Link DPS-700 DPS-700 Redundant Power Supply (DPS-700)
 Best Buy: DELL OPTIPLEX GX270 DIMENSION 3000 250W POWER SUPPLY - Reliable Performance for Your PC Needs
 Best Buy: DELL PowerEdge R230 250W Server Power Supply - Model P59VM 9J6JG
 Best Buy: DELL VOSTRO 3470 and OPTIPLEX 3060 200W Power Supply - NF9FK Model
-Best Buy: DPS-1200FB/QB 6 Pin A Power Supply Breakout Board Adapter for Ethereum Mining
 Best Buy: Dell 200W Power Supply for OptiPlex 3060, 5060, 7060 & Vostro 3470 SFF - Model AC200EBS-00
 Best Buy: Dell 240W Power Supply for OPTIPLEX Models 390, 790, 990, 3010, 7010, 9010 - AC240AS-01
 Best Buy: Dell 260W Power Supply for 7080MT, 7070, 7060, and 3050M - Brand New Model J17YJ
@@ -360,14 +355,12 @@ Best Buy: HP Compaq D10-240P2A PC9055 PC9058 PS-4241-9HF 240W SFF Power Supply 5
 Best Buy: HP Compaq DC7700 SFF 240W Power Supply - Model DPS-240FB-2A, Tested and Original
 Best Buy: HP Compaq Pro 6000 6005 6200 6300 6305 240W SFF Power Supply 503375-001 508152-001
 Best Buy: HP Compaq Pro Elite HP-D2402E0 240W SFF Power Supply PC8019 508151-001 508152-001
-Best Buy: HP Compaq dc7100 340W Power Supply - Model PS-5341-4CF, DPS-340CB A, New Condition
 Best Buy: HP D12-240P2A Power Supply - Reliable Replacement for Your PC Needs
 Best Buy: HP DVD±RW DL lightScribe Drive Sourced from Working Laptop 432899-CC0 449935-001
 Best Buy: HP DVD±RW DL lightScribe Drive Sourced from Working Laptop 432899-CC1 448005-001
 Best Buy: HP DVD±RW DL lightScribe Drive Sourced from Working Laptop DVR-K17LB PNR-DVR-K17LB(B)
 Best Buy: HP Elite One 800 G1 All-In-One Power Supply Unit - 200W, Model 702912-001, Brand New
 Best Buy: HP EliteDesk 600 G1 700 G1 800 G1 Compatible Power Supply Unit 702309-002
-Best Buy: HP EliteOne 800 G1 All-in-One PC Power Supply 200W - Model 702912-001, Brand New
 Best Buy: HP JC680A 650W AC Power Supply for A5830, A5820, A5800 Models
 Best Buy: HP POWER SUPPLY PCC004 D12-240P1A D240P2A 702309-002 - Reliable Performance for Your Devices
 Best Buy: HP PRODESK 250W SFF Desktop Power Supply - Model D16-250P1A, G3, G4 Compatible
@@ -408,7 +401,6 @@ Best Buy: High-Performance 180W Power Supply for Dell OptiPlex 3040, Inspiron 32
 Best Buy: High-Performance 180W Power Supply for Dell Optiplex and Inspiron Models
 Best Buy: High-Performance 200W Power Supply for Dell Optiplex 990 and 7010 USFF - Model 6FG9T
 Best Buy: High-Performance 235W Dell OptiPlex Power Supply for SFF Models 780, 760, 580, 960
-Best Buy: High-Performance 240W Dell Optiplex 3040/5040 SFF Power Supply - Model 3RK5T
 Best Buy: High-Performance 250 Watt Power Supply for Dell HP-2507FWP
 Best Buy: High-Performance 260W Power Supply for Dell 7080MT, 7070, 7060, and 3050M Models
 Best Buy: High-Performance 280W Lenovo ThinkCentre Power Supply for M58p, M57p, and M57 Models
@@ -490,7 +482,6 @@ Best Buy: Lenovo 300W Power Supply for M910T, 930T, M4600, M4650, ST50 V2 - 10Pi
 Best Buy: Lenovo 65W AC Adapter (Slim Tip)
 Best Buy: Lenovo 65w USB Type-C AC Adapter (AC Power Cord Included)
 Best Buy: Lenovo 750W Power Supply (4P57A75972)
-Best Buy: Lenovo 800W Power Supply for Thinkserver RD330 RD430 RD440 RD530 RD630 - Model DPS-800RB A
 Best Buy: Lenovo A2 Graphic Card (4X67A81547)
 Best Buy: Lenovo AC Adapter
 Best Buy: Lenovo AC Adapter 4X20M26282
@@ -675,7 +666,6 @@ Best Buy: New HP 633195-001 Bestec FH-ZD221MGR PC Power Supply 220W
 Best Buy: New HP ChromeBook 11-V 11 G5 11G5 DC Power Jack Cable
 Best Buy: New HP DC Power Jack Cable Omen 17-W 17T-W Pavilion 17-AB 17T-AB 120W
 Best Buy: New HP EliteDesk 800 G3 Power Supply 180W 901762-001 913149-001 901763-001
-Best Buy: New HP EliteOne 800 G1 AIO Power Supply 702912-001 733490-001 D12-200P2A
 Best Buy: New HP FH-ZD221MGR DPS-220AB-6 A PS-6221-9 PCA227 PC Power Supply 220W
 Best Buy: New HP Pavilion Envy TouchSmart DC Power Jack Cable 808155-011 808155-013
 Best Buy: New HP Z420 Workstation Power Supply 600W DPS-600UB A 623193-001 632911-001
@@ -706,7 +696,6 @@ Best Buy: Pyramid Compact Bench Power Supply 50A Variable Linear AC to DC Conver
 Best Buy: QNAP 300W power supply unit single Delta TS-1273U-RP (PWR-PSU-300W-DT01)
 Best Buy: RACK PDU METERED 208/230V 16A
 Best Buy: Rack PDU 2G Switched ZeroU
-Best Buy: Reliable 155W Power Supply for Dell OPTIPLEX AIO Desktops - Models 3240, 3440, 5250, 5260, 7440
 Best Buy: Reliable 235W Power Supply for Dell OptiPlex 760, 960, 980 SFF - Model D235ES-00
 Best Buy: Reliable 240W HP ProDesk 400 800 G1/G2 SFF Power Supply for Optimal Performance
 Best Buy: Reliable HP 880 Power Supply Model 901910-003 for Optimal Performance
@@ -721,7 +710,6 @@ Best Buy: SCHNEIDER ELECTRIC RACK PDU BASIC 1U 16A 208V (12) C13 (AP9566)
 Best Buy: SCHNEIDER ELECTRIC SMART-UPS SRT 1500VA 120V APC (SRT1500XLA)
 Best Buy: SD Power Strip With Dual USB 6 Outlets 2ft
 Best Buy: SERG 720J 15K CEW 6OUT 6 CORD 360
-Best Buy: SMART UPS SRT 2200VA RM 120V
 Best Buy: SMART-UPS SRT 2200VA 120V TOWER
 Best Buy: SOUNDSTATION2 2.5MM Cell Phone Cable Cell Phone Compatible with 2W
 Best Buy: STARTECH ADD THREE EXTRA SATA POWER OUTLETS TO YOUR POWER SUPPLY SATA POWER SPLITTER CABLE SERIAL ATA POWER SPLITTER SAT
@@ -827,18 +815,8 @@ Best Buy: eMachines EL1350 EL1350G EL1600 220W Power Supply
 Best Buy: eMachines EL1700 EL1830 EL1832 220W Power Supply
 Best Buy: eMachines ET1352 ET1352G 220W Power Supply
 Best Buy: iFi SilentPower DC Offset Blocker IEC Connector Power Supply Filter
-Best Buy: iFi iPower Low Noise DC Power Supply 12V
-Canada Computers: ASROCK EMT750EWT Power Supply, - Black
 Canada Computers: ASUS 1000W Platinum Full Modular ATX Power Supply
-Canada Computers: ASUS 1200W Platinum Full Modular ATX Power Supply, - Black
-Canada Computers: AZZA 650W Bronze ATX Power Supply, White
-Canada Computers: COOLER MASTER 1600W Platinum ATX Power Supply, Black
-Canada Computers: COOLER MASTER 850W Gold ATX Power Supply, Black
 Canada Computers: CORSAIR 850W Gold ATX Power Supply, White
-Canada Computers: CORSAIR CP-9020253-WW Gold ATX Power Supply, Black
-Canada Computers: CORSAIR CP-9020254-WW Gold ATX Power Supply, Black
-Canada Computers: CORSAIR CP-9020264-NA Gold ATX Power Supply, Black
-Canada Computers: CORSAIR CP-9020274 Gold ATX Power Supply, white
 Canada Computers: CORSAIR CP-9020275 Gold ATX Power Supply, white
 Canada Computers: CORSAIR CP-9020276 Power Supply, white
 Canada Computers: CORSAIR Power Supply, -
@@ -847,23 +825,13 @@ Canada Computers: CORSAIR RM1000e PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x
 Canada Computers: CORSAIR RM1000e White PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable - White
 Canada Computers: CORSAIR RM850e PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable
 Canada Computers: CORSAIR RM850e White PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable - White
-Canada Computers: Coolmax I-400 400W ATX Power Supply
 Canada Computers: DeepCool Bronze ATX Power Supply, Black
-Canada Computers: DeepCool PK-D V2 650W Gold ATX Power Supply, Black
-Canada Computers: DeepCool PK-D V2 750W Gold ATX Power Supply, Black
-Canada Computers: DeepCool PK-D V2 850W Gold ATX Power Supply, Black
 Canada Computers: FSP 1000W Platinum ATX Power Supply, Black
 Canada Computers: FSP HA2-550 Bronze ATX Power Supply, Black
 Canada Computers: FSP HA2-650 Bronze ATX Power Supply, Black
 Canada Computers: FSP HA2-750 Bronze ATX Power Supply, Black
-Canada Computers: FSP HG2-1000 Gold ATX Power Supply, Black
 Canada Computers: FSP PS FSP2000-52AGPBI CANNON PRO 2000W 2000W 80+ Gold
 Canada Computers: FSP VITA 80 PLUS Gold Certified ATX Power Supply, Black
-Canada Computers: FSP500-50FDB 500W FLEX ATX 80 + GOLD
-Canada Computers: GIGABYTE GP-P650G 650W Gold ATX Power Supply, Black
-Canada Computers: LIAN LI T-Shape design 1000W ATX V3.1 80+ platinum Full Modular, Whit
-Canada Computers: LIAN LI T-Shape design 1300W ATX V3.1 80+ Platinum Full Modular, Blac
-Canada Computers: LIAN LI T-Shape design 1300W ATX V3.1 80+ Platinum Full Modular, Whit
 Canada Computers: MSI 1000W 80 PLUS Gold Certified ATX Power Supply, White
 Canada Computers: MSI 650W Bronze ATX Power Supply, Black
 Canada Computers: MSI 750W Bronze ATX Power Supply, Black
@@ -878,29 +846,17 @@ Canada Computers: SUPERFLOWER 1000W Platinum ATX Power Supply, Black
 Canada Computers: SUPERFLOWER 1700W Titanium ATX Power Supply, Black
 Canada Computers: SUPERFLOWER 850W Gold ATX Power Supply, Black
 Canada Computers: SUPERFLOWER 850W Platinum ATX Power Supply, Black
-Canada Computers: SUPERFLOWER Platinum Full Modular ATX Power Supply, - Black
 Canada Computers: SUPERFLOWER Titanium ATX Power Supply, Black
-Canada Computers: SilverStone 1000W Platinum SFX Power Supply, Black
-Canada Computers: SilverStone 1650W Platinum ATX (PS2) Power Supply, Black
 Canada Computers: Silverstone Power Supply HA2050R-PM 2050W ATX Cybenntics Platinum
 Canada Computers: StarTech 450 Watt 80 Plus Gold Power Supply
 Canada Computers: Super Flower Leadex VIII SP 1000W Power Supply, ATX 3.1 Compatible
 Canada Computers: Super Flower Leadex VIII SP 1000W Power Supply, ATX 3.1 Compatible
 Canada Computers: Super Flower Leadex VIII SP 1200W Power Supply, ATX 3.1 Compatible
-Canada Computers: Super Flower Leadex VIII SP 1200W Power Supply, ATX 3.1 Compatible
 Canada Computers: Super Flower Leadex VIII SP 850W Power Supply, ATX 3.1 Compatible
-Canada Computers: Super Flower Leadex VIII SP 850W Power Supply, ATX 3.1 Compatible
-Canada Computers: THERMALTAKE Gold Full Modular ATX Power Supply, -
-Canada Computers: THERMALTAKE Gold Full Modular ATX Power Supply, -
-Canada Computers: THERMALTAKE TTP-1050AH2FKG Power Supply, - Black
-Canada Computers: THERMALTAKE TTP-1200AH2FKG Power Supply, - Black
 Canada Computers: THERMALTAKE TTP-750AH2FKG Power Supply, - Black
-Canada Computers: THERMALTAKE Toguhpower SFX Gen 5 ATX 3.0 80+ Gold 1000W Power Supply
-Canada Computers: THERMALTAKE Toguhpower SFX Gen 5 ATX 3.0 80+ Gold 850W Power Supply
 Canada Computers: be quiet! BP006US Platinum ATX Power Supply, Black
 Canada Computers: be quiet! BP007US Platinum ATX Power Supply, Black
 Canada Computers: be quiet! BP008US Platinum ATX Power Supply, Black
-Canada Computers: be quiet! Pure Power 12 M Gold ATX Power Supply, Black
 Vuugo: ASUS Pro WS 2200W Platinum Workstation Fully Modular Power Supply - 80 PLUS Platinum Certified - ATX 3.1 - Dual-Ball Fan Bearings - 4x PCIe 5.1 12V-2x6 Connectors - 4x PCIe 6+2-pin Connectors (ASUS-PRO-WS-2200P)
 Vuugo: COUGAR GX-S550 550W Compact Power Supply - 80PLUS Gold Certified - ATX12V - 2x 6+2-Pin PCI-E Connectors - DC to DC Technology (31GS055.0004P)
 Vuugo: Cooler Master MWE Gold 850 V3 ATX 3.1 Full Modular Power Supply - 80 PLUS Gold Certified -  ATX 12V Ver. 3.1 -  Active PFC - 120mm HDB Fan - Zero-RPM Mode - 1x 12V-2X6 Cable - 4x PCI-E 6+2-pin Connectors (MPX-8503-AFAG-2BUV)
@@ -908,49 +864,4 @@ Vuugo: Cooler Master V Platinum 1600 V2 ATX 3.1 1600W Full Modular Power Supply 
 Vuugo: InWin IP-S Series AU 265W Flex ATX Power Supply - 80 PLUS Bronze Certified - Single +12V Output - 40mm Cooling Fan -  Smart Thermal Control - 1x 24-Pin Main Power - 1x 8 to 4 Pin Power - 2x SATA - 1x Slim SATA (IP-S265AU7-2.CJ712)
 Vuugo: InWin IP-S Series FF 300W TFX Power Supply - TFX 12V V2.5 - Multiple +12V Output - 80mm Cooling Fan - 1x 4-Pin FDD - 1x Peripheral - 3x SATA (IP-S300FF1-0 H)
 Vuugo: Thermaltake Toughpower 1500W Gold Semi-Modular Power Supply - 80 PLUS GOLD Certified - ATX12V V2.3 / EPS12V - 135mm Ultra Quiet Fan - Flat Modular Cables - Dual +12V Rail - 10x PCI-E 6+2-Pin Connectors (PS-TPD-1500MPCGUS-1)
-shopRBC: Antec NeoECO 1000 Watt 80+ Gold Power Supply
-shopRBC: Asus PSU-480W 480W AC / DC DIN Rail Mount Power Suppy
 shopRBC: Asus Pro WS 2200 Watt Platinum Power Supply
-shopRBC: Asus ROG Thor 3000 Titanium III Edition 20 3000 Watt Power Supply
-shopRBC: Chenbro SS-600ES2 600 Watt ATX12V (v2.2) 8cm 80 Plus Bronze PSU
-shopRBC: Fractal Design FD-P-IA3G-100 Ion 3 Gold 1000 Watt 80+ Gold Fully Modular ATX Power Supply
-shopRBC: Fractal Design FD-P-IA3G-101 Ion3 Gold 1000 Watt 80+ Gold Fully Modular ATX Power Supply White
-shopRBC: Fractal Design FD-P-IA3G-750 Ion 3 Gold 750 Watt 80+ Gold Fully Modular ATX Power Supply
-shopRBC: Fractal Design FD-P-IA3G-850 Ion 3 Gold 850 Watt 80+ Gold Fully Modular ATX Power Supply
-shopRBC: Gigabyte 2200 Watt 80+ Platinum Redundant Power Supply
-shopRBC: Gigabyte 25EP0-210000-D0S 1000 Watt 80+ Platinum Power Supply
-shopRBC: Gigabyte 25EP0-22000Q-G1S 2000 Watt 80+ Titanium Server Power Supply
-shopRBC: Gigabyte 25EP0-230009-L0S 3000 Watt AC 8PT REV.X3 Power Supply
-shopRBC: Gigabyte P650G 650 Watt Gold Power Supply
-shopRBC: Gigabyte PG5 650 Watt 80+ Gold Power Supply
-shopRBC: HP 1700 Watt Workstation Power Supply
-shopRBC: In-Win 300 Watt TFX Power Supply For BL Series
-shopRBC: Lian Li G9P 1000 Watt 80 Plus Gold Full Modular Power Supply Black
-shopRBC: Lian Li G9P 1000 Watt 80 Plus Gold Full Modular Power Supply White
-shopRBC: Lian Li G9P 1000 Watt 80 Plus Platinum Full Modular Power Supply Black
-shopRBC: Lian Li G9P 1000 Watt 80 Plus Platinum Full Modular Power Supply White
-shopRBC: Lian Li G9P 1200 Watt 80 Plus Platinum Full Modular Power Supply Black
-shopRBC: Lian Li G9P 1200 Watt 80 Plus Platinum Full Modular Power Supply White
-shopRBC: Lian Li G9P 1350 Watt 80 Plus Platinum Full Modular Power Supply Black
-shopRBC: Lian Li G9P 1350 Watt 80 Plus Platinum Full Modular Power Supply White
-shopRBC: Lian Li G9P 850 Watt 80 Plus Gold Full Modular Power Supply Black
-shopRBC: SeaSonic SS-400ET Bronze 400 Watt ATX12V V2.2/EPS12V 2.91 SLI Ready CrossFire Ready 80 PLUS BRONZE Certified Active PFC Power Supply
-shopRBC: SeaSonic SS-500L1U-WH 1U L1U 500 Watt EPS1U 80+ Fully-Modular Power Supply
-shopRBC: SeaSonic SS-650RS 650 Watt ATX 12V 80+ Gold Non-Modular PSU Bulk Pack
-shopRBC: SeaSonic SSP-1000RS 1000W ATX12V v2.3 80 PLUS GOLD Certified Non-Modular Power Supply
-shopRBC: SeaSonic SSP-250SUB-WH Flex SUB 250 Watt 80+ Bronze Fully-Modular Flex ATX Power Supply
-shopRBC: SeaSonic SSP-300SFB 300 Watt 80 PLUS Bronze SFX 12 V v.2.31 Power Supply w/ Active PFC F3
-shopRBC: SeaSonic SSP-300SUB-WH Flex SUB 300 Watt 80+ Bronze Fully-Modular Flex ATX Power Supply
-shopRBC: SeaSonic SSP-300SUG-WH Flex SUG 300 Watt 80+GD APFC ATX Power Supply
-shopRBC: SeaSonic SSP-350ST2 ET2 350 Watt 80+ Bronze ATX Power Supply
-shopRBC: SeaSonic SSP-400ET2 ET2 400 Watt 80+ Bronze ATX Power Supply
-shopRBC: SeaSonic SSP-500JS JS 500 Watt 80+ Gold ATX Power Supply
-shopRBC: SeaSonic SSP-550SFG 550W 80+ Platinum SFX Fully-Modular ATX Power Supply
-shopRBC: SeaSonic SSP-551FCP5 Flex 550 Watt 80+ Platinum ATX Power Supply
-shopRBC: SeaSonic SSP-600ET2 600 Watt Atx12v (v2.2) 12cm 80 Plus Bronze PSU
-shopRBC: SeaSonic SSP-651FCP5 Flex 650 Watt 80+ Platinum ATX Power Supply
-shopRBC: SeaSonic SSP-750RS 750 Watt ATX12V v2.3 80 PLUS GOLD Certified Non-Modular PSU
-shopRBC: SeaSonic SSP-850RS 850 Watt ATX12V v2.3 80 PLUS GOLD Certified Non-Modular Power Supply
-shopRBC: SeaSonic SUG Flex 300 Watt ATX 80 PLUS Gold Certified Power Supply
-shopRBC: Thermaltake Toughpower 1500 Watt Gold
-shopRBC: be quiet! BN513 Pure Power 1200 Watt 80+ Gold Modular ATX Power Supply Black

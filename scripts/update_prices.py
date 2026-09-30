@@ -101,9 +101,15 @@ def score(matcher, n):
     levels = []
     for alts in matcher["levels"]:
         best = None
+        coded = any("-" in w and not opt for alt in alts for w, r, opt in alt)
         for alt in alts:
             hits = [(w, strongest(r, n)) for w, r, opt in alt if not opt]
             hit = [m for w, m in hits if m]
+            # "Modular Gold (M-G)": the spelled-out name is all revision words, so on its own it
+            # would fit any listing. Since the part also has a model code, each of those words missing
+            # counts against the row: "PRO-750G ... Gold" is not the Pro Modular Gold.
+            unnamed = coded and not hits
+            missing = sum(1 for w, r, opt in alt if not r.search(n)) if unnamed else 0
             # A model code with the wattage inside it (RM850x, PN750M, GX-750) is strong evidence.
             strong = sum(1 for m in hit if re.search(r"\d{3}", m.group(0)))
             # A hyphenated code like SL-G or PG-G, found with its wattage (SL-850G), names one
@@ -111,7 +117,7 @@ def score(matcher, n):
             code = any("-" in w and m and re.search(r"\d{3}", m.group(0)) for w, m in hits)
             cand = {
                 "points": 3 * len(hit) + 3 * strong,
-                "miss": len(hits) - len(hit),
+                "miss": len(hits) - len(hit) + missing,
                 "chars": sum(len(w) for w, m in hits if m),
                 "bonus": sum(1 for w, r, opt in alt if opt and r.search(n)),
                 "found": len(hit),
