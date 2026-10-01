@@ -26,7 +26,7 @@ Current price sources are **Best Buy Canada**, **Canada Computers**, **Vuugo** a
 
 `data/history.json` records each model's lowest price across all stores, adding a point only when that price changes, so it grows slowly. The site uses it for the ▲/▼ markers and the price chart.
 
-Listings are matched to tier list rows by brand, series name and wattage. The matching is approximate: several PSU generations often share a name, and the matcher assumes the newest one. Listings it couldn't match go to `data/unmatched_listings.txt`. To fix a wrong match, add it to `data/price_overrides.json`.
+Listings are matched to tier list rows by brand, series name and wattage. The matching is approximate: several PSU generations often share a name. When a listing fits more than one row, the matcher prefers the row whose specs agree with what the listing states (80 Plus rating, including a model code suffix like the G in PQ750G; modularity; ATX version; SFX or ATX), then the North American version over EU or 230V-only units, then the newest one. Listings it couldn't match go to `data/unmatched_listings.txt`. To fix a wrong match, add it to `data/price_overrides.json`.
 
 ### Adding a store
 

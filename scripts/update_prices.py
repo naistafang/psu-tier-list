@@ -82,6 +82,12 @@ def part_alternatives(part):
     return [[(w, word_re(w), w in OPTIONAL_WORDS) for w in alt] for alt in alts if alt]
 
 
+def miss_weight(word):
+    """A missing year ("HX-i 2023") is weaker evidence against a row than a missing product word
+    ("HX-i Shift"): stores rarely say which year's revision they sell."""
+    return 0.5 if re.fullmatch(r"(19|20)\d\d", word) else 1
+
+
 def build_matchers(psus):
     by_brand = {}
     for p in psus:
@@ -117,7 +123,7 @@ def score(matcher, n):
             code = any("-" in w and m and re.search(r"\d{3}", m.group(0)) for w, m in hits)
             cand = {
                 "points": 3 * len(hit) + 3 * strong,
-                "miss": len(hits) - len(hit) + missing,
+                "miss": sum(miss_weight(w) for w, m in hits if not m) + missing,
                 "chars": sum(len(w) for w, m in hits if m),
                 "bonus": sum(1 for w, r, opt in alt if opt and r.search(n)),
                 "found": len(hit),
@@ -182,6 +188,48 @@ def watts_ok(psu, w):
     return any(lo <= w <= hi for lo, hi in spec["ranges"])
 
 
+RATINGS = {"titanium": "T", "platinum": "P", "gold": "G", "silver": "S", "bronze": "B"}
+RATING_RE = re.compile(r"(?<!cybenetics )\b(titanium|platinum|gold|silver|bronze)\b")
+# A model code with a suffix after the wattage: PQ750G, PSAZ-1000P, STRIX 850G, A650BN.
+CODE_SUFFIX_RE = re.compile(r"(?<![a-z0-9])(?:[a-z]{1,5}-?\s?)?\d{3,4}([a-z]{1,2})(?![a-z0-9])")
+
+
+def listing_specs(n):
+    """What a normalized listing name says about the unit: 80 Plus rating, modularity, form factor.
+    Only what it states outright; the rest is left out."""
+    specs = {}
+    suffixes = {m.group(1) for m in CODE_SUFFIX_RE.finditer(n)} - {"w", "mm", "v", "hz", "a", "k"}
+    plus = re.search(r"80\s?(?:plus|\+)\s?(titanium|platinum|gold|silver|bronze)", n)
+    loose = RATING_RE.search(n)
+    if plus or loose:
+        specs["eff"] = RATINGS[(plus or loose).group(1)]
+    elif re.search(r"80\s?(?:plus|\+)\s?(?:white|standard|certified)", n):
+        specs["eff"] = "W"
+    elif len(suffixes & {"g", "p", "b", "t"}) == 1:
+        specs["eff"] = (suffixes & {"g", "p", "b", "t"}).pop().upper()
+    if re.search(r"non[\s-]?modular", n):
+        specs["modular"] = "No"
+    elif re.search(r"semi[\s-]?modular", n):
+        specs["modular"] = "Semi"
+    elif re.search(r"full(?:y)?[\s-]?modular", n):
+        specs["modular"] = "Full"
+    if re.search(r"atx\s?3|pcie\s?5|12v-?2x6|12vhpwr", n):
+        specs["atx"] = "ATX 3.x"
+    elif re.search(r"atx\s?12v\s?v?2\.|atx\s?2\.", n):
+        specs["atx"] = "ATX 2.x"
+    specs["sfx"] = bool(re.search(r"\bsfx\b", n))
+    return specs, suffixes
+
+
+def spec_fit(psu, specs):
+    """How many stated specs the row agrees with, minus how many it contradicts."""
+    fit = 0
+    for key in ("eff", "modular", "atx"):
+        if key in specs and psu[key]:
+            fit += 1 if specs[key] == psu[key] else -1
+    return fit
+
+
 def match(product, brands, matchers):
     name = product["name"]
     n = norm(name)
@@ -192,13 +240,29 @@ def match(product, brands, matchers):
     w = listing_watts(name)
     if not w:
         return None, None
+    specs, suffixes = listing_specs(n)
+    # The suffix of a model code names a sub-series: PQ750G is the PQ "G", not the PQ "M".
+    scored = f"{n} {' '.join(sorted(suffixes))}" if suffixes else n
     best, best_key = None, None
     for m in matchers.get(brand, []):
-        if not watts_ok(m["psu"], w):
+        psu = m["psu"]
+        if not watts_ok(psu, w):
             continue
-        key = score(m, n)
-        if key and (best_key is None or key > best_key):
-            best, best_key = m["psu"], key
+        key = score(m, scored)
+        if not key:
+            continue
+        total = key[0]
+        # SFX units are almost always sold as SFX; an ATX row for an SFX listing (or the reverse) is a poor fit.
+        if psu["size"] in ("SFX", "SFX-L") and not specs["sfx"] or psu["size"] == "ATX" and specs["sfx"]:
+            total -= 3
+            if total < 1:
+                continue
+        # Ties go to the row whose specs agree with the listing, then to the North American version
+        # (Canadian stores don't sell 230V-only or EU units), then to the newest row.
+        north_american = psu["input"] != "230V" and not re.search(r"\beu\b", " ".join(psu["series"]).lower())
+        key = (total, key[1], spec_fit(psu, specs), north_american, key[2], key[3])
+        if best_key is None or key > best_key:
+            best, best_key = psu, key
     return best, w
 
 

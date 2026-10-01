@@ -48,6 +48,42 @@
     "bestbuy:19359476": {
       "id": "corsair-rm-x-shift-2023-750-1200w",
       "watts": 850
+    },
+    "bestbuy:12293025": {
+      "id": "corsair-cx-m-2013-green-label-750-850w",
+      "watts": 750
+    },
+    "bestbuy:10632983": {
+      "id": "corsair-cx-m-2013-green-label-750-850w",
+      "watts": 750
+    },
+    "bestbuy:13704152": {
+      "id": "corsair-cx-m-2017-gray-label-450-550-650w",
+      "watts": 650
+    },
+    "canadacomputers:215084": {
+      "id": "asus-rog-thor-platinum-ii-1000-1200w",
+      "watts": 1000
+    },
+    "bestbuy:14503682": {
+      "id": "cooler-master-mwe-gold-modular-550-850w",
+      "watts": 750
+    },
+    "bestbuy:15264112": {
+      "id": "fsp-fortron-sparkle-hydro-g-pro-850-1000w",
+      "watts": 850
+    },
+    "bestbuy:15325037": {
+      "id": "fsp-fortron-sparkle-hydro-ptm-pro-850-1000-1200w",
+      "watts": 850
+    },
+    "bestbuy:12293037": {
+      "id": "thermaltake-smart-white-label-430-700w",
+      "watts": 600
+    },
+    "bestbuy:16610756": {
+      "id": "cooler-master-mwe-v2-gold-full-mod-550-850w",
+      "watts": 850
     }
   },
   "ignore": []
