@@ -38,8 +38,8 @@ Best Buy: APC BY SCHNEIDER ELECTRIC RM PDU BASIC 1U 208V 16A-12 C13 RCPTLS AP956
 Best Buy: APC Metered Rack AP8881 42-Outlets 11kW PDU
 Best Buy: APC Power Cord Kit (6 Each) Locking 1.2m C19 to C20 (AP8714S)
 Best Buy: APC Power Cord Kit (6 Each) Locking C13 to C14 1.8m (AP8706S-NA)
+Best Buy: APC Power Cord Kit (6 ea), Locking, C13 to C14, 1.2m, North America
 Best Buy: APC Service/Support - 1 Year Extended Warranty - Service
-Best Buy: APC Service/Support - 3 Year Extended Warranty - Service
 Best Buy: APC Smart-UPS 1000VA LCD 120V with SmartConnect
 Best Buy: APC Smart-UPS C 1000VA LCD 120V with SmartConnect
 Best Buy: APC Standard Power Cord
@@ -129,6 +129,7 @@ Best Buy: Blue Sea 4155 WeatherDeck Toggle Switch
 Best Buy: Blue Sea 4215 Square Format Label Set - 30
 Best Buy: Blue Sea 4216 WeatherDeck Water Resistant Panel Labels - 60
 Best Buy: Blue Sea 4304 WeatherDeck Water Resistant Fuse Panel - 4 Position - Gray
+Best Buy: Blue Sea 4376 WeatherDeck Water Resistant Circuit Breaker Panel - 6 Position - Gray
 Best Buy: Blue Sea 5030 ST Blade Fuse Block w/out Cover - 6 Circuit w/ Negative Bus
 Best Buy: Blue Sea 7035 187 - Series Thermal Circuit Breaker - 25Amp
 Best Buy: Blue Sea 7039 187 - Series Thermal Circuit Breaker - 50Amp
@@ -157,6 +158,7 @@ Best Buy: Blue Sea 8230 Water Resistant Contura Switch - Gray
 Best Buy: Blue Sea 8278 Contura Switch Mounting Panel Plug
 Best Buy: Blue Sea 8289 Water Resistant Contura Switch - Black
 Best Buy: Blue Sea 9228 Analog Meter Shunt 50A/50mV
+Best Buy: Blue Sea System 1002 CableClam 0.825
 Best Buy: Blue Sea System 4005 Standard Cable Caps - Red/Black
 Best Buy: Buffalo Americas Plug-in Modular Power Supply - (OP-PU-10R2UWR)
 Best Buy: Buffalo Replacement Power Supply (OP-PU-10R2UWR)
@@ -182,6 +184,7 @@ Best Buy: Cisco Nexus 1100W AC Power Supply
 Best Buy: Cisco Power Module (PWR-C6-1KWAC=)
 Best Buy: Cisco Power Module (PWR-IE170W-PC-AC=)
 Best Buy: Cisco Power Module - 110 V Ac, 220 V Ac
+Best Buy: Cisco Power Supply
 Best Buy: Cisco Power Supply
 Best Buy: Cisco Power Supply
 Best Buy: Cisco Power Supply (PWRC5125WAC)
@@ -245,10 +248,16 @@ Best Buy: Dell Optiplex 3040 5040 7040 and Inspiron 3650 3656 180W Switching Pow
 Best Buy: Dell Optiplex 3050 7050 3668 MT 360W Power Supply - Reliable Replacement L360EBM-00
 Best Buy: Dell Optiplex 3050 7050 3668 MT 360W Power Supply H360EGM-00 for Reliable Performance
 Best Buy: Dell Optiplex 3060 Vostro 3470 200W Power Supply MNRC2 - Reliable & Efficient
+Best Buy: Dell Optiplex 3080 5080 7080 SFF Power Supply - 200W, Model 5TVM5, Brand New
+Best Buy: Dell Optiplex 3080 SFF Power Supply 200W - Model K92TW - Reliable Performance for Your Desktop
 Best Buy: Dell Optiplex 365W Power Supply for Models 3020, 7020, 9020 & Precision T1700
 Best Buy: Dell Optiplex 7060 7070 H360EGM-00 360W Power Supply for Reliable Performance
 Best Buy: Dell Optiplex 7080 MT 260W Power Supply - Model T5K83, Brand New, Reliable Performance
 Best Buy: Dell Optiplex 7080 MT Power Supply 260W - Model 2KG1D, Brand New, 2kg
+Best Buy: Dell Optiplex 7080 SFF 200W Power Supply - Model 0664DM for Reliable Performance
+Best Buy: Dell Optiplex 7080 SFF 200W Power Supply - Model 0K92TW for Reliable Performance
+Best Buy: Dell Optiplex 7080 SFF 200W Power Supply Unit - Model HJ34C, 0HJ34C for Reliable Performance
+Best Buy: Dell Optiplex 7080 SFF Power Supply 200W - Model 0VFXXF, Brand New, High Efficiency
 Best Buy: Dell Optiplex 7090 300W Power Supply - Model 352NR, Brand New
 Best Buy: Dell Optiplex 7090 300W Power Supply - Model 63HW7, Brand New Performance Upgrade
 Best Buy: Dell Optiplex 7090 Tower 300 Watt Power Supply - Reliable Performance and Compatibility
@@ -500,7 +509,6 @@ Best Buy: Lian Li RS 1200W Rotational Shift Fully Modular ATX Power Supply (W/ U
 Best Buy: Lian-Li AC LANCOOL II-1X Vertical GPU kit for LANCOOL II-X and LANCOOL II-W
 Best Buy: Lian-Li Cable PW8-1W 8-pin(6+2) SILICONE/TPE Addressable RGB VGA power cable Retail
 Best Buy: Liebert GXT5 36V External Battery Cabinet
-Best Buy: Liebert GXT5 72V UPS Replacemet Battery
 Best Buy: Liteon PS522106 220W Computer Power Supply for Acer eMachines and Gateway Systems
 Best Buy: MAG A1000GL PCIE5 WHITE, USA, 1000W, Fully-Modular, 80 Plus Gold, Standard ++ noise rating power supply, 10-year warranty
 Best Buy: MEDICAL GRADE BDL W/-PWR UNIT / REM / BATT
@@ -552,6 +560,7 @@ Best Buy: New Dell Optiplex / Precision MDT Desktop Power Supply 290W RVTHD
 Best Buy: New Dell Optiplex 1VCY4 4GVWP 6YWW7 KG1G0 C0G5T K650T USFF Power Supply 6FG9T
 Best Buy: New Dell Optiplex 3050 3060 3070 5060 7050 7060 7070 200W Power Supply H200EBS-00 8C0JV
 Best Buy: New Dell Optiplex 3050 5050 7050 240W Power Supply 5WNDJ DK87P 05WNDJ 22M8Y
+Best Buy: New Dell Optiplex 3080 5080 7080 SFF 200W Power Supply L200EBS-00 AC200EBS-01 HU200EBS-01 H200EBS-01
 Best Buy: New Dell Optiplex GX520 GX620 SFF 275W 24 PIN Power Supply N275P-00 H275P-00 N275P-01
 Best Buy: New Dell Optiplex H290AM-00 D290A001L L290AM-00 L290AM-01 PS-3291-1DF H290EM-00 Power Supply RVTHD
 Best Buy: New Dell Optiplex KG1G0 M178R L200EU-00 PS-3201-9DA USFF Power Supply 6FG9T
@@ -665,6 +674,7 @@ Best Buy: New HP 633195-001 Bestec FH-ZD221MGR PC Power Supply 220W
 Best Buy: New HP ChromeBook 11-V 11 G5 11G5 DC Power Jack Cable
 Best Buy: New HP DC Power Jack Cable Omen 17-W 17T-W Pavilion 17-AB 17T-AB 120W
 Best Buy: New HP EliteDesk 800 G3 Power Supply 180W 901762-001 913149-001 901763-001
+Best Buy: New HP EliteOne 800 G1 AIO Power Supply 702912-001 733490-001 D12-200P2A
 Best Buy: New HP FH-ZD221MGR DPS-220AB-6 A PS-6221-9 PCA227 PC Power Supply 220W
 Best Buy: New HP Pavilion Envy TouchSmart DC Power Jack Cable 808155-011 808155-013
 Best Buy: New HP Z420 Workstation Power Supply 600W DPS-600UB A 623193-001 632911-001
@@ -709,6 +719,7 @@ Best Buy: SCHNEIDER ELECTRIC RACK PDU BASIC 1U 16A 208V (12) C13 (AP9566)
 Best Buy: SCHNEIDER ELECTRIC SMART-UPS SRT 1500VA 120V APC (SRT1500XLA)
 Best Buy: SD Power Strip With Dual USB 6 Outlets 2ft
 Best Buy: SERG 720J 15K CEW 6OUT 6 CORD 360
+Best Buy: SMART UPS SRT 2200VA RM 120V
 Best Buy: SMART-UPS SRT 2200VA 120V TOWER
 Best Buy: SOUNDSTATION2 2.5MM Cell Phone Cable Cell Phone Compatible with 2W
 Best Buy: STARTECH ADD THREE EXTRA SATA POWER OUTLETS TO YOUR POWER SUPPLY SATA POWER SPLITTER CABLE SERIAL ATA POWER SPLITTER SAT
@@ -816,6 +827,8 @@ Best Buy: eMachines ET1352 ET1352G 220W Power Supply
 Best Buy: iFi SilentPower DC Offset Blocker IEC Connector Power Supply Filter
 Canada Computers: ASUS 1000W Platinum Full Modular ATX Power Supply
 Canada Computers: CORSAIR 850W Gold ATX Power Supply, White
+Canada Computers: CORSAIR CP-9020263-NA Gold ATX Power Supply, Black
+Canada Computers: CORSAIR CP-9020264-NA Gold ATX Power Supply, Black
 Canada Computers: CORSAIR CP-9020275 Gold ATX Power Supply, white
 Canada Computers: CORSAIR CP-9020276 Power Supply, white
 Canada Computers: CORSAIR Power Supply, -
@@ -858,7 +871,6 @@ Canada Computers: be quiet! BP007US Platinum ATX Power Supply, Black
 Canada Computers: be quiet! BP008US Platinum ATX Power Supply, Black
 Vuugo: ASUS Pro WS 2200W Platinum Workstation Fully Modular Power Supply - 80 PLUS Platinum Certified - ATX 3.1 - Dual-Ball Fan Bearings - 4x PCIe 5.1 12V-2x6 Connectors - 4x PCIe 6+2-pin Connectors (ASUS-PRO-WS-2200P)
 Vuugo: COUGAR GX-S550 550W Compact Power Supply - 80PLUS Gold Certified - ATX12V - 2x 6+2-Pin PCI-E Connectors - DC to DC Technology (31GS055.0004P)
-Vuugo: Cooler Master MWE Gold 850 V3 ATX 3.1 Full Modular Power Supply - 80 PLUS Gold Certified -  ATX 12V Ver. 3.1 -  Active PFC - 120mm HDB Fan - Zero-RPM Mode - 1x 12V-2X6 Cable - 4x PCI-E 6+2-pin Connectors (MPX-8503-AFAG-2BUV)
 Vuugo: Cooler Master V Platinum 1600 V2 ATX 3.1 1600W Full Modular Power Supply - 80 PLUS Platinum Certified - 135mm zero-RPM Fan - Dual PCIe 5.1 90° 12V-2x6 Cables - 5x PCIe 6+2-Pin Connectors (MPZ-G002-AFAP-BUS)
 Vuugo: InWin IP-S Series AU 265W Flex ATX Power Supply - 80 PLUS Bronze Certified - Single +12V Output - 40mm Cooling Fan -  Smart Thermal Control - 1x 24-Pin Main Power - 1x 8 to 4 Pin Power - 2x SATA - 1x Slim SATA (IP-S265AU7-2.CJ712)
 Vuugo: InWin IP-S Series FF 300W TFX Power Supply - TFX 12V V2.5 - Multiple +12V Output - 80mm Cooling Fan - 1x 4-Pin FDD - 1x Peripheral - 3x SATA (IP-S300FF1-0 H)
