@@ -76,6 +76,7 @@ async function init() {
   for (const p of DATA) {
     p.display = displaySeries(p);
     p.name = [p.brand, ...p.display].join(" ");
+    p.label = wattageName(p);
   }
   // Double-sourced units (same model, different factory) get their OEM shown to tell them apart.
   const seen = new Map();
@@ -303,6 +304,99 @@ function displaySeries(p) {
     word => modelWord(p, word, p.wattage) || word));
 }
 
+// How manufacturers write the wattage into a model name. Most put it after the model and before any
+// revision notes ("Hydro PTM Pro 1000W ATX 3.0", "Pure Power 12 M 850W"); these brands do it differently.
+const WATTAGE_STYLE = {
+  "ASUS": { ratingAfter: true },                   // ROG Thor 1000W Platinum II
+  "Thermaltake": { ratingAfter: true },            // Toughpower Grand RGB 850W Gold
+  "EVGA": { before: true },                        // SuperNOVA 850 G6
+  "Seasonic": { code: "-" },                       // Focus GX-850, Prime TX-1000
+  "AZZA": { code: "-" },                           // PSAZ-850
+  "Corsair": { code: "" },                         // CX650, SF750
+  "Antec/Atom": { code: "" },                      // HCG850, NE750
+  "DeepCool (GamerStorm)": { code: "" },           // PQ850G, PX1300P
+  "Lian Li": { code: "" },                         // SP750, EG1000
+  "Cooler Master": {                               // MWE Gold 850 V2, V850 Gold V2, XG850 Plus Platinum
+    unit: "",
+    lines: {
+      'V-Series "Vanguard"': "V{w}", "XG": "XG{w}", "G Gold": "G{w} Gold", "B V2": "B{w} V2",
+      // Elite NEX N500, PN600 Peak, W500; the plain Elite NEX falls through to "Elite NEX 500".
+      "Elite NEX": (parts, w) => parts.length > 1 &&
+        parts.map(s => s.replace(/^(N|PN)\b/, `$1${w}`).replace(/\(W\)/, `W${w}`)),
+    },
+  },
+  "NZXT": { lines: { "C Series": "C{w}", "E Series": "E{w}" } },  // C850 Gold
+};
+// Words that begin the part of a name after the model: revisions, years, ATX versions, regions, colours.
+const TAIL_WORD = /^(?:[("].*|v\d.*|ver\.?|version|rev\.?|revision|(?:19|20)\d\d.*|atx\d.*|230v|eu|us|global|asia|north|retail|oem|swap|original|old|new|standard|premium|white|black|snow|gr[ae]y|green|label|gen\d|full|fully|non|semi|modular|mod\.?|non-modular|semi-modular|fully-modular)$/i;
+const RATING_WORD = /^(?:bronze|silver|gold|platinum|titanium)$/i;
+// Upper-case words that look like model codes but aren't.
+const NOT_A_CODE = new Set(["ATX", "SFX", "RGB", "ARGB", "OEM", "SI", "EU", "US", "II", "III", "IV", "VI", "VII", "VIII",
+  "IX", "PC", "PRO", "MAX", "IO", "LED", "SE", "PSU", "EVO"]);
+
+// The series parts with the wattage written in the manufacturer's style: "Focus · GX-850 · V4 ATX 3.1".
+function wattageName(p) {
+  const parts = p.display, w = p.wattage;
+  if (!w || !parts.length || parts.some(s => s.includes(String(w)))) return parts;
+  const style = WATTAGE_STYLE[p.brand] || {};
+  const line = style.lines?.[parts[0]];
+  if (typeof line === "string") return [line.replace("{w}", w), ...parts.slice(1)];
+  const custom = line && line(parts, w);
+  if (custom) return custom;
+  // "WD · -K" is the sheet's way of writing WD600K: the wattage goes where the hyphen is.
+  const hyphen = parts.findIndex((s, i) => i > 0 && /^-[A-Z]+\b/.test(s) && /^[A-Z]{1,4}$/.test(parts[i - 1]));
+  if (hyphen > 0) {
+    const [suffix, ...rest] = parts[hyphen].split(" ");
+    return [...parts.slice(0, hyphen - 1), [parts[hyphen - 1] + w + suffix.slice(1), ...rest].join(" "),
+      ...parts.slice(hyphen + 1)];
+  }
+
+  const tokens = parts.map(s => s.split(" "));
+  const isTail = (t, next) => TAIL_WORD.test(t.replace(/,$/, "")) || (/^atx$/i.test(t) && /^\d/.test(next || "")) ||
+    (style.ratingAfter && RATING_WORD.test(t));
+  // The model name ends at the first tail word. The first part is the series name ("MWE V2",
+  // "Power Zone 2"), so when there are more parts the search starts after it, except for a
+  // note in brackets ("S (H1 Case Included PSU)").
+  let end = null;
+  search: for (let i = 0; i < parts.length; i++) {
+    for (let j = i === 0 ? 1 : 0; j < tokens[i].length; j++) {
+      const t = tokens[i][j];
+      const tail = i === 0 && parts.length > 1 ? /^\([^)]*$/.test(t) : isTail(t, tokens[i][j + 1]);
+      if (tail) { end = [i, j]; break search; }
+    }
+  }
+  if (!end) end = [parts.length - 1, tokens[parts.length - 1].length];
+  else if (end[1] === 0) end = [end[0] - 1, tokens[end[0] - 1].length];
+  const join = () => tokens.map(ts => ts.join(" ")).filter(Boolean);
+
+  if (style.code != null) {
+    // The last model code in the name, or one given in brackets: "Prime · Titanium (TX)".
+    let at = null;
+    tokens.forEach((ts, i) => ts.forEach((t, j) => {
+      const inName = i < end[0] || (i === end[0] && j < end[1]);
+      const m = t.match(/^\(?([A-Z][A-Z0-9]{1,5})\)?$/) || t.match(/^\(([A-Z])\)$/);
+      if (m && !NOT_A_CODE.has(m[1]) && (inName || /^\(.*\)$/.test(t))) at = [i, j, m[1]];
+    }));
+    if (at) {
+      const [i, j, code] = at;
+      // A one-letter part right after the code is its suffix: "PQ · G" is the PQ850G.
+      let suffix = "";
+      const next = tokens[i + 1];
+      if (j === tokens[i].length - 1 && next && /^-?[A-Z]$/.test(next[0])) {
+        suffix = next.shift().replace("-", "");
+        // What's left of that part ("(Platinum)") stays with the model: "SP850P (Platinum)".
+        if (/^\(/.test(next[0] || "")) tokens[i].push(...next.splice(0));
+      }
+      tokens[i][j] = `${code}${style.code}${w}${suffix}`;
+      return join();
+    }
+  }
+  const [i, j] = end;
+  if (style.before) tokens[i].unshift(String(w));
+  else tokens[i].splice(j, 0, `${w}${style.unit ?? "W"}`);
+  return join();
+}
+
 // Wattages for one sheet row. Listed ones ("650/750W") are exact. For a range ("550-850W") the
 // sheet doesn't say which models exist, so we take the ends, the usual 100W steps up to 850W,
 // the usual sizes above that, and any wattage a store actually sells; the guesses are marked estimated.
@@ -348,7 +442,7 @@ function render() {
     tr.setAttribute("aria-expanded", String(open.has(p.key)));
     tr.innerHTML = `
       <td class="c-tier"><span class="tier tier-${tierGroup(p.grade)}" title="${p.limited ? "Limited confidence rating" : ""}">${esc(p.tier)}</span></td>
-      <td class="c-name"><button class="star" type="button" data-key="${esc(p.key)}" aria-pressed="${favorites.has(p.key)}" aria-label="${favorites.has(p.key) ? "Remove from" : "Add to"} favorites" title="Favorite">${STAR_ICON}</button><span class="brand">${esc(p.brand)}</span> <span class="series">${esc(p.display.join(" · ") || "—")}</span>${p.showOdm ? ` <span class="muted small">(made by ${esc(p.odm)})</span>` : ""}</td>
+      <td class="c-name"><button class="star" type="button" data-key="${esc(p.key)}" aria-pressed="${favorites.has(p.key)}" aria-label="${favorites.has(p.key) ? "Remove from" : "Add to"} favorites" title="Favorite">${STAR_ICON}</button><span class="brand">${esc(p.brand)}</span> <span class="series">${esc(p.label.join(" · ") || "—")}</span>${p.showOdm ? ` <span class="muted small">(made by ${esc(p.odm)})</span>` : ""}</td>
       <td class="c-watts" data-label="Wattage"><b>${p.wattage ? `${p.wattage}W` : "—"}</b>${p.estimated ? `<span class="est" title="Inferred from the range ${esc(p.watts)} on the tier list">?</span>` : ""}${effBadge(p, "m-only")}</td>
       <td class="c-year" data-label="Year">${p.year ?? "—"}</td>
       <td class="c-spec" data-label="Size">${esc(p.size || "—")}</td>
