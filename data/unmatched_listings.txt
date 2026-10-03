@@ -292,7 +292,6 @@ Best Buy: Dell XPS 8950 460W Switching Power Supply T63HC - Reliable Power Solut
 Best Buy: Delta Electronics 250W Switching Power Supply DPS-250AB-81 A - Reliable Power for Servers and Computers
 Best Buy: Digi AC Power Supply - 5VDC
 Best Buy: Dymo AC Adapter
-Best Buy: EVGA SuperNOVA 850 G5 Power Supply
 Best Buy: Eaton 1000VA UPS Battery Backup - (9PX1000RT)
 Best Buy: Eaton 5S UPS
 Best Buy: Eaton 5SC UPS
@@ -310,7 +309,6 @@ Best Buy: Extreme Networks 960W Power Supply (ISW-AC-DC-PS-960W)
 Best Buy: Extreme Networks Summit 715W AC PSU FB (10951)
 Best Buy: Extreme Networks Summit 715w Ac Psu Fb - 715 W
 Best Buy: Fractal Design Ion+ 560P Power Supply
-Best Buy: Fractal Design Ion+ 660P Power Supply
 Best Buy: Funcool USB 3.1 Type C Power Adapter 61W Charger For Apple Macbook Laptop Power Supply
 Best Buy: G-Shape Smart Wake-Up Light Alarm Clock with Bluetooth Speaker & Wireless Charging, App-Controlled Sound and Lighting
 Best Buy: GPU VGA PCIe 8 Pin U Turn 180 Degree Angle Connector Power Adapter Board for Desktop Graphics Card-Standard Type 2 Pack-re
@@ -721,7 +719,6 @@ Best Buy: SCHNEIDER ELECTRIC RACK PDU BASIC 1U 16A 208V (12) C13 (AP9566)
 Best Buy: SCHNEIDER ELECTRIC SMART-UPS SRT 1500VA 120V APC (SRT1500XLA)
 Best Buy: SD Power Strip With Dual USB 6 Outlets 2ft
 Best Buy: SERG 720J 15K CEW 6OUT 6 CORD 360
-Best Buy: SMART UPS SRT 2200VA RM 120V
 Best Buy: SMART-UPS SRT 2200VA 120V TOWER
 Best Buy: SOUNDSTATION2 2.5MM Cell Phone Cable Cell Phone Compatible with 2W
 Best Buy: STARTECH ADD THREE EXTRA SATA POWER OUTLETS TO YOUR POWER SUPPLY SATA POWER SPLITTER CABLE SERIAL ATA POWER SPLITTER SAT
@@ -750,7 +747,6 @@ Best Buy: StarTech TX3 Fan Power Splitter Cable
 Best Buy: Startech 3feet Computer Power Cord C19 to C20 (PXTC19C20143)
 Best Buy: Supermicro 1U 1000W Redundant Power Supplies with Pus (PWS-1K05A-1R)
 Best Buy: Supermicro 1U 1000W Redundant Titanium Level 96% with Pus (PWS-1K03A-1R)
-Best Buy: Supermicro 1U 2000W Redundant 80 Plus PLATINUM 73.5mm (PWS-2K03P-1R)
 Best Buy: Supermicro 1U 340W Multi Output 24pin 80+ Platinum (PWS-341P-1H)
 Best Buy: Supermicro 1U 920W Redundant with Quiet Mode (PWS-920P-SQ)
 Best Buy: Supermicro 1U Redundant PUS GOLD EFFICIENCY 54.5MM (PWS-704P-1R)
@@ -785,6 +781,7 @@ Best Buy: Thermaltake SP-600AH2NKW Smart SP-600AH2NKW ATX12V & EPS12V Power Supp
 Best Buy: Thermaltake SP-700AH2NKW Smart SP-700AH2NKW ATX12V & EPS12V Power Supply (PSSPD0700NPCWUSW)
 Best Buy: Thermaltake Smart SP-600AH2NKW ATX12V & EPS12V Power Supply
 Best Buy: Thermaltake ToughPower 1500W ATX 100-240V APFC 80+Gold Black (PS-TPD-1500MPCGUS-1)
+Best Buy: Tripp Lite 12-Outlet Vertical Power Supply (PS361206)
 Best Buy: Tripp Lite 1440VA UPS Eco Green Battery Back Up AVR 120V USB Energy Star
 Best Buy: Tripp Lite 1U Rack-Mount 120V Power Supply (RS1215-20)
 Best Buy: Tripp Lite 3ft Computer Power Cord Cable 5-15P to C13 Heavy Duty 15A 14AWG 3'
