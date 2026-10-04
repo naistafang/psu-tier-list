@@ -187,8 +187,6 @@ Best Buy: Cisco Power Module (PWR-C6-1KWAC=)
 Best Buy: Cisco Power Module (PWR-IE170W-PC-AC=)
 Best Buy: Cisco Power Module - 110 V Ac, 220 V Ac
 Best Buy: Cisco Power Supply
-Best Buy: Cisco Power Supply
-Best Buy: Cisco Power Supply
 Best Buy: Cisco Power Supply (PWRC5125WAC)
 Best Buy: Cisco Proprietary Power Supply
 Best Buy: Cisco Standard Power Cord
@@ -225,6 +223,7 @@ Best Buy: Dell 360W Power Supply for G5 5090, XPS 8940, and Optiplex 7080 - H360
 Best Buy: Dell 360W Power Supply for G5 5090, XPS 8940, and Optiplex 7080 - Reliable and Efficient
 Best Buy: Dell 360W Power Supply for OptiPlex 7060, 5060, 7080MT - Model HU360EBM-00
 Best Buy: Dell 750W Power Supply for POWEREDGE R630, R730, R730xd, T430, T630 - E750E-S1 Model
+Best Buy: Dell Alienware Precision P211H Computer Power Supply Wiring Harness
 Best Buy: Dell Inspiron 3470 200W Power Supply - Reliable Replacement for Your Computer
 Best Buy: Dell Inspiron 3470 200W Power Supply H200NS-00 for Reliable Performance
 Best Buy: Dell Inspiron 3647 220W Power Supply Unit - L220NS-01, Model 89XW5, Brand New
@@ -292,9 +291,9 @@ Best Buy: Dell XPS 8950 460W Switching Power Supply T63HC - Reliable Power Solut
 Best Buy: Delta Electronics 250W Switching Power Supply DPS-250AB-81 A - Reliable Power for Servers and Computers
 Best Buy: Digi AC Power Supply - 5VDC
 Best Buy: Dymo AC Adapter
+Best Buy: EPower 600W ATX12V 2.3 Single 120mm Cooling Fan (EP-600PM)
 Best Buy: Eaton 1000VA UPS Battery Backup - (9PX1000RT)
 Best Buy: Eaton 5S UPS
-Best Buy: Eaton 5SC UPS
 Best Buy: Eaton 5SC UPS
 Best Buy: Eaton ePDU Metered 8-Outlet PDU
 Best Buy: Extech 382213 Digital Triple Output DC Power Supply
@@ -368,6 +367,7 @@ Best Buy: HP D12-240P2A Power Supply - Reliable Replacement for Your PC Needs
 Best Buy: HP DVD±RW DL lightScribe Drive Sourced from Working Laptop 432899-CC0 449935-001
 Best Buy: HP DVD±RW DL lightScribe Drive Sourced from Working Laptop 432899-CC1 448005-001
 Best Buy: HP DVD±RW DL lightScribe Drive Sourced from Working Laptop DVR-K17LB PNR-DVR-K17LB(B)
+Best Buy: HP ENVY 15-AC 15T-AC LaptopDc Jack Cable 813945-001
 Best Buy: HP Elite One 800 G1 All-In-One Power Supply Unit - 200W, Model 702912-001, Brand New
 Best Buy: HP EliteDesk 600 G1 700 G1 800 G1 Compatible Power Supply Unit 702309-002
 Best Buy: HP JC680A 650W AC Power Supply for A5830, A5820, A5800 Models
@@ -471,7 +471,6 @@ Best Buy: JR Products 12611-5 Labeled 12V Ivory Switch - Pack of 5
 Best Buy: JR Products 12825 Black DPDT Mom-On Off Mom-On Switch
 Best Buy: JR Products 12835 White DPDT Mom-On Off Mom-On Switch
 Best Buy: JR Products 13335 Black SPDT Mini On/Off/On Switch
-Best Buy: JR Products 13445 Black DPDT Mini Mom-On/Off/Mom-On Switch
 Best Buy: Juniper 1600W Power Supply (JPSU-1600-C-AC-AFO)
 Best Buy: Juniper 550W Power Supply (JPSU-550-C-AC-AFO)
 Best Buy: Juniper Proprietary Power Supply (JPSU-150-AC-AFO)
@@ -672,6 +671,7 @@ Best Buy: New Genuine eMachines EL1852 EL1852G EL1870 Computer Power Supply 220W
 Best Buy: New Genuine eMachines L1200 L1210 L1320 L1700 Computer Power Supply 220W
 Best Buy: New HP 633195-001 Bestec FH-ZD221MGR PC Power Supply 220W
 Best Buy: New HP ChromeBook 11-V 11 G5 11G5 DC Power Jack Cable
+Best Buy: New HP DC Power Cable 8-Pin 676707-FD1 727757-001 676707-SD1 676707-YD1
 Best Buy: New HP DC Power Jack Cable Omen 17-W 17T-W Pavilion 17-AB 17T-AB 120W
 Best Buy: New HP EliteDesk 800 G3 Power Supply 180W 901762-001 913149-001 901763-001
 Best Buy: New HP EliteOne 800 G1 AIO Power Supply 702912-001 733490-001 D12-200P2A
@@ -782,7 +782,6 @@ Best Buy: Thermaltake SP-700AH2NKW Smart SP-700AH2NKW ATX12V & EPS12V Power Supp
 Best Buy: Thermaltake Smart SP-600AH2NKW ATX12V & EPS12V Power Supply
 Best Buy: Thermaltake ToughPower 1500W ATX 100-240V APFC 80+Gold Black (PS-TPD-1500MPCGUS-1)
 Best Buy: Tripp Lite 12-Outlet Vertical Power Supply (PS361206)
-Best Buy: Tripp Lite 1440VA UPS Eco Green Battery Back Up AVR 120V USB Energy Star
 Best Buy: Tripp Lite 1U Rack-Mount 120V Power Supply (RS1215-20)
 Best Buy: Tripp Lite 3ft Computer Power Cord Cable 5-15P to C13 Heavy Duty 15A 14AWG 3'
 Best Buy: Tripp Lite 600W Line Conditioner w/ AVR / Surge Protection 120V 5A 60Hz 6 Outlet Power Conditioner
@@ -798,7 +797,6 @@ Best Buy: Tripp Lite SRCOOLNET2LX Remote Power Management Adapter SRCOOLNET2LX
 Best Buy: Tripp Lite Single-Phase ATS/Metered PDU 1U Rack-Mount Power Supply (PDUMH20HVAT)
 Best Buy: Tripp Lite Single-Phase Metered 240V Power Supply (PDUMV30HV)
 Best Buy: Tripp Lite SmartPro 2200VA Tower UPS
-Best Buy: Tripp Lite U428-06N-F USB Data Transfer Cable
 Best Buy: Tripp Lite UPS Replacement Battery Cartridge for select UPS Brands with (1) 12V Battery
 Best Buy: Tripp Lite USB 3.0 SuperSpeed A/A Cable (M/M), Black, 6 ft
 Best Buy: Tripp Lite Universal Reversible USB 2.0 Hi-Speed Cable
