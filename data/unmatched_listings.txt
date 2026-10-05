@@ -343,9 +343,7 @@ Best Buy: Genuine Lenovo 240W Power Supply for ThinkCentre Models A55, M57E, M70
 Best Buy: Genuine Lenovo Ideapad 320 Laptop Battery - 30Wh Replacement for 320-15IAP, 320-17AST, 320-17ABR, 320-17IKB
 Best Buy: Genuine Lenovo ThinkCentre 280W Power Supply for M73, M78, M82, M92, M92p, M93, M93p Models
 Best Buy: Genuine OEM Original Lenovo 100-15IBY YOGA 510-14 310-14 710-13 Flex 4 65W Power Supply
-Best Buy: HP 180W Computer Power Supply - Compatible with L70042 Models
 Best Buy: HP 180W Computer Power Supply - Model L08261-004 for Select HP Systems
-Best Buy: HP 180W Internal Power Supply for Reliable Performance - Model PCK017 L70042-004
 Best Buy: HP 180W Power Supply D13-180N1A for Reliable PC Performance
 Best Buy: HP 240W EliteDesk SFF Power Supply 702309-002
 Best Buy: HP 250W Small Form Factor Power Supply - Model D16-250P1A, EPA92 Certified
@@ -471,6 +469,7 @@ Best Buy: JR Products 12611-5 Labeled 12V Ivory Switch - Pack of 5
 Best Buy: JR Products 12825 Black DPDT Mom-On Off Mom-On Switch
 Best Buy: JR Products 12835 White DPDT Mom-On Off Mom-On Switch
 Best Buy: JR Products 13335 Black SPDT Mini On/Off/On Switch
+Best Buy: JR Products 13445 Black DPDT Mini Mom-On/Off/Mom-On Switch
 Best Buy: Juniper 1600W Power Supply (JPSU-1600-C-AC-AFO)
 Best Buy: Juniper 550W Power Supply (JPSU-550-C-AC-AFO)
 Best Buy: Juniper Proprietary Power Supply (JPSU-150-AC-AFO)
@@ -821,7 +820,6 @@ Best Buy: eMachines EL1331 EL1331G EL1332 EL1332G 220W Power Supply
 Best Buy: eMachines EL1350 EL1350G EL1600 220W Power Supply
 Best Buy: eMachines EL1700 EL1830 EL1832 220W Power Supply
 Best Buy: eMachines ET1352 ET1352G 220W Power Supply
-Best Buy: iFi SilentPower DC Offset Blocker IEC Connector Power Supply Filter
 Canada Computers: ASUS 1000W Platinum Full Modular ATX Power Supply
 Canada Computers: CORSAIR 850W Gold ATX Power Supply, White
 Canada Computers: CORSAIR CP-9020263-NA Gold ATX Power Supply, Black
