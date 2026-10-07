@@ -1,6 +1,5 @@
 Best Buy: 0.5m Network RJ45 8p8c Waterproof Connector RJ45 Male to Female Cable Panel Mount D Type CAT6A RJ45 Connect Socket
 Best Buy: 1 PC PSU ATX 24-Pin Female to Dual PCI-E 6-Pin Male Power Adapter
-Best Buy: 1-PACK RGB Gaming Headset Stand, With Sound Reactive Music Sync Ambient Light, App & Remote Control, LED Desk Atmosphere Lamp for PC, TV & Party
 Best Buy: 10 Dual 4-Pin Molex to 8-Pin PCI Adapter Cables
 Best Buy: 10 Pcs 2 Molex 4 Pin to 8-Pin PCI Converter Cable-Molex Adapter Cord
 Best Buy: 10 Pcs 4 Pin IDE Molex to 6 Pin Power Cable GPU Graphic Card
@@ -63,6 +62,7 @@ Best Buy: APC by Schneider Electric Smart-UPS 750VA LCD 120V with SmartConnect
 Best Buy: APC by Schneider Electric Smart-UPS SRT 1500VA 120V
 Best Buy: ARGB Graphics Card GPU Support Addressable Aluminum GPU Video Card Sag Bracket Adjustable Height
 Best Buy: ASUS AP-750G 750W 80+ Gold Power Supply
+Best Buy: ASUS Tuff-Gaming 850-Watt ATX 3.0 Gold Power Supply - Black
 Best Buy: ATX 12x 6Pin Power Supply Breakout Board Adapter with LED Flash Light for Dell Brand PSU and BTC Mining
 Best Buy: ATX 12x6Pin Power Supply Breakout Board Adapter with Flash LED for HP 733428-101 720620-B21 830272-B21 ETH/BTC Mining
 Best Buy: ATX 17 X 6Pin Power Supply Breakout Board Adapter Converter 12V
@@ -109,6 +109,7 @@ Best Buy: American Power Conversion AP8641 Pdu2G Switch 0U 30A 200-208V 21C13 3C
 Best Buy: Antec 650W 80+ Bronze Non-Modular ATX Power Supply - Black
 Best Buy: Antec CSK750DC 750W Non Modular 80 Plus Bronzen Power Supply
 Best Buy: Apple ADP-185BFT 185W Power Supply for iMac 21.5" Models A1418
+Best Buy: Apple iMac 27 A1419 300W Power Supply PA-1311-2A - Reliable and Efficient
 Best Buy: Apple iMac A1312 Power Supply 310W 614-0446 614-0476 614-0501
 Best Buy: Apple iMac A1312 Power Supply 310W 661-5310 661-5468 661-5972
 Best Buy: Apple iMac A1312 Power Supply 310W ADP-310AF B PA-2311-02A
@@ -136,11 +137,9 @@ Best Buy: Battery Doctor 20530 On & off LED Illuminated 20-Amp Orange Rocker for
 Best Buy: Battery Doctor 20531 On & off Illuminated 20-Amp Amber Rocker for 12 x 30 mm. Slot
 Best Buy: Battery Doctor 20532 On & off Illuminated 20-Amp Red Rocker for 12 x 30 mm. Slot
 Best Buy: Battery Doctor 21020 Side-Terminal Battery Wrench
-Best Buy: Belkin 6-Outlets Power Strip
 Best Buy: Belkin Components Strip X 12inch Cord 6-outlet Power
 Best Buy: Benfei 2 Pack 6-Pin PCIe to 8-Pin PCIe Adapter Power Cable - 4 Inches
 Best Buy: Blue Sea 2002 PowerPost High Amperage Cable Connector 5/16 Stud
-Best Buy: Blue Sea 2019 PowerBar Common BusBar - Dual 3/8 x 16 - 2019
 Best Buy: Blue Sea 2138 Medium Duty Push Button Reset - Only - 15A - 2138
 Best Buy: Blue Sea 2300 150 Ampere Common BusBar 10 x #8-32 Screw Terminal with Cover
 Best Buy: Blue Sea 2510 Terminal Block 30 Ampere 10 Circuit
@@ -154,7 +153,6 @@ Best Buy: Blue Sea 4155 WeatherDeck Toggle Switch
 Best Buy: Blue Sea 4215 Square Format Label Set - 30
 Best Buy: Blue Sea 4216 WeatherDeck Water Resistant Panel Labels - 60
 Best Buy: Blue Sea 4304 WeatherDeck Water Resistant Fuse Panel - 4 Position - Gray
-Best Buy: Blue Sea 4376 WeatherDeck Water Resistant Circuit Breaker Panel - 6 Position - Gray
 Best Buy: Blue Sea 5030 ST Blade Fuse Block w/out Cover - 6 Circuit w/ Negative Bus
 Best Buy: Blue Sea 7035 187 - Series Thermal Circuit Breaker - 25Amp
 Best Buy: Blue Sea 7039 187 - Series Thermal Circuit Breaker - 50Amp
@@ -228,6 +226,7 @@ Best Buy: Corsair RM RPS0120 Power Supply
 Best Buy: Cougar GX-S550 Compact Power Supply - 80 PLUS Gold
 Best Buy: Cougar POLAR X2 1050 - PSU
 Best Buy: CyberPower Battery Kit
+Best Buy: CyberPower M1100XL Medical UPS Systems - 1100VA/880W, 120 VAC, NEMA 5-15P-HG, Mini-Tower, 6 Outlets, LCD, PowerPanel
 Best Buy: CyberPower OL1500RTXL2UN 1.5KVA Online UPS 2U sine wave LCD 100-125V RMCARD205 RT 3YR WTY
 Best Buy: CyberPower PFC Sine Wave OR1500PFCLCD mini-tower 1500VA 1050W
 Best Buy: CyberPower Professional P3WU 3-Outlet Surge Suppressor/Protector
@@ -337,7 +336,6 @@ Best Buy: Extreme Networks Summit 715w Ac Psu Fb - 715 W
 Best Buy: For Lenovo 210W 10Pin Power Supply FSP210-20TGBAA FSP210-20TGBAB 54Y8977 PA-2221-3 PCE025 HK310-71PP 00PC746
 Best Buy: Fractal Design Ion+ 560P Power Supply
 Best Buy: Funcool USB 3.1 Type C Power Adapter 61W Charger For Apple Macbook Laptop Power Supply
-Best Buy: G-Shape Smart Wake-Up Light Alarm Clock with Bluetooth Speaker & Wireless Charging, App-Controlled Sound and Lighting
 Best Buy: GPU VGA PCIe 8 Pin U Turn 180 Degree Angle Connector Power Adapter Board for Desktop Graphics Card-Standard Type 2 Pack-re
 Best Buy: GSP12001000 – 12V DC 10A Regulated Power Supply
 Best Buy: Gateway One ZX4350 ZX4351 ZX4931 ZX4951 ZX6951 ZX6961 Power Supply 220W
@@ -476,7 +474,6 @@ Best Buy: High-Quality Replacement Power Supply ADP-400DR for PlayStation 5 - Pe
 Best Buy: Honeywell Power Supply Accessory for Industrial Applications Easy Installation 318-063-001
 Best Buy: Hp Aruba X372 54vdc 680w 100-240vac Power Supply
 Best Buy: IBM Lenovo 7303 SFF 280W Power Supply - Model PC7001, New Condition
-Best Buy: IBM Standard Power Cord
 Best Buy: In-Win CB 1050W 80+ Platinum, Ultra Quiet Smart Fan, Japanese Capacitors, Full Modular Power Supply (7 Year Warranty)
 Best Buy: In-Win IP-S300FF1-0 H 300W TFX12V v2.31 Power Supply
 Best Buy: Instant On 48V Power Adapter
@@ -497,6 +494,7 @@ Best Buy: JR Products 12611-5 Labeled 12V Ivory Switch - Pack of 5
 Best Buy: JR Products 12825 Black DPDT Mom-On Off Mom-On Switch
 Best Buy: JR Products 12835 White DPDT Mom-On Off Mom-On Switch
 Best Buy: JR Products 13335 Black SPDT Mini On/Off/On Switch
+Best Buy: JR Products 13445 Black DPDT Mini Mom-On/Off/Mom-On Switch
 Best Buy: Juniper 1600W Power Supply (JPSU-1600-C-AC-AFO)
 Best Buy: Juniper 550W Power Supply (JPSU-550-C-AC-AFO)
 Best Buy: Juniper Proprietary Power Supply (JPSU-150-AC-AFO)
@@ -750,7 +748,6 @@ Best Buy: SCHNEIDER ELECTRIC RACK PDU BASIC 1U 16A 208V (12) C13 (AP9566)
 Best Buy: SCHNEIDER ELECTRIC SMART-UPS SRT 1500VA 120V APC (SRT1500XLA)
 Best Buy: SD Power Strip With Dual USB 6 Outlets 2ft
 Best Buy: SERG 720J 15K CEW 6OUT 6 CORD 360
-Best Buy: SMART UPS SRT 2200VA RM 120V
 Best Buy: SMART-UPS SRT 2200VA 120V TOWER
 Best Buy: SOUNDSTATION2 2.5MM Cell Phone Cable Cell Phone Compatible with 2W
 Best Buy: STARTECH ADD THREE EXTRA SATA POWER OUTLETS TO YOUR POWER SUPPLY SATA POWER SPLITTER CABLE SERIAL ATA POWER SPLITTER SAT
