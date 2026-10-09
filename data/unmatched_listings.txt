@@ -33,6 +33,7 @@ Best Buy: 65W AC adapter charger cord for Acer Aspire R7-572 R7-572G R7-371T-74U
 Best Buy: 65W LAPTOP POWER ADAPTER
 Best Buy: 6OUTLET POWER STRIP RIGHT ANGLE
 Best Buy: 6ft Heavy Duty Pwr Ext Cord
+Best Buy: 8 Pin GPU Power Cable, 8 Pin PSU Male to 6+2 Pin PCIe Male Cable
 Best Buy: 800W FS 48VDC HT PLUG LH POWER
 Best Buy: 850W GQ Power Supply
 Best Buy: 8Pin PCI Express Male To Dual LP4 4Pin Molex IDE Power Cable Adapter
@@ -51,6 +52,7 @@ Best Buy: APC AP8716R Standard Power Cord
 Best Buy: APC AP9567 BASIC 100V,120V 15A 10 FT RACK PDU, BASIC, ZERO U, 15A, 100/120V, (14) 5-15
 Best Buy: APC BY SCHNEIDER ELECTRIC BASIC RACK 1U POWER DISTRIBUTION STRIP RACK-MOUNTABLE AC 120 V 10 X POWER NEMA 5-15 AP9562
 Best Buy: APC BY SCHNEIDER ELECTRIC RM PDU BASIC 1U 208V 16A-12 C13 RCPTLS AP9566
+Best Buy: APC Back-UPS RS BR1500GI 1500VA Tower UPS
 Best Buy: APC Metered Rack AP8881 42-Outlets 11kW PDU
 Best Buy: APC Power Cord Kit (6 Each) Locking 1.2m C19 to C20 (AP8714S)
 Best Buy: APC Power Cord Kit (6 Each) Locking C13 to C14 1.8m (AP8706S-NA)
@@ -214,7 +216,6 @@ Best Buy: Cisco Power Module (PWR-IE170W-PC-AC=)
 Best Buy: Cisco Power Module - 110 V Ac, 220 V Ac
 Best Buy: Cisco Power Supply
 Best Buy: Cisco Power Supply (PWRC5125WAC)
-Best Buy: Cisco Proprietary Power Supply
 Best Buy: Cisco Standard Power Cord
 Best Buy: Cisco UCSC-PSU1-770W AC Hot-plug Power Supply for 1u C-series Rack Server - 770 watt
 Best Buy: Cooler Master V Platinum 1600W V2 ATX 3.1 Full Modular PSU, 80+ Platinum, Dual 90° 12V-2x6 For Dual RTX 4000 Support , Purple Anodic-Coated Heat Sink, Mobius Fan
@@ -253,6 +254,8 @@ Best Buy: Dell 360W Power Supply for G5 5090, XPS 8940, and Optiplex 7080 - Reli
 Best Buy: Dell 360W Power Supply for OptiPlex 7060, 5060, 7080MT - Model HU360EBM-00
 Best Buy: Dell 750W Power Supply for POWEREDGE R630, R730, R730xd, T430, T630 - E750E-S1 Model
 Best Buy: Dell Alienware Precision P211H Computer Power Supply Wiring Harness
+Best Buy: Dell G5 500W Power Supply Unit - Compatible with Models 5090, 7070, 7060, and More
+Best Buy: Dell G5 500W Power Supply Unit - L500EPM-00 for 5090, 7070, 7060 Models
 Best Buy: Dell Inspiron 3470 200W Power Supply - Reliable Replacement for Your Computer
 Best Buy: Dell Inspiron 3470 200W Power Supply H200NS-00 for Reliable Performance
 Best Buy: Dell Inspiron 3647 220W Power Supply Unit - L220NS-01, Model 89XW5, Brand New
@@ -350,6 +353,7 @@ Best Buy: Genuine Acer 220 Watt Power Supply for Aspire, Veriton, and eMachines 
 Best Buy: Genuine Asus GL552 Series Laptop Battery - 48Wh, 15V, Black
 Best Buy: Genuine Dell 200W Power Supply for Optiplex 780, 790, 990, 7010, 9010, 9020 USFF Models
 Best Buy: Genuine Dell 305W Power Supply for Dimension and Optiplex Models - L305P-03
+Best Buy: Genuine Dell 500W Power Supply Unit D500EPM-00 for 5080MT and 7080MT Models
 Best Buy: Genuine Dell 750W Power Supply for Precision 490, 690 & PowerEdge SC1430 - Model U9692
 Best Buy: Genuine Dell Inspiron 15 7558 45W 19.5V 2.31A AC Power 4H6NV CDF57 D0KFY X9RG3
 Best Buy: Genuine Dell Inspiron 3847 Power Supply 300W B300NM-01 - Reliable and Efficient
@@ -403,7 +407,6 @@ Best Buy: HP POWER SUPPLY PCC004 D12-240P1A D240P2A 702309-002 - Reliable Perfor
 Best Buy: HP PRODESK 250W SFF Desktop Power Supply - Model D16-250P1A, G3, G4 Compatible
 Best Buy: HP Pavilion AIO All In One 20-B 23-G DC Power Jack Port Connector
 Best Buy: HP Poly Edge E100-450 CCX 350 EM60 Power Supply - Black - (86H66AA#ABA)
-Best Buy: HP Power Adapter
 Best Buy: HP Power Supply
 Best Buy: HP ProDesk 400 G4 SFF 180W Power Supply - Model PA-1181-7 (906189-001) - Brand New
 Best Buy: HP Prodesk L08417-002 250W SFF Desktop Power Supply - Reliable Power for Your Desktop
@@ -459,6 +462,7 @@ Best Buy: High-Performance Dell 1100W Redundant Power Supply for PowerEdge Serve
 Best Buy: High-Performance Dell 180W Power Supply for OptiPlex 3040, Inspiron 3250, and Vostro 3250
 Best Buy: High-Performance Dell Dimension 5150 Power Supply - 305W N305N-00
 Best Buy: High-Performance Dell EqualLogic Power Module KYCCH N7J1M C2F for PS4100 PS6100 PS6110 PS6210
+Best Buy: High-Performance Dell G5 XPS Power Supply D500EPM-00 for Optimal Computer Efficiency
 Best Buy: High-Performance Dell OPTIPLEX 235W Power Supply for 760, 780, 960 SFF Models
 Best Buy: High-Performance Dell Optiplex 240W Power Supply for SFF Desktops - Model J50TW
 Best Buy: High-Performance Dell Optiplex 3040 5040 7040 Inspiron 3650 3656 SFF Power Supply with 8+4 Pin Connector
@@ -532,6 +536,7 @@ Best Buy: Lenovo ThinkCentre M57 M58 280W Power Supply Unit - PS-5281-01VF, 54Y8
 Best Buy: Lenovo ThinkCentre M90z AIO 150W Power Supply - Original and Tested
 Best Buy: Lenovo ThinkPad 65W Slim AC Adapter (USB Type-C)
 Best Buy: Lenovo Thinkcentre M57 M58p 280W Power Supply Unit for Reliable Performance
+Best Buy: Lian Li RS 1000W Rotational Shift Fully Modular ATX Power Supply (W/ USB Fan Hub) 90° AC inlet,Cybenetics Platinum, 80+ Gold, ATX 3.1, PCle 5.1, 12V-2x6 Cable
 Best Buy: Lian Li RS 1200W Rotational Shift Fully Modular ATX Power Supply (W/ USB Fan Hub) 90° AC Inlet, Cybenetics Platinum, 80+ Gold, ATX 3.1, PCIe 5.1, 12V-2×6 Cable, Black
 Best Buy: Lian Li RS 1200W Rotational Shift Fully Modular ATX Power Supply (W/ USB Fan Hub) 90° AC Inlet, Cybenetics Platinum, 80+ Gold, ATX 3.1, PCIe 5.1, 12V-2×6 Cable, White
 Best Buy: Lian-Li AC LANCOOL II-1X Vertical GPU kit for LANCOOL II-X and LANCOOL II-W
@@ -804,7 +809,6 @@ Best Buy: THERMALTAKE SMART SP-500AH2NKW ATX12V & EPS12V POWER SUPPLY ATX12V/EPS
 Best Buy: THERMALTAKE SMART SP-700AH2NKW ATX12V & EPS12V POWER SUPPLY ATX12V/EPS12V 120 V AC, 230 V AC INPUT VOLTAGE 3.3 V DC, 5 V
 Best Buy: TP-Link 150W DC Power Supply Module (PSM150DC)
 Best Buy: TRENDnet 240 W Single Output IndustrialDIN-Rail Power Supply
-Best Buy: TRENDnet Gigabit PoE+ Injector
 Best Buy: TRENDnet TI-M6024 DIN Rail 24V 60W Power Supply for TI-G50, TI-G62, TI-G80, TI-F11SFP (TIM6024)
 Best Buy: TRENDnet TI-S12048 DIN Rail 48V 120W Power Supply for TI-PG541 (TIS12048)
 Best Buy: TRENDnet TI-S48048 48V 480W Output Industrial (TIS48048)
