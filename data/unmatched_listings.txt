@@ -52,11 +52,9 @@ Best Buy: APC AP8716R Standard Power Cord
 Best Buy: APC AP9567 BASIC 100V,120V 15A 10 FT RACK PDU, BASIC, ZERO U, 15A, 100/120V, (14) 5-15
 Best Buy: APC BY SCHNEIDER ELECTRIC BASIC RACK 1U POWER DISTRIBUTION STRIP RACK-MOUNTABLE AC 120 V 10 X POWER NEMA 5-15 AP9562
 Best Buy: APC BY SCHNEIDER ELECTRIC RM PDU BASIC 1U 208V 16A-12 C13 RCPTLS AP9566
-Best Buy: APC Back-UPS RS BR1500GI 1500VA Tower UPS
 Best Buy: APC Metered Rack AP8881 42-Outlets 11kW PDU
 Best Buy: APC Power Cord Kit (6 Each) Locking 1.2m C19 to C20 (AP8714S)
 Best Buy: APC Power Cord Kit (6 Each) Locking C13 to C14 1.8m (AP8706S-NA)
-Best Buy: APC Power Cord Kit (6 ea), Locking, C13 to C14, 1.2m, North America
 Best Buy: APC Service/Support - 1 Year Extended Warranty - Service
 Best Buy: APC Smart-UPS 1000VA LCD 120V with SmartConnect
 Best Buy: APC Smart-UPS C 1000VA LCD 120V with SmartConnect
@@ -215,6 +213,8 @@ Best Buy: Cisco Power Module (PWR-C6-1KWAC=)
 Best Buy: Cisco Power Module (PWR-IE170W-PC-AC=)
 Best Buy: Cisco Power Module - 110 V Ac, 220 V Ac
 Best Buy: Cisco Power Supply
+Best Buy: Cisco Power Supply
+Best Buy: Cisco Power Supply
 Best Buy: Cisco Power Supply (PWRC5125WAC)
 Best Buy: Cisco Standard Power Cord
 Best Buy: Cisco UCSC-PSU1-770W AC Hot-plug Power Supply for 1u C-series Rack Server - 770 watt
@@ -237,7 +237,6 @@ Best Buy: CyberPower Professional P3WU 3-Outlet Surge Suppressor/Protector
 Best Buy: CyberPower Smart App Online BP36V60ART2U 1000 and 1500VA UPS External Battery Module
 Best Buy: Cyberpower Systems 1050W Non-Modular Power Supply - (PR1500LCDN)
 Best Buy: Cyberpower Systems 2700W Non-Modular Power Supply - (OL3000RTXL2U)
-Best Buy: Cyberpower Systems Non-Modular Power Supply - (BP72V60ART2U)
 Best Buy: D-Link DPS-700 DPS-700 Redundant Power Supply (DPS-700)
 Best Buy: DC-ATX 120W 24Pin Power Supply Module Switch PSU Auto Mini ITX
 Best Buy: DC-ATX-160W DC 12V ITX Z1 Upgrade 24Pin for ATX Switch PSU Car Auto DC-ATX Power Supply Module ATX Power Switch Cable
@@ -508,6 +507,7 @@ Best Buy: Juniper 1600W Power Supply (JPSU-1600-C-AC-AFO)
 Best Buy: Juniper 550W Power Supply (JPSU-550-C-AC-AFO)
 Best Buy: Juniper Proprietary Power Supply (JPSU-150-AC-AFO)
 Best Buy: Juniper Proprietary Power Supply (JPSU-150-DC-AFO)
+Best Buy: Juniper Redundant Power Supply (JPSU-920-AC-AFO)
 Best Buy: LENOVO 200-240Vac 260W POWER SUPPLY 00PC765
 Best Buy: LENOVO REDUNDANT POWER SUPPLY 0A89426
 Best Buy: LENOVO THINKSERVER HOT SWAP REDUNDANT POWER SUPPLY - 0A89427
@@ -591,7 +591,6 @@ Best Buy: New Compatible Asus GL752 GL752V GL752VW GL752VWM AC Adapter Charger A
 Best Buy: New Compatible Bose Soundlink Mini 2 II Mini 2 Mini II Speaker 088796 088789 088772 Battery 17WH
 Best Buy: New Dell 0UP173 L375E-01 PS-6371-2DFS-LF 375W Power Supply UP173
 Best Buy: New Dell Inspiron 15 5547 SATA Hard Drive Connector With Cable 0T55XP T55XP DC02001X200
-Best Buy: New Dell Inspiron 3670 Precision T1700 PowerEdge T20 290W Power Supply RVTHD
 Best Buy: New Dell N375E-00 TU938 JP931 375W Power Supply UP173
 Best Buy: New Dell Optiplex / Precision MDT Desktop Power Supply 290W RVTHD
 Best Buy: New Dell Optiplex 1VCY4 4GVWP 6YWW7 KG1G0 C0G5T K650T USFF Power Supply 6FG9T
@@ -822,6 +821,7 @@ Best Buy: Thermaltake SP-700AH2NKW Smart SP-700AH2NKW ATX12V & EPS12V Power Supp
 Best Buy: Thermaltake Smart SP-600AH2NKW ATX12V & EPS12V Power Supply
 Best Buy: Thermaltake ToughPower 1500W ATX 100-240V APFC 80+Gold Black (PS-TPD-1500MPCGUS-1)
 Best Buy: Tripp Lite 12-Outlet Vertical Power Supply (PS361206)
+Best Buy: Tripp Lite 1440VA UPS Eco Green Battery Back Up AVR 120V USB Energy Star
 Best Buy: Tripp Lite 1U Rack-Mount 120V Power Supply (RS1215-20)
 Best Buy: Tripp Lite 3ft Computer Power Cord Cable 5-15P to C13 Heavy Duty 15A 14AWG 3'
 Best Buy: Tripp Lite 600W Line Conditioner w/ AVR / Surge Protection 120V 5A 60Hz 6 Outlet Power Conditioner
@@ -837,6 +837,7 @@ Best Buy: Tripp Lite SRCOOLNET2LX Remote Power Management Adapter SRCOOLNET2LX
 Best Buy: Tripp Lite Single-Phase ATS/Metered PDU 1U Rack-Mount Power Supply (PDUMH20HVAT)
 Best Buy: Tripp Lite Single-Phase Metered 240V Power Supply (PDUMV30HV)
 Best Buy: Tripp Lite SmartPro 2200VA Tower UPS
+Best Buy: Tripp Lite U428-06N-F USB Data Transfer Cable
 Best Buy: Tripp Lite UPS Replacement Battery Cartridge for select UPS Brands with (1) 12V Battery
 Best Buy: Tripp Lite USB 3.0 SuperSpeed A/A Cable (M/M), Black, 6 ft
 Best Buy: Tripp Lite Universal Reversible USB 2.0 Hi-Speed Cable
