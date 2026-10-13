@@ -512,7 +512,7 @@ function detailRow(p, f) {
     ? `<h3>Prices</h3><table class="offer-table"><tbody>${offers.map(o => `
         <tr>
           <td class="o-store">${esc(storeName(o.store))}${o.marketplace ? `<span class="muted small"> via ${esc(o.seller)}</span>` : ""}</td>
-          <td class="o-price"><a href="${esc(o.url)}" target="_blank" rel="noopener">${money.format(o.price)}</a>
+          <td class="o-price">${httpsUrl(o.url) ? `<a href="${esc(o.url)}" target="_blank" rel="noopener">${money.format(o.price)}</a>` : money.format(o.price)}
             ${o.regular && o.regular > o.price ? `<s class="muted small">${money.format(o.regular)}</s>` : ""}</td>
         </tr>
         <tr class="o-name"><td colspan="2">${esc(o.name)}</td></tr>`).join("")}</tbody></table>
@@ -540,6 +540,12 @@ function searchName(p) {
 function tierGroup(t) {
   const g = t[0];
   return g === "A" ? "a" : g === "B" ? "b" : g === "C" ? "c" : g === "D" || g === "E" ? "d" : "f";
+}
+
+// Store links come from the stores' pages; only https ones are linked, so a
+// javascript: or data: URL in scraped data can't run on this site.
+function httpsUrl(u) {
+  try { return new URL(u).protocol === "https:"; } catch (e) { return false; }
 }
 
 function esc(s) {
