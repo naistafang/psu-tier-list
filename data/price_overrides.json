@@ -1,5 +1,5 @@
 {
-  "_help": "Fix bad price matches by hand. Keys are \"<store>:<product id>\" with store one of bestbuy, canadacomputers, vuugo, shoprbc, newegg. The product id is the number at the end of the product URL (for Vuugo, the last part of the URL; for Newegg, the item number such as 17-701-022, or the 9SIA... number after Item= for a marketplace seller). 'sku' maps a listing to a tier list row id from data/psus.json, with optional 'watts'; 'ignore' lists listings that should never be matched.",
+  "_help": "Fix bad price matches by hand. Keys are \"<store>:<product id>\" with store one of bestbuy, canadacomputers, vuugo, shoprbc. The product id is the number at the end of the product URL (for Vuugo, the last part of the URL). 'sku' maps a listing to a tier list row id from data/psus.json, with optional 'watts'; 'ignore' lists listings that should never be matched.",
   "sku": {
     "bestbuy:20009182": {
       "id": "asrock-steel-legend-gold-sl-g-650-1000w",
