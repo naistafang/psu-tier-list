@@ -17,3 +17,29 @@ for n, url in [(1, "https://www.newegg.com/Power-Supplies/SubCategory/ID-58"), (
         print("state keys", list(s)[:40])
     print(n, len(t))
     time.sleep(3)
+
+# Print what the parser needs, since artifacts can't be read from the session.
+t = open("probe/page1.html").read()
+i = t.find('class="item-cell"')
+print("=== ITEM CELL ===")
+print(t[i:i + 6000])
+j = t.find("list-tool-pagination-text")
+print("=== PAGINATION ===")
+print(t[j - 50:j + 300])
+if os.path.exists("probe/state1.json"):
+    s = json.load(open("probe/state1.json"))
+    def walk(o, path="", depth=0):
+        if depth > 4: return
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if isinstance(v, (dict, list)):
+                    print(f"{path}/{k} {type(v).__name__} {len(v)}")
+                    walk(v, f"{path}/{k}", depth + 1)
+        elif isinstance(o, list) and o:
+            walk(o[0], path + "[0]", depth + 1)
+    print("=== STATE TREE ===")
+    walk(s)
+    txt = json.dumps(s)
+    k = txt.find('"ItemCell"')
+    print("=== FIRST ItemCell ===")
+    print(txt[k:k + 5000])
