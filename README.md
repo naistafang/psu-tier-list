@@ -24,7 +24,9 @@ A GitHub Action (`.github/workflows/update-data.yml`) runs daily and commits fre
 
 Current price sources are **Best Buy Canada**, **Canada Computers**, **Vuugo** and **shopRBC**. Only in-stock items are listed: backorders and sold-out items are skipped, and at Canada Computers an item available for in-store pickup counts as in stock. None of them has an official API, so the scripts read their public product listings. If a store's site changes and its fetch fails, that store's previous prices are kept.
 
-`data/history.json` records each model's lowest price across all stores, adding a point only when that price changes, so it grows slowly. The site uses it for the ▲/▼ markers and the price chart.
+Best Buy also lists third-party marketplace sellers, whose prices often run far above retail. The site hides them unless you turn on "Include third-party marketplace sellers" in Filters, and they never count toward the price history. Regional versions that don't suit Canadian outlets (EU plugs, 240V-only units, Brazil SKUs) are skipped.
+
+`data/history.json` records each model's lowest price across all stores (marketplace sellers excluded), adding a point only when that price changes, so it grows slowly. The site uses it for the ▲/▼ markers and the price chart.
 
 Listings are matched to tier list rows by brand, series name and wattage. The matching is approximate: several PSU generations often share a name. When a listing fits more than one row, the matcher prefers the row whose specs agree with what the listing states (80 Plus rating, including a model code suffix like the G in PQ750G; modularity; ATX version; SFX or ATX), then the North American version over EU or 230V-only units, then the newest one. Listings it couldn't match go to `data/unmatched_listings.txt`. To fix a wrong match, add it to `data/price_overrides.json`.
 
