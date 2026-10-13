@@ -40,6 +40,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/ index.html
           git diff --cached --quiet || git commit -m "Update tier list and prices"
+          # The Newegg fetch (fetch-newegg.yml) may have pushed since this job checked out.
+          git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
       - name: Report failed downloads
         if: steps.sheet.outcome == 'failure' || steps.prices.outcome == 'failure'
