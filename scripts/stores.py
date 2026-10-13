@@ -12,6 +12,8 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
 # Seconds to wait between page requests to the same store. Vuugo's robots.txt asks for at
 # least 2; the same gap is used everywhere to keep the daily run light on every store.
@@ -202,10 +204,86 @@ def shoprbc():
         time.sleep(PAGE_DELAY)
 
 
+NEWEGG_FILE = Path(__file__).resolve().parent.parent / "data" / "newegg_listings.json"
+# Newegg's listings are fetched separately (see fetch_newegg.py); older ones count as a failed fetch.
+NEWEGG_MAX_AGE = timedelta(hours=36)
+NEWEGG_STATE_RE = re.compile(r"window\.__initialState__\s*=\s*")
+
+
+def newegg_item_url(base, cell):
+    """'17-701-022' is sold by Newegg: /p/N82E16817701022. A '9SIA...' item is a marketplace
+    seller's offer on its parent product: /p/N82E16817701038?Item=9SIA..."""
+    item, parent = cell.get("Item", ""), cell.get("ParentItem")
+    slug = (cell.get("Description") or {}).get("UrlKeywords") or "p"
+    if re.fullmatch(r"\d{2}-\d{3}-\d{3}", item):
+        return f"{base}/{slug}/p/N82E168{item.replace('-', '')}"
+    if parent and re.fullmatch(r"\d{2}-\d{3}-\d{3}", parent):
+        return f"{base}/{slug}/p/N82E168{parent.replace('-', '')}?Item={item}"
+    return f"{base}/p/{item}"
+
+
+def newegg_parse(text, base="https://www.newegg.ca"):
+    """In-stock listings on one Newegg category page, read from the page data its website embeds."""
+    m = NEWEGG_STATE_RE.search(text)
+    if not m:
+        raise ValueError("no product data on the page (blocked or layout changed)")
+    state, _ = json.JSONDecoder().raw_decode(text[m.end():])
+    listings = []
+    for product in state.get("Products") or []:
+        cell = product.get("ItemCell") or {}
+        price = cell.get("FinalPrice")
+        if not cell.get("Instock") or not price:
+            continue
+        # Newegg shows $0.01 shipping for free shipping; a real charge is added to the price.
+        ship = cell.get("ShippingCharge") or 0
+        # Newegg's own items have numbers like 17-701-022; marketplace sellers' start with 9SI.
+        marketplace = not re.fullmatch(r"\d{2}-\d{3}-\d{3}", cell.get("Item", ""))
+        seller = (cell.get("Seller") or {}).get("SellerName")
+        regular = cell.get("UnitCost")
+        listings.append({
+            "sku": cell.get("Item", ""),
+            "name": html.unescape((cell.get("Description") or {}).get("Title") or "").strip(),
+            "price": round(price + (ship if ship >= 1 else 0), 2),
+            "regular": regular if regular and regular > price else None,
+            "url": newegg_item_url(base, cell),
+            "seller": seller if marketplace and seller else "Newegg",
+            "marketplace": marketplace,
+        })
+    pages = re.search(r"Page(?:<!-- -->)?\s*<strong>\d+(?:<!-- -->)?/(?:<!-- -->)?(\d+)</strong>", text)
+    return listings, int(pages.group(1)) if pages else 1
+
+
+def newegg_live(base="https://www.newegg.ca"):
+    """Newegg. Reads the power supply category pages. Newegg.ca answers GitHub's servers with a
+    CAPTCHA, so this runs on a self-hosted runner (see fetch_newegg.py), not in the daily update."""
+    listings, page = [], 1
+    while True:
+        url = f"{base}/Power-Supplies/SubCategory/ID-58" + (f"/Page-{page}" if page > 1 else "")
+        found, pages = newegg_parse(get(url), base)
+        listings += found
+        print(f"  Newegg page {page}/{pages}: {len(listings)} in-stock listings", file=sys.stderr)
+        if page >= pages or page >= 40:
+            return listings
+        page += 1
+        time.sleep(PAGE_DELAY)
+
+
+def newegg():
+    """Newegg listings saved by the last fetch_newegg.py run, if recent enough."""
+    if not NEWEGG_FILE.exists():
+        raise RuntimeError(f"{NEWEGG_FILE.name} not found; the Newegg fetch hasn't run yet")
+    saved = json.loads(NEWEGG_FILE.read_text())
+    age = datetime.now(timezone.utc) - datetime.fromisoformat(saved["updated"])
+    if age > NEWEGG_MAX_AGE:
+        raise RuntimeError(f"{NEWEGG_FILE.name} is {age.days}d {age.seconds // 3600}h old; is the self-hosted runner on?")
+    return saved["listings"]
+
+
 # key -> (display name, fetch function, minimum listings for a fetch to count as successful)
 STORES = {
     "bestbuy": ("Best Buy", best_buy, 100),
     "canadacomputers": ("Canada Computers", canada_computers, 50),
     "vuugo": ("Vuugo", vuugo, 30),
     "shoprbc": ("shopRBC", shoprbc, 50),
+    "newegg": ("Newegg", newegg, 50),
 }

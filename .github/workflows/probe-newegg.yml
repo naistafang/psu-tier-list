@@ -3,7 +3,7 @@ name: Probe Newegg
 on:
   push:
     branches: [claude/project-thread-fxx1n4]
-    paths: [.github/workflows/probe-newegg.yml, scripts/probe_newegg.py]
+    paths: [.github/workflows/probe-newegg.yml, scripts/probe_newegg.py, scripts/stores.py]
 jobs:
   probe:
     runs-on: ubuntu-latest
@@ -13,7 +13,3 @@ jobs:
         with:
           python-version: "3.12"
       - run: python scripts/probe_newegg.py
-      - uses: actions/upload-artifact@v4
-        with:
-          name: newegg-pages
-          path: probe/
