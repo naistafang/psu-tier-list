@@ -1,0 +1,15 @@
+# Temporary: inspects Newegg.ca's PSU listing page from a GitHub runner. Removed before merge.
+name: Probe Newegg
+on:
+  push:
+    branches: [claude/project-thread-fxx1n4]
+    paths: [.github/workflows/probe-newegg.yml, scripts/probe_newegg.py]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: python scripts/probe_newegg.py
