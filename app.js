@@ -138,7 +138,7 @@ function buildControls() {
 
   let timer;
   $("#q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(update, 120); });
-  for (const id of ["sort", "tier", "watts", "size", "eff", "modular", "atx", "year", "priced", "confident", "nomarket", "starred"]) {
+  for (const id of ["sort", "tier", "watts", "size", "eff", "modular", "atx", "year", "priced", "confident", "market", "starred"]) {
     $("#" + id).addEventListener("change", update);
   }
   for (const b of document.querySelectorAll("th button[data-sort]")) {
@@ -199,14 +199,14 @@ function filters() {
     year: +$("#year").value || 0,
     priced: $("#priced").checked,
     confident: $("#confident").checked,
-    nomarket: $("#nomarket").checked,
+    market: $("#market").checked,
     starred: $("#starred").checked,
     stores: new Set([...document.querySelectorAll("#stores input:checked")].map(i => i.value)),
   };
 }
 
 function offerAllowed(o, f) {
-  return f.stores.has(o.store) && !(f.nomarket && o.marketplace);
+  return f.stores.has(o.store) && (f.market || !o.marketplace);
 }
 
 // Cheapest listing that satisfies the store/seller filters.
@@ -265,7 +265,7 @@ function update(writeUrl = true) {
   $("#q-clear").hidden = !f.q;
   $("#star-count").textContent = favorites.size;
   const active = ["tier", "watts", "size", "eff", "modular", "atx", "year"].filter(k => f[k]).length
-    + ["priced", "confident", "nomarket", "starred"].filter(k => f[k]).length
+    + ["priced", "confident", "market", "starred"].filter(k => f[k]).length
     + Object.keys(STORE_INFO).filter(k => !f.stores.has(k)).length;
   $("#filters-toggle").textContent = active ? `Filters (${active})` : "Filters";
   if (writeUrl) writeHash(f);
@@ -517,6 +517,8 @@ function detailRow(p, f) {
         </tr>
         <tr class="o-name"><td colspan="2">${esc(o.name)}</td></tr>`).join("")}</tbody></table>
         <p class="muted small">Matched by name. Check that the listing's model is the same revision before you buy.</p>`
+    : !f.market && p.offers.some(o => f.stores.has(o.store) && o.marketplace)
+    ? `<h3>Prices</h3><p class="muted">Only third-party marketplace sellers list this one. Turn on "Include third-party marketplace sellers" in Filters to see them.</p>`
     : `<h3>Prices</h3><p class="muted">No matching listing found at the selected stores.</p>`;
 
   tr.querySelector(".history").innerHTML = historyHtml(p);
@@ -582,7 +584,7 @@ function historyHtml(p) {
     : "";
   return `<h3>Price history</h3>${sparkline(pts)}
     <p>Lowest seen: <b>${money.format(low[1])}</b> on ${fmtDate(low[0])}.${change}</p>
-    <p class="muted small">Lowest price across all stores, tracked daily since ${fmtDate(historySince)}.</p>`;
+    <p class="muted small">Lowest price from the stores themselves (marketplace sellers excluded), tracked daily since ${fmtDate(historySince)}.</p>`;
 }
 
 // A step line of the lowest price from the first point until today; gaps where no store listed it.
@@ -652,7 +654,7 @@ function writeHash(f) {
   for (const k of ["sort", "tier", "watts", "size", "eff", "modular", "atx", "year"]) {
     if (f[k] && !(k === "sort" && f[k] === "tier")) h.set(k, f[k]);
   }
-  for (const k of ["priced", "confident", "nomarket", "starred"]) if (f[k]) h.set(k, "1");
+  for (const k of ["priced", "confident", "market", "starred"]) if (f[k]) h.set(k, "1");
   const off = Object.keys(STORE_INFO).filter(k => !f.stores.has(k));
   if (off.length) h.set("nostore", off.join(","));
   const s = h.toString();
@@ -667,7 +669,7 @@ function readHash() {
     const v = h.get(k) || el.options[0].value;
     if ([...el.options].some(o => o.value === v)) el.value = v;
   }
-  for (const k of ["priced", "confident", "nomarket", "starred"]) $("#" + k).checked = h.get(k) === "1";
+  for (const k of ["priced", "confident", "market", "starred"]) $("#" + k).checked = h.get(k) === "1";
   const off = new Set((h.get("nostore") || "").split(","));
   for (const el of document.querySelectorAll("#stores input")) el.checked = !off.has(el.value);
 }

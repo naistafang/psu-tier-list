@@ -27,6 +27,9 @@ DATA = Path(__file__).resolve().parent.parent / "data"
 
 # Listings to ignore entirely.
 SKIP_RE = re.compile(r"refurb|open box|open-box|used|pre-owned|renewed|\bcable\b.*\bkit\b|\bcables? for\b|sleeved cable|extension|tester", re.I)
+# Regional versions that don't suit Canadian outlets: EU plugs, 240V-only units, Brazil SKUs.
+# "100-240V" and "230V/115V" describe full-range input, so they don't count.
+REGIONAL_RE = re.compile(r"\beu plug\b|(?<![\d/\-])2[34]0\s?v\b(?!\s?(?:ac|/))|,\s*br\s*,", re.I)
 
 # Words in a series name that describe a revision rather than name a product.
 # A listing doesn't have to contain them, but gets a small bonus if it does.
@@ -319,7 +322,7 @@ def main():
         matched = 0
         for item in listings:
             override_key = f"{key}:{item['sku']}"
-            if override_key in ignored or SKIP_RE.search(item["name"]) or not item["price"]:
+            if override_key in ignored or SKIP_RE.search(item["name"]) or REGIONAL_RE.search(item["name"]) or not item["price"]:
                 continue
             if override_key in sku_overrides:
                 psu = by_id.get(sku_overrides[override_key]["id"])
@@ -356,6 +359,8 @@ def main():
 def update_history(prices, today):
     """Append today's lowest price per model to data/history.json.
 
+    Only the stores' own listings count: third-party marketplace sellers come and go
+    with prices far above retail, which made the lowest price jump back and forth.
     Each model ("<psu id>@<watts>") keeps a list of [date, price] points, but a point is
     only added when the price changes, so the file grows slowly. null means no store
     listed it. Running twice on the same day overwrites that day's point.
@@ -365,6 +370,8 @@ def update_history(prices, today):
     lows = {}
     for pid, offers in prices.items():
         for o in offers:
+            if o.get("marketplace"):
+                continue
             key = f"{pid}@{o['watts']}"
             lows[key] = min(lows.get(key, o["price"]), o["price"])
 

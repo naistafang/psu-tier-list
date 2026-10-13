@@ -1,0 +1,40 @@
+name: Fetch Newegg prices
+
+# Newegg.ca shows GitHub's servers a CAPTCHA, so this job runs on a computer at home
+# registered as a self-hosted runner with the label "newegg" (see README). It saves the
+# listings to data/newegg_listings.json; the daily update matches them with the other stores.
+# If the computer is off, the job waits for it (up to a day) and runs when it's back.
+
+on:
+  schedule:
+    - cron: "47 1 * * *"  # daily, 01:47 UTC (evening in Canada), ahead of the 09:17 UTC update
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-newegg
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: [self-hosted, newegg]
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Download Newegg listings
+        run: python scripts/fetch_newegg.py
+      - name: Commit changes
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/newegg_listings.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update Newegg listings"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
