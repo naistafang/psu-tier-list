@@ -25,8 +25,11 @@ Best Buy: 4 Pin PWM Fan Speed Controller DC 5V 12V 24V PD QC Fast Charging USB-A
 Best Buy: 4-Port DC Power Adaptor 12V / 5A cUL Listed
 Best Buy: 5X Laptop Gpu Cooling Fan for Msi Ge62 Ge72 Gl62 Gl72 Pe60 Pe70 Series Paad06015Sl
 Best Buy: 6-Outlet Surge Protector with 3 ft. Power Cord
+Best Buy: 65W AC adapter charger cord for Acer Aspire 4240 4315 5100-4575
+Best Buy: 65W AC adapter charger cord for Acer Aspire 4310G 4830T 9300-3555
 Best Buy: 65W AC adapter charger cord for Acer Aspire 4720G 5102 5253-BZ656
 Best Buy: 65W AC adapter charger cord for Acer Aspire A317-51G-50QF A315-51-31GK ONLY, NOT FOR other models!
+Best Buy: 65W AC adapter charger cord for Acer Aspire R7-572 R7-572G R7-371T-74UM
 Best Buy: 65W LAPTOP POWER ADAPTER
 Best Buy: 6OUTLET POWER STRIP RIGHT ANGLE
 Best Buy: 6ft Heavy Duty Pwr Ext Cord
@@ -40,6 +43,7 @@ Best Buy: 9PX 1500 RT LV
 Best Buy: 9PX 700 120V RT 5-15P 8OUT
 Best Buy: ACER 250W Power Supply with 6-Pin Connector - Model PA-2251-2AB, PA-2251-2, FSP250-20TGPAA
 Best Buy: ALITOVE DC 12V 20A 240W Power Supply Transformer Switch AC 110V/220V to DC 12V 20amp Switching Adapter Converter Drive..
+Best Buy: AMERICAN POWER CONVERSION APC Symmetra LX Intelligence Module SYMIM5
 Best Buy: AMERICAN POWER CONVERSION Combination Lock Handles (Qty 2) AR8132A
 Best Buy: APC - Backplate Kit
 Best Buy: APC 10A Power Cord Kit Locking C13 to C14 0.6m (AP8702S-NA)
@@ -49,9 +53,11 @@ Best Buy: APC AP8716R Standard Power Cord
 Best Buy: APC AP9567 BASIC 100V,120V 15A 10 FT RACK PDU, BASIC, ZERO U, 15A, 100/120V, (14) 5-15
 Best Buy: APC BY SCHNEIDER ELECTRIC BASIC RACK 1U POWER DISTRIBUTION STRIP RACK-MOUNTABLE AC 120 V 10 X POWER NEMA 5-15 AP9562
 Best Buy: APC BY SCHNEIDER ELECTRIC RM PDU BASIC 1U 208V 16A-12 C13 RCPTLS AP9566
+Best Buy: APC Back-UPS RS BR1500GI 1500VA Tower UPS
 Best Buy: APC Metered Rack AP8881 42-Outlets 11kW PDU
 Best Buy: APC Power Cord Kit (6 Each) Locking 1.2m C19 to C20 (AP8714S)
 Best Buy: APC Power Cord Kit (6 Each) Locking C13 to C14 1.8m (AP8706S-NA)
+Best Buy: APC Power Cord Kit (6 ea), Locking, C13 to C14, 1.2m, North America
 Best Buy: APC Service/Support - 1 Year Extended Warranty - Service
 Best Buy: APC Smart-UPS 1000VA LCD 120V with SmartConnect
 Best Buy: APC Smart-UPS C 1000VA LCD 120V with SmartConnect
@@ -79,6 +85,7 @@ Best Buy: Acer Aspire 300W Power Supply Unit FSP300-10TAA for TC-875, TC-895, XC
 Best Buy: Acer Aspire 300W Power Supply Unit for XC-875, XC-895, XC-1660G, TC-875, TC-1660 Models
 Best Buy: Acer Aspire Power Supply X3950 X5300 XC-705 220W Power Supply
 Best Buy: Acer Aspire X1440 X1701 X3900 Power Supply 220W
+Best Buy: Acer Aspire X3-710 XC-710 XC-780 220 Watt Power Supply - Reliable and Compatible
 Best Buy: Acer Aspire X4640 X6620G XC602 220W Power Supply
 Best Buy: Acer Aspire X5810 X5812 X5900 220W Power Supply
 Best Buy: Acer Aspire XC-115 XC-602 XC-703 XC-703G 220W Power Supply
@@ -119,6 +126,7 @@ Best Buy: Aruba Power Supply (R3T90A)
 Best Buy: Aruba Proprietary Power Supply
 Best Buy: Aruba Proprietary Power Supply (JL087AABA)
 Best Buy: Aruba X372 54VDC 1600W 110-240VAC Power Supply JL670A#ABA
+Best Buy: Asus 65W Universal Mini Multi-tip Adapter (4/4.5/5.5 PHI) 90XB013N-MPW000
 Best Buy: Asus ROG DC Power Jack for GL752 Series - Brand New Replacement Part
 Best Buy: Athena Computer Power AP-P4ATX60FE EPS/ATX-12V with Dual Fan 600W
 Best Buy: Axiom AC Adapter
@@ -209,7 +217,6 @@ Best Buy: Cisco Power Module - 110 V Ac, 220 V Ac
 Best Buy: Cisco Power Supply
 Best Buy: Cisco Power Supply
 Best Buy: Cisco Power Supply
-Best Buy: Cisco Power Supply (PWRC5125WAC)
 Best Buy: Cisco Standard Power Cord
 Best Buy: Cisco UCSC-PSU1-770W AC Hot-plug Power Supply for 1u C-series Rack Server - 770 watt
 Best Buy: Cooler Master V Platinum 1600W V2 ATX 3.1 Full Modular PSU, 80+ Platinum, Dual 90° 12V-2x6 For Dual RTX 4000 Support , Purple Anodic-Coated Heat Sink, Mobius Fan
@@ -231,6 +238,7 @@ Best Buy: CyberPower Professional P3WU 3-Outlet Surge Suppressor/Protector
 Best Buy: CyberPower Smart App Online BP36V60ART2U 1000 and 1500VA UPS External Battery Module
 Best Buy: Cyberpower Systems 1050W Non-Modular Power Supply - (PR1500LCDN)
 Best Buy: Cyberpower Systems 2700W Non-Modular Power Supply - (OL3000RTXL2U)
+Best Buy: Cyberpower Systems Non-Modular Power Supply - (BP72V60ART2U)
 Best Buy: D-Link DPS-700 DPS-700 Redundant Power Supply (DPS-700)
 Best Buy: DC-ATX 120W 24Pin Power Supply Module Switch PSU Auto Mini ITX
 Best Buy: DC-ATX-160W DC 12V ITX Z1 Upgrade 24Pin for ATX Switch PSU Car Auto DC-ATX Power Supply Module ATX Power Switch Cable
@@ -377,6 +385,7 @@ Best Buy: HP D12-240P2A Power Supply - Reliable Replacement for Your PC Needs
 Best Buy: HP DVD±RW DL lightScribe Drive Sourced from Working Laptop 432899-CC0 449935-001
 Best Buy: HP DVD±RW DL lightScribe Drive Sourced from Working Laptop 432899-CC1 448005-001
 Best Buy: HP DVD±RW DL lightScribe Drive Sourced from Working Laptop DVR-K17LB PNR-DVR-K17LB(B)
+Best Buy: HP ENVY 15-AC 15T-AC LaptopDc Jack Cable 813945-001
 Best Buy: HP Elite One 800 G1 All-In-One Power Supply Unit - 200W, Model 702912-001, Brand New
 Best Buy: HP EliteDesk 600 G1 700 G1 800 G1 Compatible Power Supply Unit 702309-002
 Best Buy: HP JC680A 650W AC Power Supply for A5830, A5820, A5800 Models
@@ -524,6 +533,7 @@ Best Buy: M.2 NVMe to Dual M.2 Adapter Card, Supports PCIe Bus, Adds WiFi/Blueto
 Best Buy: M.2(M-Key NVMe 2260) to MINI SAS SFF-8087 Plug and Play Server High Speed Cable 1m
 Best Buy: MAG A1000GL PCIE5 WHITE, USA, 1000W, Fully-Modular, 80 Plus Gold, Standard ++ noise rating power supply, 10-year warranty
 Best Buy: MEDICAL GRADE BDL W/-PWR UNIT / REM / BATT
+Best Buy: MONTECH BETA 2 550W Power Supply, ATX 3.1 Ready, 80+ Bronze Certified, DC-to-DC Stability, Industrial Japanese Main Capacitor, Full Protection Suite (BETA2550W)
 Best Buy: MSI GF65 Thin 9sexr-229fr Gaming Laptop DC Power Jack Charging Port Replacement
 Best Buy: MSI GT72 DC Jack Port Replacement for Models 6QD, 6QE, 6QF, and More
 Best Buy: MSI Katana GF66 11UE/GF66 11UG DC Power Jack Cable - K1G-3004100-H39 Replacement
@@ -681,6 +691,7 @@ Best Buy: New Genuine eMachines EL1852 EL1852G EL1870 Computer Power Supply 220W
 Best Buy: New Genuine eMachines L1200 L1210 L1320 L1700 Computer Power Supply 220W
 Best Buy: New HP 633195-001 Bestec FH-ZD221MGR PC Power Supply 220W
 Best Buy: New HP ChromeBook 11-V 11 G5 11G5 DC Power Jack Cable
+Best Buy: New HP DC Power Cable 8-Pin 676707-FD1 727757-001 676707-SD1 676707-YD1
 Best Buy: New HP DC Power Jack Cable Omen 17-W 17T-W Pavilion 17-AB 17T-AB 120W
 Best Buy: New HP EliteDesk 800 G3 Power Supply 180W 901762-001 913149-001 901763-001
 Best Buy: New HP EliteOne 800 G1 AIO Power Supply 702912-001 733490-001 D12-200P2A
@@ -689,6 +700,7 @@ Best Buy: New HP Pavilion Envy TouchSmart DC Power Jack Cable 808155-011 808155-
 Best Buy: New HP Z420 Workstation Power Supply 600W DPS-600UB A 623193-001 632911-001
 Best Buy: New Hydronaut Thermal Grease - 3ml
 Best Buy: New Lenovo Ideapad G400S G405S G500S G505S DC Jack Cable DC30100NX00 DC30100PC00
+Best Buy: New Lenovo ThinkPad P14S Gen 3 4 FHD LCD Display Touch Screen NV140WUM-T02 V8.0
 Best Buy: New Liteon PS-5221-06 Computer Power Supply 220 Watt Acer eMachines Gateway SFF
 Best Buy: New Liteon PS-5221-06A1 SFF Computer Power Supply 220W Acer eMachines Gateway
 Best Buy: New Liteon PS-5221-06A2 SFF Computer Power Supply 220W Acer eMachines Gateway
@@ -792,7 +804,6 @@ Best Buy: Thermaltake SP-600AH2NKW Smart SP-600AH2NKW ATX12V & EPS12V Power Supp
 Best Buy: Thermaltake SP-700AH2NKW Smart SP-700AH2NKW ATX12V & EPS12V Power Supply (PSSPD0700NPCWUSW)
 Best Buy: Thermaltake Smart SP-600AH2NKW ATX12V & EPS12V Power Supply
 Best Buy: Thermaltake ToughPower 1500W ATX 100-240V APFC 80+Gold Black (PS-TPD-1500MPCGUS-1)
-Best Buy: Tripp Lite 12-Outlet Vertical Power Supply (PS361206)
 Best Buy: Tripp Lite 1440VA UPS Eco Green Battery Back Up AVR 120V USB Energy Star
 Best Buy: Tripp Lite 1U Rack-Mount 120V Power Supply (RS1215-20)
 Best Buy: Tripp Lite 3ft Computer Power Cord Cable 5-15P to C13 Heavy Duty 15A 14AWG 3'
@@ -835,6 +846,7 @@ Best Buy: eMachines EL1331 EL1331G EL1332 EL1332G 220W Power Supply
 Best Buy: eMachines EL1350 EL1350G EL1600 220W Power Supply
 Best Buy: eMachines EL1700 EL1830 EL1832 220W Power Supply
 Best Buy: eMachines ET1352 ET1352G 220W Power Supply
+Best Buy: iFi SilentPower DC Offset Blocker IEC Connector Power Supply Filter
 Canada Computers: ASUS 1000W Platinum Full Modular ATX Power Supply
 Canada Computers: CORSAIR 850W Gold ATX Power Supply, White
 Canada Computers: CORSAIR CP-9020263-NA Gold ATX Power Supply, Black
@@ -863,18 +875,18 @@ Canada Computers: MSI MAG A750GLS PCIE5, Fully Modular Compact, 80+ Gold, Power 
 Canada Computers: MSI MAG A850GLS PCIE5, Fully Modular Compact, 80+ Gold, Power Supply
 Canada Computers: Microsoft Surface 23W USB-C Power Supply Commercial
 Canada Computers: SEASONIC SSR-1300PD Power Supply, - Black
-Canada Computers: SUPERFLOWER 1000W Gold ATX Power Supply, Black
+Canada Computers: SUPER FLOWER 1000W Gold ATX Power Supply, Black
+Canada Computers: SUPER FLOWER Leadex VIII SP 1000W Power Supply, ATX 3.1 Compatible
+Canada Computers: SUPER FLOWER Leadex VIII SP 1000W Power Supply, ATX 3.1 Compatible
+Canada Computers: SUPER FLOWER Leadex VIII SP 1200W Power Supply, ATX 3.1 Compatible
+Canada Computers: SUPER FLOWER Leadex VIII SP 850W Power Supply, ATX 3.1 Compatible
+Canada Computers: SUPER FLOWER Titanium ATX Power Supply, Black
 Canada Computers: SUPERFLOWER 1000W Platinum ATX Power Supply, Black
 Canada Computers: SUPERFLOWER 1700W Titanium ATX Power Supply, Black
 Canada Computers: SUPERFLOWER 850W Gold ATX Power Supply, Black
 Canada Computers: SUPERFLOWER 850W Platinum ATX Power Supply, Black
-Canada Computers: SUPERFLOWER Titanium ATX Power Supply, Black
 Canada Computers: Silverstone Power Supply HA2050R-PM 2050W ATX Cybenntics Platinum
 Canada Computers: StarTech 450 Watt 80 Plus Gold Power Supply
-Canada Computers: Super Flower Leadex VIII SP 1000W Power Supply, ATX 3.1 Compatible
-Canada Computers: Super Flower Leadex VIII SP 1000W Power Supply, ATX 3.1 Compatible
-Canada Computers: Super Flower Leadex VIII SP 1200W Power Supply, ATX 3.1 Compatible
-Canada Computers: Super Flower Leadex VIII SP 850W Power Supply, ATX 3.1 Compatible
 Canada Computers: THERMALTAKE TTP-750AH2FKG Power Supply, - Black
 Canada Computers: be quiet! BP006US Platinum ATX Power Supply, Black
 Canada Computers: be quiet! BP007US Platinum ATX Power Supply, Black
