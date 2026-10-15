@@ -145,7 +145,6 @@ Best Buy: Battery Doctor 20531 On & off Illuminated 20-Amp Amber Rocker for 12 x
 Best Buy: Battery Doctor 20532 On & off Illuminated 20-Amp Red Rocker for 12 x 30 mm. Slot
 Best Buy: Battery Doctor 21020 Side-Terminal Battery Wrench
 Best Buy: Belkin Components Strip X 12inch Cord 6-outlet Power
-Best Buy: Benfei 2 Pack 6-Pin PCIe to 8-Pin PCIe Adapter Power Cable - 4 Inches
 Best Buy: Blue Sea 2002 PowerPost High Amperage Cable Connector 5/16 Stud
 Best Buy: Blue Sea 2138 Medium Duty Push Button Reset - Only - 15A - 2138
 Best Buy: Blue Sea 2300 150 Ampere Common BusBar 10 x #8-32 Screw Terminal with Cover
@@ -331,6 +330,7 @@ Best Buy: Extreme Networks Summit 715w Ac Psu Fb - 715 W
 Best Buy: For Lenovo 210W 10Pin Power Supply FSP210-20TGBAA FSP210-20TGBAB 54Y8977 PA-2221-3 PCE025 HK310-71PP 00PC746
 Best Buy: Fractal Design Ion+ 560P Power Supply
 Best Buy: Funcool USB 3.1 Type C Power Adapter 61W Charger For Apple Macbook Laptop Power Supply
+Best Buy: G-Shape Smart Wake-Up Light Alarm Clock with Bluetooth Speaker & Wireless Charging, App-Controlled Sound and Lighting
 Best Buy: GPU VGA PCIe 8 Pin U Turn 180 Degree Angle Connector Power Adapter Board for Desktop Graphics Card-Standard Type 2 Pack-re
 Best Buy: GSP12001000 – 12V DC 10A Regulated Power Supply
 Best Buy: Gateway One ZX4350 ZX4351 ZX4931 ZX4951 ZX6951 ZX6961 Power Supply 220W
@@ -471,6 +471,7 @@ Best Buy: IBM Lenovo 7303 SFF 280W Power Supply - Model PC7001, New Condition
 Best Buy: In-Win CB 1050W 80+ Platinum, Ultra Quiet Smart Fan, Japanese Capacitors, Full Modular Power Supply (7 Year Warranty)
 Best Buy: In-Win IP-S300FF1-0 H 300W TFX12V v2.31 Power Supply
 Best Buy: Instant On 48V Power Adapter
+Best Buy: Inv-Chgr, 2000W 12V 100A True-Sine
 Best Buy: Inverter, 1000W, 12V, Pure Sine Wave
 Best Buy: JR Products (12591-5) Black/Sliver 12V On/Off Switch, (Pack of 5)
 Best Buy: JR Products 12005 White Single SPST On-Off Switch with Bezel
@@ -809,7 +810,6 @@ Best Buy: Tripp Lite 1U Rack-Mount 120V Power Supply (RS1215-20)
 Best Buy: Tripp Lite 3ft Computer Power Cord Cable 5-15P to C13 Heavy Duty 15A 14AWG 3'
 Best Buy: Tripp Lite 600W Line Conditioner w/ AVR / Surge Protection 120V 5A 60Hz 6 Outlet Power Conditioner
 Best Buy: Tripp Lite Heavy-Duty Computer Power Cord, 14AWG 15A (NEMA 5-15P to IEC-320-C13) 12-ft.
-Best Buy: Tripp Lite Isobar Surge Protector Metal 2 Outlet 6' Cord 1410 Joules
 Best Buy: Tripp Lite P018-002-ABL Standard Power Cord
 Best Buy: Tripp Lite PDU Metered PDU 1U Rack-Mount Power Supply (PDUMH15AT)
 Best Buy: Tripp Lite PDU Single-Phase 120V Power Supply (PDUV15)
@@ -826,7 +826,6 @@ Best Buy: Tripp Lite Universal Reversible USB 2.0 Hi-Speed Cable
 Best Buy: Tripp Lite Vertical Ower Strip Power Supply (PS361220)
 Best Buy: USB 3.0 9Pin Male to Female Card Adapter for PC Laptop A
 Best Buy: Ubiquiti Networks Edgepower 150W DC-DC Modular Power Supply - (EP-54V-150W-DC)
-Best Buy: Uncaged Ergonomics 7-in-1 Portable Power Bank with Wireless Charging- 10000 mAh (WHITE)
 Best Buy: Uncaged Ergonomics Travel Charger Non Surge Cruise Approved Power Strip w/3 AC, 2 USB ports, 1 Fast Charging USB-C, 3ft Cable (WHITE)
 Best Buy: VAYALT 24V 50A 1200W DC Switching Power Supply, Universal Regulated Switching
 Best Buy: VERTIV Liebert PSA5-1500MT120 10-Outlet Tower UPS (1500VA / 900W)
