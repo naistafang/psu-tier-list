@@ -11,6 +11,7 @@ Best Buy: 12VHPWR 12+4 16P 600W Male to Female 180 Degree Adapter Silver
 Best Buy: 19V 3.42A 65W AC adapter charger for Asus U50 U52F U53F U56E
 Best Buy: 19V 3.42A 65W AC adapter charger for Asus U80 U81A U82U
 Best Buy: 19V 90W Ac Dc Adapter for 18 19 20 21 32 HP Pavilion 20 23 OMEN Gaming All-in-One Desktop Computer PC Monitor Elitebook 8460p 8470P 8440P 8760p 8460w 8770w 2760p 2170p Power Supply
+Best Buy: 1KW AC CONFIG 5 POWER SUPPLY
 Best Buy: 1x 6 Pin to 2x Molex 4pin PCI-E Video Card Power Adapter
 Best Buy: 2 CPU 8-Pin Female to Dual 4+4-Pin Male Y Power Splitter Cables, 18 AWG, 20cm
 Best Buy: 2 Pack European Travel Plug Adapter, VYLEE International Travel Adapter with 2 Outlets 4 USB Ports(2 USB C), 6 in 1 Type C Travel Essentials Charger for US to Most of Europe EU Ita
@@ -59,6 +60,7 @@ Best Buy: APC Power Cord Kit (6 Each) Locking 1.2m C19 to C20 (AP8714S)
 Best Buy: APC Power Cord Kit (6 Each) Locking C13 to C14 1.8m (AP8706S-NA)
 Best Buy: APC Power Cord Kit (6 ea), Locking, C13 to C14, 1.2m, North America
 Best Buy: APC Service/Support - 1 Year Extended Warranty - Service
+Best Buy: APC Service/Support - 3 Year Extended Warranty - Service
 Best Buy: APC Smart-UPS 1000VA LCD 120V with SmartConnect
 Best Buy: APC Smart-UPS C 1000VA LCD 120V with SmartConnect
 Best Buy: APC Standard Power Cord
@@ -667,6 +669,7 @@ Best Buy: New Genuine HIPRO HP-D2506A0 Power Supply 250W TFX0220D5WA
 Best Buy: New Genuine HP 504966-001 Power Supply 250W TFX0220D5WA
 Best Buy: New Genuine HP Compaq 349318-001 350030-001 379349-001 240W Power Supply 381024-001
 Best Buy: New Genuine HP Compaq PS-6241-6HF DPS-240FB-1 240W Power Supply 381024-001
+Best Buy: New Genuine HP Pavilion 15-BS065NR 15-BS091MS 15-BS091MS 15-BS132NR 15-BS008CY Battery 41.6Wh
 Best Buy: New Genuine HP Pavilion s5110la s5112f s5120f s5120kr s5120la Power Supply 250W TFX0220D5WA 504966-001
 Best Buy: New Genuine HP Pavilion s5120y s5126kr s5127kr s5128hk s5130la Power Supply 250W TFX0220D5WA 504966-001
 Best Buy: New Genuine HP Pavilion s5137kr s5148hk s5149kr s5150kr s5150la Power Supply 250W TFX0220D5WA 504966-001
@@ -739,6 +742,7 @@ Best Buy: Replacement Loudspeaker Compatible For Samsung Galaxy Tab S2 8.0" (T71
 Best Buy: Rosewill CMG5 1000W, ATX 3.0 & 3.1 Compatible, 80+ Gold 1000W Full Modular Power Supply, PCIe 5.0 600W 12V-2x6 Connector, 100% Japanese Electrolytic Capacitors, 120mm FDB Fans
 Best Buy: Rosewill CMG5 1200W, ATX 3.0 & 3.1 Compatible, 80+ Gold 1200W Full Modular Power Supply, PCIe 5.0 600W 12V-2x6 Connector, 100% Japanese Electrolytic Capacitors, 120mm FDB Fans
 Best Buy: S-Union 240W Power Supply Unit Replacement for Dell OptiPlex
+Best Buy: SCHNEIDER ELECTRIC BASIC RACK-MOUNT PDU HOR/VERTL5-30P/5-20 (AP9560)
 Best Buy: SCHNEIDER ELECTRIC RACK PDU BASIC 1U 16A 208V (12) C13 (AP9566)
 Best Buy: SCHNEIDER ELECTRIC SMART-UPS SRT 1500VA 120V APC (SRT1500XLA)
 Best Buy: SD Power Strip With Dual USB 6 Outlets 2ft
@@ -810,6 +814,7 @@ Best Buy: Tripp Lite 1U Rack-Mount 120V Power Supply (RS1215-20)
 Best Buy: Tripp Lite 3ft Computer Power Cord Cable 5-15P to C13 Heavy Duty 15A 14AWG 3'
 Best Buy: Tripp Lite 600W Line Conditioner w/ AVR / Surge Protection 120V 5A 60Hz 6 Outlet Power Conditioner
 Best Buy: Tripp Lite Heavy-Duty Computer Power Cord, 14AWG 15A (NEMA 5-15P to IEC-320-C13) 12-ft.
+Best Buy: Tripp Lite Isobar Surge Protector Metal 2 Outlet 6' Cord 1410 Joules
 Best Buy: Tripp Lite P018-002-ABL Standard Power Cord
 Best Buy: Tripp Lite PDU Metered PDU 1U Rack-Mount Power Supply (PDUMH15AT)
 Best Buy: Tripp Lite PDU Single-Phase 120V Power Supply (PDUV15)
@@ -886,7 +891,6 @@ Canada Computers: SUPERFLOWER 850W Gold ATX Power Supply, Black
 Canada Computers: SUPERFLOWER 850W Platinum ATX Power Supply, Black
 Canada Computers: Silverstone Power Supply HA2050R-PM 2050W ATX Cybenntics Platinum
 Canada Computers: StarTech 450 Watt 80 Plus Gold Power Supply
-Canada Computers: THERMALTAKE TTP-750AH2FKG Power Supply, - Black
 Canada Computers: be quiet! BP006US Platinum ATX Power Supply, Black
 Canada Computers: be quiet! BP007US Platinum ATX Power Supply, Black
 Canada Computers: be quiet! BP008US Platinum ATX Power Supply, Black
