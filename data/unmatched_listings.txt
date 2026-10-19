@@ -59,7 +59,6 @@ Best Buy: APC Power Cord Kit (6 Each) Locking 1.2m C19 to C20 (AP8714S)
 Best Buy: APC Power Cord Kit (6 Each) Locking C13 to C14 1.8m (AP8706S-NA)
 Best Buy: APC Power Cord Kit (6 ea), Locking, C13 to C14, 1.2m, North America
 Best Buy: APC Service/Support - 1 Year Extended Warranty - Service
-Best Buy: APC Service/Support - 3 Year Extended Warranty - Service
 Best Buy: APC Smart-UPS 1000VA LCD 120V with SmartConnect
 Best Buy: APC Smart-UPS C 1000VA LCD 120V with SmartConnect
 Best Buy: APC Standard Power Cord
@@ -314,6 +313,8 @@ Best Buy: Eaton 1000VA UPS Battery Backup - (9PX1000RT)
 Best Buy: Eaton 5S UPS
 Best Buy: Eaton 5SC UPS
 Best Buy: Eaton ePDU Metered 8-Outlet PDU
+Best Buy: Elite Premium Type 4 Individually Sleeved 2X 8-Pin to PCIe 12V-2x6 600W PSU Cable – Triple-Mesh Paracord
+Best Buy: Elite Premium Type 4 Individually Sleeved 2X 8-Pin to PCIe 12V-2x6 600W PSU Cable – Triple-Mesh Paracord
 Best Buy: Extech 382213 Digital Triple Output DC Power Supply
 Best Buy: Extreme Networks 1100W Power Supply (XN-ACPWR-1100W-FB)
 Best Buy: Extreme Networks 150W AC Power Supply (XN-ACPWR-150W)
@@ -497,6 +498,8 @@ Best Buy: Juniper Redundant Power Supply (JPSU-920-AC-AFO)
 Best Buy: LENOVO 200-240Vac 260W POWER SUPPLY 00PC765
 Best Buy: LENOVO REDUNDANT POWER SUPPLY 0A89426
 Best Buy: LENOVO THINKSERVER HOT SWAP REDUNDANT POWER SUPPLY - 0A89427
+Best Buy: LRS-100-24 Switching Power Supply, Single Output, 24V, 4.5A, 108W, 5.08" L x 3.82" W x 1.18" H
+Best Buy: LRS-75-24 Enclosed Switching Power Supply, Single Output, 24V, 3.2A, 76.8W, 3.9" L x 3.82" W x 1.18" H
 Best Buy: Laptopking B140HAN03.2 LCD Display Compatible with ASUS Chromebook Flip C434 C434T C434TA-DSM4T C434TA-DS588T 14" LCD Display Touch Screen Digital Assembly
 Best Buy: Laptopking LCD Screen Replacement for NT140WHM-T00 V8.4 LCD OnCell-Touch Screen Replacement HD 1366X768 LED 14.0" WideScreen Display (Only for V8.4, Not for Others)
 Best Buy: Lenovo - power supply - hot-plug - 750 Watt (7N67A00883)
@@ -575,7 +578,6 @@ Best Buy: New Asus K72 K72DR K72F K72JK K72JR X72 X7A PRO7A LCD Cable 14G1402604
 Best Buy: New Chicony CPB09-D220E Computer Power Supply 220 Watt Acer eMachines Gateway
 Best Buy: New Chicony CPB09-D220R Computer Power Supply 220W Acer eMachines Gateway
 Best Buy: New Compatible Asus GL752 GL752V GL752VW GL752VWM AC Adapter Charger ADP-180MB F 180W
-Best Buy: New Compatible Bose Soundlink Mini 2 II Mini 2 Mini II Speaker 088796 088789 088772 Battery 17WH
 Best Buy: New Dell 0UP173 L375E-01 PS-6371-2DFS-LF 375W Power Supply UP173
 Best Buy: New Dell Inspiron 15 5547 SATA Hard Drive Connector With Cable 0T55XP T55XP DC02001X200
 Best Buy: New Dell N375E-00 TU938 JP931 375W Power Supply UP173
@@ -800,6 +802,7 @@ Best Buy: TRENDnet TI-S48048 48V 480W Output Industrial (TIS48048)
 Best Buy: TRIPP LITE 25FT USB2.0 A/B DEVICE CBL A MALE B M25 (U042-025)
 Best Buy: TRIPP LITE 32-PORT USB CHARGING LAPTOPIPAD (CSC32USB)
 Best Buy: TRIPP LITE Protect It Power Strip 6 NEMA 5-15/20R TLM615NC20
+Best Buy: Technology PP13 EPS 8 pin to EPS 8 pin + (4+4) pin Splitter for PSUs
 Best Buy: Thermaltake PS-LTP-0350NNCNUS-F Thermaltake Lite 350 watt Power Supply
 Best Buy: Thermaltake SP-500AH2NKW Smart SP-500AH2NKW Power Supply (PSSPD0500NPCWUSW)
 Best Buy: Thermaltake SP-600AH2NKW Smart SP-600AH2NKW ATX12V & EPS12V Power Supply (PSSPD0600NPCWUSW)
@@ -819,7 +822,6 @@ Best Buy: Tripp Lite PDU Switched 208V-240V 30A C13 16 Outlet L6-30P Horizontal 
 Best Buy: Tripp Lite Piggyback Power Cord, 13A, 16AWG
 Best Buy: Tripp Lite Protect It! STRIKER 7-Outlet Surge Suppressor
 Best Buy: Tripp Lite SRCOOLNET2LX Remote Power Management Adapter SRCOOLNET2LX
-Best Buy: Tripp Lite Single-Phase ATS/Metered PDU 1U Rack-Mount Power Supply (PDUMH20HVAT)
 Best Buy: Tripp Lite SmartPro 2200VA Tower UPS
 Best Buy: Tripp Lite U428-06N-F USB Data Transfer Cable
 Best Buy: Tripp Lite UPS Replacement Battery Cartridge for select UPS Brands with (1) 12V Battery
@@ -847,7 +849,6 @@ Best Buy: eMachines EL1331 EL1331G EL1332 EL1332G 220W Power Supply
 Best Buy: eMachines EL1350 EL1350G EL1600 220W Power Supply
 Best Buy: eMachines EL1700 EL1830 EL1832 220W Power Supply
 Best Buy: eMachines ET1352 ET1352G 220W Power Supply
-Best Buy: iFi SilentPower DC Offset Blocker IEC Connector Power Supply Filter
 Canada Computers: ASUS 1000W Platinum Full Modular ATX Power Supply
 Canada Computers: CORSAIR 850W Gold ATX Power Supply, White
 Canada Computers: CORSAIR CP-9020263-NA Gold ATX Power Supply, Black
@@ -881,7 +882,6 @@ Canada Computers: SUPER FLOWER Leadex VIII SP 1000W Power Supply, ATX 3.1 Compat
 Canada Computers: SUPER FLOWER Leadex VIII SP 1000W Power Supply, ATX 3.1 Compatible
 Canada Computers: SUPER FLOWER Leadex VIII SP 1200W Power Supply, ATX 3.1 Compatible
 Canada Computers: SUPER FLOWER Leadex VIII SP 850W Power Supply, ATX 3.1 Compatible
-Canada Computers: SUPER FLOWER Titanium ATX Power Supply, Black
 Canada Computers: SUPERFLOWER 1000W Platinum ATX Power Supply, Black
 Canada Computers: SUPERFLOWER 1700W Titanium ATX Power Supply, Black
 Canada Computers: SUPERFLOWER 850W Gold ATX Power Supply, Black
