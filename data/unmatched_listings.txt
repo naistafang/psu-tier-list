@@ -46,7 +46,6 @@ Best Buy: ALITOVE DC 12V 20A 240W Power Supply Transformer Switch AC 110V/220V t
 Best Buy: AMERICAN POWER CONVERSION APC Symmetra LX Intelligence Module SYMIM5
 Best Buy: AMERICAN POWER CONVERSION Combination Lock Handles (Qty 2) AR8132A
 Best Buy: APC - Backplate Kit
-Best Buy: APC 10A Power Cord Kit Locking C13 to C14 0.6m (AP8702S-NA)
 Best Buy: APC 2ft Power Cord
 Best Buy: APC 750VA 600W 120V Corded Electric Rackmount Convertible Black Power Supplie (SMX750CNC)
 Best Buy: APC AP8716R Standard Power Cord
@@ -318,7 +317,6 @@ Best Buy: Elite Premium Type 4 Individually Sleeved 2X 8-Pin to PCIe 12V-2x6 600
 Best Buy: Extech 382213 Digital Triple Output DC Power Supply
 Best Buy: Extreme Networks 1100W Power Supply (XN-ACPWR-1100W-FB)
 Best Buy: Extreme Networks 150W AC Power Supply (XN-ACPWR-150W)
-Best Buy: Extreme Networks 350W AC PSU FB (XN-ACPWR-350W-FB)
 Best Buy: Extreme Networks 600W Power Supply (XN-ACPWR-600W)
 Best Buy: Extreme Networks 715W Power Supply (XN-ACPWR-715W-FB)
 Best Buy: Extreme Networks 800W Power Supply (XN-ACPWR-800W-R)
@@ -376,7 +374,6 @@ Best Buy: HP 880 Power Supply 280W - Compatible with ProDesk 600, 680, 800, 880,
 Best Buy: HP AC Power Supply
 Best Buy: HP ARUBA X371 12VDC 250W PS (JL085A#ABA)
 Best Buy: HP ARUBA X372 54VDC 1050W PS (JL087A#ABA)
-Best Buy: HP Compaq 8000 8100 6000 SFF 240W Power Supply - Model 611481-001, 613762-001
 Best Buy: HP Compaq D10-240P2A PC9055 PC9058 PS-4241-9HF 240W SFF Power Supply 508152-001
 Best Buy: HP Compaq DC7700 SFF 240W Power Supply - Model DPS-240FB-2A, Tested and Original
 Best Buy: HP Compaq Pro 6000 6005 6200 6300 6305 240W SFF Power Supply 503375-001 508152-001
@@ -397,7 +394,6 @@ Best Buy: HP Power Adapter
 Best Buy: HP Power Supply
 Best Buy: HP ProDesk 400 G4 SFF 180W Power Supply - Model PA-1181-7 (906189-001) - Brand New
 Best Buy: HP Prodesk L08417-002 250W SFF Desktop Power Supply - Reliable Power for Your Desktop
-Best Buy: HP RP5800 240W Power Supply - Model 659193-001 for Reliable Performance
 Best Buy: HP Redundant Jumper Power Interconnect Cable
 Best Buy: HP X361 150W AC Power Supply
 Best Buy: HP X362 720W 100-240VAC to 56VDC PoE Power Supply
@@ -463,7 +459,6 @@ Best Buy: High-Performance Dell PowerEdge R820 1100W Server Power Supply - Model
 Best Buy: High-Performance Dell Precision 3420 180W Power Supply - Model DPS-180AB
 Best Buy: High-Performance HP 280 G4 MT Power Supply - Model PA-1181-6HY D16-180P1B
 Best Buy: High-Quality Dell 260W Power Supply for 7080MT, 7070, 7060, and 3050M Models
-Best Buy: High-Quality HP 4300 4000 SFF Power Supply - Model CFH0240FWWB, 611480-002, 700506-001
 Best Buy: High-Quality Replacement Power Supply ADP-400DR for PlayStation 5 - Perfect Compatibility (6N3R2AL)
 Best Buy: Honeywell Power Supply Accessory for Industrial Applications Easy Installation 318-063-001
 Best Buy: Hp Aruba X372 54vdc 680w 100-240vac Power Supply
@@ -814,7 +809,6 @@ Best Buy: Tripp Lite 1U Rack-Mount 120V Power Supply (RS1215-20)
 Best Buy: Tripp Lite 3ft Computer Power Cord Cable 5-15P to C13 Heavy Duty 15A 14AWG 3'
 Best Buy: Tripp Lite 600W Line Conditioner w/ AVR / Surge Protection 120V 5A 60Hz 6 Outlet Power Conditioner
 Best Buy: Tripp Lite Heavy-Duty Computer Power Cord, 14AWG 15A (NEMA 5-15P to IEC-320-C13) 12-ft.
-Best Buy: Tripp Lite Isobar Surge Protector Metal 2 Outlet 6' Cord 1410 Joules
 Best Buy: Tripp Lite P018-002-ABL Standard Power Cord
 Best Buy: Tripp Lite PDU Metered PDU 1U Rack-Mount Power Supply (PDUMH15AT)
 Best Buy: Tripp Lite PDU Single-Phase 120V Power Supply (PDUV15)
