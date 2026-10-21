@@ -62,7 +62,6 @@ Best Buy: APC Smart-UPS 1000VA LCD 120V with SmartConnect
 Best Buy: APC Smart-UPS C 1000VA LCD 120V with SmartConnect
 Best Buy: APC Standard Power Cord
 Best Buy: APC UP BX 1350VA 10 Outlets AVR interface Back UPS Pro (BX1350M)
-Best Buy: APC UPS Battery Backup 700VA with 4 Backup Battery Outlets & USB Charging Ports - BE700G3, Black/White
 Best Buy: APC by Schneider Electric Replacement Battery Cartridge #163 APCRBC163
 Best Buy: APC by Schneider Electric Smart-UPS 750VA LCD 120V with SmartConnect
 Best Buy: APC by Schneider Electric Smart-UPS SRT 1500VA 120V
@@ -493,7 +492,6 @@ Best Buy: Juniper Redundant Power Supply (JPSU-920-AC-AFO)
 Best Buy: LENOVO 200-240Vac 260W POWER SUPPLY 00PC765
 Best Buy: LENOVO REDUNDANT POWER SUPPLY 0A89426
 Best Buy: LENOVO THINKSERVER HOT SWAP REDUNDANT POWER SUPPLY - 0A89427
-Best Buy: LRS-100-24 Switching Power Supply, Single Output, 24V, 4.5A, 108W, 5.08" L x 3.82" W x 1.18" H
 Best Buy: LRS-75-24 Enclosed Switching Power Supply, Single Output, 24V, 3.2A, 76.8W, 3.9" L x 3.82" W x 1.18" H
 Best Buy: Laptopking B140HAN03.2 LCD Display Compatible with ASUS Chromebook Flip C434 C434T C434TA-DSM4T C434TA-DS588T 14" LCD Display Touch Screen Digital Assembly
 Best Buy: Laptopking LCD Screen Replacement for NT140WHM-T00 V8.4 LCD OnCell-Touch Screen Replacement HD 1366X768 LED 14.0" WideScreen Display (Only for V8.4, Not for Others)
@@ -544,7 +542,6 @@ Best Buy: NEW APC AP7821 PDU Metered Power Distribution Unit 1U 16A 208/230V 8 o
 Best Buy: NEW Cisco PWR-2821-51-AC-IP POE inline power supply for 2821
 Best Buy: NZXT ATX 3.1 1000 Watt 80 Plus Gold Fully Modular Power Supply - Black - PA-0G2BB-US
 Best Buy: NZXT ATX 3.1 1200 Watt 80 Plus Gold Fully Modular Low-Noise Power Supply - White - PA-2G2BW-US
-Best Buy: NZXT ATX 3.1 1200 Watt 80 Plus Gold Fully Modular Power Supply - Black - PA-2G2BB-US
 Best Buy: NZXT ATX 3.1 850 Watt 80 Plus Gold Fully Modular Low-Noise Power Supply - White - PA-8G2BW-US
 Best Buy: NZXT ATX 3.1 850 Watt 80 Plus Gold Fully Modular Power Supply - Black-PA-8G2BB-US
 Best Buy: New ASUS K53E K53S K53SD K53SV K54L K54LY DC Jack Power Charging Port
