@@ -23,6 +23,7 @@ Best Buy: 3X 8-Pin PCle 3.0 GPU Power Adapter 180 Degree Connector Power Right A
 Best Buy: 4 ATX CPU 8-Pin Female to Dual 8(4+4)-Pin Male Splitters, EPS 12 V
 Best Buy: 4 Pin PWM Fan Speed Controller DC 5V 12V 24V PD QC Fast Charging USB-A Type-C Computer Case Cooling Fan Speed Regulator
 Best Buy: 4-Port DC Power Adaptor 12V / 5A cUL Listed
+Best Buy: 4-Port PCI Express USB 3.0 Controller Card USB 3.0 Expansion Card Multi-Port Type-A VL805
 Best Buy: 5X Laptop Gpu Cooling Fan for Msi Ge62 Ge72 Gl62 Gl72 Pe60 Pe70 Series Paad06015Sl
 Best Buy: 6-Outlet Surge Protector with 3 ft. Power Cord
 Best Buy: 65W AC adapter charger cord for Acer Aspire 4240 4315 5100-4575
@@ -249,6 +250,7 @@ Best Buy: Dell 360W Power Supply for G5 5090, XPS 8940, and Optiplex 7080 - Reli
 Best Buy: Dell 360W Power Supply for OptiPlex 7060, 5060, 7080MT - Model HU360EBM-00
 Best Buy: Dell 750W Power Supply for POWEREDGE R630, R730, R730xd, T430, T630 - E750E-S1 Model
 Best Buy: Dell Alienware Precision P211H Computer Power Supply Wiring Harness
+Best Buy: Dell Inspiron 15.6" Full HD Touchscreen LCD Screen - Compatible with 3505, 5501, 5505, 5593, 5594, 7501
 Best Buy: Dell Inspiron 3470 200W Power Supply - Reliable Replacement for Your Computer
 Best Buy: Dell Inspiron 3470 200W Power Supply H200NS-00 for Reliable Performance
 Best Buy: Dell Inspiron 3647 220W Power Supply Unit - L220NS-01, Model 89XW5, Brand New
@@ -359,7 +361,6 @@ Best Buy: Genuine Lenovo 240W Power Supply for ThinkCentre M90, M90s, M58 - Mode
 Best Buy: Genuine Lenovo 240W Power Supply for ThinkCentre Models A55, M57E, M70, M70E - Part Number 54Y8819
 Best Buy: Genuine Lenovo Ideapad 320 Laptop Battery - 30Wh Replacement for 320-15IAP, 320-17AST, 320-17ABR, 320-17IKB
 Best Buy: Genuine Lenovo ThinkCentre 280W Power Supply for M73, M78, M82, M92, M92p, M93, M93p Models
-Best Buy: Genuine OEM Original Lenovo 100-15IBY YOGA 510-14 310-14 710-13 Flex 4 65W Power Supply
 Best Buy: HP 180W Computer Power Supply - Model L08261-004 for Select HP Systems
 Best Buy: HP 180W Power Supply D13-180N1A for Reliable PC Performance
 Best Buy: HP 240W EliteDesk SFF Power Supply 702309-002
@@ -410,7 +411,6 @@ Best Buy: HPE Aruba X372 54VDC 680W 100-240VAC Power Supply
 Best Buy: HPE Aruba X372 54VDC 680W 100-240VAC Power Supply (JL086A#ABA)
 Best Buy: HPE FlexFabric 5710 450W Front-to-Back AC Power Supply (JL592A#ABA)
 Best Buy: HPE R/T3000 G5 HV NA/JP UPS
-Best Buy: HPE StoreEver MSL3040 Upgrade Power Supply Kit Q6Q64A
 Best Buy: HPE X362 1110W 115-240VAC to 56VDC PoE Power Supply JG545A – Brand New
 Best Buy: HPE X371 Aruba X371 12VDC 250W 100-240VAC Power Supply (JL085AABA)
 Best Buy: HYFAI 8 Pin PCI Express Male To Dual LP4 4Pin Molex IDE Power Cable Adapter
@@ -457,6 +457,7 @@ Best Buy: High-Performance Dell PowerEdge R630 R730 495W Switching Server Power 
 Best Buy: High-Performance Dell PowerEdge R820 1100W Server Power Supply - Model L1100E-S0
 Best Buy: High-Performance Dell Precision 3420 180W Power Supply - Model DPS-180AB
 Best Buy: High-Performance HP 280 G4 MT Power Supply - Model PA-1181-6HY D16-180P1B
+Best Buy: High-Quality 14" FHD LCD Screen for Dell Latitude E7440, E6440, E7450, E5450, and 3450 Laptops
 Best Buy: High-Quality Dell 260W Power Supply for 7080MT, 7070, 7060, and 3050M Models
 Best Buy: High-Quality Replacement Power Supply ADP-400DR for PlayStation 5 - Perfect Compatibility (6N3R2AL)
 Best Buy: Honeywell Power Supply Accessory for Industrial Applications Easy Installation 318-063-001
@@ -695,7 +696,6 @@ Best Buy: New HP Pavilion Envy TouchSmart DC Power Jack Cable 808155-011 808155-
 Best Buy: New HP Z420 Workstation Power Supply 600W DPS-600UB A 623193-001 632911-001
 Best Buy: New Hydronaut Thermal Grease - 3ml
 Best Buy: New Lenovo Ideapad G400S G405S G500S G505S DC Jack Cable DC30100NX00 DC30100PC00
-Best Buy: New Lenovo ThinkPad P14S Gen 3 4 FHD LCD Display Touch Screen NV140WUM-T02 V8.0
 Best Buy: New Liteon PS-5221-06 Computer Power Supply 220 Watt Acer eMachines Gateway SFF
 Best Buy: New Liteon PS-5221-06A1 SFF Computer Power Supply 220W Acer eMachines Gateway
 Best Buy: New Liteon PS-5221-06A2 SFF Computer Power Supply 220W Acer eMachines Gateway
