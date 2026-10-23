@@ -227,7 +227,6 @@ Best Buy: Coolmax ZX-700 700W ATX12V v2.2 / EPS12V v2.91 SLI Ready CrossFire Rea
 Best Buy: Corsair RM RPS0120 Power Supply
 Best Buy: Cougar GX-S550 Compact Power Supply - 80 PLUS Gold
 Best Buy: Cougar POLAR X2 1050 - PSU
-Best Buy: CyberPower Battery Kit
 Best Buy: CyberPower M1100XL Medical UPS Systems - 1100VA/880W, 120 VAC, NEMA 5-15P-HG, Mini-Tower, 6 Outlets, LCD, PowerPanel
 Best Buy: CyberPower OL1500RTXL2UN 1.5KVA Online UPS 2U sine wave LCD 100-125V RMCARD205 RT 3YR WTY
 Best Buy: CyberPower PFC Sine Wave OR1500PFCLCD mini-tower 1500VA 1050W
@@ -347,6 +346,7 @@ Best Buy: Genuine Dell Inspiron One 2330 & Optiplex 9010 AIO Power Supply - 200W
 Best Buy: Genuine Dell OptiPlex 3050 5050 SFF 180W Power Supply - L180ES-01 Compatible with Multiple Models
 Best Buy: Genuine Dell Optiplex 240W Power Supply for 390, 790, 960, 990 - Reliable and Efficient
 Best Buy: Genuine Dell Optiplex 3050 5050 7050 240W Power Supply - Model 5WNDJ DK87P 22M8Y
+Best Buy: Genuine Dell Optiplex 760 780 960 255W Power Supply - Model L255P-01
 Best Buy: Genuine Dell Studio XPS 435T Power Supply - 475W Replacement for Reliable Performance
 Best Buy: Genuine Dell TFX 250W Power Supply for Select Dell and HP Models - Part Numbers 0375CN, 375CN, 3MV8H & More
 Best Buy: Genuine Dell XPS 15 9550 Laptop Battery - 84Wh, 6 Cells, Black
@@ -530,7 +530,6 @@ Best Buy: M.2 NVMe to Dual M.2 Adapter Card, Supports PCIe Bus, Adds WiFi/Blueto
 Best Buy: M.2(M-Key NVMe 2260) to MINI SAS SFF-8087 Plug and Play Server High Speed Cable 1m
 Best Buy: MAG A1000GL PCIE5 WHITE, USA, 1000W, Fully-Modular, 80 Plus Gold, Standard ++ noise rating power supply, 10-year warranty
 Best Buy: MEDICAL GRADE BDL W/-PWR UNIT / REM / BATT
-Best Buy: MONTECH BETA 2 550W Power Supply, ATX 3.1 Ready, 80+ Bronze Certified, DC-to-DC Stability, Industrial Japanese Main Capacitor, Full Protection Suite (BETA2550W)
 Best Buy: MSI GF65 Thin 9sexr-229fr Gaming Laptop DC Power Jack Charging Port Replacement
 Best Buy: MSI GT72 DC Jack Port Replacement for Models 6QD, 6QE, 6QF, and More
 Best Buy: MSI Katana GF66 11UE/GF66 11UG DC Power Jack Cable - K1G-3004100-H39 Replacement
@@ -685,6 +684,8 @@ Best Buy: New Genuine eMachines EL1352 EL1352G EL1360 Computer Power Supply 220W
 Best Buy: New Genuine eMachines EL1358 EL1358G EL1833 EL1850 EL1850G Power Supply 220W
 Best Buy: New Genuine eMachines EL1852 EL1852G EL1870 Computer Power Supply 220W
 Best Buy: New Genuine eMachines L1200 L1210 L1320 L1700 Computer Power Supply 220W
+Best Buy: New Geuine Dell Optiplex N249M FR597 WU123 T164M POWER SUPPLY 255W L255P-01
+Best Buy: New Geuine Dell Optiplex PS-5261-3DF-LF Power Supply 255W L255P-01
 Best Buy: New HP 633195-001 Bestec FH-ZD221MGR PC Power Supply 220W
 Best Buy: New HP ChromeBook 11-V 11 G5 11G5 DC Power Jack Cable
 Best Buy: New HP DC Power Cable 8-Pin 676707-FD1 727757-001 676707-SD1 676707-YD1
@@ -788,6 +789,7 @@ Best Buy: THERMALTAKE SMART SP-500AH2NKW ATX12V & EPS12V POWER SUPPLY ATX12V/EPS
 Best Buy: THERMALTAKE SMART SP-700AH2NKW ATX12V & EPS12V POWER SUPPLY ATX12V/EPS12V 120 V AC, 230 V AC INPUT VOLTAGE 3.3 V DC, 5 V
 Best Buy: TP-Link 150W DC Power Supply Module (PSM150DC)
 Best Buy: TRENDnet 240 W Single Output IndustrialDIN-Rail Power Supply
+Best Buy: TRENDnet Gigabit PoE+ Injector
 Best Buy: TRENDnet TI-M6024 DIN Rail 24V 60W Power Supply for TI-G50, TI-G62, TI-G80, TI-F11SFP (TIM6024)
 Best Buy: TRENDnet TI-S12048 DIN Rail 48V 120W Power Supply for TI-PG541 (TIS12048)
 Best Buy: TRENDnet TI-S48048 48V 480W Output Industrial (TIS48048)
