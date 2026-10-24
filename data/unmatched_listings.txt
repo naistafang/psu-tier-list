@@ -45,10 +45,8 @@ Best Buy: 9PX 700 120V RT 5-15P 8OUT
 Best Buy: ACER 250W Power Supply with 6-Pin Connector - Model PA-2251-2AB, PA-2251-2, FSP250-20TGPAA
 Best Buy: ALITOVE DC 12V 20A 240W Power Supply Transformer Switch AC 110V/220V to DC 12V 20amp Switching Adapter Converter Drive..
 Best Buy: AMERICAN POWER CONVERSION APC Symmetra LX Intelligence Module SYMIM5
-Best Buy: AMERICAN POWER CONVERSION Combination Lock Handles (Qty 2) AR8132A
 Best Buy: APC - Backplate Kit
 Best Buy: APC 2ft Power Cord
-Best Buy: APC 750VA 600W 120V Corded Electric Rackmount Convertible Black Power Supplie (SMX750CNC)
 Best Buy: APC AP8716R Standard Power Cord
 Best Buy: APC AP9567 BASIC 100V,120V 15A 10 FT RACK PDU, BASIC, ZERO U, 15A, 100/120V, (14) 5-15
 Best Buy: APC BY SCHNEIDER ELECTRIC BASIC RACK 1U POWER DISTRIBUTION STRIP RACK-MOUNTABLE AC 120 V 10 X POWER NEMA 5-15 AP9562
@@ -227,6 +225,7 @@ Best Buy: Coolmax ZX-700 700W ATX12V v2.2 / EPS12V v2.91 SLI Ready CrossFire Rea
 Best Buy: Corsair RM RPS0120 Power Supply
 Best Buy: Cougar GX-S550 Compact Power Supply - 80 PLUS Gold
 Best Buy: Cougar POLAR X2 1050 - PSU
+Best Buy: CyberPower Battery Kit
 Best Buy: CyberPower M1100XL Medical UPS Systems - 1100VA/880W, 120 VAC, NEMA 5-15P-HG, Mini-Tower, 6 Outlets, LCD, PowerPanel
 Best Buy: CyberPower OL1500RTXL2UN 1.5KVA Online UPS 2U sine wave LCD 100-125V RMCARD205 RT 3YR WTY
 Best Buy: CyberPower PFC Sine Wave OR1500PFCLCD mini-tower 1500VA 1050W
@@ -249,7 +248,6 @@ Best Buy: Dell 360W Power Supply for G5 5090, XPS 8940, and Optiplex 7080 - Reli
 Best Buy: Dell 360W Power Supply for OptiPlex 7060, 5060, 7080MT - Model HU360EBM-00
 Best Buy: Dell 750W Power Supply for POWEREDGE R630, R730, R730xd, T430, T630 - E750E-S1 Model
 Best Buy: Dell Alienware Precision P211H Computer Power Supply Wiring Harness
-Best Buy: Dell Inspiron 15.6" Full HD Touchscreen LCD Screen - Compatible with 3505, 5501, 5505, 5593, 5594, 7501
 Best Buy: Dell Inspiron 3470 200W Power Supply - Reliable Replacement for Your Computer
 Best Buy: Dell Inspiron 3470 200W Power Supply H200NS-00 for Reliable Performance
 Best Buy: Dell Inspiron 3647 220W Power Supply Unit - L220NS-01, Model 89XW5, Brand New
