@@ -113,7 +113,6 @@ Best Buy: American Power Conversion AP8641 Pdu2G Switch 0U 30A 200-208V 21C13 3C
 Best Buy: Antec 650W 80+ Bronze Non-Modular ATX Power Supply - Black
 Best Buy: Antec CSK750DC 750W Non Modular 80 Plus Bronzen Power Supply
 Best Buy: Apple ADP-185BFT 185W Power Supply for iMac 21.5" Models A1418
-Best Buy: Apple iMac 27 A1419 300W Power Supply PA-1311-2A - Reliable and Efficient
 Best Buy: Apple iMac A1312 Power Supply 310W 614-0446 614-0476 614-0501
 Best Buy: Apple iMac A1312 Power Supply 310W 661-5310 661-5468 661-5972
 Best Buy: Apple iMac A1312 Power Supply 310W ADP-310AF B PA-2311-02A
@@ -843,7 +842,6 @@ Best Buy: eMachines ET1352 ET1352G 220W Power Supply
 Canada Computers: ASUS 1000W Platinum Full Modular ATX Power Supply
 Canada Computers: CORSAIR 850W Gold ATX Power Supply, White
 Canada Computers: CORSAIR CP-9020263-NA Gold ATX Power Supply, Black
-Canada Computers: CORSAIR CP-9020264-NA Gold ATX Power Supply, Black
 Canada Computers: CORSAIR CP-9020275 Gold ATX Power Supply, white
 Canada Computers: CORSAIR CP-9020276 Power Supply, white
 Canada Computers: CORSAIR Power Supply, -
