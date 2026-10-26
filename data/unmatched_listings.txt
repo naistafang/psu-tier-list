@@ -190,7 +190,6 @@ Best Buy: C2G 4ft 16 AWG Universal Power Cord (NEMA 5-15P to IEC320C13)
 Best Buy: C2G 5ft 16 AWG Universal Power Cord (NEMA 5-15P to IEC320C13)
 Best Buy: CISCO SYSTEMS 770W AC HOT-PLUG POWER SUPPLY FOR 1U C-SERIES RACK SERVER UCSC-PSU1-770W
 Best Buy: CM 550W ELITE V2 POWER SUPPLY
-Best Buy: COOLMAX I-400 400W ATX12V Power Supply
 Best Buy: COOLMAX V-500 500W ATX12V Power Supply
 Best Buy: COOLMAX ZU-1000B 1000W 80 PLUS BRONZE Certified Modular Active PFC Power Supply
 Best Buy: COOLMAX ZX Series ZX-700 700W ATX12V v2.2 / EPS12V v2.91 SLI Ready CrossFire Ready 80 PLUS Certified Active PFC Power Supply
@@ -215,8 +214,6 @@ Best Buy: Cisco Standard Power Cord
 Best Buy: Cisco UCSC-PSU1-770W AC Hot-plug Power Supply for 1u C-series Rack Server - 770 watt
 Best Buy: Cooler Master V Platinum 1600W V2 ATX 3.1 Full Modular PSU, 80+ Platinum, Dual 90° 12V-2x6 For Dual RTX 4000 Support , Purple Anodic-Coated Heat Sink, Mobius Fan
 Best Buy: CoolerMaster Power Supply MPY-8501-SFHAGV-US V SFX Gold 850 80+GoldFull Modular Retail
-Best Buy: Coolmax I-400 ATX Power Supply
-Best Buy: Coolmax V-400 400W ATX v2.01 Non-Modular Power Supply
 Best Buy: Coolmax ZX-500 500W 80Plus ATX12V/EPS12V, 140mm fan, SLI ready Power Supply_Black color
 Best Buy: Coolmax ZX-500 ATX12V & EPS12V Power Supply (14504)
 Best Buy: Coolmax ZX-600 600W 80Plus ATX12V/EPS12V, 140mm fan, SLI ready Power Supply_Black
@@ -299,7 +296,6 @@ Best Buy: Dell Studio XPS 435T / 9000 475W Power Supply F217J - Brand New
 Best Buy: Dell Studio XPS 9100 Precision T3400 525W Power Supply M1J3H - Brand New Replacement
 Best Buy: Dell Vostro 3470 Inspiron 3470 200W Power Supply with 6+4 Pin Connector
 Best Buy: Dell XPS 375W Power Supply Unit for 400, 410, 420, Precision 9100, 9150, 9200, and T3400 Series
-Best Buy: Dell XPS 8900 8910 8920 8300 R5 460W Power Supply GJXN1 - Reliable Performance for Your PC
 Best Buy: Dell XPS 8950 460W Switching Power Supply T63HC - Reliable Power Solution for Your PC
 Best Buy: Delta Electronics 250W Switching Power Supply DPS-250AB-81 A - Reliable Power for Servers and Computers
 Best Buy: Digi AC Power Supply - 5VDC
@@ -413,7 +409,6 @@ Best Buy: HPE X371 Aruba X371 12VDC 250W 100-240VAC Power Supply (JL085AABA)
 Best Buy: HYFAI 8 Pin PCI Express Male To Dual LP4 4Pin Molex IDE Power Cable Adapter
 Best Buy: High-Efficiency 235W Power Supply for Dell OptiPlex 760, 780, 960 SFF Model PW116
 Best Buy: High-Efficiency 240W Dell Optiplex Power Supply for SFF Desktops - Model 3WN11
-Best Buy: High-Efficiency 460W Power Supply for Dell XPS 8500, 8700, and 8910 Models - D460AM-03
 Best Buy: High-Efficiency 460W Power Supply for Dell XPS 8950 - Model PNWT1
 Best Buy: High-Efficiency Dell PowerEdge R730 R630 T630 495W Power Supply Unit VKDD2
 Best Buy: High-Performance 1100W Dell Power Supply for PowerEdge Servers - GYH9V
@@ -428,8 +423,6 @@ Best Buy: High-Performance 280W Power Supply for IBM ThinkCentre A57 M57 - Compa
 Best Buy: High-Performance 280W Power Supply for Lenovo Thinkcentre A58 - Model PC6001
 Best Buy: High-Performance 305W Power Supply for Dell OPTIPLEX 780 and 980 MT - Model AC305AM-00
 Best Buy: High-Performance 375W Dell Power Supply for Precision 380, 390 & Optiplex GX320 - Model UP173
-Best Buy: High-Performance 460W Dell Alienware Aurora R5 R6 Power Supply - Model PCF003
-Best Buy: High-Performance 460W Power Supply for Dell XPS 8700 and 8900 - Model HU460AM-00
 Best Buy: High-Performance 460W Power Supply for Dell XPS 8950 - Model H460EBS-00
 Best Buy: High-Performance 475W Power Supply for Dell Studio XPS 435 / 8000 - Model F217J
 Best Buy: High-Performance 750W Dell Power Supply for PowerEdge R630, R730, T430, and More
@@ -703,7 +696,6 @@ Best Buy: New Toshiba P300 P300D P305 P305D A300 U300 DC Power Jack Cable Harnes
 Best Buy: New iMac 21.5" A1418 Late 2012 Early 2013 Mid 2014 2015 Power Supply 185W 661-6700 661-7111 661-7512 APA007 ADP-185BF
 Best Buy: OEM 135W Power Supply ADP-135KB for Acer Nitro 5 AN515-53-55G9 AN515-53-52FA
 Best Buy: ORION 685D ATX Power Supply
-Best Buy: ORION HP500 300W ATX Power Supply With SATA Cable
 Best Buy: ORSAIR RM1000e Fully Modular Low-Noise ATX Power Supply - ATX 3.0 & PCIe 5.0 Compliant - 105°C-Rated Capacitors - 80 PLUS Gold Efficiency - Modern Standby Support
 Best Buy: OmniSmart LCD 120V 50/60Hz 1500VA 810W Line-Interactive UPS, Tower, LCD display, USB port, Energy Star V2.0
 Best Buy: Orion 785D Silent Power Supply W/Silent 120mm Fan
@@ -793,6 +785,7 @@ Best Buy: TRENDnet TI-S48048 48V 480W Output Industrial (TIS48048)
 Best Buy: TRIPP LITE 25FT USB2.0 A/B DEVICE CBL A MALE B M25 (U042-025)
 Best Buy: TRIPP LITE 32-PORT USB CHARGING LAPTOPIPAD (CSC32USB)
 Best Buy: TRIPP LITE Protect It Power Strip 6 NEMA 5-15/20R TLM615NC20
+Best Buy: Tablet Case - FRANCIS-R - iPad Air 2020 - Childproof - EVA Silicone - Orange
 Best Buy: Technology PP13 EPS 8 pin to EPS 8 pin + (4+4) pin Splitter for PSUs
 Best Buy: Thermaltake PS-LTP-0350NNCNUS-F Thermaltake Lite 350 watt Power Supply
 Best Buy: Thermaltake SP-500AH2NKW Smart SP-500AH2NKW Power Supply (PSSPD0500NPCWUSW)
