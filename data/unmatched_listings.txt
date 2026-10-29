@@ -21,6 +21,7 @@ Best Buy: 20X 0.9-5V to 5V DC-DC Step-Up Power Module Voltage Boost Converter Bo
 Best Buy: 290W PSU Chassis Power Supply for 3020 9020MT T1700
 Best Buy: 2pcs 24V 4A-6A AC-DC Switching Power Supply Module High Power Power Modules with Overcurrent & Short Circuit Protection
 Best Buy: 3 Pin Fan to Power Supply Adapter Cable
+Best Buy: 30PCS CA-888 CA888 15-24 Inch Universal LCD Monitor Power Board Power Module
 Best Buy: 310W Power Supply for iMac 27" (2009-2011) - Apple Delta ADP-310AF B - Model 661-5468 614-0446
 Best Buy: 3X 8-Pin PCle 3.0 GPU Power Adapter 180 Degree Connector Power Right Angle Elbow Adapter for Desktops Graphics B
 Best Buy: 3X Dual DC Power Switching Module Dual Low Voltage Differential Ideal Diode 15A UPS Uninterruptible Power Supply
@@ -60,7 +61,6 @@ Best Buy: APC AP8716R Standard Power Cord
 Best Buy: APC AP9567 BASIC 100V,120V 15A 10 FT RACK PDU, BASIC, ZERO U, 15A, 100/120V, (14) 5-15
 Best Buy: APC BY SCHNEIDER ELECTRIC BASIC RACK 1U POWER DISTRIBUTION STRIP RACK-MOUNTABLE AC 120 V 10 X POWER NEMA 5-15 AP9562
 Best Buy: APC BY SCHNEIDER ELECTRIC RM PDU BASIC 1U 208V 16A-12 C13 RCPTLS AP9566
-Best Buy: APC Back-UPS RS BR1500GI 1500VA Tower UPS
 Best Buy: APC Metered Rack AP8881 42-Outlets 11kW PDU
 Best Buy: APC Power Cord Kit (6 Each) Locking 1.2m C19 to C20 (AP8714S)
 Best Buy: APC Power Cord Kit (6 Each) Locking C13 to C14 1.8m (AP8706S-NA)
@@ -254,6 +254,7 @@ Best Buy: Dell 750W Power Supply for POWEREDGE R630, R730, R730xd, T430, T630 - 
 Best Buy: Dell Alienware Precision P211H Computer Power Supply Wiring Harness
 Best Buy: Dell G5 500W Power Supply Unit - Compatible with Models 5090, 7070, 7060, and More
 Best Buy: Dell G5 500W Power Supply Unit - L500EPM-00 for 5090, 7070, 7060 Models
+Best Buy: Dell Inspiron 15.6" Full HD Touchscreen LCD Screen - Compatible with 3505, 5501, 5505, 5593, 5594, 7501
 Best Buy: Dell Inspiron 3470 200W Power Supply - Reliable Replacement for Your Computer
 Best Buy: Dell Inspiron 3470 200W Power Supply H200NS-00 for Reliable Performance
 Best Buy: Dell Inspiron 3647 220W Power Supply Unit - L220NS-01, Model 89XW5, Brand New
@@ -334,6 +335,7 @@ Best Buy: Extreme Networks 960W Power Supply (ISW-AC-DC-PS-960W)
 Best Buy: Extreme Networks Summit 715W AC PSU FB (10951)
 Best Buy: Extreme Networks Summit 715w Ac Psu Fb - 715 W
 Best Buy: For Lenovo 210W 10Pin Power Supply FSP210-20TGBAA FSP210-20TGBAB 54Y8977 PA-2221-3 PCE025 HK310-71PP 00PC746
+Best Buy: For Raspberry Pi 5 POE with PD Trigger Activation Type C Power over Ethernet Support IEEE 802.3af/At Network Standard
 Best Buy: Fractal Design Ion+ 560P Power Supply
 Best Buy: Funcool USB 3.1 Type C Power Adapter 61W Charger For Apple Macbook Laptop Power Supply
 Best Buy: G-Shape Smart Wake-Up Light Alarm Clock with Bluetooth Speaker & Wireless Charging, App-Controlled Sound and Lighting
@@ -498,6 +500,7 @@ Best Buy: LENOVO REDUNDANT POWER SUPPLY 0A89426
 Best Buy: LENOVO THINKSERVER HOT SWAP REDUNDANT POWER SUPPLY - 0A89427
 Best Buy: LRS-150-24 Switching Power Supply, Single Output, 24V, 6.5A, 156W, 6.26" L x 3.82" W x 1.18" H
 Best Buy: LRS-75-24 Enclosed Switching Power Supply, Single Output, 24V, 3.2A, 76.8W, 3.9" L x 3.82" W x 1.18" H
+Best Buy: LT3045 Linear Voltage Reduction and Stabilization Module Ultra Low Noise Power Supply Small Volume DAC 5V
 Best Buy: Laptopking B140HAN03.2 LCD Display Compatible with ASUS Chromebook Flip C434 C434T C434TA-DSM4T C434TA-DS588T 14" LCD Display Touch Screen Digital Assembly
 Best Buy: Laptopking LCD Screen Replacement for NT140WHM-T00 V8.4 LCD OnCell-Touch Screen Replacement HD 1366X768 LED 14.0" WideScreen Display (Only for V8.4, Not for Others)
 Best Buy: Lenovo - power supply - hot-plug - 750 Watt (7N67A00883)
@@ -544,7 +547,6 @@ Best Buy: Module Power Supply PCIE 8PIN to DC Cable DC5525 Elbow Power Supply Ca
 Best Buy: NETWORK INTERFACE CARD
 Best Buy: NEW APC AP7821 PDU Metered Power Distribution Unit 1U 16A 208/230V 8 outlets. 1 Year Warranty
 Best Buy: NEW Cisco PWR-2821-51-AC-IP POE inline power supply for 2821
-Best Buy: NZXT ATX 3.1 1000 Watt 80 Plus Gold Fully Modular Power Supply - Black - PA-0G2BB-US
 Best Buy: NZXT ATX 3.1 1200 Watt 80 Plus Gold Fully Modular Low-Noise Power Supply - White - PA-2G2BW-US
 Best Buy: NZXT ATX 3.1 850 Watt 80 Plus Gold Fully Modular Low-Noise Power Supply - White - PA-8G2BW-US
 Best Buy: NZXT ATX 3.1 850 Watt 80 Plus Gold Fully Modular Power Supply - Black-PA-8G2BB-US
@@ -800,6 +802,7 @@ Best Buy: TRENDnet TI-S12048 DIN Rail 48V 120W Power Supply for TI-PG541 (TIS120
 Best Buy: TRENDnet TI-S48048 48V 480W Output Industrial (TIS48048)
 Best Buy: TRIPP LITE 25FT USB2.0 A/B DEVICE CBL A MALE B M25 (U042-025)
 Best Buy: TRIPP LITE 32-PORT USB CHARGING LAPTOPIPAD (CSC32USB)
+Best Buy: TRIPP LITE Protect It Power Strip 4 NEMA 5-15R TLM406NC
 Best Buy: TRIPP LITE Protect It Power Strip 6 NEMA 5-15/20R TLM615NC20
 Best Buy: Tablet Case - FRANCIS-R - iPad Air 2020 - Childproof - EVA Silicone - Orange
 Best Buy: Technology PP08 Universal SFX to ATX Power Supply Adapter Bracket, Black, SST-PP08B
