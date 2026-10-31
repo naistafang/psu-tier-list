@@ -236,6 +236,7 @@ Best Buy: CyberPower M1100XL Medical UPS Systems - 1100VA/880W, 120 VAC, NEMA 5-
 Best Buy: CyberPower OL1500RTXL2UN 1.5KVA Online UPS 2U sine wave LCD 100-125V RMCARD205 RT 3YR WTY
 Best Buy: CyberPower PFC Sine Wave OR1500PFCLCD mini-tower 1500VA 1050W
 Best Buy: CyberPower Professional P3WU 3-Outlet Surge Suppressor/Protector
+Best Buy: CyberPower UPS Battery Pack
 Best Buy: Cyberpower Systems 1050W Non-Modular Power Supply - (PR1500LCDN)
 Best Buy: Cyberpower Systems 2700W Non-Modular Power Supply - (OL3000RTXL2U)
 Best Buy: Cyberpower Systems Non-Modular Power Supply - (BP72V60ART2U)
@@ -651,7 +652,6 @@ Best Buy: New Genuine HIPRO HP-D2506A0 Power Supply 250W TFX0220D5WA
 Best Buy: New Genuine HP 504966-001 Power Supply 250W TFX0220D5WA
 Best Buy: New Genuine HP Compaq 349318-001 350030-001 379349-001 240W Power Supply 381024-001
 Best Buy: New Genuine HP Compaq PS-6241-6HF DPS-240FB-1 240W Power Supply 381024-001
-Best Buy: New Genuine HP Pavilion 15-BS065NR 15-BS091MS 15-BS091MS 15-BS132NR 15-BS008CY Battery 41.6Wh
 Best Buy: New Genuine HP Pavilion s5110la s5112f s5120f s5120kr s5120la Power Supply 250W TFX0220D5WA 504966-001
 Best Buy: New Genuine HP Pavilion s5120y s5126kr s5127kr s5128hk s5130la Power Supply 250W TFX0220D5WA 504966-001
 Best Buy: New Genuine HP Pavilion s5137kr s5148hk s5149kr s5150kr s5150la Power Supply 250W TFX0220D5WA 504966-001
@@ -724,7 +724,6 @@ Best Buy: Replacement Battery Cartridge #133
 Best Buy: Replacement Loudspeaker Compatible For Samsung Galaxy Tab S2 8.0" (T710 / T810 / T715 / T815) (2 Piece Set)
 Best Buy: Rosewill CMG5 1000W, ATX 3.0 & 3.1 Compatible, 80+ Gold 1000W Full Modular Power Supply, PCIe 5.0 600W 12V-2x6 Connector, 100% Japanese Electrolytic Capacitors, 120mm FDB Fans
 Best Buy: Rosewill CMG5 1200W, ATX 3.0 & 3.1 Compatible, 80+ Gold 1200W Full Modular Power Supply, PCIe 5.0 600W 12V-2x6 Connector, 100% Japanese Electrolytic Capacitors, 120mm FDB Fans
-Best Buy: S-Union 240W Power Supply Unit Replacement for Dell OptiPlex
 Best Buy: SCHNEIDER ELECTRIC BASIC RACK-MOUNT PDU HOR/VERTL5-30P/5-20 (AP9560)
 Best Buy: SCHNEIDER ELECTRIC RACK PDU BASIC 1U 16A 208V (12) C13 (AP9566)
 Best Buy: SCHNEIDER ELECTRIC SMART-UPS SRT 1500VA 120V APC (SRT1500XLA)
@@ -892,3 +891,4 @@ Vuugo: Cooler Master V Platinum 1600 V2 ATX 3.1 1600W Full Modular Power Supply 
 Vuugo: InWin IP-S Series AU 265W Flex ATX Power Supply - 80 PLUS Bronze Certified - Single +12V Output - 40mm Cooling Fan -  Smart Thermal Control - 1x 24-Pin Main Power - 1x 8 to 4 Pin Power - 2x SATA - 1x Slim SATA (IP-S265AU7-2.CJ712)
 Vuugo: InWin IP-S Series FF 300W TFX Power Supply - TFX 12V V2.5 - Multiple +12V Output - 80mm Cooling Fan - 1x 4-Pin FDD - 1x Peripheral - 3x SATA (IP-S300FF1-0 H)
 Vuugo: Thermaltake Toughpower 1500W Gold Semi-Modular Power Supply - 80 PLUS GOLD Certified - ATX12V V2.3 / EPS12V - 135mm Ultra Quiet Fan - Flat Modular Cables - Dual +12V Rail - 10x PCI-E 6+2-Pin Connectors (PS-TPD-1500MPCGUS-1)
+shopRBC: Asus Pro WS 2200 Watt Platinum Power Supply
