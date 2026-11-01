@@ -263,25 +263,32 @@ th.c-price { text-align: right; }
 .hist-stats dd { margin: 0; font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums; }
 .hist-stats dd .trend { font-size: inherit; margin: 0; }
 .hist-stats dd .small { display: block; font-weight: 400; }
-.pchart { display: grid; grid-template-columns: auto 1fr; gap: 0 8px; max-width: 460px; margin: 0 0 8px; }
-.pchart-axis { position: relative; height: 110px; min-width: 64px; }
+.pchart {
+  display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto 160px auto auto;
+  gap: 0 8px; max-width: 520px; margin: 4px 0 8px; padding-right: 14px;
+}
+.pchart-ytitle { grid-column: 1 / -1; font-size: 11px; color: var(--muted); margin-bottom: 6px; }
+.pchart-axis { position: relative; min-width: 44px; }
 .pchart-y {
   position: absolute; right: 0; transform: translateY(-50%); white-space: nowrap;
   font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums;
 }
-.pchart-y.low { color: var(--down); font-weight: 600; }
 .pchart-plot {
-  position: relative; height: 110px; touch-action: pan-y; cursor: crosshair;
-  border-left: 1px solid var(--border); border-bottom: 1px solid var(--border);
+  position: relative; touch-action: pan-y; cursor: crosshair;
+  border-left: 1px solid var(--muted); border-bottom: 1px solid var(--muted);
 }
 .pchart-plot svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
 .pchart-plot path { fill: none; stroke: var(--accent); stroke-width: 2; vector-effect: non-scaling-stroke; stroke-linejoin: round; }
 .pchart-plot .grid { stroke: var(--border); stroke-width: 1; vector-effect: non-scaling-stroke; }
-.pchart-plot .grid.low { stroke: var(--down); stroke-dasharray: 3 3; opacity: 0.6; }
-.pchart-dot {
-  position: absolute; width: 9px; height: 9px; margin: -4.5px 0 0 -4.5px; border-radius: 50%;
-  background: var(--accent); box-shadow: 0 0 0 2px var(--surface-2); pointer-events: none;
+.pchart-plot .grid.low { stroke: var(--down); stroke-dasharray: 3 3; opacity: 0.7; }
+.pchart-lowlabel {
+  position: absolute; left: 4px; transform: translateY(2px); white-space: nowrap; pointer-events: none;
+  font-size: 11px; font-weight: 600; color: var(--down); font-variant-numeric: tabular-nums;
 }
+.pchart-pt, .pchart-dot, .pchart-hit { position: absolute; border-radius: 50%; pointer-events: none; }
+.pchart-pt { width: 5px; height: 5px; margin: -2.5px 0 0 -2.5px; background: var(--accent); }
+.pchart-dot { width: 9px; height: 9px; margin: -4.5px 0 0 -4.5px; background: var(--accent); box-shadow: 0 0 0 2px var(--surface-2); }
+.pchart-hit { width: 9px; height: 9px; margin: -4.5px 0 0 -4.5px; background: var(--surface-2); border: 2px solid var(--accent); box-sizing: border-box; }
 .pchart-guide { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--muted); opacity: 0.5; pointer-events: none; }
 .pchart-tip {
   position: absolute; top: 2px; transform: translateX(6px); white-space: nowrap; pointer-events: none;
@@ -289,7 +296,9 @@ th.c-price { text-align: right; }
   background: var(--text); color: var(--surface); font-variant-numeric: tabular-nums;
 }
 .pchart-tip.flip { transform: translateX(calc(-100% - 6px)); }
-.pchart-x { grid-column: 2; display: flex; justify-content: space-between; font-size: 11px; color: var(--muted); padding-top: 3px; }
+.pchart-x { grid-column: 2; position: relative; height: 18px; font-size: 11px; color: var(--muted); }
+.pchart-x span { position: absolute; top: 3px; transform: translateX(-50%); white-space: nowrap; }
+.pchart-xtitle { grid-column: 2; text-align: center; font-size: 11px; color: var(--muted); }
 .series { color: var(--text); }
 
 .tier {
@@ -335,7 +344,10 @@ tr.detail > td { background: var(--surface-2); padding: 4px 14px 18px; }
   display: grid;
   grid-template-columns: minmax(220px, 1fr) minmax(220px, 1.2fr);
   gap: 14px 28px;
+  align-items: start;
 }
+/* Left: specs, prices, store links. Right: notes with the price history right below. */
+.detail-col { display: grid; gap: 14px; align-content: start; min-width: 0; }
 .detail-grid h3 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); margin: 10px 0 6px; }
 .detail-grid p { margin: 0 0 6px; }
 .specs { margin: 10px 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 8px 16px; }
@@ -398,4 +410,11 @@ tr.detail > td { background: var(--surface-2); padding: 4px 14px 18px; }
   tr.detail { display: block; }
   tr.detail > td { display: block; padding: 4px 12px 16px; }
   .detail-grid { grid-template-columns: 1fr; }
+  /* One column on phones, in reading order: specs, notes, prices, history, store links. */
+  .detail-col { display: contents; }
+  .detail-grid .specs { order: 1; }
+  .detail-grid .notes { order: 2; }
+  .detail-grid .offers { order: 3; }
+  .detail-grid .history { order: 4; }
+  .detail-grid .stores { order: 5; }
 }

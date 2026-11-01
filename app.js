@@ -646,22 +646,34 @@ function historyHtml(p) {
     <p class="muted small">Lowest price from the stores themselves (marketplace sellers excluded), checked daily since ${fmtDate(historySince)}.</p>`;
 }
 
-// Chart scale for a model's history: the time span, and a price range padded so that a
-// small move doesn't fill the whole height (at least 10% of the price, centred on the data).
+// A day number (days since 1970, UTC) as "Oct 6".
+const shortDay = d => new Date(d * DAY).toLocaleDateString("en-CA", { month: "short", day: "numeric", timeZone: "UTC" });
+const dayLabel = d => new Date(d * DAY).toLocaleDateString("en-CA", { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
+
+// Chart scale for a model's history: the time span, and a price range padded so that a small
+// move doesn't fill the whole height (at least 10% of the price), snapped to round tick values.
 function chartScale(pts) {
   const priced = pts.filter(([, v]) => v != null).map(([, v]) => v);
   const lo = Math.min(...priced), hi = Math.max(...priced);
   const span = Math.max(hi - lo, hi * 0.1);
   const mid = (hi + lo) / 2;
-  return {
-    start: dayOf(pts[0][0]),
-    end: Math.max(Date.now() / DAY, dayOf(pts.at(-1)[0]) + 1),
-    lo, hi, bottom: mid - span * 0.6, top: mid + span * 0.6,
-  };
+  const rawLo = Math.max(0, mid - span * 0.6), rawHi = mid + span * 0.6;
+  const step = [1, 2, 5, 10, 20, 25, 50, 100, 200, 250, 500].find(t => (rawHi - rawLo) / t <= 4) || 1000;
+  const bottom = Math.floor(rawLo / step) * step, top = Math.ceil(rawHi / step) * step;
+  const yTicks = [];
+  for (let v = bottom; v <= top + 1e-9; v += step) yTicks.push(v);
+
+  const start = dayOf(pts[0][0]);
+  const end = Math.max(Date.now() / DAY, dayOf(pts.at(-1)[0]) + 1);
+  const xStep = [1, 2, 7, 14, 28].find(t => (end - start) / t <= 6) || 56;
+  const xTicks = [];
+  for (let d = start; d <= end; d += xStep) xTicks.push(d);
+  return { start, end, lo, hi, bottom, top, yTicks, xTicks };
 }
 
 // A step line of the lowest price from the first point until today, with gaps where no store
-// listed it. Labels are HTML on top of the SVG so they don't stretch with it.
+// listed it, a marker at each price change, and labelled price and date axes. Labels are HTML
+// on top of the SVG so they don't stretch with it.
 function priceChart(p) {
   const pts = HISTORY[p.key] || [];
   if (pricedPoints(p).length < 2) return "";
@@ -678,30 +690,35 @@ function priceChart(p) {
     const joined = i > 0 && pts[i - 1][1] != null;
     path += `${joined ? `V${f(y(price))}` : `M${f(x(dayOf(date)))} ${f(y(price))}`}H${f(x(until))}`;
   });
+  const marks = pts.filter(([, v]) => v != null).map(([date, v]) =>
+    `<span class="pchart-pt" style="left:${f(x(dayOf(date)))}%;top:${f(y(v))}%" title="${fmtDate(date)} · ${money.format(v)}"></span>`).join("");
   const [lastDate, last] = pts.at(-1);
-  const dot = last != null
-    ? `<span class="pchart-dot" style="left:100%;top:${f(y(last))}%"></span>` : "";
-  // Skip the high label when it would sit on top of the low one.
-  const showHi = s.hi - s.lo > (s.top - s.bottom) * 0.15;
-  const yLabel = (v, cls) => `<span class="pchart-y ${cls}" style="top:${f(y(v))}%">${money.format(v)}</span>`;
+  const now = last != null ? `<span class="pchart-dot" style="left:100%;top:${f(y(last))}%"></span>` : "";
+  const dollars = v => new Intl.NumberFormat("en-CA", { style: "currency", currency: "CAD", maximumFractionDigits: 0 }).format(v);
+
   return `<figure class="pchart" data-key="${esc(p.key)}">
-    <div class="pchart-axis">${showHi ? yLabel(s.hi, "") : ""}${yLabel(s.lo, "low")}</div>
+    <div class="pchart-ytitle">Price (CAD)</div>
+    <div class="pchart-axis">${s.yTicks.map(v => `<span class="pchart-y" style="top:${f(y(v))}%">${dollars(v)}</span>`).join("")}</div>
     <div class="pchart-plot">
       <svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img"
         aria-label="Lowest price went from ${money.format(pts.find(([, v]) => v != null)[1])} on ${fmtDate(pts[0][0])} to ${last == null ? "not listed" : money.format(last)} on ${fmtDate(lastDate)}">
-        ${showHi ? `<line class="grid" x1="0" x2="${W}" y1="${f(y(s.hi))}" y2="${f(y(s.hi))}"/>` : ""}
+        ${s.yTicks.map(v => `<line class="grid" x1="0" x2="${W}" y1="${f(y(v))}" y2="${f(y(v))}"/>`).join("")}
+        ${s.xTicks.map(d => `<line class="grid" y1="0" y2="${H}" x1="${f(x(d))}" x2="${f(x(d))}"/>`).join("")}
         <line class="grid low" x1="0" x2="${W}" y1="${f(y(s.lo))}" y2="${f(y(s.lo))}"/>
         <path d="${path}"/>
       </svg>
-      ${dot}
+      <span class="pchart-lowlabel" style="top:${f(y(s.lo))}%">Lowest ${money.format(s.lo)}</span>
+      ${marks}${now}
       <span class="pchart-guide" hidden></span>
+      <span class="pchart-hit" hidden></span>
       <span class="pchart-tip" hidden></span>
     </div>
-    <div class="pchart-x"><span>${fmtDate(pts[0][0])}</span><span>Today</span></div>
+    <div class="pchart-x">${s.xTicks.map(d => `<span style="left:${f(x(d))}%">${shortDay(d)}</span>`).join("")}</div>
+    <div class="pchart-xtitle">Date</div>
   </figure>`;
 }
 
-// Hover or drag across a chart to read the price on a given day.
+// Hover or drag across a chart to read the date and price at that point.
 function chartPointer(e) {
   const plot = e.target.closest?.(".pchart-plot");
   if (!plot) return;
@@ -713,17 +730,19 @@ function chartPointer(e) {
   const d = s.start + frac * (s.end - s.start);
   let at = pts[0];
   for (const pt of pts) if (dayOf(pt[0]) <= d) at = pt;
-  const when = d >= today() ? "Today" : fmtDate(new Date(d * DAY).toISOString().slice(0, 10));
-  const guide = plot.querySelector(".pchart-guide"), tip = plot.querySelector(".pchart-tip");
+  const when = d >= today() ? "Today" : dayLabel(Math.floor(d));
+  const guide = plot.querySelector(".pchart-guide"), tip = plot.querySelector(".pchart-tip"), hit = plot.querySelector(".pchart-hit");
   guide.hidden = tip.hidden = false;
-  guide.style.left = tip.style.left = `${(frac * 100).toFixed(2)}%`;
+  guide.style.left = tip.style.left = hit.style.left = `${(frac * 100).toFixed(2)}%`;
+  hit.hidden = at[1] == null;
+  if (at[1] != null) hit.style.top = `${((1 - (at[1] - s.bottom) / (s.top - s.bottom)) * 100).toFixed(2)}%`;
   tip.classList.toggle("flip", frac > 0.6);
   tip.textContent = `${when} · ${at[1] == null ? "not listed" : money.format(at[1])}`;
 }
 
 function chartLeave(e) {
   const plot = e.target.closest?.(".pchart-plot");
-  if (plot && !plot.contains(e.relatedTarget)) plot.querySelectorAll(".pchart-guide, .pchart-tip").forEach(el => (el.hidden = true));
+  if (plot && !plot.contains(e.relatedTarget)) plot.querySelectorAll(".pchart-guide, .pchart-tip, .pchart-hit").forEach(el => (el.hidden = true));
 }
 
 // ---- Favorites (kept in this browser only) ---------------------------------
