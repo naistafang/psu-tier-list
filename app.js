@@ -174,6 +174,9 @@ function buildControls() {
       e.target.click();
     }
   });
+  $("#rows").addEventListener("pointermove", chartPointer);
+  $("#rows").addEventListener("pointerdown", chartPointer);
+  $("#rows").addEventListener("pointerout", chartLeave);
   window.addEventListener("hashchange", () => { readHash(); update(false); });
 }
 
@@ -474,7 +477,7 @@ function priceCell(p, offer, f) {
   if (!offer) return `<span class="muted">—</span>`;
   const stores = new Set(p.offers.filter(o => offerAllowed(o, f)).map(o => o.store)).size;
   const more = stores > 1 ? ` · ${stores} stores` : "";
-  return `<span class="price">${trendBadge(p)}${money.format(offer.price)}</span><span class="muted small">${esc(storeName(offer.store))}${more}</span>`;
+  return `<span class="price">${trendBadge(p, offer.price)}${money.format(offer.price)}</span><span class="muted small">${esc(storeName(offer.store))}${more}</span>`;
 }
 
 function storeName(key) {
@@ -562,58 +565,184 @@ function fmtDate(iso) {
 
 // ---- Price history -------------------------------------------------------
 // history.json keeps, per model, a [date, lowest price] point each time the lowest price
-// across all stores changed (null = no store listed it).
+// across the stores themselves changed (null = no store listed it).
 
-function priceChange(p) {
-  const pts = (HISTORY[p.key] || []).filter(([, price]) => price != null);
+const DAY = 864e5;
+const dayOf = iso => Date.parse(iso) / DAY;
+const today = () => Math.floor(Date.now() / DAY);
+
+function pricedPoints(p) {
+  return (HISTORY[p.key] || []).filter(([, price]) => price != null);
+}
+
+function lowestSeen(p) {
+  const pts = pricedPoints(p);
+  return pts.length ? pts.reduce((a, b) => (b[1] < a[1] ? b : a)) : null;
+}
+
+// The latest change, but only if it is recent and big enough to matter:
+// within the last week, and at least $5 or 2% of the old price.
+function recentChange(p) {
+  const pts = pricedPoints(p);
   if (pts.length < 2) return null;
   const [date, now] = pts.at(-1);
   const before = pts.at(-2)[1];
-  return { diff: now - before, date };
+  const diff = now - before;
+  if (today() - dayOf(date) > 7) return null;
+  if (Math.abs(diff) < Math.max(5, before * 0.02)) return null;
+  return { diff, date };
 }
 
-function trendBadge(p) {
-  const c = priceChange(p);
-  if (!c || Math.abs(c.diff) < 0.5) return "";
+// Whole dollars for the list badge; it only needs to show the size of the move.
+const wholeMoney = new Intl.NumberFormat("en-CA", { style: "currency", currency: "CAD", maximumFractionDigits: 0 });
+
+// One small marker before the list price: "Lowest" when the shown price ties the lowest seen
+// (once the price has actually moved), otherwise the size of a recent move.
+function trendBadge(p, shownPrice) {
+  const low = lowestSeen(p);
+  const c = recentChange(p);
+  const moved = c ? `Lowest price ${c.diff < 0 ? "dropped" : "rose"} ${money.format(Math.abs(c.diff))} on ${fmtDate(c.date)}` : "";
+  if (low && shownPrice <= low[1] + 0.5 && new Set(pricedPoints(p).map(([, v]) => v)).size > 1) {
+    const title = [`Lowest price seen since ${fmtDate(historySince)}`, moved].filter(Boolean).join(". ");
+    return `<span class="low-tag" title="${title}">Lowest</span>`;
+  }
+  if (!c) return "";
   const down = c.diff < 0;
-  return `<span class="trend ${down ? "down" : "up"}" title="Lowest price ${down ? "dropped" : "rose"} ${money.format(Math.abs(c.diff))} on ${fmtDate(c.date)}">${down ? "▼" : "▲"}</span>`;
+  return `<span class="trend ${down ? "down" : "up"}" title="${moved}">${down ? "▼" : "▲"}${wholeMoney.format(Math.abs(c.diff))}</span>`;
+}
+
+// Price a month ago (or at the first point, if tracking started later) against the latest price.
+function monthChange(p) {
+  const all = HISTORY[p.key] || [];
+  const now = all.at(-1)?.[1];
+  if (now == null) return null;
+  const cutoff = today() - 30;
+  let base = null, since = null;
+  for (const [date, price] of all) {
+    if (dayOf(date) <= cutoff) { base = price; since = null; }
+    else if (base == null && price != null && since == null) { base = price; since = date; }
+  }
+  return base == null ? null : { diff: now - base, since };
 }
 
 function historyHtml(p) {
-  const pts = HISTORY[p.key] || [];
-  const priced = pts.filter(([, price]) => price != null);
-  if (!priced.length) return "";
-  const low = priced.reduce((a, b) => (b[1] < a[1] ? b : a));
-  const c = priceChange(p);
-  const change = c && Math.abs(c.diff) >= 0.5
-    ? ` Last change: <span class="trend ${c.diff < 0 ? "down" : "up"}">${c.diff < 0 ? "▼" : "▲"} ${money.format(Math.abs(c.diff))}</span> on ${fmtDate(c.date)}.`
-    : "";
-  return `<h3>Price history</h3>${sparkline(pts)}
-    <p>Lowest seen: <b>${money.format(low[1])}</b> on ${fmtDate(low[0])}.${change}</p>
-    <p class="muted small">Lowest price from the stores themselves (marketplace sellers excluded), tracked daily since ${fmtDate(historySince)}.</p>`;
+  const all = HISTORY[p.key] || [];
+  const low = lowestSeen(p);
+  if (!low) return "";
+  const now = all.at(-1)[1];
+  const m = monthChange(p);
+  const mHtml = !m ? "—"
+    : Math.abs(m.diff) < 0.5 ? "No change"
+    : `<span class="trend ${m.diff < 0 ? "down" : "up"}">${m.diff < 0 ? "▼" : "▲"} ${money.format(Math.abs(m.diff))}</span>`;
+  const stat = (label, value, sub) =>
+    `<div><dt>${label}</dt><dd>${value}${sub ? `<span class="muted small">${sub}</span>` : ""}</dd></div>`;
+  return `<h3>Price history</h3>
+    <dl class="hist-stats">
+      ${stat("Now", now == null ? `<span class="muted">Not listed</span>` : money.format(now))}
+      ${stat("Lowest seen", money.format(low[1]), fmtDate(low[0]))}
+      ${stat("Change", mHtml, m?.since ? `since ${fmtDate(m.since)}` : "last 30 days")}
+    </dl>
+    ${priceChart(p)}
+    <p class="muted small">Lowest price from the stores themselves (marketplace sellers excluded), checked daily since ${fmtDate(historySince)}.</p>`;
 }
 
-// A step line of the lowest price from the first point until today; gaps where no store listed it.
-function sparkline(pts) {
-  const day = d => Date.parse(d) / 864e5;
-  const priced = pts.filter(([, price]) => price != null).map(([, price]) => price);
-  if (priced.length < 2) return "";
-  const start = day(pts[0][0]);
-  const end = Math.max(Date.now() / 864e5, day(pts.at(-1)[0]) + 1);
+// A day number (days since 1970, UTC) as "Oct 6".
+const shortDay = d => new Date(d * DAY).toLocaleDateString("en-CA", { month: "short", day: "numeric", timeZone: "UTC" });
+const dayLabel = d => new Date(d * DAY).toLocaleDateString("en-CA", { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
+
+// Chart scale for a model's history: the time span, and a price range padded so that a small
+// move doesn't fill the whole height (at least 10% of the price), snapped to round tick values.
+function chartScale(pts) {
+  const priced = pts.filter(([, v]) => v != null).map(([, v]) => v);
   const lo = Math.min(...priced), hi = Math.max(...priced);
-  const W = 360, H = 60, pad = 4;
-  const x = d => (pad + ((d - start) / (end - start)) * (W - 2 * pad)).toFixed(1);
-  const y = v => (hi === lo ? H / 2 : pad + (1 - (v - lo) / (hi - lo)) * (H - 2 * pad)).toFixed(1);
+  const span = Math.max(hi - lo, hi * 0.1);
+  const mid = (hi + lo) / 2;
+  const rawLo = Math.max(0, mid - span * 0.6), rawHi = mid + span * 0.6;
+  const step = [1, 2, 5, 10, 20, 25, 50, 100, 200, 250, 500].find(t => (rawHi - rawLo) / t <= 4) || 1000;
+  const bottom = Math.floor(rawLo / step) * step, top = Math.ceil(rawHi / step) * step;
+  const yTicks = [];
+  for (let v = bottom; v <= top + 1e-9; v += step) yTicks.push(v);
+
+  const start = dayOf(pts[0][0]);
+  const end = Math.max(Date.now() / DAY, dayOf(pts.at(-1)[0]) + 1);
+  const xStep = [1, 2, 7, 14, 28].find(t => (end - start) / t <= 6) || 56;
+  const xTicks = [];
+  for (let d = start; d <= end; d += xStep) xTicks.push(d);
+  return { start, end, lo, hi, bottom, top, yTicks, xTicks };
+}
+
+// A step line of the lowest price from the first point until today, with gaps where no store
+// listed it, a marker at each price change, and labelled price and date axes. Labels are HTML
+// on top of the SVG so they don't stretch with it.
+function priceChart(p) {
+  const pts = HISTORY[p.key] || [];
+  if (pricedPoints(p).length < 2) return "";
+  const s = chartScale(pts);
+  const W = 100, H = 100;
+  const x = d => ((d - s.start) / (s.end - s.start)) * W;
+  const y = v => (1 - (v - s.bottom) / (s.top - s.bottom)) * H;
+  const f = n => n.toFixed(2);
 
   let path = "";
   pts.forEach(([date, price], i) => {
     if (price == null) return;
-    const until = i + 1 < pts.length ? day(pts[i + 1][0]) : end;
+    const until = i + 1 < pts.length ? dayOf(pts[i + 1][0]) : s.end;
     const joined = i > 0 && pts[i - 1][1] != null;
-    path += `${joined ? `V${y(price)}` : `M${x(day(date))} ${y(price)}`}H${x(until)}`;
+    path += `${joined ? `V${f(y(price))}` : `M${f(x(dayOf(date)))} ${f(y(price))}`}H${f(x(until))}`;
   });
-  return `<svg class="spark" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img"
-    aria-label="Lowest price went from ${money.format(priced[0])} to ${money.format(priced.at(-1))}"><path d="${path}"/></svg>`;
+  const marks = pts.filter(([, v]) => v != null).map(([date, v]) =>
+    `<span class="pchart-pt" style="left:${f(x(dayOf(date)))}%;top:${f(y(v))}%" title="${fmtDate(date)} · ${money.format(v)}"></span>`).join("");
+  const [lastDate, last] = pts.at(-1);
+  const now = last != null ? `<span class="pchart-dot" style="left:100%;top:${f(y(last))}%"></span>` : "";
+  const dollars = v => new Intl.NumberFormat("en-CA", { style: "currency", currency: "CAD", maximumFractionDigits: 0 }).format(v);
+
+  return `<figure class="pchart" data-key="${esc(p.key)}">
+    <div class="pchart-ytitle">Price (CAD)</div>
+    <div class="pchart-axis">${s.yTicks.map(v => `<span class="pchart-y" style="top:${f(y(v))}%">${dollars(v)}</span>`).join("")}</div>
+    <div class="pchart-plot">
+      <svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img"
+        aria-label="Lowest price went from ${money.format(pts.find(([, v]) => v != null)[1])} on ${fmtDate(pts[0][0])} to ${last == null ? "not listed" : money.format(last)} on ${fmtDate(lastDate)}">
+        ${s.yTicks.map(v => `<line class="grid" x1="0" x2="${W}" y1="${f(y(v))}" y2="${f(y(v))}"/>`).join("")}
+        ${s.xTicks.map(d => `<line class="grid" y1="0" y2="${H}" x1="${f(x(d))}" x2="${f(x(d))}"/>`).join("")}
+        <line class="grid low" x1="0" x2="${W}" y1="${f(y(s.lo))}" y2="${f(y(s.lo))}"/>
+        <path d="${path}"/>
+      </svg>
+      <span class="pchart-lowlabel" style="top:${f(y(s.lo))}%">Lowest ${money.format(s.lo)}</span>
+      ${marks}${now}
+      <span class="pchart-guide" hidden></span>
+      <span class="pchart-hit" hidden></span>
+      <span class="pchart-tip" hidden></span>
+    </div>
+    <div class="pchart-x">${s.xTicks.map(d => `<span style="left:${f(x(d))}%">${shortDay(d)}</span>`).join("")}</div>
+    <div class="pchart-xtitle">Date</div>
+  </figure>`;
+}
+
+// Hover or drag across a chart to read the date and price at that point.
+function chartPointer(e) {
+  const plot = e.target.closest?.(".pchart-plot");
+  if (!plot) return;
+  const pts = HISTORY[plot.parentElement.dataset.key] || [];
+  if (!pts.length) return;
+  const s = chartScale(pts);
+  const r = plot.getBoundingClientRect();
+  const frac = Math.min(1, Math.max(0, (e.clientX - r.left) / r.width));
+  const d = s.start + frac * (s.end - s.start);
+  let at = pts[0];
+  for (const pt of pts) if (dayOf(pt[0]) <= d) at = pt;
+  const when = d >= today() ? "Today" : dayLabel(Math.floor(d));
+  const guide = plot.querySelector(".pchart-guide"), tip = plot.querySelector(".pchart-tip"), hit = plot.querySelector(".pchart-hit");
+  guide.hidden = tip.hidden = false;
+  guide.style.left = tip.style.left = hit.style.left = `${(frac * 100).toFixed(2)}%`;
+  hit.hidden = at[1] == null;
+  if (at[1] != null) hit.style.top = `${((1 - (at[1] - s.bottom) / (s.top - s.bottom)) * 100).toFixed(2)}%`;
+  tip.classList.toggle("flip", frac > 0.6);
+  tip.textContent = `${when} · ${at[1] == null ? "not listed" : money.format(at[1])}`;
+}
+
+function chartLeave(e) {
+  const plot = e.target.closest?.(".pchart-plot");
+  if (plot && !plot.contains(e.relatedTarget)) plot.querySelectorAll(".pchart-guide, .pchart-tip, .pchart-hit").forEach(el => (el.hidden = true));
 }
 
 // ---- Favorites (kept in this browser only) ---------------------------------
