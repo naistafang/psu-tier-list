@@ -219,6 +219,7 @@ Best Buy: Cisco Power Module (PWR-IE170W-PC-AC=)
 Best Buy: Cisco Power Module - 110 V Ac, 220 V Ac
 Best Buy: Cisco Power Supply
 Best Buy: Cisco Power Supply
+Best Buy: Cisco Power Supply
 Best Buy: Cisco Standard Power Cord
 Best Buy: Cisco UCSC-PSU1-770W AC Hot-plug Power Supply for 1u C-series Rack Server - 770 watt
 Best Buy: Cooler Master V Platinum 1600W V2 ATX 3.1 Full Modular PSU, 80+ Platinum, Dual 90° 12V-2x6 For Dual RTX 4000 Support , Purple Anodic-Coated Heat Sink, Mobius Fan
@@ -409,6 +410,7 @@ Best Buy: HP Power Adapter
 Best Buy: HP Power Supply
 Best Buy: HP ProDesk 400 G4 SFF 180W Power Supply - Model PA-1181-7 (906189-001) - Brand New
 Best Buy: HP Prodesk L08417-002 250W SFF Desktop Power Supply - Reliable Power for Your Desktop
+Best Buy: HP Redundant Jumper Power Interconnect Cable
 Best Buy: HP X361 150W AC Power Supply
 Best Buy: HP X362 720W 100-240VAC to 56VDC PoE Power Supply
 Best Buy: HP Z230S Z230T SFF Computer Power Supply - Model 702309-002 for Reliable Performance
@@ -526,7 +528,6 @@ Best Buy: Lenovo ThinkCentre M57 M58 280W Power Supply Unit - PS-5281-01VF, 54Y8
 Best Buy: Lenovo ThinkCentre M90z AIO 150W Power Supply - Original and Tested
 Best Buy: Lenovo ThinkPad 65W Slim AC Adapter (USB Type-C)
 Best Buy: Lenovo Thinkcentre M57 M58p 280W Power Supply Unit for Reliable Performance
-Best Buy: Lian Li RS 1000W Rotational Shift Fully Modular ATX Power Supply (W/ USB Fan Hub) 90° AC inlet,Cybenetics Platinum, 80+ Gold, ATX 3.1, PCle 5.1, 12V-2x6 Cable
 Best Buy: Lian Li RS 1200W Rotational Shift Fully Modular ATX Power Supply (W/ USB Fan Hub) 90° AC Inlet, Cybenetics Platinum, 80+ Gold, ATX 3.1, PCIe 5.1, 12V-2×6 Cable, Black
 Best Buy: Lian Li RS 1200W Rotational Shift Fully Modular ATX Power Supply (W/ USB Fan Hub) 90° AC Inlet, Cybenetics Platinum, 80+ Gold, ATX 3.1, PCIe 5.1, 12V-2×6 Cable, White
 Best Buy: Lian-Li AC LANCOOL II-1X Vertical GPU kit for LANCOOL II-X and LANCOOL II-W
@@ -730,6 +731,7 @@ Best Buy: SERG 720J 15K CEW 6OUT 6 CORD 360
 Best Buy: SMART UPS SRT 2200VA RM 120V
 Best Buy: SMART-UPS SRT 2200VA 120V TOWER
 Best Buy: SOUNDSTATION2 2.5MM Cell Phone Cable Cell Phone Compatible with 2W
+Best Buy: STARTECH ADD THREE EXTRA SATA POWER OUTLETS TO YOUR POWER SUPPLY SATA POWER SPLITTER CABLE SERIAL ATA POWER SPLITTER SAT
 Best Buy: STARTECH MOUNT BOTH PCIE (NVME) AND SATA BASED M.2 SSDS INSIDE YOUR COMPUTER USING THIS PCI EXPRESS ADAPTER CARD 3-PORT
 Best Buy: Samlex Desktop Switching Power Supply - 120VAC Input, 12V Output, 10 Amp
 Best Buy: SeasonicVERTEX 1200W GX-1200 80+ Gold Fully Modular Power Supply w/ 12VHPWR PCIe v5.0 16-Pin Connector
@@ -797,7 +799,6 @@ Best Buy: Thermaltake SP-600AH2NKW Smart SP-600AH2NKW ATX12V & EPS12V Power Supp
 Best Buy: Thermaltake SP-700AH2NKW Smart SP-700AH2NKW ATX12V & EPS12V Power Supply (PSSPD0700NPCWUSW)
 Best Buy: Thermaltake Smart SP-600AH2NKW ATX12V & EPS12V Power Supply
 Best Buy: Thermaltake ToughPower 1500W ATX 100-240V APFC 80+Gold Black (PS-TPD-1500MPCGUS-1)
-Best Buy: Tripp Lite 1U Rack-Mount 120V Power Supply (RS1215-20)
 Best Buy: Tripp Lite 3ft Computer Power Cord Cable 5-15P to C13 Heavy Duty 15A 14AWG 3'
 Best Buy: Tripp Lite 600W Line Conditioner w/ AVR / Surge Protection 120V 5A 60Hz 6 Outlet Power Conditioner
 Best Buy: Tripp Lite Heavy-Duty Computer Power Cord, 14AWG 15A (NEMA 5-15P to IEC-320-C13) 12-ft.
@@ -810,6 +811,7 @@ Best Buy: Tripp Lite Protect It! STRIKER 7-Outlet Surge Suppressor
 Best Buy: Tripp Lite SRCOOLNET2LX Remote Power Management Adapter SRCOOLNET2LX
 Best Buy: Tripp Lite Single-Phase ATS/Metered PDU 1U Rack-Mount Power Supply (PDUMH20HVAT)
 Best Buy: Tripp Lite SmartPro 2200VA Tower UPS
+Best Buy: Tripp Lite U428-06N-F USB Data Transfer Cable
 Best Buy: Tripp Lite UPS Replacement Battery Cartridge for select UPS Brands with (1) 12V Battery
 Best Buy: Tripp Lite USB 3.0 SuperSpeed A/A Cable (M/M), Black, 6 ft
 Best Buy: Tripp Lite Universal Reversible USB 2.0 Hi-Speed Cable
