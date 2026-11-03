@@ -733,7 +733,6 @@ Best Buy: SMART-UPS SRT 2200VA 120V TOWER
 Best Buy: SOUNDSTATION2 2.5MM Cell Phone Cable Cell Phone Compatible with 2W
 Best Buy: STARTECH ADD THREE EXTRA SATA POWER OUTLETS TO YOUR POWER SUPPLY SATA POWER SPLITTER CABLE SERIAL ATA POWER SPLITTER SAT
 Best Buy: STARTECH MOUNT BOTH PCIE (NVME) AND SATA BASED M.2 SSDS INSIDE YOUR COMPUTER USING THIS PCI EXPRESS ADAPTER CARD 3-PORT
-Best Buy: Samlex Desktop Switching Power Supply - 120VAC Input, 12V Output, 10 Amp
 Best Buy: SeasonicVERTEX 1200W GX-1200 80+ Gold Fully Modular Power Supply w/ 12VHPWR PCIe v5.0 16-Pin Connector
 Best Buy: Sensing Inrush Current Limiter Thermistor 5D-20 5 Ohm
 Best Buy: Siemens 20 Amp Single Pole Circuit Breaker Q120
@@ -799,6 +798,7 @@ Best Buy: Thermaltake SP-600AH2NKW Smart SP-600AH2NKW ATX12V & EPS12V Power Supp
 Best Buy: Thermaltake SP-700AH2NKW Smart SP-700AH2NKW ATX12V & EPS12V Power Supply (PSSPD0700NPCWUSW)
 Best Buy: Thermaltake Smart SP-600AH2NKW ATX12V & EPS12V Power Supply
 Best Buy: Thermaltake ToughPower 1500W ATX 100-240V APFC 80+Gold Black (PS-TPD-1500MPCGUS-1)
+Best Buy: Tripp Lite 1440VA UPS Eco Green Battery Back Up AVR 120V USB Energy Star
 Best Buy: Tripp Lite 3ft Computer Power Cord Cable 5-15P to C13 Heavy Duty 15A 14AWG 3'
 Best Buy: Tripp Lite 600W Line Conditioner w/ AVR / Surge Protection 120V 5A 60Hz 6 Outlet Power Conditioner
 Best Buy: Tripp Lite Heavy-Duty Computer Power Cord, 14AWG 15A (NEMA 5-15P to IEC-320-C13) 12-ft.
@@ -838,50 +838,6 @@ Best Buy: eMachines EL1350 EL1350G EL1600 220W Power Supply
 Best Buy: eMachines EL1700 EL1830 EL1832 220W Power Supply
 Best Buy: eMachines ET1352 ET1352G 220W Power Supply
 Best Buy: iFi iPower Low Noise DC Power Supply 12V
-Canada Computers: ASUS 1000W Platinum Full Modular ATX Power Supply
-Canada Computers: CORSAIR 850W Gold ATX Power Supply, White
-Canada Computers: CORSAIR CP-9020263-NA Gold ATX Power Supply, Black
-Canada Computers: CORSAIR CP-9020275 Gold ATX Power Supply, white
-Canada Computers: CORSAIR CP-9020276 Power Supply, white
-Canada Computers: CORSAIR Power Supply, -
-Canada Computers: CORSAIR RM1000e PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable
-Canada Computers: CORSAIR RM1000e PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable
-Canada Computers: CORSAIR RM1000e White PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable - White
-Canada Computers: CORSAIR RM850e PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable
-Canada Computers: CORSAIR RM850e White PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable - White
-Canada Computers: DeepCool Bronze ATX Power Supply, Black
-Canada Computers: DeepCool PK-D V2 650W Gold ATX Power Supply, Black
-Canada Computers: DeepCool PK-D V2 750W Gold ATX Power Supply, Black
-Canada Computers: DeepCool PK-D V2 850W Gold ATX Power Supply, Black
-Canada Computers: FSP 1000W Platinum ATX Power Supply, Black
-Canada Computers: FSP HA2-550 Bronze ATX Power Supply, Black
-Canada Computers: FSP HA2-650 Bronze ATX Power Supply, Black
-Canada Computers: FSP HA2-750 Bronze ATX Power Supply, Black
-Canada Computers: FSP PS FSP2000-52AGPBI CANNON PRO 2000W 2000W 80+ Gold
-Canada Computers: FSP VITA 80 PLUS Gold Certified ATX Power Supply, Black
-Canada Computers: MSI 1000W 80 PLUS Gold Certified ATX Power Supply, White
-Canada Computers: MSI 650W Bronze ATX Power Supply, Black
-Canada Computers: MSI 750W Bronze ATX Power Supply, Black
-Canada Computers: MSI MAG A1000GLS PCIE5, Fully Modular Compact, 80+ Gold, Power Supply
-Canada Computers: MSI MAG A650GLS PCIE5, Fully Modular Compact, 80+ Gold, Power Supply
-Canada Computers: MSI MAG A750GLS PCIE5, Fully Modular Compact, 80+ Gold, Power Supply
-Canada Computers: MSI MAG A850GLS PCIE5, Fully Modular Compact, 80+ Gold, Power Supply
-Canada Computers: Microsoft Surface 23W USB-C Power Supply Commercial
-Canada Computers: SEASONIC SSR-1300PD Power Supply, - Black
-Canada Computers: SUPER FLOWER 1000W Gold ATX Power Supply, Black
-Canada Computers: SUPER FLOWER Leadex VIII SP 1000W Power Supply, ATX 3.1 Compatible
-Canada Computers: SUPER FLOWER Leadex VIII SP 1000W Power Supply, ATX 3.1 Compatible
-Canada Computers: SUPER FLOWER Leadex VIII SP 1200W Power Supply, ATX 3.1 Compatible
-Canada Computers: SUPER FLOWER Leadex VIII SP 850W Power Supply, ATX 3.1 Compatible
-Canada Computers: SUPERFLOWER 1000W Platinum ATX Power Supply, Black
-Canada Computers: SUPERFLOWER 1700W Titanium ATX Power Supply, Black
-Canada Computers: SUPERFLOWER 850W Gold ATX Power Supply, Black
-Canada Computers: SUPERFLOWER 850W Platinum ATX Power Supply, Black
-Canada Computers: Silverstone Power Supply HA2050R-PM 2050W ATX Cybenntics Platinum
-Canada Computers: StarTech 450 Watt 80 Plus Gold Power Supply
-Canada Computers: be quiet! BP006US Platinum ATX Power Supply, Black
-Canada Computers: be quiet! BP007US Platinum ATX Power Supply, Black
-Canada Computers: be quiet! BP008US Platinum ATX Power Supply, Black
 Vuugo: ASUS Pro WS 2200W Platinum Workstation Fully Modular Power Supply - 80 PLUS Platinum Certified - ATX 3.1 - Dual-Ball Fan Bearings - 4x PCIe 5.1 12V-2x6 Connectors - 4x PCIe 6+2-pin Connectors (ASUS-PRO-WS-2200P)
 Vuugo: COUGAR GX-S550 550W Compact Power Supply - 80PLUS Gold Certified - ATX12V - 2x 6+2-Pin PCI-E Connectors - DC to DC Technology (31GS055.0004P)
 Vuugo: Cooler Master V Platinum 1600 V2 ATX 3.1 1600W Full Modular Power Supply - 80 PLUS Platinum Certified - 135mm zero-RPM Fan - Dual PCIe 5.1 90° 12V-2x6 Cables - 5x PCIe 6+2-Pin Connectors (MPZ-G002-AFAP-BUS)
