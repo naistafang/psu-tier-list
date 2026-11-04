@@ -11,6 +11,7 @@ Best Buy: 12VHPWR 12+4 16P 600W Male to Female 180 Degree Adapter Silver
 Best Buy: 19V 3.42A 65W AC adapter charger for Asus U50 U52F U53F U56E
 Best Buy: 19V 3.42A 65W AC adapter charger for Asus U80 U81A U82U
 Best Buy: 19V 90W Ac Dc Adapter for 18 19 20 21 32 HP Pavilion 20 23 OMEN Gaming All-in-One Desktop Computer PC Monitor Elitebook 8460p 8470P 8440P 8760p 8460w 8770w 2760p 2170p Power Supply
+Best Buy: 1KW AC CONFIG 5 POWER SUPPLY
 Best Buy: 1x 6 Pin to 2x Molex 4pin PCI-E Video Card Power Adapter
 Best Buy: 2 CPU 8-Pin Female to Dual 4+4-Pin Male Y Power Splitter Cables, 18 AWG, 20cm
 Best Buy: 2 Pack European Travel Plug Adapter, VYLEE International Travel Adapter with 2 Outlets 4 USB Ports(2 USB C), 6 in 1 Type C Travel Essentials Charger for US to Most of Europe EU Ita
@@ -190,7 +191,6 @@ Best Buy: Blue Sea 8088 3 Position DC C-Series Panel - Blank
 Best Buy: Blue Sea 8166 Red LED Indicator Light
 Best Buy: Blue Sea 8167 Amber LED Indicator Light
 Best Buy: Blue Sea 8230 Water Resistant Contura Switch - Gray
-Best Buy: Blue Sea 8278 Contura Switch Mounting Panel Plug
 Best Buy: Blue Sea 8289 Water Resistant Contura Switch - Black
 Best Buy: Blue Sea 9228 Analog Meter Shunt 50A/50mV
 Best Buy: Blue Sea System 1002 CableClam 0.825
@@ -318,6 +318,7 @@ Best Buy: Dell Vostro 3470 Inspiron 3470 200W Power Supply with 6+4 Pin Connecto
 Best Buy: Dell XPS 375W Power Supply Unit for 400, 410, 420, Precision 9100, 9150, 9200, and T3400 Series
 Best Buy: Dell XPS 8950 460W Switching Power Supply T63HC - Reliable Power Solution for Your PC
 Best Buy: Delta Electronics 250W Switching Power Supply DPS-250AB-81 A - Reliable Power for Servers and Computers
+Best Buy: Delta Electronics 500W Switching Power Supply Module DPS-500AB-9 A for Servers
 Best Buy: Digi AC Power Supply - 5VDC
 Best Buy: Dymo AC Adapter
 Best Buy: EPower 600W ATX12V 2.3 Single 120mm Cooling Fan (EP-600PM)
@@ -373,7 +374,6 @@ Best Buy: Genuine HP Pavilion 590 Desktop 180W Power Supply - Model L08261-002
 Best Buy: Genuine Lenovo 240W Power Supply for ThinkCentre M72 M73 M75e M82 M83 - Model 54Y8849
 Best Buy: Genuine Lenovo 240W Power Supply for ThinkCentre M90, M90s, M58 - Model 45J9446, PC9019
 Best Buy: Genuine Lenovo 240W Power Supply for ThinkCentre Models A55, M57E, M70, M70E - Part Number 54Y8819
-Best Buy: Genuine Lenovo Ideapad 320 Laptop Battery - 30Wh Replacement for 320-15IAP, 320-17AST, 320-17ABR, 320-17IKB
 Best Buy: Genuine Lenovo ThinkCentre 280W Power Supply for M73, M78, M82, M92, M92p, M93, M93p Models
 Best Buy: HP 180W Computer Power Supply - Compatible with L70042 Models
 Best Buy: HP 180W Computer Power Supply - Model L08261-004 for Select HP Systems
@@ -838,6 +838,49 @@ Best Buy: eMachines EL1350 EL1350G EL1600 220W Power Supply
 Best Buy: eMachines EL1700 EL1830 EL1832 220W Power Supply
 Best Buy: eMachines ET1352 ET1352G 220W Power Supply
 Best Buy: iFi iPower Low Noise DC Power Supply 12V
+Canada Computers: ASUS 1000W Platinum Full Modular ATX Power Supply
+Canada Computers: CORSAIR 850W Gold ATX Power Supply, White
+Canada Computers: CORSAIR CP-9020263-NA Gold ATX Power Supply, Black
+Canada Computers: CORSAIR CP-9020276 Power Supply, white
+Canada Computers: CORSAIR Power Supply, -
+Canada Computers: CORSAIR RM1000e PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable
+Canada Computers: CORSAIR RM1000e PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable
+Canada Computers: CORSAIR RM1000e White PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable - White
+Canada Computers: CORSAIR RM850e PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable
+Canada Computers: CORSAIR RM850e White PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable - White
+Canada Computers: DeepCool Bronze ATX Power Supply, Black
+Canada Computers: DeepCool PK-D V2 650W Gold ATX Power Supply, Black
+Canada Computers: DeepCool PK-D V2 750W Gold ATX Power Supply, Black
+Canada Computers: DeepCool PK-D V2 850W Gold ATX Power Supply, Black
+Canada Computers: FSP 1000W Platinum ATX Power Supply, Black
+Canada Computers: FSP HA2-550 Bronze ATX Power Supply, Black
+Canada Computers: FSP HA2-650 Bronze ATX Power Supply, Black
+Canada Computers: FSP HA2-750 Bronze ATX Power Supply, Black
+Canada Computers: FSP PS FSP2000-52AGPBI CANNON PRO 2000W 2000W 80+ Gold
+Canada Computers: FSP VITA 80 PLUS Gold Certified ATX Power Supply, Black
+Canada Computers: MSI 1000W 80 PLUS Gold Certified ATX Power Supply, White
+Canada Computers: MSI 650W Bronze ATX Power Supply, Black
+Canada Computers: MSI 750W Bronze ATX Power Supply, Black
+Canada Computers: MSI MAG A1000GLS PCIE5, Fully Modular Compact, 80+ Gold, Power Supply
+Canada Computers: MSI MAG A650GLS PCIE5, Fully Modular Compact, 80+ Gold, Power Supply
+Canada Computers: MSI MAG A750GLS PCIE5, Fully Modular Compact, 80+ Gold, Power Supply
+Canada Computers: MSI MAG A850GLS PCIE5, Fully Modular Compact, 80+ Gold, Power Supply
+Canada Computers: Microsoft Surface 23W USB-C Power Supply Commercial
+Canada Computers: SEASONIC SSR-1300PD Power Supply, - Black
+Canada Computers: SUPER FLOWER 1000W Gold ATX Power Supply, Black
+Canada Computers: SUPER FLOWER Leadex VIII SP 1000W Power Supply, ATX 3.1 Compatible
+Canada Computers: SUPER FLOWER Leadex VIII SP 1000W Power Supply, ATX 3.1 Compatible
+Canada Computers: SUPER FLOWER Leadex VIII SP 1200W Power Supply, ATX 3.1 Compatible
+Canada Computers: SUPER FLOWER Leadex VIII SP 850W Power Supply, ATX 3.1 Compatible
+Canada Computers: SUPERFLOWER 1000W Platinum ATX Power Supply, Black
+Canada Computers: SUPERFLOWER 1700W Titanium ATX Power Supply, Black
+Canada Computers: SUPERFLOWER 850W Gold ATX Power Supply, Black
+Canada Computers: SUPERFLOWER 850W Platinum ATX Power Supply, Black
+Canada Computers: Silverstone Power Supply HA2050R-PM 2050W ATX Cybenntics Platinum
+Canada Computers: StarTech 450 Watt 80 Plus Gold Power Supply
+Canada Computers: be quiet! BP006US Platinum ATX Power Supply, Black
+Canada Computers: be quiet! BP007US Platinum ATX Power Supply, Black
+Canada Computers: be quiet! BP008US Platinum ATX Power Supply, Black
 Vuugo: ASUS Pro WS 2200W Platinum Workstation Fully Modular Power Supply - 80 PLUS Platinum Certified - ATX 3.1 - Dual-Ball Fan Bearings - 4x PCIe 5.1 12V-2x6 Connectors - 4x PCIe 6+2-pin Connectors (ASUS-PRO-WS-2200P)
 Vuugo: COUGAR GX-S550 550W Compact Power Supply - 80PLUS Gold Certified - ATX12V - 2x 6+2-Pin PCI-E Connectors - DC to DC Technology (31GS055.0004P)
 Vuugo: Cooler Master V Platinum 1600 V2 ATX 3.1 1600W Full Modular Power Supply - 80 PLUS Platinum Certified - 135mm zero-RPM Fan - Dual PCIe 5.1 90° 12V-2x6 Cables - 5x PCIe 6+2-Pin Connectors (MPZ-G002-AFAP-BUS)
