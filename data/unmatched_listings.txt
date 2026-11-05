@@ -134,7 +134,6 @@ Best Buy: Aruba Proprietary Power Supply (JL087AABA)
 Best Buy: Aruba X372 54VDC 1600W 110-240VAC Power Supply JL670A#ABA
 Best Buy: Asus 65W Universal Mini Multi-tip Adapter (4/4.5/5.5 PHI) 90XB013N-MPW000
 Best Buy: Asus ROG DC Power Jack for GL752 Series - Brand New Replacement Part
-Best Buy: Axiom AC Adapter
 Best Buy: BELKIN 6 OUTLET POWER STRIP F9D160-12
 Best Buy: BELKIN 6-OUTLET POWER STRIP WITH 5-FOOT RIGHT-ANGLED POWER PLUG, F9P609-05R-DP
 Best Buy: BELKIN 6OUTLET POWER STRIP 3FT CORD 3FT CORD PLASTIC DISP F9P609-03-DP
@@ -554,7 +553,6 @@ Best Buy: NZXT ATX 3.1 850 Watt 80 Plus Gold Fully Modular Power Supply - Black-
 Best Buy: New ASUS K53E K53S K53SD K53SV K54L K54LY DC Jack Power Charging Port
 Best Buy: New ASUS N75E N75S N75F N75L N75SL N75SF DC Jack Power Charging Port
 Best Buy: New Acer Aspire F5-571G F5-571T F5-571TG F5-572G DC Jack Cable 45W
-Best Buy: New Acer Aspire TC-895 Computer Power Supply 500W DC.5001B.009 PA-4501-1AC
 Best Buy: New Acer Aspire X1420 X1420G X1920 X3400G Z3101 Computer Power Supply 220W
 Best Buy: New Acer Aspire X1700 X1200 X1301 X1400 X1800 Computer Power Supply 220W
 Best Buy: New Acer Aspire X1900 X3100 X3200 X3300 X3400 X3812 Computer Power Supply 220W
@@ -798,6 +796,7 @@ Best Buy: Thermaltake SP-600AH2NKW Smart SP-600AH2NKW ATX12V & EPS12V Power Supp
 Best Buy: Thermaltake SP-700AH2NKW Smart SP-700AH2NKW ATX12V & EPS12V Power Supply (PSSPD0700NPCWUSW)
 Best Buy: Thermaltake Smart SP-600AH2NKW ATX12V & EPS12V Power Supply
 Best Buy: Thermaltake ToughPower 1500W ATX 100-240V APFC 80+Gold Black (PS-TPD-1500MPCGUS-1)
+Best Buy: Tripp Lite 12-Outlet Vertical Power Supply (PS361206)
 Best Buy: Tripp Lite 1440VA UPS Eco Green Battery Back Up AVR 120V USB Energy Star
 Best Buy: Tripp Lite 3ft Computer Power Cord Cable 5-15P to C13 Heavy Duty 15A 14AWG 3'
 Best Buy: Tripp Lite 600W Line Conditioner w/ AVR / Surge Protection 120V 5A 60Hz 6 Outlet Power Conditioner
@@ -837,6 +836,7 @@ Best Buy: eMachines EL1331 EL1331G EL1332 EL1332G 220W Power Supply
 Best Buy: eMachines EL1350 EL1350G EL1600 220W Power Supply
 Best Buy: eMachines EL1700 EL1830 EL1832 220W Power Supply
 Best Buy: eMachines ET1352 ET1352G 220W Power Supply
+Best Buy: iFi SilentPower DC Offset Blocker IEC Connector Power Supply Filter
 Best Buy: iFi iPower Low Noise DC Power Supply 12V
 Canada Computers: ASUS 1000W Platinum Full Modular ATX Power Supply
 Canada Computers: CORSAIR 850W Gold ATX Power Supply, White
