@@ -221,7 +221,6 @@ Best Buy: Cisco Power Supply
 Best Buy: Cisco Power Supply
 Best Buy: Cisco Standard Power Cord
 Best Buy: Cisco UCSC-PSU1-770W AC Hot-plug Power Supply for 1u C-series Rack Server - 770 watt
-Best Buy: Cooler Master V Platinum 1600W V2 ATX 3.1 Full Modular PSU, 80+ Platinum, Dual 90° 12V-2x6 For Dual RTX 4000 Support , Purple Anodic-Coated Heat Sink, Mobius Fan
 Best Buy: CoolerMaster Power Supply MPY-8501-SFHAGV-US V SFX Gold 850 80+GoldFull Modular Retail
 Best Buy: Coolmax ZX-500 500W 80Plus ATX12V/EPS12V, 140mm fan, SLI ready Power Supply_Black color
 Best Buy: Coolmax ZX-500 ATX12V & EPS12V Power Supply (14504)
@@ -253,7 +252,6 @@ Best Buy: Dell 290W Power Supply for XE2, T20, T30 - L290AM-00, AC290EM-01, KPRG
 Best Buy: Dell 300W Switching Power Supply for Models 7070, 7090, 7080, 5090, 3080, 3070 - V2KRY 0V2KRY
 Best Buy: Dell 360W Power Supply for G5 5090, XPS 8940, and Optiplex 7080 - H360EBM-00
 Best Buy: Dell 360W Power Supply for G5 5090, XPS 8940, and Optiplex 7080 - Reliable and Efficient
-Best Buy: Dell 360W Power Supply for OptiPlex 7060, 5060, 7080MT - Model HU360EBM-00
 Best Buy: Dell 750W Power Supply for POWEREDGE R630, R730, R730xd, T430, T630 - E750E-S1 Model
 Best Buy: Dell Alienware Precision P211H Computer Power Supply Wiring Harness
 Best Buy: Dell G5 500W Power Supply Unit - Compatible with Models 5090, 7070, 7060, and More
@@ -277,13 +275,10 @@ Best Buy: Dell Optiplex 240W Power Supply for 3050, 5050, 7050 Models with 6+4Pi
 Best Buy: Dell Optiplex 240W Power Supply for 390, 790, 990, and 3010 SFF Desktops
 Best Buy: Dell Optiplex 240W Power Supply for SFF Models 390, 790, 990, 3010 - RV1C4
 Best Buy: Dell Optiplex 250W Power Supply for GX240, GX260, GX270 - Model PS-5251-2DF & PS-5251-2DFS
-Best Buy: Dell Optiplex 3050 7050 3668 MT 360W Power Supply - Reliable Replacement L360EBM-00
-Best Buy: Dell Optiplex 3050 7050 3668 MT 360W Power Supply H360EGM-00 for Reliable Performance
 Best Buy: Dell Optiplex 3060 Vostro 3470 200W Power Supply MNRC2 - Reliable & Efficient
 Best Buy: Dell Optiplex 3080 5080 7080 SFF Power Supply - 200W, Model 5TVM5, Brand New
 Best Buy: Dell Optiplex 3080 SFF Power Supply 200W - Model K92TW - Reliable Performance for Your Desktop
 Best Buy: Dell Optiplex 365W Power Supply for Models 3020, 7020, 9020 & Precision T1700
-Best Buy: Dell Optiplex 7060 7070 H360EGM-00 360W Power Supply for Reliable Performance
 Best Buy: Dell Optiplex 7080 MT 260W Power Supply - Model T5K83, Brand New, Reliable Performance
 Best Buy: Dell Optiplex 7080 MT Power Supply 260W - Model 2KG1D, Brand New, 2kg
 Best Buy: Dell Optiplex 7080 SFF 200W Power Supply - Model 0664DM for Reliable Performance
@@ -367,6 +362,7 @@ Best Buy: Genuine Dell TFX 250W Power Supply for Select Dell and HP Models - Par
 Best Buy: Genuine Dell XPS 15 9550 Laptop Battery - 84Wh, 6 Cells, Black
 Best Buy: Genuine Fujitsu Sanken 60W AC Adapter Charger for Scanners - 24V 2.65A with 5.5mm Connector
 Best Buy: Genuine Gateway SX2300 SX2310 SX2311 SX2800 SX2801 220W Power Supply
+Best Buy: Genuine HP 200W Internal Power Supply for 600 G2, 705 G3, and 800 G2 Models
 Best Buy: Genuine HP 240W Power Supply for Compaq DC5100, DC7100, DC7600 - Model 381024-001
 Best Buy: Genuine HP 611481-001 611482-001 613762-001 D10-240P1A 240W SFF Power Supply 508152-001
 Best Buy: Genuine HP Pavilion 590 Desktop 180W Power Supply - Model L08261-002
@@ -527,6 +523,7 @@ Best Buy: Lenovo ThinkCentre M57 M58 280W Power Supply Unit - PS-5281-01VF, 54Y8
 Best Buy: Lenovo ThinkCentre M90z AIO 150W Power Supply - Original and Tested
 Best Buy: Lenovo ThinkPad 65W Slim AC Adapter (USB Type-C)
 Best Buy: Lenovo Thinkcentre M57 M58p 280W Power Supply Unit for Reliable Performance
+Best Buy: Lian Li RS 1000W Rotational Shift Fully Modular ATX Power Supply (W/ USB Fan Hub) 90° AC inlet,Cybenetics Platinum, 80+ Gold, ATX 3.1, PCle 5.1, 12V-2x6 Cable
 Best Buy: Lian Li RS 1200W Rotational Shift Fully Modular ATX Power Supply (W/ USB Fan Hub) 90° AC Inlet, Cybenetics Platinum, 80+ Gold, ATX 3.1, PCIe 5.1, 12V-2×6 Cable, Black
 Best Buy: Lian Li RS 1200W Rotational Shift Fully Modular ATX Power Supply (W/ USB Fan Hub) 90° AC Inlet, Cybenetics Platinum, 80+ Gold, ATX 3.1, PCIe 5.1, 12V-2×6 Cable, White
 Best Buy: Lian-Li AC LANCOOL II-1X Vertical GPU kit for LANCOOL II-X and LANCOOL II-W
