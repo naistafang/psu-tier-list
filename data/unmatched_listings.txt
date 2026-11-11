@@ -329,6 +329,7 @@ Best Buy: Dell Slim Power Adapter - 65 Watt 332-1831
 Best Buy: Dell Slim Power Adapter - 90 Watt 332-1833
 Best Buy: Dell Studio XPS 435T / 9000 475W Power Supply F217J - Brand New
 Best Buy: Dell Studio XPS 9100 Precision T3400 525W Power Supply M1J3H - Brand New Replacement
+Best Buy: Dell VNJGY D4NX6 1100W 48V DC Power Supply PSU-to-I/O Reverse Airflow – Brand New
 Best Buy: Dell Vostro 3470 Inspiron 3470 200W Power Supply with 6+4 Pin Connector
 Best Buy: Dell XPS 375W Power Supply Unit for 400, 410, 420, Precision 9100, 9150, 9200, and T3400 Series
 Best Buy: Dell XPS 8950 460W Switching Power Supply T63HC - Reliable Power Solution for Your PC
@@ -350,7 +351,6 @@ Best Buy: EXP GDC FLEX(1U) to SFX Bracket SFX to FLEX Adapter Holder for TH3P4G3
 Best Buy: Eaton 1000VA UPS Battery Backup - (9PX1000RT)
 Best Buy: Eaton 5P Rackmount UPS
 Best Buy: Eaton 5S UPS
-Best Buy: Eaton 5SC UPS
 Best Buy: Eaton 5SC UPS
 Best Buy: Eaton Epdu,1u,ba L21-3-p 12/5-15r
 Best Buy: Eaton ePDU Metered 8-Outlet PDU
@@ -807,6 +807,7 @@ Best Buy: Silver Stone Technologies ST75F-PT 750W 80 Plus Platinum Certified Sin
 Best Buy: Silver Stone Technologies SX700-LPT Efficiency 80 Plus Platinum Certification Fully Modular Cable
 Best Buy: SilverStone SST-EX1000R-PM Cybenetics Platinum 1000W SFX 4 PCIe 5 Fully Modular Power Supply
 Best Buy: SilverStone, 100% modular cables, Cybenetics Platinum
+Best Buy: Smart 500W 80+ White Certified PSU, Continuous Power with 120mm Ultra Quiet Cooling Fan, ATX 12V V2.3/EPS
 Best Buy: Smart 500W 80+ White Certified PSU, Continuous Power with 120mm Ultra Quiet Cooling Fan, ATX 12V V2.3/EPS 12V Active PFC Power Supply PS-SPD-0500NPCWUS-W
 Best Buy: SonicWall Power Supply (02-SSC-8061)
 Best Buy: SonicWall Power Supply 02-SSC-3078
@@ -928,7 +929,6 @@ Best Buy: eMachines ET1352 ET1352G 220W Power Supply
 Best Buy: iFi iPower Low Noise DC Power Supply 12V
 Canada Computers: ASUS 1000W Platinum Full Modular ATX Power Supply
 Canada Computers: CORSAIR 850W Gold ATX Power Supply, White
-Canada Computers: CORSAIR CP-9020263-NA Gold ATX Power Supply, Black
 Canada Computers: CORSAIR CP-9020276 Power Supply, white
 Canada Computers: CORSAIR Power Supply, -
 Canada Computers: CORSAIR RM1000e PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable
