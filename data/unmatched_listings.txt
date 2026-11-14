@@ -103,7 +103,6 @@ Best Buy: Aruba Power Supply (R3T90A)
 Best Buy: Aruba Proprietary Power Supply
 Best Buy: Aruba Proprietary Power Supply (JL087AABA)
 Best Buy: Aruba X372 54VDC 1600W 110-240VAC Power Supply JL670A#ABA
-Best Buy: Asus 65W Universal Mini Multi-tip Adapter (4/4.5/5.5 PHI) 90XB013N-MPW000
 Best Buy: Asus ROG DC Power Jack for GL752 Series - Brand New Replacement Part
 Best Buy: Axiom 65-Watt AC Adapter for Lenovo - 4X20E53336 4X20E53336-AX
 Best Buy: BELKIN 6 OUTLET POWER STRIP F9D160-12
@@ -161,6 +160,7 @@ Best Buy: Blue Sea 8088 3 Position DC C-Series Panel - Blank
 Best Buy: Blue Sea 8166 Red LED Indicator Light
 Best Buy: Blue Sea 8167 Amber LED Indicator Light
 Best Buy: Blue Sea 8230 Water Resistant Contura Switch - Gray
+Best Buy: Blue Sea 8259 Contura 3 Position Mounting Panel
 Best Buy: Blue Sea 8289 Water Resistant Contura Switch - Black
 Best Buy: Blue Sea 9228 Analog Meter Shunt 50A/50mV
 Best Buy: Blue Sea System 1002 CableClam 0.825
@@ -357,6 +357,7 @@ Best Buy: Genuine Lenovo 240W Power Supply for ThinkCentre M90, M90s, M58 - Mode
 Best Buy: Genuine Lenovo 240W Power Supply for ThinkCentre Models A55, M57E, M70, M70E - Part Number 54Y8819
 Best Buy: Genuine Lenovo ThinkCentre 280W Power Supply for M73, M78, M82, M92, M92p, M93, M93p Models
 Best Buy: Genuine OEM Original Lenovo 100-15IBY YOGA 510-14 310-14 710-13 Flex 4 65W Power Supply
+Best Buy: Genuine Samsung Monitor TV AC Adapter Power Supply A2514_RPN 14V 1.79A 25W BN44-00989A
 Best Buy: HP 180W Computer Power Supply - Compatible with L70042 Models
 Best Buy: HP 180W Computer Power Supply - Model L08261-004 for Select HP Systems
 Best Buy: HP 180W Internal Power Supply for Reliable Performance - Model PCK017 L70042-004
@@ -484,6 +485,7 @@ Best Buy: JR Products 13335 Black SPDT Mini On/Off/On Switch
 Best Buy: JR Products 13445 Black DPDT Mini Mom-On/Off/Mom-On Switch
 Best Buy: Juniper 1600W Power Supply (JPSU-1600-C-AC-AFO)
 Best Buy: Juniper 550W Power Supply (JPSU-550-C-AC-AFO)
+Best Buy: Juniper JPSU-650W-AC-AO JPSU-650W-AC-AO Power Supply (JPSU-650W-AC-AO)
 Best Buy: Juniper Proprietary Power Supply (JPSU-150-AC-AFO)
 Best Buy: Juniper Proprietary Power Supply (JPSU-150-DC-AFO)
 Best Buy: Juniper Redundant Power Supply (JPSU-920-AC-AFO)
@@ -535,6 +537,7 @@ Best Buy: NEW APC AP7821 PDU Metered Power Distribution Unit 1U 16A 208/230V 8 o
 Best Buy: NEW Cisco PWR-2821-51-AC-IP POE inline power supply for 2821
 Best Buy: NZXT ATX 3.1 1000 Watt 80 Plus Gold Fully Modular Power Supply - Black - PA-0G2BB-US
 Best Buy: NZXT ATX 3.1 1200 Watt 80 Plus Gold Fully Modular Low-Noise Power Supply - White - PA-2G2BW-US
+Best Buy: NZXT ATX 3.1 1200 Watt 80 Plus Gold Fully Modular Power Supply - Black - PA-2G2BB-US
 Best Buy: NZXT ATX 3.1 850 Watt 80 Plus Gold Fully Modular Low-Noise Power Supply - White - PA-8G2BW-US
 Best Buy: NZXT ATX 3.1 850 Watt 80 Plus Gold Fully Modular Power Supply - Black-PA-8G2BB-US
 Best Buy: Netgear APS600Wv2 APS600Wv2 600W Power Supply (APS600W200NES)
