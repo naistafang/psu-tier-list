@@ -700,7 +700,6 @@ Best Buy: PDU2G SWITCH 0U 5.7KW 208V 21C13 3C19
 Best Buy: PS-SPD-0500NPCWUS-W
 Best Buy: PS1100W (230V/115V)PLATINUM HS PSU
 Best Buy: Panamax M4320-PRO 20A BlueBOLT Power Conditioner
-Best Buy: Perko Compact Medium Duty Battery Selector Switch with Key Lock - 8512DP
 Best Buy: Philips Respironics Dreamstation MDS-080AAS12 AC Power Supply Adapter - 12V 6.67A 80W
 Best Buy: Power Bar Middle Atlantic PD-915R-PL 9 Out 15A w/Pilot
 Best Buy: Power Supply 66 Watt AC V2 for C890 and C1100 series
@@ -801,6 +800,8 @@ Best Buy: TP-Link 150W DC Power Supply Module (PSM150DC)
 Best Buy: TRENDnet 240 W Single Output IndustrialDIN-Rail Power Supply
 Best Buy: TRENDnet Gigabit PoE+ Injector
 Best Buy: TRENDnet TI-M6024 DIN Rail 24V 60W Power Supply for TI-G50, TI-G62, TI-G80, TI-F11SFP (TIM6024)
+Best Buy: TRENDnet TI-S12048 DIN Rail 48V 120W Power Supply for TI-PG541 (TIS12048)
+Best Buy: TRENDnet TI-S24048 DIN Rail 48V 240W Power Supply for TI-PG80 (TIS24048)
 Best Buy: TRENDnet TI-S48048 48V 480W Output Industrial (TIS48048)
 Best Buy: TRIPP LITE 25FT USB2.0 A/B DEVICE CBL A MALE B M25 (U042-025)
 Best Buy: TRIPP LITE 32-PORT USB CHARGING LAPTOPIPAD (CSC32USB)
@@ -834,6 +835,7 @@ Best Buy: Tripp Lite Protect It! STRIKER 7-Outlet Surge Suppressor
 Best Buy: Tripp Lite SRCOOLNET2LX Remote Power Management Adapter SRCOOLNET2LX
 Best Buy: Tripp Lite Single-Phase ATS/Metered PDU 1U Rack-Mount Power Supply (PDUMH20HVAT)
 Best Buy: Tripp Lite SmartPro 2200VA Tower UPS
+Best Buy: Tripp Lite Surge Protector Power Strip Medical Hospital Metal 6 Outlet 15' Cord
 Best Buy: Tripp Lite U428-06N-F USB Data Transfer Cable
 Best Buy: Tripp Lite UPS Replacement Battery Cartridge for select UPS Brands with (1) 12V Battery
 Best Buy: Tripp Lite USB 3.0 SuperSpeed A/A Cable (M/M), Black, 6 ft
