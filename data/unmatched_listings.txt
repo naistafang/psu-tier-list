@@ -19,11 +19,13 @@ Best Buy: 6OUTLET POWER STRIP RIGHT ANGLE
 Best Buy: 6ft Heavy Duty Pwr Ext Cord
 Best Buy: 750W N1
 Best Buy: 800W FS 48VDC HT PLUG LH POWER
+Best Buy: 850W GQ Power Supply
 Best Buy: 8Pin PCI Express Male To Dual LP4 4Pin Molex IDE Power Cable Adapter
 Best Buy: 9PX 1.5K RT EBM
 Best Buy: 9PX 1500 120V RT W/NMC 5-15P
 Best Buy: 9PX 1500 RT LV
 Best Buy: 9PX 700 120V RT 5-15P 8OUT
+Best Buy: 9PXM 4KVA SPLIT-PHASE POWER MODULE
 Best Buy: ACER 250W Power Supply with 6-Pin Connector - Model PA-2251-2AB, PA-2251-2, FSP250-20TGPAA
 Best Buy: ALITOVE DC 12V 20A 240W Power Supply Transformer Switch AC 110V/220V to DC 12V 20amp Switching Adapter Converter Drive..
 Best Buy: AMERICAN POWER CONVERSION APC Symmetra LX Intelligence Module SYMIM5
@@ -33,6 +35,7 @@ Best Buy: APC 10A Power Cord Kit Locking C13 to C14 0.6m (AP8702S-NA)
 Best Buy: APC 2ft Power Cord
 Best Buy: APC 750VA 600W 120V Corded Electric Rackmount Convertible Black Power Supplie (SMX750CNC)
 Best Buy: APC AP8716R Standard Power Cord
+Best Buy: APC AP8716S Standard Power Cord
 Best Buy: APC AP9567 BASIC 100V,120V 15A 10 FT RACK PDU, BASIC, ZERO U, 15A, 100/120V, (14) 5-15
 Best Buy: APC BY SCHNEIDER ELECTRIC BASIC RACK 1U POWER DISTRIBUTION STRIP RACK-MOUNTABLE AC 120 V 10 X POWER NEMA 5-15 AP9562
 Best Buy: APC BY SCHNEIDER ELECTRIC RM PDU BASIC 1U 208V 16A-12 C13 RCPTLS AP9566
@@ -50,6 +53,7 @@ Best Buy: APC Smart-UPS C 1000VA LCD 120V with SmartConnect
 Best Buy: APC Smart-UPS X 2200VA Rack/Tower LCD 200-240V
 Best Buy: APC Standard Power Cord
 Best Buy: APC UP BX 1350VA 10 Outlets AVR interface Back UPS Pro (BX1350M)
+Best Buy: APC by Schneider Electric Power Cord Kit (6 ea), Locking, C13 to C14, 1.2m
 Best Buy: APC by Schneider Electric Replacement Battery Cartridge #163 APCRBC163
 Best Buy: APC by Schneider Electric Smart-UPS 750VA LCD 120V with SmartConnect
 Best Buy: APC by Schneider Electric Smart-UPS SRT 1500VA 120V
@@ -120,6 +124,7 @@ Best Buy: Battery Doctor 20531 On & off Illuminated 20-Amp Amber Rocker for 12 x
 Best Buy: Battery Doctor 20532 On & off Illuminated 20-Amp Red Rocker for 12 x 30 mm. Slot
 Best Buy: Battery Doctor 21020 Side-Terminal Battery Wrench
 Best Buy: Belkin 6-Outlets Power Strip
+Best Buy: Belkin Components Strip X 12inch Cord 6-outlet Power
 Best Buy: Blue Sea 2002 PowerPost High Amperage Cable Connector 5/16 Stud
 Best Buy: Blue Sea 2019 PowerBar Common BusBar - Dual 3/8 x 16 - 2019
 Best Buy: Blue Sea 2138 Medium Duty Push Button Reset - Only - 15A - 2138
@@ -397,6 +402,7 @@ Best Buy: HP Prodesk L08417-002 250W SFF Desktop Power Supply - Reliable Power f
 Best Buy: HP RP5800 240W Power Supply - Model 659193-001 for Reliable Performance
 Best Buy: HP Redundant Jumper Power Interconnect Cable
 Best Buy: HP X361 150W AC Power Supply
+Best Buy: HP X362 1110W 115-240VAC to 56VDC PoE Power Supply
 Best Buy: HP X362 720W 100-240VAC to 56VDC PoE Power Supply
 Best Buy: HP Z230S Z230T SFF Computer Power Supply - Model 702309-002 for Reliable Performance
 Best Buy: HP Z420 600W Power Supply DPS-600UB - Reliable Performance for Your Workstation
@@ -409,6 +415,7 @@ Best Buy: HPE 800W Flex Slot Platinum Hot Plug Low Halogen Power Supply Kit (865
 Best Buy: HPE 800W Flex Slot Platinum Hot Plug Low Halogen Power Supply Kit (P38995B21)
 Best Buy: HPE 850W Power Supply (JL601A#ABA)
 Best Buy: HPE ARUBA HP HP J9829A 5400R 1100W POE+ ZL2 POWER SUPPLY 700 POWER SUPPLY J9829A#ABA J9829AABA
+Best Buy: HPE Aruba X371 12VDC 250W 100-240VAC Power Supply
 Best Buy: HPE Aruba X372 54VDC 680W 100-240VAC Power Supply
 Best Buy: HPE Aruba X372 54VDC 680W 100-240VAC Power Supply (JL086A#ABA)
 Best Buy: HPE FlexFabric 5710 450W Front-to-Back AC Power Supply (JL592A#ABA)
@@ -492,11 +499,13 @@ Best Buy: Juniper Redundant Power Supply (JPSU-920-AC-AFO)
 Best Buy: Kensington SD2400T Thunderbolt 3 Dual 4K Nano Dock with Power Delivery
 Best Buy: LENOVO 200-240Vac 260W POWER SUPPLY 00PC765
 Best Buy: LENOVO 450W PLATINUM HOT-SWAP POWER SUPPLY 2649 (4P57A12649)
+Best Buy: LENOVO REDUNDANT POWER SUPPLY 0A89426
 Best Buy: LENOVO THINKSERVER HOT SWAP REDUNDANT POWER SUPPLY - 0A89427
 Best Buy: LRS-150-24 Switching Power Supply, Single Output, 24V, 6.5A, 156W, 6.26" L x 3.82" W x 1.18" H
 Best Buy: LRS-75-24 Enclosed Switching Power Supply, Single Output, 24V, 3.2A, 76.8W, 3.9" L x 3.82" W x 1.18" H
 Best Buy: Laptopking B140HAN03.2 LCD Display Compatible with ASUS Chromebook Flip C434 C434T C434TA-DSM4T C434TA-DS588T 14" LCD Display Touch Screen Digital Assembly
 Best Buy: Laptopking LCD Screen Replacement for NT140WHM-T00 V8.4 LCD OnCell-Touch Screen Replacement HD 1366X768 LED 14.0" WideScreen Display (Only for V8.4, Not for Others)
+Best Buy: Lenovo - power supply - hot-plug - 750 Watt (7N67A00883)
 Best Buy: Lenovo 135W AC Adapter (Slim Tip)
 Best Buy: Lenovo 180W Power Supply FSP180-30SBV for Reliable Performance
 Best Buy: Lenovo 210W Power Supply for M710t, M720t, M720s, M910t, M920s - Model 00PC746
@@ -585,7 +594,6 @@ Best Buy: New Dell Precision 9100 9150 9200 T3400 Series 375W Power Supply L375P
 Best Buy: New Dell Rugged Latitude 5420 5424 5490 5491 5495 EDP 14" FHD LCD Widescreen Matte V8HK9 NP5R3 B140HAN02 .6
 Best Buy: New Delta dps 220ub a Computer Power Supply 220W For Acer eMachines Gateway
 Best Buy: New Genuine ACBEL PC6038 PC7068 Power Supply 250W TFX0220D5WA TFX0220D5WB
-Best Buy: New Genuine Acer Aspire AL14A32 KT.00603.008 31CR17/65-2 Battery 52Wh
 Best Buy: New Genuine Acer Aspire X1200 X1300 X1301 X1400 Computer Power Supply 220W
 Best Buy: New Genuine Acer Aspire X1420 X1420G X1430 X1430G Computer Power Supply 220W
 Best Buy: New Genuine Acer Aspire X1700 X1800 X3100 X3200 Computer Power Supply 220W
@@ -712,6 +720,7 @@ Best Buy: QNAP Power Supply (PWR-PSU-550W-DT01)
 Best Buy: RACK PDU METERED 208/230V 16A
 Best Buy: RPLMNT BATT CART 130
 Best Buy: Rack PDU 2G Switched ZeroU
+Best Buy: Rack PDU, Basic, 0U/1U, 208V, 30A, (4) C19
 Best Buy: Reliable 235W Power Supply for Dell OptiPlex 760, 960, 980 SFF - Model D235ES-00
 Best Buy: Reliable 240W HP ProDesk 400 800 G1/G2 SFF Power Supply for Optimal Performance
 Best Buy: Reliable HP 880 Power Supply Model 901910-003 for Optimal Performance
@@ -760,6 +769,7 @@ Best Buy: StarTech Gigabit RJ45 Copper SFP Transceiver Module for HP J8177C (J81
 Best Buy: StarTech Replacement 12V DC Power Adapter - 12 Volts, 6.5 Amps
 Best Buy: StarTech Replacement 5V DC Power Adapter - 5 Volts, 2 Amps
 Best Buy: StarTech Spare 5V DC Power Adapter for SV231USB & SV431USB
+Best Buy: StarTech TX3 Fan Power Splitter Cable
 Best Buy: Startech 3feet Computer Power Cord C19 to C20 (PXTC19C20143)
 Best Buy: Step Up Converter Aluminum Case Power Supply Module
 Best Buy: Supermicro 1U 1000W Redundant Power Supplies with Pus (PWS-1K05A-1R)
@@ -780,6 +790,7 @@ Best Buy: Supermicro 700W Redundant Switching Power Supply PWS-702A-1R for Relia
 Best Buy: Supermicro 740W 1U Platinum Redundant (PWS-741P-1R)
 Best Buy: Supermicro 750W 80Plus Platinum Redundant with PFC Pus (PWS-751P-1R)
 Best Buy: Supermicro 800W 4A Redundant Power Supplies with Pus (PWS-802A-1R)
+Best Buy: Supermicro PS 1200W 1U Redundant 80 PLUS (PWS-1K23A-1R)
 Best Buy: Supermicro PS 1U 1000W 80 Plus Titanium Redundant (PWS-1K04A-1R)
 Best Buy: Supermicro PS 1U 1600W 50-60Hz Redundant Power Supplies w Pus (PWS-1K66P-1R)
 Best Buy: Supermicro PWS-502-PQ Supermicro PWS-502-PQ 500W 80 Plus Bronze Power Supply with PFC
@@ -832,6 +843,7 @@ Best Buy: Tripp Lite PDU Switched 208V-240V 30A C13 16 Outlet L6-30P Horizontal 
 Best Buy: Tripp Lite Piggyback Power Cord, 13A, 16AWG
 Best Buy: Tripp Lite Power Strip Medical Hospital Grade UL1363A 6 Outlet 15A 7ft Cord
 Best Buy: Tripp Lite Protect It! STRIKER 7-Outlet Surge Suppressor
+Best Buy: Tripp Lite ProtectIT 7 Outlets 120V Surge Suppressor
 Best Buy: Tripp Lite SRCOOLNET2LX Remote Power Management Adapter SRCOOLNET2LX
 Best Buy: Tripp Lite Single-Phase ATS/Metered PDU 1U Rack-Mount Power Supply (PDUMH20HVAT)
 Best Buy: Tripp Lite SmartPro 2200VA Tower UPS
@@ -845,10 +857,8 @@ Best Buy: Ubiquiti Networks Edgepower 150W DC-DC Modular Power Supply - (EP-54V-
 Best Buy: Uncaged Ergonomics Travel Charger Non Surge Cruise Approved Power Strip w/3 AC, 2 USB ports, 1 Fast Charging USB-C, 3ft Cable (WHITE)
 Best Buy: VAYALT 24V 50A 1200W DC Switching Power Supply, Universal Regulated Switching
 Best Buy: VERTIV VP52101 Geist RPDU 6A 20A 120V/208V/230V Power Distribution Unit
-Best Buy: Vertiv Liebert Hot-Swap Internal 9 Ah, 144V Lead-Acid Battery for Liebert GXT4-5000RT208 and GXT4-6000RT208 UPS Systems
 Best Buy: Waber-by-Tripp Lite 4-Outlet Industrial Power Strip, 6-ft. Cord, Locking Switch
 Best Buy: Wilson DC/DC 6 volt Power Supply - for amps (801105,801106,801201,801213,801306,804005,804006)
-Best Buy: Xtreme Cables XCP2-1001-BLK 90 watt Universal Laptop Power Adapter with USB Black
 Best Buy: axGear 45W Power Adapter for MagSafe 2 II Macbook Air A1435 A1465 A1436 A1466
 Best Buy: axGear AC DC Power Adapter 5V 2A 4.0 x 1.7 Power Supply Adapter Charger
 Best Buy: axGear USB Type C Power Adapter 5V 3A Power Supply Adapter Charger USB C
