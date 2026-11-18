@@ -2,7 +2,6 @@ Best Buy: 1-PACK RGB Gaming Headset Stand, With Sound Reactive Music Sync Ambien
 Best Buy: 19V 3.42A 65W AC adapter charger for Asus U50 U52F U53F U56E
 Best Buy: 19V 3.42A 65W AC adapter charger for Asus U80 U81A U82U
 Best Buy: 19V 90W Ac Dc Adapter for 18 19 20 21 32 HP Pavilion 20 23 OMEN Gaming All-in-One Desktop Computer PC Monitor Elitebook 8460p 8470P 8440P 8760p 8460w 8770w 2760p 2170p Power Supply
-Best Buy: 1KW AC CONFIG 5 POWER SUPPLY
 Best Buy: 1x 6 Pin to 2x Molex 4pin PCI-E Video Card Power Adapter
 Best Buy: 2 Pack European Travel Plug Adapter, VYLEE International Travel Adapter with 2 Outlets 4 USB Ports(2 USB C), 6 in 1 Type C Travel Essentials Charger for US to Most of Europe EU Ita
 Best Buy: 2 Pack Smart Plug WiFi Plugs Work with Alexa & Google Assistant, Smart Outlet with Timer & Group Controller
@@ -50,7 +49,6 @@ Best Buy: APC SRT2200RMXLA SMART-UPS SRT 2200VA RM UPS (RACK-MOUNTABLE) AC 120 V
 Best Buy: APC Service/Support - 1 Year Extended Warranty - Service
 Best Buy: APC Smart-UPS 1000VA LCD 120V with SmartConnect
 Best Buy: APC Smart-UPS C 1000VA LCD 120V with SmartConnect
-Best Buy: APC Smart-UPS X 2200VA Rack/Tower LCD 200-240V
 Best Buy: APC Standard Power Cord
 Best Buy: APC UP BX 1350VA 10 Outlets AVR interface Back UPS Pro (BX1350M)
 Best Buy: APC by Schneider Electric Power Cord Kit (6 ea), Locking, C13 to C14, 1.2m
@@ -114,7 +112,6 @@ Best Buy: BELKIN 6 OUTLET POWER STRIP F9D160-12
 Best Buy: BELKIN 6-OUTLET POWER STRIP WITH 5-FOOT RIGHT-ANGLED POWER PLUG, F9P609-05R-DP
 Best Buy: BELKIN 6OUTLET POWER STRIP 3FT CORD 3FT CORD PLASTIC DISP F9P609-03-DP
 Best Buy: BLACK BOX DKM OPTIONAL POWER 4-SLOT CHASSIS (ACXMODH4-PS)
-Best Buy: BLACK BOX HIGH SPEED OPTO ISOLATOR SP340A-R3 (SP340A-R3)
 Best Buy: BLUE SEA 1015 12V DC PLUG AND DASH SOCKET PN 1010 AND 1011
 Best Buy: BLUE SEA 8033 LED AMBER 11-64IN 12VDC
 Best Buy: BLUE SEA 8371 PANEL WATERPROOF CB 12VDC 8 POS
@@ -201,7 +198,6 @@ Best Buy: Cisco Power Supply
 Best Buy: Cisco Standard Power Cord
 Best Buy: Cisco UCSC-PSU1-770W AC Hot-plug Power Supply for 1u C-series Rack Server - 770 watt
 Best Buy: Cooler Master V Platinum 1600W V2 ATX 3.1 Full Modular PSU, 80+ Platinum, Dual 90° 12V-2x6 For Dual RTX 4000 Support , Purple Anodic-Coated Heat Sink, Mobius Fan
-Best Buy: Cooler Master V750 Gold White Edition V2 Full Modular 750W 80+ Gold, Semi-fanless Operation, 16AWG PCIe high-Efficiency Cables
 Best Buy: CoolerMaster Power Supply MPY-7501-SFHAGV-US V SFX Gold 750 80+GoldFull Modular Retail
 Best Buy: CoolerMaster Power Supply MPY-8501-SFHAGV-US V SFX Gold 850 80+GoldFull Modular Retail
 Best Buy: Coolmax ZX-500 500W 80Plus ATX12V/EPS12V, 140mm fan, SLI ready Power Supply_Black color
@@ -548,7 +544,6 @@ Best Buy: MONTECH BETA 2 550W Power Supply, ATX 3.1 Ready, 80+ Bronze Certified,
 Best Buy: MSI GF65 Thin 9sexr-229fr Gaming Laptop DC Power Jack Charging Port Replacement
 Best Buy: MSI GT72 DC Jack Port Replacement for Models 6QD, 6QE, 6QF, and More
 Best Buy: MSI Katana GF66 11UE/GF66 11UG DC Power Jack Cable - K1G-3004100-H39 Replacement
-Best Buy: MikroTik Open Frame PSU PW48V-12V85W
 Best Buy: MoKo Case Fit MacBook Pro 13 2016-2020 M1 Chip Released A2289/A2251/A1989/A1706/A1708, Hard Shell Case Slim PC Protective Co
 Best Buy: NETWORK INTERFACE CARD
 Best Buy: NEW APC AP7821 PDU Metered Power Distribution Unit 1U 16A 208/230V 8 outlets. 1 Year Warranty
@@ -663,6 +658,7 @@ Best Buy: New Genuine HIPRO HP-D2506A0 Power Supply 250W TFX0220D5WA
 Best Buy: New Genuine HP 504966-001 Power Supply 250W TFX0220D5WA
 Best Buy: New Genuine HP Compaq 349318-001 350030-001 379349-001 240W Power Supply 381024-001
 Best Buy: New Genuine HP Compaq PS-6241-6HF DPS-240FB-1 240W Power Supply 381024-001
+Best Buy: New Genuine HP Pavilion 15-BS065NR 15-BS091MS 15-BS091MS 15-BS132NR 15-BS008CY Battery 41.6Wh
 Best Buy: New Genuine HP Pavilion s5110la s5112f s5120f s5120kr s5120la Power Supply 250W TFX0220D5WA 504966-001
 Best Buy: New Genuine HP Pavilion s5120y s5126kr s5127kr s5128hk s5130la Power Supply 250W TFX0220D5WA 504966-001
 Best Buy: New Genuine HP Pavilion s5137kr s5148hk s5149kr s5150kr s5150la Power Supply 250W TFX0220D5WA 504966-001
@@ -723,7 +719,6 @@ Best Buy: Power Supply 66 Watt AC V2 for C890 and C1100 series
 Best Buy: Power Supply Platinum 1200W
 Best Buy: Pyramid Compact Bench Power Supply 50A Variable Linear AC to DC Converter with Adjustable Voltage, Amp Gauge, Volt Meter & USB Port (PSV500)
 Best Buy: QNAP 250W Delta Power Supply
-Best Buy: QNAP 300W power supply unit single Delta TS-1273U-RP (PWR-PSU-300W-DT01)
 Best Buy: QNAP 500W Unit for TVS-1271U-RP (SP-B01-500W-S-PSU)
 Best Buy: QNAP Power Supply (PWR-PSU-550W-DT01)
 Best Buy: RACK PDU METERED 208/230V 16A
@@ -865,7 +860,6 @@ Best Buy: Tripp Lite Vertical Ower Strip Power Supply (PS361220)
 Best Buy: Ubiquiti Networks Edgepower 150W DC-DC Modular Power Supply - (EP-54V-150W-DC)
 Best Buy: Uncaged Ergonomics Travel Charger Non Surge Cruise Approved Power Strip w/3 AC, 2 USB ports, 1 Fast Charging USB-C, 3ft Cable (WHITE)
 Best Buy: VAYALT 24V 50A 1200W DC Switching Power Supply, Universal Regulated Switching
-Best Buy: VERTIV VP52101 Geist RPDU 6A 20A 120V/208V/230V Power Distribution Unit
 Best Buy: Waber-by-Tripp Lite 4-Outlet Industrial Power Strip, 6-ft. Cord, Locking Switch
 Best Buy: Wilson DC/DC 6 volt Power Supply - for amps (801105,801106,801201,801213,801306,804005,804006)
 Best Buy: axGear 45W Power Adapter for MagSafe 2 II Macbook Air A1435 A1465 A1436 A1466
