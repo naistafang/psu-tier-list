@@ -47,8 +47,10 @@ Best Buy: APC Power Cord Kit (6 ea), Locking, C13 to C14, 1.2m, North America
 Best Buy: APC SMART-UPS ON-LINE 2700 WATTS /3000 VA INPUT 208V /OUTPUT 208V INTERFACE PORT RJ-45 SERIAL SMARTSLOT USB EXTENDED RUN
 Best Buy: APC SRT2200RMXLA SMART-UPS SRT 2200VA RM UPS (RACK-MOUNTABLE) AC 120 V 1.8 KW 2200 VA RS-232, USB OUTPUT CONNECTORS: 7 2
 Best Buy: APC Service/Support - 1 Year Extended Warranty - Service
+Best Buy: APC Service/Support - 3 Year Extended Warranty - Service
 Best Buy: APC Smart-UPS 1000VA LCD 120V with SmartConnect
 Best Buy: APC Smart-UPS C 1000VA LCD 120V with SmartConnect
+Best Buy: APC Smart-UPS X 2200VA Rack/Tower LCD 200-240V
 Best Buy: APC Standard Power Cord
 Best Buy: APC UP BX 1350VA 10 Outlets AVR interface Back UPS Pro (BX1350M)
 Best Buy: APC by Schneider Electric Power Cord Kit (6 ea), Locking, C13 to C14, 1.2m
@@ -59,8 +61,6 @@ Best Buy: ASUS AP-750G 750W 80+ Gold Power Supply
 Best Buy: ASUS Tuff-Gaming 850-Watt ATX 3.0 Gold Power Supply - Black
 Best Buy: Acer 220W Power Supply for Veriton Models B430, B630, X2640, and More - PS-3221-9AB
 Best Buy: Acer 65W LCD Monitor AC Adapter Charger for G236HL, G246HL, G276HL Models - Brand New
-Best Buy: Acer Aspire 300W Power Supply Unit FSP300-10TAA for TC-875, TC-895, XC-875, and XC-895 Models
-Best Buy: Acer Aspire 300W Power Supply Unit for XC-875, XC-895, XC-1660G, TC-875, TC-1660 Models
 Best Buy: Acer Aspire Power Supply X3950 X5300 XC-705 220W Power Supply
 Best Buy: Acer Aspire X1440 X1701 X3900 Power Supply 220W
 Best Buy: Acer Aspire X3-710 XC-710 XC-780 220 Watt Power Supply - Reliable and Compatible
@@ -93,6 +93,7 @@ Best Buy: Allied Telesis DRB Series Single Output Industrial DIN Rail Power Supp
 Best Buy: American Power Conversion AP8641 Pdu2G Switch 0U 30A 200-208V 21C13 3C19
 Best Buy: Antec 650W 80+ Bronze Non-Modular ATX Power Supply - Black
 Best Buy: Antec CSK750DC 750W Non Modular 80 Plus Bronzen Power Supply
+Best Buy: Apexgaming A-650 650 Watt 80 PLUS BRONZE Power Supply
 Best Buy: Apple ADP-185BFT 185W Power Supply for iMac 21.5" Models A1418
 Best Buy: Apple iMac A1312 Power Supply 310W 614-0446 614-0476 614-0501
 Best Buy: Apple iMac A1312 Power Supply 310W 661-5310 661-5468 661-5972
@@ -166,6 +167,7 @@ Best Buy: Blue Sea 8166 Red LED Indicator Light
 Best Buy: Blue Sea 8167 Amber LED Indicator Light
 Best Buy: Blue Sea 8230 Water Resistant Contura Switch - Gray
 Best Buy: Blue Sea 8259 Contura 3 Position Mounting Panel
+Best Buy: Blue Sea 8278 Contura Switch Mounting Panel Plug
 Best Buy: Blue Sea 8289 Water Resistant Contura Switch - Black
 Best Buy: Blue Sea 9228 Analog Meter Shunt 50A/50mV
 Best Buy: Blue Sea System 1002 CableClam 0.825
@@ -187,6 +189,7 @@ Best Buy: CX650F RGB, 650 WATT, 80 PLUS BRONZE
 Best Buy: CYBERPOWER METERED PDU 120V 30A L5-30P 0U (PDU30MVT24F)
 Best Buy: CYBERPOWER UPS REPL BAT CART 12V 8AH 2P 18M WTY (RB1280X2A)
 Best Buy: Charge two devices at once with the DLP2607Q/37 67.5W USB-C and USB-A wall charger. Featuring fast charging technology, a compact foldable design, and universal compatibility with
+Best Buy: Cisco 1100W Power Supply (PWRC11100WACP)
 Best Buy: Cisco 400W Power Supply (FPR3K-PWR-AC-400)
 Best Buy: Cisco 650W Power Supply (PWR-CC1-650WDC)
 Best Buy: Cisco Power Module (PWR-C6-1KWAC=)
@@ -312,6 +315,7 @@ Best Buy: EXP GDC FLEX(1U) to SFX Bracket SFX to FLEX Adapter Holder for TH3P4G3
 Best Buy: Eaton 1000VA UPS Battery Backup - (9PX1000RT)
 Best Buy: Eaton 5P Rackmount UPS
 Best Buy: Eaton 5S UPS
+Best Buy: Eaton 5SC UPS
 Best Buy: Eaton 5SC UPS
 Best Buy: Eaton Epdu,1u,ba L21-3-p 12/5-15r
 Best Buy: Eaton ePDU Metered 8-Outlet PDU
@@ -619,6 +623,7 @@ Best Buy: New Genuine Bestec TFX0250D5W Power Supply 250W TFX0220D5WA
 Best Buy: New Genuine Dell 04G185021350DE B250AD-00 D250ED-00 Power Supply 250W TFX0220D5WA
 Best Buy: New Genuine Dell 460W Power Supply 082WHM 82WHM AC460EM-00
 Best Buy: New Genuine Dell 5XV5K RWMNY J1J77 D6K0V Power Supply 180W DPS-180AB
+Best Buy: New Genuine Dell 9XD51 GYC55 D3YCN WYX72 Power Supply 180W DPS-180AB
 Best Buy: New Genuine Dell AC180ES-00 D180ES-00 DPS-180AB-18 A F180ES-00 Power Supply 180W DPS-180AB
 Best Buy: New Genuine Dell CVJ4W DP737 DY72N J038N CYY97 Power Supply 250W TFX0220D5WA
 Best Buy: New Genuine Dell D250ND-00 H250AD-01 HK350-71FP S1 Power Supply 250W TFX0220D5WA
@@ -630,6 +635,7 @@ Best Buy: New Genuine Dell Inspiron 530 530s 531 531s 537s Power Supply 250W TFX
 Best Buy: New Genuine Dell Inspiron 540s 546s 560s 570s 580s 620s Power Supply 250W TFX0220D5WA
 Best Buy: New Genuine Dell Optiplex 2TXYM 709MT 592JG 66VFV 3YKG5 PH3C2 SFF 240W Power Supply CCCVC
 Best Buy: New Genuine Dell Optiplex 3010 7010 9010 SFF 240W Power Supply CCCVC
+Best Buy: New Genuine Dell Optiplex 3040 5040 7040 Power Supply 180W DPS-180AB
 Best Buy: New Genuine Dell Optiplex 390 790 990 3010 7010 9010 Power Supply 250W TFX0220D5WA
 Best Buy: New Genuine Dell Optiplex 760 780 SFF Power Supply 235W PW116 R224M H235P-00
 Best Buy: New Genuine Dell Optiplex AC240AS-00 AC240ES-00 D240A002L D240AS-00 SFF 240W Power Supply CCCVC
@@ -706,7 +712,6 @@ Best Buy: New iMac 21.5" A1418 Late 2012 Early 2013 Mid 2014 2015 Power Supply 1
 Best Buy: OEM 135W Power Supply ADP-135KB for Acer Nitro 5 AN515-53-55G9 AN515-53-52FA
 Best Buy: ORION 685D ATX Power Supply
 Best Buy: ORSAIR RM1000e Fully Modular Low-Noise ATX Power Supply - ATX 3.0 & PCIe 5.0 Compliant - 105°C-Rated Capacitors - 80 PLUS Gold Efficiency - Modern Standby Support
-Best Buy: OmniSmart LCD 120V 50/60Hz 1500VA 810W Line-Interactive UPS, Tower, LCD display, USB port, Energy Star V2.0
 Best Buy: Orion 785D Silent Power Supply W/Silent 120mm Fan
 Best Buy: PCIE5.0 Graphics Card Power Supply Adapter Board,1 Pack ATX3.0 12VHPWR 600W 12+4 16P Male to 16P Female UP Angled 180 Degree GPU Power Connector(Black)
 Best Buy: PDU2G SWITCH 0U 5.7KW 208V 21C13 3C19
@@ -876,7 +881,6 @@ Best Buy: iFi iPower Low Noise DC Power Supply 12V
 Canada Computers: ASUS 1000W Platinum Full Modular ATX Power Supply
 Canada Computers: CORSAIR 850W Gold ATX Power Supply, White
 Canada Computers: CORSAIR CP-9020263-NA Gold ATX Power Supply, Black
-Canada Computers: CORSAIR CP-9020276 Power Supply, white
 Canada Computers: CORSAIR Power Supply, -
 Canada Computers: CORSAIR RM1000e PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable
 Canada Computers: CORSAIR RM1000e PSU + FREE ThermalProtect PCIe 5.1 600W 12V-2x6 Cable
