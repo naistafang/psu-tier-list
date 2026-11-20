@@ -53,7 +53,6 @@ Best Buy: APC Smart-UPS C 1000VA LCD 120V with SmartConnect
 Best Buy: APC Smart-UPS X 2200VA Rack/Tower LCD 200-240V
 Best Buy: APC Standard Power Cord
 Best Buy: APC UP BX 1350VA 10 Outlets AVR interface Back UPS Pro (BX1350M)
-Best Buy: APC by Schneider Electric Power Cord Kit (6 ea), Locking, C13 to C14, 1.2m
 Best Buy: APC by Schneider Electric Replacement Battery Cartridge #163 APCRBC163
 Best Buy: APC by Schneider Electric Smart-UPS 750VA LCD 120V with SmartConnect
 Best Buy: APC by Schneider Electric Smart-UPS SRT 1500VA 120V
@@ -198,6 +197,7 @@ Best Buy: Cisco Power Module - 110 V Ac, 220 V Ac
 Best Buy: Cisco Power Supply
 Best Buy: Cisco Power Supply
 Best Buy: Cisco Power Supply
+Best Buy: Cisco Power Supply (PWRC5125WAC)
 Best Buy: Cisco Standard Power Cord
 Best Buy: Cisco UCSC-PSU1-770W AC Hot-plug Power Supply for 1u C-series Rack Server - 770 watt
 Best Buy: Cooler Master V Platinum 1600W V2 ATX 3.1 Full Modular PSU, 80+ Platinum, Dual 90° 12V-2x6 For Dual RTX 4000 Support , Purple Anodic-Coated Heat Sink, Mobius Fan
@@ -455,10 +455,12 @@ Best Buy: High-Performance 750W Power Supply for Dell R730, R730xd, R630, T430, 
 Best Buy: High-Performance 850W Dell Alienware Aurora Power Supply for R5 R6 R7 R8 R9 Models
 Best Buy: High-Performance DELL 290W Power Supply for T20 and T30 Models - L290AM-00
 Best Buy: High-Performance Dell 1100W Redundant Power Supply for PowerEdge Servers (HT6GX, 0HT6GX)
+Best Buy: High-Performance Dell 180W Power Supply for OptiPlex 3040, Inspiron 3250, and Vostro 3250
 Best Buy: High-Performance Dell EqualLogic Power Module KYCCH N7J1M C2F for PS4100 PS6100 PS6110 PS6210
 Best Buy: High-Performance Dell G5 XPS Power Supply D500EPM-00 for Optimal Computer Efficiency
 Best Buy: High-Performance Dell OPTIPLEX 235W Power Supply for 760, 780, 960 SFF Models
 Best Buy: High-Performance Dell Optiplex 240W Power Supply for SFF Desktops - Model J50TW
+Best Buy: High-Performance Dell Optiplex 3040 5040 7040 Inspiron 3650 3656 SFF Power Supply with 8+4 Pin Connector
 Best Buy: High-Performance Dell Optiplex 380 SFF Desktop Power Supply - 235W
 Best Buy: High-Performance Dell Optiplex 7010 9010 SFF 240W Power Supply L240AS-00 for Reliable Computing
 Best Buy: High-Performance Dell Optiplex 7080 MT 260W Power Supply - Model 045CTY
@@ -701,7 +703,6 @@ Best Buy: New HP Pavilion Envy TouchSmart DC Power Jack Cable 808155-011 808155-
 Best Buy: New HP Z420 Workstation Power Supply 600W DPS-600UB A 623193-001 632911-001
 Best Buy: New Hydronaut Thermal Grease - 3ml
 Best Buy: New Lenovo Ideapad G400S G405S G500S G505S DC Jack Cable DC30100NX00 DC30100PC00
-Best Buy: New Lenovo ThinkPad P14S Gen 3 4 FHD LCD Display Touch Screen NV140WUM-T02 V8.0
 Best Buy: New Liteon PS-5221-06 Computer Power Supply 220 Watt Acer eMachines Gateway SFF
 Best Buy: New Liteon PS-5221-06A1 SFF Computer Power Supply 220W Acer eMachines Gateway
 Best Buy: New Liteon PS-5221-06A2 SFF Computer Power Supply 220W Acer eMachines Gateway
@@ -726,7 +727,6 @@ Best Buy: Pyramid Compact Bench Power Supply 50A Variable Linear AC to DC Conver
 Best Buy: QNAP 250W Delta Power Supply
 Best Buy: QNAP 500W Unit for TVS-1271U-RP (SP-B01-500W-S-PSU)
 Best Buy: QNAP Power Supply (PWR-PSU-550W-DT01)
-Best Buy: RACK PDU METERED 208/230V 16A
 Best Buy: RPLMNT BATT CART 130
 Best Buy: Rack PDU 2G Switched ZeroU
 Best Buy: Rack PDU, Basic, 0U/1U, 208V, 30A, (4) C19
@@ -746,7 +746,6 @@ Best Buy: SCHNEIDER ELECTRIC SMART-UPS SRT 1500VA 120V APC (SRT1500XLA)
 Best Buy: SD Power Strip With Dual USB 6 Outlets 2ft
 Best Buy: SERG 720J 15K CEW 6OUT 6 CORD 360
 Best Buy: SMART UPS SRT 2200VA RM 120V
-Best Buy: SMART-UPS SRT 2200VA 120V TOWER
 Best Buy: SOUNDSTATION2 2.5MM Cell Phone Cable Cell Phone Compatible with 2W
 Best Buy: SPI PS SPI700W7BB-B204 700W 2U Power Supply RoHS PFC I O 80+ Bronze
 Best Buy: STARTECH ADD THREE EXTRA SATA POWER OUTLETS TO YOUR POWER SUPPLY SATA POWER SPLITTER CABLE SERIAL ATA POWER SPLITTER SAT
