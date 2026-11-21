@@ -165,7 +165,6 @@ Best Buy: Blue Sea 8088 3 Position DC C-Series Panel - Blank
 Best Buy: Blue Sea 8166 Red LED Indicator Light
 Best Buy: Blue Sea 8167 Amber LED Indicator Light
 Best Buy: Blue Sea 8230 Water Resistant Contura Switch - Gray
-Best Buy: Blue Sea 8259 Contura 3 Position Mounting Panel
 Best Buy: Blue Sea 8278 Contura Switch Mounting Panel Plug
 Best Buy: Blue Sea 8289 Water Resistant Contura Switch - Black
 Best Buy: Blue Sea 9228 Analog Meter Shunt 50A/50mV
@@ -334,6 +333,7 @@ Best Buy: Extreme Networks Summit 715W AC PSU FB (10951)
 Best Buy: Extreme Networks Summit 715w Ac Psu Fb - 715 W
 Best Buy: Fractal Design Ion+ 560P Power Supply
 Best Buy: Funcool USB 3.1 Type C Power Adapter 61W Charger For Apple Macbook Laptop Power Supply
+Best Buy: Furman PL-PRO C 20A Power Conditioner with Voltmeter
 Best Buy: G-Shape Smart Wake-Up Light Alarm Clock with Bluetooth Speaker & Wireless Charging, App-Controlled Sound and Lighting
 Best Buy: G2 PDU ENV 3 TEMP AND 1 HUMID SENSOR
 Best Buy: GPU VGA PCIe 8 Pin U Turn 180 Degree Angle Connector Power Adapter Board for Desktop Graphics Card-Standard Type 2 Pack-re
@@ -502,9 +502,6 @@ Best Buy: JR Products 13335 Black SPDT Mini On/Off/On Switch
 Best Buy: JR Products 13445 Black DPDT Mini Mom-On/Off/Mom-On Switch
 Best Buy: Juniper 1600W Power Supply (JPSU-1600-C-AC-AFO)
 Best Buy: Juniper 550W Power Supply (JPSU-550-C-AC-AFO)
-Best Buy: Juniper JPSU-650W-AC-AO JPSU-650W-AC-AO Power Supply (JPSU-650W-AC-AO)
-Best Buy: Juniper Proprietary Power Supply (JPSU-150-AC-AFO)
-Best Buy: Juniper Proprietary Power Supply (JPSU-150-DC-AFO)
 Best Buy: Juniper Redundant Power Supply (JPSU-920-AC-AFO)
 Best Buy: Kensington SD2400T Thunderbolt 3 Dual 4K Nano Dock with Power Delivery
 Best Buy: LENOVO 200-240Vac 260W POWER SUPPLY 00PC765
@@ -738,7 +735,6 @@ Best Buy: Replacement Anti-interference Power Supply (30V5A / 110V) (Sunshine: M
 Best Buy: Replacement Battery Cartridge #133
 Best Buy: Replacement Loudspeaker Compatible For Samsung Galaxy Tab S2 8.0" (T710 / T810 / T715 / T815) (2 Piece Set)
 Best Buy: Replacement Power Supply ADP-400DR Compatible With PlayStation 5 (6N3R2AL)
-Best Buy: Rosewill CMG5 1000W, ATX 3.0 & 3.1 Compatible, 80+ Gold 1000W Full Modular Power Supply, PCIe 5.0 600W 12V-2x6 Connector, 100% Japanese Electrolytic Capacitors, 120mm FDB Fans
 Best Buy: Rosewill CMG5 1200W, ATX 3.0 & 3.1 Compatible, 80+ Gold 1200W Full Modular Power Supply, PCIe 5.0 600W 12V-2x6 Connector, 100% Japanese Electrolytic Capacitors, 120mm FDB Fans
 Best Buy: SCHNEIDER ELECTRIC BASIC RACK-MOUNT PDU HOR/VERTL5-30P/5-20 (AP9560)
 Best Buy: SCHNEIDER ELECTRIC RACK PDU BASIC 1U 16A 208V (12) C13 (AP9566)
@@ -921,4 +917,5 @@ Vuugo: Cooler Master V Platinum 1600 V2 ATX 3.1 1600W Full Modular Power Supply 
 Vuugo: InWin IP-S Series AU 265W Flex ATX Power Supply - 80 PLUS Bronze Certified - Single +12V Output - 40mm Cooling Fan -  Smart Thermal Control - 1x 24-Pin Main Power - 1x 8 to 4 Pin Power - 2x SATA - 1x Slim SATA (IP-S265AU7-2.CJ712)
 Vuugo: InWin IP-S Series FF 300W TFX Power Supply - TFX 12V V2.5 - Multiple +12V Output - 80mm Cooling Fan - 1x 4-Pin FDD - 1x Peripheral - 3x SATA (IP-S300FF1-0 H)
 Vuugo: Thermaltake Toughpower 1500W Gold Semi-Modular Power Supply - 80 PLUS GOLD Certified - ATX12V V2.3 / EPS12V - 135mm Ultra Quiet Fan - Flat Modular Cables - Dual +12V Rail - 10x PCI-E 6+2-Pin Connectors (PS-TPD-1500MPCGUS-1)
+Vuugo: Zebra PWR-WUA5V4W0US Power Supply
 shopRBC: Asus Pro WS 2200 Watt Platinum Power Supply
