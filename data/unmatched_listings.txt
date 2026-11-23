@@ -171,7 +171,6 @@ Best Buy: Blue Sea System 4005 Standard Cable Caps - Red/Black
 Best Buy: Blue Sea System 4100 Toggle Guard
 Best Buy: Buffalo Americas Plug-in Modular Power Supply - (OP-PU-10R2UWR)
 Best Buy: Buffalo Replacement Power Supply (OP-PU-10R2UWR)
-Best Buy: Buy Dell OPTIPLEX 3020 7020 9020 PRECISION T1700 290W Power Supply - Brand New L290EM-01
 Best Buy: C2G 4ft 16 AWG Universal Power Cord (NEMA 5-15P to IEC320C13)
 Best Buy: C2G 5ft 16 AWG Universal Power Cord (NEMA 5-15P to IEC320C13)
 Best Buy: CISCO CABINET JUMPER POWER CORD 250 VAC 16A C20-C19 CONNECTORS9F CAB-C19-CBN
@@ -222,7 +221,6 @@ Best Buy: DELL VOSTRO 3470 and OPTIPLEX 3060 200W Power Supply - NF9FK Model
 Best Buy: Dell 200W Power Supply for OptiPlex 3060, 5060, 7060 & Vostro 3470 SFF - Model AC200EBS-00
 Best Buy: Dell 240W Power Supply for OPTIPLEX Models 390, 790, 990, 3010, 7010, 9010 - AC240AS-01
 Best Buy: Dell 260W Power Supply for 7080MT, 7070, 7060, and 3050M - Brand New Model J17YJ
-Best Buy: Dell 290W Power Supply for XE2, T20, T30 - L290AM-00, AC290EM-01, KPRG9, 0KPRG9, CN-0KPRG9
 Best Buy: Dell 300W Switching Power Supply for Models 7070, 7090, 7080, 5090, 3080, 3070 - V2KRY 0V2KRY
 Best Buy: Dell 360W Power Supply for G5 5090, XPS 8940, and Optiplex 7080 - H360EBM-00
 Best Buy: Dell 360W Power Supply for G5 5090, XPS 8940, and Optiplex 7080 - Reliable and Efficient
@@ -283,7 +281,6 @@ Best Buy: Dell Optiplex and Inspiron 180W Switching Power Supply with 8+4pin Con
 Best Buy: Dell PowerEdge R310 350W Power Supply Unit - Model D350E-S0, Part Numbers R109K, 0R109K, CN-0R109K
 Best Buy: Dell PowerEdge R720 R720xd 1100W Power Supply - GYH9V, 0GYH9V, CN-0GYH9V - Brand New
 Best Buy: Dell PowerEdge R720 R720xd 1100W Power Supply - Model YT39Y - New Replacement Unit
-Best Buy: Dell Precision T1700 290W Power Supply Unit HU290AM-00 - Brand New Workstation Component
 Best Buy: Dell Precision T5500 Workstation Power Supply Wiring Harness - R166H
 Best Buy: Dell Slim Power Adapter - 65 Watt 332-1831
 Best Buy: Dell Slim Power Adapter - 90 Watt 332-1833
@@ -295,9 +292,7 @@ Best Buy: Dell XPS 375W Power Supply Unit for 400, 410, 420, Precision 9100, 915
 Best Buy: Dell XPS 8950 460W Switching Power Supply T63HC - Reliable Power Solution for Your PC
 Best Buy: Delta Electronics 250W Switching Power Supply DPS-250AB-81 A - Reliable Power for Servers and Computers
 Best Buy: Delta Electronics 500W Switching Power Supply Module DPS-500AB-9 A for Servers
-Best Buy: Digi AC Power Supply - 5VDC
 Best Buy: Dymo AC Adapter
-Best Buy: EPower 400W ATX/EPS 12V 120mm Fan 2xSATA 4+4Pin (EP-400PM)
 Best Buy: EPower 600W ATX12V 2.3 Single 120mm Cooling Fan (EP-600PM)
 Best Buy: EPower OP-FLEX-300W1 TOPOWER 300W FLEX POWER SUPPLY With -5V (TOP-FLEX-300W1)
 Best Buy: EVGA 1000 GQ Power Supply
@@ -346,7 +341,6 @@ Best Buy: Genuine Dell Inspiron 15 7558 45W 19.5V 2.31A AC Power 4H6NV CDF57 D0K
 Best Buy: Genuine Dell Inspiron 3847 Power Supply 300W B300NM-01 - Reliable and Efficient
 Best Buy: Genuine Dell Inspiron One 2330 & Optiplex 9010 AIO Power Supply - 200W Replacement
 Best Buy: Genuine Dell Optiplex 240W Power Supply for 390, 790, 960, 990 - Reliable and Efficient
-Best Buy: Genuine Dell Optiplex 290W Power Supply for 3020, 7020, 9020 - Model RVTHD
 Best Buy: Genuine Dell Optiplex 3050 5050 7050 240W Power Supply - Model 5WNDJ DK87P 22M8Y
 Best Buy: Genuine Dell Optiplex 760 780 960 255W Power Supply - Model L255P-01
 Best Buy: Genuine Dell Studio XPS 435T Power Supply - 475W Replacement for Reliable Performance
@@ -444,8 +438,6 @@ Best Buy: High-Performance 475W Power Supply for Dell Studio XPS 435 / 8000 - Mo
 Best Buy: High-Performance 750W Dell Power Supply for PowerEdge R630, R730, T430, and More
 Best Buy: High-Performance 750W Dell Power Supply for R730, R730xd, R630, T430, T630 - Model D750E-S6
 Best Buy: High-Performance 750W Power Supply for Dell R730, R730xd, R630, T430, and T630 Models
-Best Buy: High-Performance 850W Dell Alienware Aurora Power Supply for R5 R6 R7 R8 R9 Models
-Best Buy: High-Performance DELL 290W Power Supply for T20 and T30 Models - L290AM-00
 Best Buy: High-Performance Dell 1100W Redundant Power Supply for PowerEdge Servers (HT6GX, 0HT6GX)
 Best Buy: High-Performance Dell 180W Power Supply for OptiPlex 3040, Inspiron 3250, and Vostro 3250
 Best Buy: High-Performance Dell EqualLogic Power Module KYCCH N7J1M C2F for PS4100 PS6100 PS6110 PS6210
@@ -478,6 +470,7 @@ Best Buy: Inverter, 1000W, 12V, Pure Sine Wave
 Best Buy: JR Products (12591-5) Black/Sliver 12V On/Off Switch, (Pack of 5)
 Best Buy: JR Products 12005 White Single SPST On-Off Switch with Bezel
 Best Buy: JR Products 12015 White Double SPST On-Off Switch with Bezel
+Best Buy: JR Products 12025 White Triple SPST On-Off Switch with Bezel
 Best Buy: JR Products 12135 Brown Single SPST On-Off Switch with Bezel
 Best Buy: JR Products 12145 Brown Double SPST On-Off Switch with Bezel
 Best Buy: JR Products 12155 Brown Triple SPST On-Off Switch with Bezel
@@ -575,17 +568,13 @@ Best Buy: New Chicony CPB09-D220R Computer Power Supply 220W Acer eMachines Gate
 Best Buy: New Compatible Asus GL752 GL752V GL752VW GL752VWM AC Adapter Charger ADP-180MB F 180W
 Best Buy: New Dell 0UP173 L375E-01 PS-6371-2DFS-LF 375W Power Supply UP173
 Best Buy: New Dell Inspiron 15 5547 SATA Hard Drive Connector With Cable 0T55XP T55XP DC02001X200
-Best Buy: New Dell Inspiron 3670 Precision T1700 PowerEdge T20 290W Power Supply RVTHD
 Best Buy: New Dell N375E-00 TU938 JP931 375W Power Supply UP173
-Best Buy: New Dell Optiplex / Precision MDT Desktop Power Supply 290W RVTHD
 Best Buy: New Dell Optiplex 1VCY4 4GVWP 6YWW7 KG1G0 C0G5T K650T USFF Power Supply 6FG9T
 Best Buy: New Dell Optiplex 3050 3060 3070 5060 7050 7060 7070 200W Power Supply H200EBS-00 8C0JV
 Best Buy: New Dell Optiplex 3050 5050 7050 240W Power Supply 5WNDJ DK87P 05WNDJ 22M8Y
 Best Buy: New Dell Optiplex 3080 5080 7080 SFF 200W Power Supply L200EBS-00 AC200EBS-01 HU200EBS-01 H200EBS-01
 Best Buy: New Dell Optiplex GX520 GX620 SFF 275W 24 PIN Power Supply N275P-00 H275P-00 N275P-01
-Best Buy: New Dell Optiplex H290AM-00 D290A001L L290AM-00 L290AM-01 PS-3291-1DF H290EM-00 Power Supply RVTHD
 Best Buy: New Dell Optiplex KG1G0 M178R L200EU-00 PS-3201-9DA USFF Power Supply 6FG9T
-Best Buy: New Dell Optiplex KPRG9 HYV3H WHN49 N0KPM AC290AM-00 Power Supply RVTHD
 Best Buy: New Dell PowerEdge PowerVault YFG1C VT6G4 YFG1C 7NVX8 D263K N870P 330-4524 Server Power Supply 870W
 Best Buy: New Dell Poweredge R630 R730 200-240V 80+ Titanium 750W Power Supply D750E-S7 KNHJV 0KNHJV
 Best Buy: New Dell Precision 9100 9150 9200 T3400 Series 375W Power Supply L375P-00 WM283 PH344 KH624 PS-6371-1DF2-LF
@@ -753,6 +742,7 @@ Best Buy: Smart 500W 80+ White Certified PSU, Continuous Power with 120mm Ultra 
 Best Buy: Smart 500W 80+ White Certified PSU, Continuous Power with 120mm Ultra Quiet Cooling Fan, ATX 12V V2.3/EPS 12V Active PFC Power Supply PS-SPD-0500NPCWUS-W
 Best Buy: SonicWall Power Supply (02-SSC-8061)
 Best Buy: SonicWall Power Supply 02-SSC-3078
+Best Buy: StarTech 1 Port 16in DB9 Serial Port Bracket to 10 Pin Header
 Best Buy: StarTech 10 ft Heavy Duty 14 AWG Computer Power Cord - C19 to C20
 Best Buy: StarTech 10 ft Standard Computer Power Cord - NEMA5-15P to C13
 Best Buy: StarTech 12V DC 1.5A Universal Power Adapter
@@ -810,7 +800,6 @@ Best Buy: TRENDnet TI-S12048 DIN Rail 48V 120W Power Supply for TI-PG541 (TIS120
 Best Buy: TRENDnet TI-S24048 DIN Rail 48V 240W Power Supply for TI-PG80 (TIS24048)
 Best Buy: TRENDnet TI-S48048 48V 480W Output Industrial (TIS48048)
 Best Buy: TRIPP LITE 25FT USB2.0 A/B DEVICE CBL A MALE B M25 (U042-025)
-Best Buy: TRIPP LITE 32-PORT USB CHARGING LAPTOPIPAD (CSC32USB)
 Best Buy: TRIPP LITE BASIC PDU, 20A, 14 OUTLETS (5-15/20R), 120V, L5-20P/5-20P ADAPTER, 15 FT. CORD, 0U VERTICAL RACK-MOUNT POWER,
 Best Buy: TRIPP LITE Multiple Outlet Strip RS-1215-20T
 Best Buy: TRIPP LITE Protect It Power Strip 4 NEMA 5-15R TLM406NC
@@ -907,5 +896,4 @@ Vuugo: Cooler Master V Platinum 1600 V2 ATX 3.1 1600W Full Modular Power Supply 
 Vuugo: InWin IP-S Series AU 265W Flex ATX Power Supply - 80 PLUS Bronze Certified - Single +12V Output - 40mm Cooling Fan -  Smart Thermal Control - 1x 24-Pin Main Power - 1x 8 to 4 Pin Power - 2x SATA - 1x Slim SATA (IP-S265AU7-2.CJ712)
 Vuugo: InWin IP-S Series FF 300W TFX Power Supply - TFX 12V V2.5 - Multiple +12V Output - 80mm Cooling Fan - 1x 4-Pin FDD - 1x Peripheral - 3x SATA (IP-S300FF1-0 H)
 Vuugo: Thermaltake Toughpower 1500W Gold Semi-Modular Power Supply - 80 PLUS GOLD Certified - ATX12V V2.3 / EPS12V - 135mm Ultra Quiet Fan - Flat Modular Cables - Dual +12V Rail - 10x PCI-E 6+2-Pin Connectors (PS-TPD-1500MPCGUS-1)
-Vuugo: Zebra PWR-WUA5V4W0US Power Supply
 shopRBC: Asus Pro WS 2200 Watt Platinum Power Supply
