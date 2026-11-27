@@ -1,4 +1,5 @@
 Best Buy: 1-PACK RGB Gaming Headset Stand, With Sound Reactive Music Sync Ambient Light, App & Remote Control, LED Desk Atmosphere Lamp for PC, TV & Party
+Best Buy: 12V 30A 360W Power Supply AC 110V/220V to DC 12V Universal Regulated Switching Transformer Adapter Power
 Best Buy: 19V 3.42A 65W AC adapter charger for Asus U50 U52F U53F U56E
 Best Buy: 19V 3.42A 65W AC adapter charger for Asus U80 U81A U82U
 Best Buy: 19V 90W Ac Dc Adapter for 18 19 20 21 32 HP Pavilion 20 23 OMEN Gaming All-in-One Desktop Computer PC Monitor Elitebook 8460p 8470P 8440P 8760p 8460w 8770w 2760p 2170p Power Supply
@@ -27,17 +28,14 @@ Best Buy: 9PX 700 120V RT 5-15P 8OUT
 Best Buy: ACER 250W Power Supply with 6-Pin Connector - Model PA-2251-2AB, PA-2251-2, FSP250-20TGPAA
 Best Buy: ALITOVE DC 12V 20A 240W Power Supply Transformer Switch AC 110V/220V to DC 12V 20amp Switching Adapter Converter Drive..
 Best Buy: AMERICAN POWER CONVERSION APC Symmetra LX Intelligence Module SYMIM5
-Best Buy: AMERICAN POWER CONVERSION Combination Lock Handles (Qty 2) AR8132A
 Best Buy: APC - Backplate Kit
 Best Buy: APC 10A Power Cord Kit Locking C13 to C14 0.6m (AP8702S-NA)
 Best Buy: APC 2ft Power Cord
 Best Buy: APC 750VA 600W 120V Corded Electric Rackmount Convertible Black Power Supplie (SMX750CNC)
 Best Buy: APC AP8716R Standard Power Cord
-Best Buy: APC AP8716S Standard Power Cord
 Best Buy: APC AP9567 BASIC 100V,120V 15A 10 FT RACK PDU, BASIC, ZERO U, 15A, 100/120V, (14) 5-15
 Best Buy: APC BY SCHNEIDER ELECTRIC BASIC RACK 1U POWER DISTRIBUTION STRIP RACK-MOUNTABLE AC 120 V 10 X POWER NEMA 5-15 AP9562
 Best Buy: APC BY SCHNEIDER ELECTRIC RM PDU BASIC 1U 208V 16A-12 C13 RCPTLS AP9566
-Best Buy: APC Back-UPS RS BR1500GI 1500VA Tower UPS
 Best Buy: APC Metered Rack AP8881 42-Outlets 11kW PDU
 Best Buy: APC Power Cord C19 to L6-30P 2.4m (AP9896)
 Best Buy: APC Power Cord Kit (6 Each) Locking C13 to C14 1.8m (AP8706S-NA)
@@ -98,7 +96,6 @@ Best Buy: Aruba 240W Power Supply (JL819A)
 Best Buy: Aruba 6400 6400 3000W Power Supply With C20 Inlet Adapter (R0X36AABA)
 Best Buy: Aruba Power Supply (R3T90A)
 Best Buy: Aruba Proprietary Power Supply
-Best Buy: Aruba Proprietary Power Supply (JL087AABA)
 Best Buy: Aruba X372 54VDC 1600W 110-240VAC Power Supply JL670A#ABA
 Best Buy: Asus 65W Universal Mini Multi-tip Adapter (4/4.5/5.5 PHI) 90XB013N-MPW000
 Best Buy: Asus ROG DC Power Jack for GL752 Series - Brand New Replacement Part
@@ -189,10 +186,8 @@ Best Buy: Cisco Power Module - 110 V Ac, 220 V Ac
 Best Buy: Cisco Power Supply
 Best Buy: Cisco Power Supply
 Best Buy: Cisco Power Supply (PWRC5125WAC)
-Best Buy: Cisco Standard Power Cord
 Best Buy: Cisco UCSC-PSU1-770W AC Hot-plug Power Supply for 1u C-series Rack Server - 770 watt
 Best Buy: Cooler Master V Platinum 1600W V2 ATX 3.1 Full Modular PSU, 80+ Platinum, Dual 90° 12V-2x6 For Dual RTX 4000 Support , Purple Anodic-Coated Heat Sink, Mobius Fan
-Best Buy: CoolerMaster Power Supply MPY-7501-SFHAGV-US V SFX Gold 750 80+GoldFull Modular Retail
 Best Buy: CoolerMaster Power Supply MPY-8501-SFHAGV-US V SFX Gold 850 80+GoldFull Modular Retail
 Best Buy: Coolmax ZX-500 500W 80Plus ATX12V/EPS12V, 140mm fan, SLI ready Power Supply_Black color
 Best Buy: Coolmax ZX-500 ATX12V & EPS12V Power Supply (14504)
@@ -204,7 +199,6 @@ Best Buy: Cougar POLAR X2 1050 - PSU
 Best Buy: CyberPower Battery Kit
 Best Buy: CyberPower M1100XL Medical UPS Systems - 1100VA/880W, 120 VAC, NEMA 5-15P-HG, Mini-Tower, 6 Outlets, LCD, PowerPanel
 Best Buy: CyberPower OL1500RTXL2UN 1.5KVA Online UPS 2U sine wave LCD 100-125V RMCARD205 RT 3YR WTY
-Best Buy: CyberPower Professional P3WU 3-Outlet Surge Suppressor/Protector
 Best Buy: CyberPower UPS Battery Pack
 Best Buy: Cyberpower Systems 1050W Non-Modular Power Supply - (PR1500LCDN)
 Best Buy: Cyberpower Systems 2700W Non-Modular Power Supply - (OL3000RTXL2U)
@@ -213,6 +207,7 @@ Best Buy: D-Link DPS-700 DPS-700 Redundant Power Supply (DPS-700)
 Best Buy: DELL OPTIPLEX GX270 DIMENSION 3000 250W POWER SUPPLY - Reliable Performance for Your PC Needs
 Best Buy: DELL PowerEdge R230 250W Server Power Supply - Model P59VM 9J6JG
 Best Buy: DELL VOSTRO 3470 and OPTIPLEX 3060 200W Power Supply - NF9FK Model
+Best Buy: DIGI INTERNATIONAL DIGI 5V-3A WALL MOUNT 100-240VAC with PLUG KIT - ANYWHERE USB-5-14 - GEN 2 - HUBPOR
 Best Buy: Dell 200W Power Supply for OptiPlex 3060, 5060, 7060 & Vostro 3470 SFF - Model AC200EBS-00
 Best Buy: Dell 240W Power Supply for OPTIPLEX Models 390, 790, 990, 3010, 7010, 9010 - AC240AS-01
 Best Buy: Dell 260W Power Supply for 7080MT, 7070, 7060, and 3050M - Brand New Model J17YJ
@@ -233,6 +228,7 @@ Best Buy: Dell Inspiron One 2330 & Optiplex 9010 200W Power Supply L200EA-00
 Best Buy: Dell OPTIPLEX 9010 9020 USFF Power Supply - 200W Replacement for Reliable Performance
 Best Buy: Dell OPTIPLEX 9020 AIO 200W Power Supply Unit - Reliable Replacement PSU
 Best Buy: Dell OptiPlex 7460 AIO 155W Power Supply - Model YD8RH, Brand New, Reliable Performance
+Best Buy: Dell OptiPlex 760 960 MT 305W Power Supply Unit - Model 0WU133, Brand New
 Best Buy: Dell OptiPlex 9020 USFF 200W Power Supply - Model L200EU-01, Brand New, Efficient and Reliable
 Best Buy: Dell OptiPlex L255P-01 255W Power Supply - Compatible with Models 760, 780, 960, and 580 DT
 Best Buy: Dell OptiPlex Watt Power Supply R224M OR224M FR610 H255T PW116 PS-5231-5D H235p
@@ -301,7 +297,6 @@ Best Buy: EVGA SuperNOVA 850 G5 Power Supply
 Best Buy: EXP GDC FLEX(1U) to SFX Bracket SFX to FLEX Adapter Holder for TH3P4G3 Thunderbolt-Compatible GPU Do
 Best Buy: Eaton 1000VA UPS Battery Backup - (9PX1000RT)
 Best Buy: Eaton 5S UPS
-Best Buy: Eaton 5SC UPS
 Best Buy: Eaton 5SC UPS
 Best Buy: Eaton Epdu,1u,ba L21-3-p 12/5-15r
 Best Buy: Eaton ePDU Metered 8-Outlet PDU
@@ -404,7 +399,6 @@ Best Buy: HPE 1000W Flex Slot Titanium Hot Plug Power Supply Kit (P03178B21)
 Best Buy: HPE 12V/36W AC/DC Power Adapter Type A R3J99A
 Best Buy: HPE 12V/36W AC/DC Power Adapter Type B R3K00A-New
 Best Buy: HPE 1600W Flex Slot Platinum Hot Plug Low Halogen Power Supply Kit
-Best Buy: HPE 800W Flex Slot Platinum Hot Plug Low Halogen Power Supply Kit (865414-B21)
 Best Buy: HPE 800W Flex Slot Platinum Hot Plug Low Halogen Power Supply Kit (P38995B21)
 Best Buy: HPE 850W Power Supply (JL601A#ABA)
 Best Buy: HPE ARUBA HP HP J9829A 5400R 1100W POE+ ZL2 POWER SUPPLY 700 POWER SUPPLY J9829A#ABA J9829AABA
@@ -495,7 +489,6 @@ Best Buy: LRS-150-24 Switching Power Supply, Single Output, 24V, 6.5A, 156W, 6.2
 Best Buy: LRS-75-24 Enclosed Switching Power Supply, Single Output, 24V, 3.2A, 76.8W, 3.9" L x 3.82" W x 1.18" H
 Best Buy: Laptopking B140HAN03.2 LCD Display Compatible with ASUS Chromebook Flip C434 C434T C434TA-DSM4T C434TA-DS588T 14" LCD Display Touch Screen Digital Assembly
 Best Buy: Laptopking LCD Screen Replacement for NT140WHM-T00 V8.4 LCD OnCell-Touch Screen Replacement HD 1366X768 LED 14.0" WideScreen Display (Only for V8.4, Not for Others)
-Best Buy: Lenovo - power supply - hot-plug - 750 Watt (7N67A00883)
 Best Buy: Lenovo 135W AC Adapter (Slim Tip)
 Best Buy: Lenovo 180W Power Supply FSP180-30SBV for Reliable Performance
 Best Buy: Lenovo 210W Power Supply for M710t, M720t, M720s, M910t, M920s - Model 00PC746
@@ -518,7 +511,6 @@ Best Buy: Lenovo ThinkCentre M57 M58 280W Power Supply Unit - PS-5281-01VF, 54Y8
 Best Buy: Lenovo ThinkCentre M90z AIO 150W Power Supply - Original and Tested
 Best Buy: Lenovo ThinkPad 65W Slim AC Adapter (USB Type-C)
 Best Buy: Lenovo Thinkcentre M57 M58p 280W Power Supply Unit for Reliable Performance
-Best Buy: Lian Li RS 1000W Rotational Shift Fully Modular ATX Power Supply (W/ USB Fan Hub) 90° AC inlet,Cybenetics Platinum, 80+ Gold, ATX 3.1, PCle 5.1, 12V-2x6 Cable
 Best Buy: Lian Li RS 1200W Rotational Shift Fully Modular ATX Power Supply (W/ USB Fan Hub) 90° AC Inlet, Cybenetics Platinum, 80+ Gold, ATX 3.1, PCIe 5.1, 12V-2×6 Cable, Black
 Best Buy: Lian Li RS 1200W Rotational Shift Fully Modular ATX Power Supply (W/ USB Fan Hub) 90° AC Inlet, Cybenetics Platinum, 80+ Gold, ATX 3.1, PCIe 5.1, 12V-2×6 Cable, White
 Best Buy: Lian-Li AC LANCOOL II-1X Vertical GPU kit for LANCOOL II-X and LANCOOL II-W
@@ -756,7 +748,6 @@ Best Buy: StarTech 10 ft Heavy Duty 14 AWG Computer Power Cord - C19 to C20
 Best Buy: StarTech 10 ft Standard Computer Power Cord - NEMA5-15P to C13
 Best Buy: StarTech 12V DC 1.5A Universal Power Adapter
 Best Buy: StarTech 1ft Computer Power Cord IEC320 EN 60320 C14 to NEMA 5-15R
-Best Buy: StarTech 2 Port Quad Monitor Dual-Link DVI USB KVM Switch w/ Audio
 Best Buy: StarTech 6.1" PCI Express Power Adapter Cable - (PCIEX68ADAP)
 Best Buy: StarTech Gigabit RJ45 Copper SFP Transceiver Module for HP J8177C (J8177CST)
 Best Buy: StarTech Replacement 12V DC Power Adapter - 12 Volts, 6.5 Amps
@@ -778,12 +769,10 @@ Best Buy: Supermicro 1U Redundant PUS GOLD EFFICIENCY 54.5MM (PWS-704P-1R)
 Best Buy: Supermicro 2000W Titanium Level High-Efficiency Redundant Power Supplies (PWS-2K04A-1R)
 Best Buy: Supermicro 2200W 2.1A Redundant with Pus (PWS-2K22A-1R)
 Best Buy: Supermicro 2U 24pin Power Distributor for SC825 (PDB-PT825-8824)
-Best Buy: Supermicro 2U 24pin Power Distributor for SC825 (PDB-PT825-8824)
 Best Buy: Supermicro 700W Redundant Switching Power Supply PWS-702A-1R for Reliable Performance
 Best Buy: Supermicro 740W 1U Platinum Redundant (PWS-741P-1R)
 Best Buy: Supermicro 750W 80Plus Platinum Redundant with PFC Pus (PWS-751P-1R)
 Best Buy: Supermicro 800W 4A Redundant Power Supplies with Pus (PWS-802A-1R)
-Best Buy: Supermicro PS 1200W 1U Redundant 80 PLUS (PWS-1K23A-1R)
 Best Buy: Supermicro PS 1U 1000W 80 Plus Titanium Redundant (PWS-1K04A-1R)
 Best Buy: Supermicro PS 1U 1600W 50-60Hz Redundant Power Supplies w Pus (PWS-1K66P-1R)
 Best Buy: Supermicro PWS-502-PQ Supermicro PWS-502-PQ 500W 80 Plus Bronze Power Supply with PFC
